@@ -24,17 +24,17 @@ A web-based tool for cross-tabulating variables from the Standard Cross-Cultural
 Requires HTTP server:
 
 ```bash
-cd SCSS_Explorer
+cd SCCS_Explorer
 python3 -m http.server 8000
 ```
 
-Then open: http://localhost:8000/SCSS_Explorer/index.html
+Then open: http://localhost:8000/SCCS_Explorer/index.html
 
 ### Standalone Version
 Can be opened directly in a browser:
 
 ```bash
-open SCSS_Explorer/standalone.html
+open SCCS_Explorer/standalone.html
 ```
 
 ## Files
