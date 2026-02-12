@@ -1,0 +1,924 @@
+#! /bin/sh
+exec nawk '
+BEGIN {cval=""}	
+ cval == "" && $1 != "" {
+		cval = $1;$1 = "";split($0,lab,"(");
+		varlable[cval] = lab[1]; next}
+ cval != "" && $1 != "" {
+		vval = $1; $1 = ""
+		varvals[cval "," vval] = $0
+		next;
+	}
+cval != "" && $1 == "" {cval = "";next}
+END {
+	if (lookup == "") {
+		nl = split(vbar,lab," ")
+		for(i=1;i<=nl;i++) {
+			if (i > 1) printf(",");
+			printf(varlable[lab[i]"."]);
+		}
+		printf("\n");
+	} else {
+		nl = split(lookup,lab," ")
+		for(i=1;i<=nl;i++) {
+			if (i > 1) printf(",");
+			printf(varvals[vbar".,"lab[i]]);
+		}
+		printf("\n");
+	}
+}
+'	  vbar="$1" lookup="$2"  <<EOF
+1.  REGION
+    1  Africa
+    2  Circum- Mediterranean
+    3  East Eurasia
+    4  Insular Pacific
+    5  North America
+    6  South America
+
+2.  AREA (1 - 10 See Murdock 1967 - Ethnographic Atlas)
+
+3.  EA NUMBER (1 - 51 (Within Area))
+
+4.  GATHERING [Proportion of economic activity]
+    0  0 - 5%
+    1  6 - 15%
+    2 16 - 25%
+    3 26 - 35%
+    4 36 - 45%
+    5 46 - 55%
+    6 56 - 65%
+    7 66 - 75%
+    8 76 - 85%
+    9 86 - 100%
+
+5.  HUNTING [Proportion of economic activity]
+    0  0 -  5%
+    1  6 - 15%
+    2 16 - 25%
+    3 26 - 35%
+    4 36 - 45%
+    5 46 - 55%
+    6 56 - 65%
+    7 66 - 75%
+    8 76 - 85%
+    9 86 - 100%
+
+6.  FISHING [Proportion of economic activity]
+    0  0 -  5%
+    1  6 - 15%
+    2 16 - 25%
+    3 26 - 35%
+    4 36 - 45%
+    5 46 - 55%
+    6 56 - 65%
+    7 66 - 75%
+    8 76 - 85%
+    9 86 - 100%
+
+7.  ANIMAL HUSBANDRY [Proportion of economic activity]
+    0  0 -  5%
+    1  6 - 15%
+    2 16 - 25%
+    3 26 - 35%
+    4 36 - 45%
+    5 46 - 55%
+    6 56 - 65%
+    7 66 - 75%
+    8 76 - 85%
+    9 86 - 100%
+
+8.  AGRICULTURE [Proportion of economic activity]
+    0  0 -  5%
+    1  6 - 15%
+    2 16 - 25%
+    3 26 - 35%
+    4 36 - 45%
+    5 46 - 55%
+    6 56 - 65%
+    7 66 - 75%
+    8 76 - 85%
+    9 86 - 100%
+
+9.  BETROTHAL
+    . Missing Data
+    1 Bride- Price or - Wealth
+    2 Dowry
+    3 Gift Exchange
+    4 Absence of Consideration
+    5 Bride- Service
+    6 Token Bride- price
+    7 Sister or Female Relative Exchange
+    9 No Alternative
+
+10.  BETROTHAL [ALTERNATE]
+    . Missing Data
+    1 Bride- Price or - Wealth
+    2 Dowry
+    3 Gift Exchange
+    4 Absence of Consideration
+    5 Bride- Service
+    6 Token Bride- price
+    7 Sister or Female Relative Exchange
+    9 No Alternative
+
+11.  DOMESTIC ORGANIZATION
+    0 Missing Data
+    1 Indep. Nuclear Family -  Mono- gamous
+    2 Indep. Nuclear Family - occasional poly- gyny
+    3 Indep. Poly- androus Families
+    4 Poly- gynous:  Unusual Co- wives Pattern (see 4 6 below)
+    5 Poly- gynous:  Usual Co- Wife Pattern (see 3 5 below)
+    6 Minimal (stem) extended families
+    7 Small Extended Families
+    8 Large Extended Families
+
+12.  COMPOSITION OF DOMESTIC GROUP
+    0 Missing Data
+    1 Indep. Nuclear - Mono- gamous
+    2 Indep. Nuclear - Occasional Poly- gyny
+    3 Pref. Sororal - Cowives in same dwelling
+    4 Pref. Sororal - Cowives in separate dwellings
+    5 Non- Sororal - Cowives in separate dwellings
+    6 Non- Sororal - Cowives in same dwelling
+    7 Indep. Poly- androus Families
+    9 Extended Family
+
+13.  MARITAL COMPOSITION WITHIN EXTENDED FAMILIES
+    0 Missing data
+    1 Monogamy
+    2 Occasional or limited poly- gyny
+    3 Pref. sororal poly- gyny; co- wives occupy same dwelling
+    4 Pref. sororal poly- gyny; co- wives separate dwelling
+    5 Pref. non- sororal poly- gyny; co- wives occupy separate dwelling
+    6 Pref. non- sororal poly- gyny; co- wives occupy same dwelling
+    9 Poly- andry; or no extended family
+
+14.  TRANSFER OF RESIDENCE AT MARRIAGE:  FIRST YEAR
+    0 Missing Data
+    1 Wife to Husband's Group
+    2 Optional for Couple
+    3 Husband to Wife's Group
+    4 No Common Residence
+    9 Same as Prevalent Residence (#15)
+
+15.  MARITAL RESIDENCE WITH KIN:  FIRST YEAR
+    0 Missing Data
+    1 With Husband's or Wife's Unilineal Kin Group
+    2 With Wife's Mother's Brother's Unilineal Group
+    3 With Husband's or Wife's Parents (Non- Unilineal)
+    4 Optional:  With either set of Parents
+    5 Optional:  Wife's Mother or Mother's Brother
+    6 Do not reside with other Relatives
+    7 No Common Residence
+    9 Same as Prevalent Residence (#15)
+
+16.  TRANSFER OF RESIDENCE AT MARRIAGE:  PREVALENT FORM
+    0 Missing Data
+    1 Wife to Husband's Group
+    2 Optional for Couple
+    3 Husband to Wife's Group
+    9 No Common Residence
+
+17.  MARITAL RESIDENCE WITH KIN:  PREVALENT FROM
+    0 Missing Data
+    1 With Husband's or Wife's Unilineal Kin Group
+    2 With Wife's Mother's Brother's Unilineal Group
+    3 With Husband's or Wife's Parents (Non- Unilineal)
+    4 Optional:  With either set of Parents
+    5 Optional:  Wife's Mother or Mother's Brother
+    6 Do not reside with other Relatives
+    9 No Common Residence
+
+18.  TRANSFER OF RESIDENCE AT MARRIAGE:  ALTERNATE FORM
+    0 Missing Data
+    1 Wife to Husband's Group
+    2 Optional for Couple
+    3 Husband to Wife's Group
+    4 No Common Residence
+    9 Same as Prevalent residence (#15)
+
+19.  MARITAL RESIDENCE WITH KIN:: ALTERNATE FORM
+    0 Missing Data
+    1 With Husband's or Wife's Unilineal Kin Group
+    2 With Wife's Mother's Brother's Unilinea Group
+    3 With Husband's or Wife's Parents (Non- Unilineal)
+    4 Optional:  With either set of Parents
+    5 Optional:  Wife's Mother or Mother's Brother
+    6 Do not reside with other Relatives
+    7 No Common Residence
+    9 Same as Prevalent Residence (#15)
+
+20.  COMMUNITY MARRIAGE ORGANIZATION
+    0 Insufficient information
+    1 Demes (not segmented into clan barrios)
+    2 Segmented communities without local exogamy
+    3 Agamous communities
+    4 Exogamous communities (not clans)
+    5 Segmented communities (containing localized clans) with local exogamy
+    6 Clan communities (or clan barrios)
+    9 No secondary organization
+
+21.  COMMUNITY MARRIAGE ORGANIZATION [Alternate]
+    0 Insufficient information
+    1 Demes (not segmented into clan barrios)
+    2 Segmented communities without local exogamy
+    3 Agamous communities
+    4 Exogamous communities (not clans)
+    5 Segmented communities (containing localized clans) with local exogamy
+    6 Clan communities (or clan barrios)
+    9 No secondary organization
+
+22.  LARGEST PATRILINEAL KIN GROUP
+    0 Missing Data
+    1 None
+    2 Exogamous Group
+    3 Lineages in a Single Community
+    4 Sibs (Lineages in Multiple Communities)
+    5 Phratries (Maximally Extended Sibs)
+    6 Moieties
+    7 No Difference
+
+23.  LARGEST PATRILINEAL EXOGAMOUS GROUP (IF DIFFERENT)
+    0 Missing Data
+    1 None
+    2 Exogamous Group
+    3 Lineages in a Single Community
+    4 Sibs (Lineages in Multiple Communities)
+    5 Phratries (Maximally Extended Sibs)
+    6 Moieties
+    7 No Difference
+
+24.  LARGEST MATRILINEAL KIN GROUP
+    0 Missing data
+    1 None
+    2 Exogamous group
+    3 Lineages in single community
+    4 Sibs
+    5 Phratries
+    6 Moieties
+
+25.  LARGEST MATRILINEAL EXOGAMOUS GROUP (IF DIFFERENT)
+    0 Missing data
+    1 None
+    2 Exogamous group
+    3 Lineages in single community
+    4 Sibs
+    5 Phratries
+    6 Moieties
+    9 No differences from preceeding variable
+
+26.  COGNATIC KIN GROUPS
+    0 Missing data
+    1 Bilateral descent
+    2 Kindreds (bilateral kin- groups)
+    3 Ambilineal descent (without true ramages)
+    4 Ramages
+    5 Exogamous ramages
+    6 Quasi- lineages
+    9 Unilineal descent
+
+27.  THE GROUP LESS FUNCTIONAL IMPORTANCE - WITH REPORTED KINDREDS AND RAMAGES
+    0 Missing data
+    1 Bilateral descent
+    2 Kindreds (bilateral kin- groups)
+    3 Ambilineal descent (without true ramages)
+    4 Ramages
+    5 Exogamous ramages
+    6 Quasi- lineages
+    9 No secondary group
+
+28.  NUMBER OF COUSIN MARRIAGES [Allowed]
+    0 Missing data
+    1 All four cousins
+    2 Three of four cousins
+    3 Two of four cousins (e.g. - paternal)
+    4 One of four cousins (e.g. - FaBrDa)
+    5 No first cousins
+    6 First and some second cousins excluded
+    7 No first - unknown for second
+    8 No first or second cousins
+    9 No preferential or prescriptive unions
+
+30.  NUMBER OF COUSIN MARRIAGES [Preferential]
+    0 Missing data
+    1 All four cousins
+    2 Three of four cousins
+    3 Two of four cousins (e.g. - paternal)
+    4 One of four cousins (e.g. - FaBrDa)
+    5 No first cousins
+    6 First and some second cousins excluded
+    7 No first - unknown for second
+    8 No first or second cousins
+    9 No preferential or prescriptive unions
+
+29.  SUBTYPES OF COUSIN MARRIAGES
+    0 Missing data
+    1 FaSiDa
+    2 Paternal (FBD if only one)
+    3 Uncle's Da
+    4 Other
+    5 Aunt's Da
+    6 Maternal
+    8 MoBrDa
+    9 No preferential or prescriptive unions
+
+31.  SUBTYPES OF COUSIN MARRIAGES [Preferential]
+    0 Missing data
+    1 FaSiDa
+    2 Paternal (FBD if only one)
+    3 Uncle's Da
+    4 Other
+    5 Aunt's Da
+    6 Maternal
+    8 MoBrDa
+    9 No preferential or prescriptive unions
+
+32.  KIN TERMS FOR COUSINS
+    0 Missing data
+    1 Descriptive terms - e.g. 'mothers brothers son'
+    2 Siblings - cross and parallel cousins distinguished but not by descriptive terms
+    3 Cross cousins versus parallel are siblings
+    4 Mixed or deviant
+    5 Generational merging; MoBrCh up; FaSCh down
+    6 Generational merging; MoBrCh down; FaSCh up
+    7 Cousins versus siblings
+    8 Siblings plus cousins equated
+
+33.  INTENSITY OF CULTIVATION
+    0 Missing data
+    1 No agriculture
+    2 Casual agriculture
+    3 Extensive or shifting agriculture
+    4 Horticulture
+    5 Intensive agriculture
+    6 Intensive agriculture/irrigation
+
+34.  MAJOR CROP
+    0 Missing data
+    1 None or none specified
+    2 Non- food crops only
+    3 Vegetables
+    4 Tree fruits
+    5 Roots or tubers
+    6 Cereal grains
+
+35.  SETTLEMENT PATTERNS
+    0 Missing data
+    1 Migratory or nomadic
+    2 Seminomadic
+    3 Semisedentary
+    4 Compact but impermanent settlements
+    5 Neighborhoods of dispersed family homesteads
+    6 Separated hamlets - forming a single community
+    7 Compact and relatively permanent settlements
+    8 Complex settlements
+
+36.  MEAN SIZE OF LOCAL COMMUNITIES
+    0 Missing data
+    1 Fewer than 50
+    2 50- 99
+    3 100- 199
+    4 200- 399
+    5 400- 1000
+    6 1000 without any turn of more than 5000
+    7 One or more towns of 5000- 50000
+    8 One or more cities of more than 50000
+
+37.  LOCAL COMMUNITY (Jurisdictional hierarchy)
+    0 Missing data
+    1 No levels
+    2 One level
+    3 Two levels
+    4 Three levels
+    5 Four levels
+
+38.  BEYOND LOCAL COMMUNITY
+    0 Missing data
+    1 No levels
+    2 One level
+    3 Two levels
+    4 Three levels
+    5 Four levels
+
+39.  HIGH GODS
+    0 Missing data
+    1 Absent or not reported
+    2 Present but not active in human affairs
+    3 Present and active in human affairs but not supportive of human morality
+    4 Present - active - and specifically supportive of human morality
+
+40.  GAMES
+    0 Missing data
+    1 None of the three types
+    2 Physical skill
+    3 Chance
+    4 Strategy
+    5 Skill and chance
+    6 Skill and strategy
+    7 Chance and strategy
+    8 All
+
+41.  POST- PARTUM SEX TABOOS
+    0 Missing data
+    1 None
+    2 No longer than 1 month
+    3 1 to 6 months
+    4 6 months to 1 year
+    5 More than one year to two years
+    6 More than two years
+
+42.  MALE GENITAL MUTILATIONS
+    0 Missing data or absent
+    1 Within first two months after birth
+    2 Two months to two years
+    3 Two to five years
+    4 Six to ten years
+    5 11 to 15 years
+    6 16 to 25 years
+    7 25 to 50 years
+    8 After 50 years
+    9 Normal age unclear
+
+43.  SEGREGATION OF ADOLESCENT BOYS
+    0 Missing data
+    1 Absence
+    2 Partial
+    3 Complete - with relatives outside nuclear family
+    4 Complete - with non- relatives
+    5 Complete - with peers
+
+44.  ANIMALS AND PLOW CULTIVATION
+    0 Missing data
+    1 Absent (no plow animals)
+    2 Not aboriginal but well established at period of observation
+    3 Prior to contract
+
+45.  PREDOMINANT TYPE OF ANIMAL HUSBANDRY
+    0 Insufficient information
+    1 Absence or near absence of large domestic animals
+    2 Pigs the only large domestic animals
+    3 Sheep and/or goats without larger domestic animals
+    4 Equine animals (horses - donkeys)
+    5 Deer (reindeer)
+    6 Camels - alpacas - or llamas
+    7 Bovine animals (cattle - mithun - water buffalo - yaks)
+
+46.  MILKING OF DOMESTIC ANIMALS
+    0 Missing Data
+    1 Little or no milking - or insufficient information
+    2 Milked more often than sporadically
+
+47.  SUBSISTENCE ECONOMY
+    0 Missing Data
+    1 Gathering
+    2 Fishing
+    3 Hunting
+    4 Pastoral
+    5 Incipient agriculture
+    6 Extensive agriculture
+    7 Intensive agriculture
+
+48.  DESCENT
+    0 Missing Data
+    1 Patrilineal
+    2 Duolateral
+    3 Matrilineal
+    4 Quasi- lineages
+    5 Ambilineal
+    6 Bilateral
+
+49.  SEX DIFFERENCE IN METAL WORKING
+    0 Insufficient information
+    1 Males alone or almost alone
+    2 Males appreciably more
+    3 Differentiation but equal participation
+    4 Equal participation without marked differentiation
+    5 Females appreciably more
+    6 Females alone or almost alone
+    7 Sex participation irrelevant
+    8 Activity is present but sex participation unspecified
+    9 Activity is absent or unimportant
+
+50.  AGE OR OCCUPATIONAL SPECIALIZATION IN METAL WORKING
+    0 No age specialization or performed by many or most adults
+    1 Junior age specialization (before puberty)
+    2 Senior age specialization (beyond the prime of life)
+    3 Craft specialization
+    4 Industrialized specialization
+    5 Activity absent or insufficient information
+
+51.  SEX DIFFERENCE IN WEAVING
+    0 Insufficient information
+    1 Males alone or almost alone
+    2 Males appreciably more
+    3 Differentiation but equal participation
+    4 Equal participation without marked differentiation
+    5 Females appreciably more
+    6 Females alone or almost alone
+    7 Sex participation irrelevant
+    8 Activity is present but sex participation unspecified
+    9 Activity is absent or unimportant
+
+52.  AGE OR OCCUPATIONAL SPECIALIZATION IN WEAVING
+    0 No age specialization or performed by many or most adults
+    1 Junior age specialization (before puberty)
+    2 Senior age specialization (beyond the prime of life)
+    3 Craft specialization
+    4 Industrialized specialization
+    9 Activity absent or insufficient information
+
+53.  SEX DIFFERENCE IN LEATHER WORKING
+    0 Insufficient information
+    1 Males alone or almost alone
+    2 Males appreciably more
+    3 Differentiation but equal participation
+    4 Equal participation without marked differentiation
+    5 Females appreciably more
+    6 Females alone or almost alone
+    7 Sex participation irrelevant
+    8 Activity is present but sex participation unspecified
+    9 Activity is absent or unimportant
+
+54.  AGE OR OCCUPATIONAL SPECIALIZATION IN LEATHER WORKING
+    0 No age specialization or performed by many or most adults
+    1 Junior age specialization (before puberty)
+    2 Senior age specialization (beyond the prime of life)
+    3 Craft specialization
+    4 Industrialized specialization
+    5 Activity absent or insufficient information
+
+55.  SEX DIFFERENCES IN POTTERY MAKING
+    0 Insufficient information
+    1 Males alone or almost alone
+    2 Males appreciably more
+    3 Differentiation but equal participation
+    4 Equal participation without marked differentiation
+    5 Females appreciably more
+    6 Females alone or almost alone
+    7 Sex participation irrelevant
+    8 Activity is present but sex participation unspecified
+    9 Activity is absent or unimportant
+
+56.  AGE OR OCCUPATIONAL SPECIALIZATION IN POTTERY MAKING
+    0 No age specialization or performed by many or most adults
+    1 Junior age specialization (before puberty)
+    2 Senior age specialization (beyond the prime of life)
+    3 Craft specialization
+    4 Industrialized specialization
+    9 Activity absent or insufficient information
+
+57.  SEX DIFFERENCES IN BOAT BUILDING
+    0 Insufficient information
+    1 Males alone or almost alone
+    2 Males appreciably more
+    3 Differentiation but equal participation
+    4 Equal participation without marked differentiation
+    5 Females appreciably more
+    6 Females alone or almost alone
+    7 Sex participation irrelevant
+    8 Activity is present but sex participation unspecified
+    9 Activity is absent or unimportant
+
+58.  AGE OR OCCUPATIONAL SPECIALIZATION IN BOAT BUILDING
+    0 No age specialization or performed by many or most adults
+    1 Junior age specialization (before puberty)
+    2 Senior age specialization (beyond the prime of life)
+    3 Craft specialization
+    4 Industrialized specialization
+    9 Activity absent or insufficient information
+
+
+59.  SEX DIFFERENCE IN HOUSE CONSTRUCTION
+    0 Insufficient information
+    1 Males alone or almost alone
+    2 Males appreciably more
+    3 Differentiation but equal participation
+    4 Equal participation without marked differentiation
+    5 Females appreciably more
+    6 Females alone or almost alone
+    7 Sex participation irrelevant
+    8 Activity is present but sex participation unspecified
+    9 Activity is absent or unimportant
+
+60.  AGE OR OCCUPATION SPECIALIZATION IN HOUSE CONSTRUCTION
+    0 No age specialization performed by most or many adults
+    1 Junior age specialization (before puberty)
+    2 Senior age specialization (beyond the prime of life)
+    3 Craft specialization
+    4 Industrialized specialization
+    9 Activity absent or insufficient information
+
+61.  SEX DIFFERENCE IN GATHERING
+    0 Insufficient information
+    1 Males alone or almost alone
+    2 Males appreciably more
+    3 Differentiation but equal participation
+    4 Equal participation without marked differentiation
+    5 Females appreciably more
+    6 Females alone or almost alone
+    7 Sex participation irrelevant
+    8 Activity is present but sex participation unspecified
+    9 Activity is absent or unimportant
+
+62.  AGE OR OCCUPATIONAL SPECIALIZATION IN GATHERING
+    0 No age specialization or performed by many or most adults
+    1 Junior age specialization (before puberty)
+    2 Senior age specialization (beyond the prime of life)
+    3 Craft specialization
+    4 Industrialized specialization
+    9 Activity absent or insufficient information
+
+63.  SEX DIFFERENCE IN HUNTING
+    0 Insufficient information
+    1 Males alone or almost alone
+    2 Males appreciably more
+    3 Differentiation but equal participation
+    4 Equal participation without marked differentiation
+    5 Females appreciably more
+    6 Females alone or almost alone
+    7 Sex participation irrelevant
+    8 Activity is present but sex participation unspecified
+    9 Activity is absent or unimportant
+
+64.  AGE OR OCCUPATIONAL SPECIALIZATION IN HUNTING
+    0 No use specialization or performed by many or most adults
+    1 Junior age specialization (before puberty)
+    2 Senior age specialization (beyond the prime of life)
+    3 Craft specialization
+    4 Industrialized specialization
+    9 Activity absent or insufficient information
+
+65.  SEX DIFFERENCE IN FISHING
+    0 Insufficient information
+    1 Males alone or almost alone
+    2 Males appreciably more
+    3 Differentiation but equal participation
+    4 Equal participation without marked differentiation
+    5 Females appreciably more
+    6 Females alone or almost alone
+    7 Sex participation
+    8 Activity is present but sex participation unspecified
+    9 Activity is absent or unimportant
+
+66.  AGE OR OCCUPATIONAL SPECIALIZATION IN FISHING
+    0 No age specialization or performed by many or most adults
+    1 Junior age specialization (before puberty)
+    2 Senior age specialization (beyond the prime of life)
+    3 Craft specialization
+    4 Industrialized specialization
+    9 Activity absent or insufficient information
+
+67.  SEX DIFFERENCE IN ANIMAL HUSBANDRY
+    0 Insufficient information
+    1 Males alone or almost alone
+    2 Males appreciably alone
+    3 Differentiation but equal participation
+    4 Equal participation without marked differentiation
+    5 Females appreciably more
+    6 Females alone or almost alone
+    7 Sex participation irrelevant
+    8 Activity is present but sex participation unspecified
+    9 Activity is absent or unimportant
+
+68.  AGE OR OCCUPATONAL SPECIALIZATION IN ANIMAL HUSBANDRY
+    0 No age specialization or performed by many or most adults
+    1 Junior age specialiation (before puberty)
+    2 Senior age specialization (beyond the prime of life)
+    3 Craft specialization
+    4 Industrial specialization
+    9 Activity absent or insufficient information
+
+69.  SEX DIFFERENCE IN AGRICULTURE
+    0 Insufficient information
+    1 Males alone or almost alone
+    2 Males appreciably more
+    3 Differentiation but equal participation
+    4 Equal participation without marked differentiation
+    5 Females appreciably more
+    6 Females alone or almost alone
+    7 Sex participation irrelevant
+    8 Activity is present but sex participation unspecified
+    9 Activity is absent or unimportant
+
+
+70.  CLASS STRATIFICATION - PREVAILING TYPE
+    0 Insufficient information
+    1 Absence among freemen
+    2 Wealth distinctions
+    3 Elite (based on control of land or other resources)
+    4 Dual (hereditary aristocracy)
+    5 Complex (social classes)
+
+71.  CLASS STRATIFICATION.  ADDITIONAL IMPORTANT FEATURE - WHEN PRESENT
+    0 Insufficient information
+    1 Absence among freemen
+    2 Wealth distinctions
+    3 Elite
+    4 Dual
+    5 Complex
+    9 No second type or absence of stratification
+
+72.  CASTE STRATIFICATION - PREVAILING TYPE OF ENDOGAMY
+    0 Insufficient information
+    1 Absent or insignificant
+    2 One or more despised occupational groups
+    3 Ethnic stratification
+    4 Complex
+
+73.  CASTE STRATIFICATION - SECOND TYPE.
+    0 Insufficient information
+    1 Absent or insignificant
+    2 One or more despised occupational groups
+    3 Ethnic stratification
+    4 Complex
+    9 No second type or absence of stratification
+
+74.  TYPE OF SLAVERY
+    0 Insufficient information
+    1 Absence or near absence
+    2 Incipient or nonhereditary
+    3 Reported but type not identified
+    4 Hereditary and socially significant
+
+75.  FORMER PRESENCE OF SLAVERY
+    0 Insufficient information
+    1 Absent or no difference from preceding col.
+    2 Formerly present
+
+76.  SUCCESSION TO THE OFFICE OF LOCAL HEADMAN
+    0 Insufficient information
+    1 Patrilineal heir
+    2 Matrilineal heir
+    3 Nonhereditary (appointed by higher authority)
+    4 Nonhereditary on basis of seniority or age
+    5 Nonhereditary through influence (wealth or social status)
+    6 Nonhereditary through election or other formal consensus
+    7 Nonhereditary through informal consensus
+    9 Absence of any such office
+
+77.  SUCCESSION TO OFFICE OF LOCAL HEADMAN - BREAKDOWN OF HEREDITARY SUCCESSION
+    0 Insufficient information
+    1 Hereditary by a son (patrilineal)
+    2 Hereditary by other patrilineal heir (e.g. - younger brother)
+    3 Hereditary by a sister's son (matrilineal)
+    4 Hereditary by other matrilineal heir (e.g. - younger brother)
+    9 Nonhereditary or absence of any such office
+
+78.  INHERITANCE OF REAL PROPERTY (LAND).  RULE OR PRACTICE FOR INHERITANCE
+    0 Insufficient information
+    1 Absence of property rights or inheritance rules
+    2 Matrilineal (sister's sons)
+    3 Other matrilineal heirs (e.g. - younger brother)
+    4 Children - with daughters receiving less
+    5 Children - equally for both sexes
+    6 Other patrilineal heirs (e.g. - younger brothers)
+    7 Patrilineal (sons)
+
+79.  INHERITANCE OF REAL PROPERTY. DISTRIBUTION OF INHERITANCE AMONG INDIVIDUALS OF SAME CATEGORY
+    0 Insufficient information
+    1 Equal or relatively equal
+    2 Exclusively or predominantly to the one adjudged best qualified
+    3 Ultimogeniture (to the junior individual)
+    4 Primogeniture (to the senior individual)
+    9 No rules or insufficient information
+
+80.  INHERITANCE OF MOVABLE PROPERTY.  RULES OR PRACTICE FOR INHERITANCE
+    0 Insufficient information
+    1 Absence of property rights or inheritance rules (or destruction - burial - or giving away of movable property)
+    2 Matrilineal (sister's sons)
+    3 Other matrilineal heirs (e.g. - younger brother)
+    4 Children - with daughters receiving less
+    5 Children - equally for both sexes
+    6 Other patrilineal heirs (e.g. - younger brothers)
+    7 Patrilineal (sons)
+
+81.  INHERITANCE OF MOVABLE PROPERTY.  DISTRIBUTION OF INHERITANCE AMONG INDIVIDUALS OF SAME CATEGORY.
+    0 Insufficient information
+    1 Equal or relatively equal
+    2 Exclusively or predominantly to the one adjudged best qualified
+    3 Ultimogeniture (to the junior individual)
+    4 Primogeniture (to the senior individual)
+    9 The rules or insufficient information
+
+82.  NORMS OF PREMARITAL SEX BEHAVIOR OF GIRLS
+    0 Insufficient information
+    1 Early marriage of females (at or before puberty)
+    2 Insistence on virginity
+    3 Prohibited but weakly censured and not infrequent
+    4 Allowed - censured only if pregnancy results
+    5 Trial marriage - promiscuous relations prohibited
+    6 Freely permitted - even if pregnancy results
+
+83.  PREVAILING TYPE OF DWELLING:  GROUND PLAN
+    0 Insufficient information
+    1 Semicircular
+    2 Circular
+    3 Elliptical or elongated with rounded ends
+    4 Poly- gonal
+    5 Rectangular or square
+    6 Quadrangular around (or partially around) an inner court
+
+84.  PREVAILING TYPE OF DWELLING:  FLOOR LEVEL
+    0 Insufficient information
+    1 Subterranean or semi- subterranean (ignoring cellars)
+    2 Floor formed by ground
+    3 Elevated slightly or on raised platform
+    4 Raised substantially on piles - posts - or piers
+
+85.  PREVAILING TYPE OF DWELLING:  WALL MATERIAL
+    0 Insufficient information
+    1 Stone - stucco - concrete - or fired brick
+    2 Plaster - mud and dung - or wattle and daub
+    3 Wood - including logs - planks - poles - bamboo - or shingles
+    4 Bark
+    5 Hides or skin
+    6 Felt - cloth - or other fabrics
+    7 Mats - latticework - or wattle
+    8 Grass - leaves - or other thatch
+    9 Adobe - clay - or dried brick
+   10 Open walls - including temporary screens blank Walls indistinguishable from roof
+
+86.  PREVAILING TYPE OF DWELLING:  SHAPE OF ROOF
+    0 Insufficient information
+    1 Rounded or semi- cylindrical
+    2 Dome or hemisphere
+    3 Beehive with pointed peak
+    4 Conical
+    5 Semi- hemisphere
+    6 Shad (one slope)
+    7 Flat or horizontal
+    8 Gabled (two slopes)
+    9 Hipped or pyramidal (four slopes)
+
+87.  PREVAILING TYPE OF DWELLING:  ROOFING MATERIALS
+    0 Insufficient information
+    1 Stone or slate - or tile or fired brick
+    2 Plaster - clay - mud and dung - or wattle and daub
+    3 Wood - including logs - planks - poles - bamboo - or shingles
+    4 Bark
+    5 Hides or skin
+    6 Felt - cloth - or other fabric
+    7 Mats
+    8 Grass - leaves - brush - or other thatch
+    9 Earth or turf
+   10 Ice or snow (combined with 9)
+
+
+88.  SECONDARY OR ALTERNATIVE HOUSE TYPE:  GROUND PLAN
+    0 Insufficient information
+    1 Semicircular
+    2 Circular
+    3 Elliptical or elongated with rounded ends
+    4 Polygonal
+    5 Rectangular or square
+    6 Quadrangular around (or partially around) an inner court
+    9 No secondary type
+
+89.  SECONDARY OR ALTERNATIVE HOUSE TYPE:  FLOOR LEVEL
+    0 Insufficient information
+    1 Subterranean or semi- subterranean (ignoring cellars)
+    2 Floor formed by ground
+    3 Elevated slightly or on raised platform
+    4 Raised substantially on piles - posts - or piers
+    9 No secondary type
+
+90.  SECONDARY OR ALTERNATIVE HOUSE TYPE:  WALL MATERIAL
+    0 Insufficient information or no secondary type
+    1 Stone - stucco - concrete - or fired brick
+    2 Plaster - mud and dung - or wattle and daub
+    3 Wood - including logs - planks - poles - bamboo - or shingles
+    4 Bark
+    5 Hides or skin
+    6 Felt - cloth - or other fabrics
+    7 Mats - latticework or wattle
+    8 Grass - leaves - or other thatch
+    9 Adobe - clay - or dried brick
+   10 Open walls - including temporary screens blank Walls indistinguishable from roof
+
+91.  SECONDARY OR ALTERNATIVE HOUSE TYPE:  SHAPE OF ROOF
+    0 Insufficient information or no secondary type
+    1 Rounded or semi- cylindrical
+    2 Dome or hemisphere
+    3 Beehive with pointed peak
+    4 Conical
+    5 Semi- hemisphere
+    6 Shad (one slope)
+    7 Flat or horizontal
+    8 Gabled (two slopes)
+    9 Hipped or pyramidal (four slopes)
+
+92.  SECONDARY OR ALTERNATIVE HOUSE TYPE:  ROOFING MATERIALS
+    0 Insufficient information or no secondary type
+    1 Stone or slate - or tile or fired brick
+    2 Plaster - clay - mud and dung - or wattle and daub
+    3 Wood - incl. logs - planks - poles - bamboo - or shingles
+    4 Bark
+    5 Hides or skin
+    6 Felt - cloth or other fabric
+    7 Mats
+    8 Grass - leaves - brush - or other thatch
+    9 Earth or turf
+   10 Ice or snow (combined with 9)
+
+EOF
