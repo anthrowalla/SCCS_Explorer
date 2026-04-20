@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Standard Cross-Cultural Sample</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Standard Cross-Cultural Sample</h1>
+            <p class="subtitle">Cross-tabulate variables from SCCS</p>
+        </header>
+
+        <main>
+            <section id="selection-panel" class="panel">
+                <h2>Select Variables to Crosstabulate</h2>
+                <form id="crosstab-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="row-var" class="row-var-label">Row Variable:</label>
+                            <select id="row-var" name="rowVar" required>
+                                <option value="">Select variable...</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="col-var">Column Variable:</label>
+                            <select id="col-var" name="colVar" required>
+                                <option value="">Select variable...</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="options">
+                        <div class="checkbox-group">
+                            <input type="checkbox" id="colour" name="colour" value="1" checked>
+                            <label for="colour">Colour code cells by frequency</label>
+                        </div>
+                        <div class="checkbox-group">
+                            <input type="checkbox" id="expected" name="expected" value="1">
+                            <label for="expected">Include expected values and chi-square analysis</label>
+                        </div>
+                        <div class="checkbox-group">
+                            <input type="checkbox" id="merge" name="merge" value="1">
+                            <label for="merge">Enable category merging</label>
+                        </div>
+                    </div>
+
+                    <div class="form-actions">
+                        <button type="submit" class="btn-primary">Generate Crosstabulation</button>
+                        <button type="button" id="btn-browse-vars" class="btn-secondary">Browse Variables</button>
+                    </div>
+                </form>
+
+                <div id="variable-info" class="info-panel hidden">
+                    <h3>Selected Variables</h3>
+                    <div id="var-descriptions"></div>
+                </div>
+            </section>
+
+            <section id="results-panel" class="panel hidden">
+                <div class="results-header">
+                    <h2>Crosstabulation Results</h2>
+                    <button id="btn-new-search" class="btn-secondary">New Search</button>
+                </div>
+
+                <div id="column-var-display" class="column-var-box"></div>
+
+                <div id="crosstab-container">
+                    <!-- Main crosstab table will be inserted here -->
+                </div>
+
+                <div id="statistics-container" class="hidden">
+                    <!-- Statistical analysis tables will be inserted here -->
+                </div>
+
+                <div id="chi-square-summary" class="hidden">
+                    <!-- Chi-square summary will be inserted here -->
+                </div>
+            </section>
+
+            <section id="cell-detail-panel" class="panel hidden">
+                <div class="detail-header">
+                    <h2>Cell Detail</h2>
+                    <button id="btn-close-detail" class="btn-secondary">Close</button>
+                </div>
+                <div id="cell-detail-content">
+                    <!-- Society list for selected cell will be inserted here -->
+                </div>
+            </section>
+
+            <section id="browse-panel" class="panel hidden">
+                <div class="browse-header">
+                    <h2>Browse Variables</h2>
+                    <button id="btn-close-browse" class="btn-secondary">Close</button>
+                </div>
+                <div id="variable-list">
+                    <!-- Variable list will be inserted here -->
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Based on the Ethnographic Atlas - <span id="case-count">Loading...</span> societies</p>
+        </footer>
+    </div>
+
+    <!-- Cell Detail Modal -->
+    <div id="cellModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modalTitle">Cell Detail</h2>
+                <button class="close-btn" id="btn-close-modal">×</button>
+            </div>
+            <div id="modalBody"></div>
+        </div>
+    </div>
+
+    <script type="module" src="app.js"></script>
+</body>
+</html>

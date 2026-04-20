@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EthnoAtlas Crosstabulation - Standalone Version</title>
+    <style>
+        :root {
+            --primary-color: #2c5f8d;
+            --secondary-color: #1a3a52;
+            --light-gray: #f5f5f5;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: var(--light-gray);
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .instructions {
+            background: #e3f2fd;
+            padding: 20px;
+            border-radius: 4px;
+            margin-bottom: 20px;
+        }
+
+        .drop-zone {
+            border: 3px dashed var(--primary-color);
+            border-radius: 8px;
+            padding: 40px;
+            text-align: center;
+            margin: 20px 0;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .drop-zone:hover, .drop-zone.dragover {
+            background: #e3f2fd;
+            border-color: var(--secondary-color);
+        }
+
+        .file-input {
+            display: none;
+        }
+
+        .btn {
+            padding: 12px 24px;
+            border: none;
+            border-radius: 4px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            background: var(--primary-color);
+            color: white;
+            margin: 5px;
+        }
+
+        .btn:hover {
+            background: var(--secondary-color);
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.5);
+            z-index: 1000;
+        }
+
+        .modal.active {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .modal-content {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            max-width: 600px;
+            max-height: 80vh;
+            overflow-y: auto;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+        }
+
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .modal-header h2 {
+            margin: 0;
+            color: var(--primary-color);
+        }
+
+        .close-btn {
+            background: var(--light-gray);
+            border: none;
+            padding: 8px 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1.2rem;
+        }
+
+        .society-list {
+            max-height: 400px;
+            overflow-y: auto;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        .society-item {
+            padding: 12px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .society-item:last-child {
+            border-bottom: none;
+        }
+
+        .society-item:hover {
+            background: var(--light-gray);
+        }
+
+        .society-name {
+            font-weight: 600;
+            color: var(--primary-color);
+            margin-bottom: 5px;
+        }
+
+        .society-info {
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        h3 {
+            color: var(--primary-color);
+            margin-top: 30px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: center;
+        }
+
+        th {
+            background: var(--primary-color);
+            color: white;
+            position: sticky;
+            top: 0;
+        }
+
+        .cell-value {
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+
+        .cell-value:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 0 2px var(--primary-color);
+        }
+
+        .positive {
+            color: #2e7d32;
+            font-weight: 600;
+        }
+
+        .negative {
+            color: #c62828;
+            font-weight: 600;
+        }
+
+        .loading {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid var(--primary-color);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        select, button {
+            margin: 5px;
+        }
+
+        .form-group {
+            margin: 20px 0;
+        }
+
+        label {
+            font-weight: 600;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>EthnoAtlas Crosstabulation - Data File Loader</h1>
+
+        <div class="instructions">
+            <p><strong>Loading data files from resources folder...</strong></p>
+            <p id="loading-status">Initializing...</p>
+            <div id="file-error" class="hidden" style="background: #fee; padding: 15px; margin: 10px 0; border-radius: 4px;"></div>
+
+            <details style="margin-top: 20px;">
+                <summary>Advanced: Load custom data files</summary>
+                <p>Override default data files from resources folder:</p>
+                <p>
+                    <label><input type="file" id="dataFile" accept=".data"> EthnoAtlas.data</label><br>
+                    <label><input type="file" id="lblFile" accept=".lbl"> EthnoAtlas.lbl</label><br>
+                    <label><input type="file" id="casesFile" accept=".cases"> EthnoAtlas.cases (optional, detailed info)</label><br>
+                    <label><input type="file" id="glblFile" accept=".glbl"> EthnoAtlas.glbl</label>
+                </p>
+                <p><button class="btn" id="loadBtn">Load Custom Files</button></p>
+
+                <h3>Or use pre-built JSON</h3>
+                <p>If you have a pre-generated ethnoAtlasData.json file:</p>
+                <label><input type="file" id="jsonFile" accept=".json"> ethnoAtlasData.json</label>
+            </details>
+        </div>
+
+        <div id="loadingDiv" class="hidden" style="text-align: center; padding: 40px;">
+            <div class="loading"></div>
+            <p style="margin-top: 20px;">Loading data files...</p>
+        </div>
+
+        <div id="errorDiv" class="hidden" style="background: #fee; padding: 20px; border: 2px solid #c00; margin: 20px 0;">
+            <h3 style="color: #c00;">Error</h3>
+            <pre id="errorText"></pre>
+        </div>
+
+        <div id="appDiv" class="hidden">
+            <!-- Main app content will be loaded here -->
+            <h2>EthnoAtlas Crosstabulation</h2>
+            <div class="form-group">
+                <label>Row Variable:</label>
+                <select id="rowVar"></select>
+                <label>Column Variable:</label>
+                <select id="colVar"></select>
+            </div>
+            <div class="form-group">
+                <label><input type="checkbox" id="useColor" checked> Color code cells</label>
+                <label><input type="checkbox" id="showStats"> Show statistics</label>
+            </div>
+            <button class="btn" id="generateBtn">Generate Crosstab</button>
+            <div id="results"></div>
+        </div>
+
+        <!-- Modal for cell details -->
+        <div id="cellModal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 id="modalTitle">Cell Detail</h2>
+                    <button class="close-btn" onclick="closeModal()">×</button>
+                </div>
+                <div id="modalBody"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Global data storage
+        let ethnoData = null;
+        let labels = null;
+        let societies = null;
+        let societyCases = null;
+
+        // Auto-load data files from resources folder on startup
+        window.addEventListener('DOMContentLoaded', async function() {
+            await loadFromResources();
+        });
+
+        async function loadFromResources() {
+            const status = document.getElementById('loading-status');
+            const errorDiv = document.getElementById('file-error');
+
+            try {
+                status.textContent = 'Loading data files...';
+                errorDiv.classList.add('hidden');
+
+                // Load all three files from resources folder
+                const [dataText, lblText, casesText, glblText] = await Promise.all([
+                    fetchText('resources/EthnoAtlas.data'),
+                    fetchText('resources/EthnoAtlas.lbl'),
+                    fetchText('resources/EthnoAtlas.cases'),
+                    fetchText('resources/EthnoAtlas.glbl')
+                ]);
+
+                ethnoData = parseDataFile(dataText);
+                labels = parseLabelFile(lblText);
+                societyCases = parseCasesFile(casesText);
+                societies = parseGlblFile(glblText);
+
+                // Hide loading and show app
+                initializeApp();
+
+                status.textContent = `✓ Loaded ${ethnoData.length} societies, ${Object.keys(labels.varLabels).length} variables`;
+
+            } catch (error) {
+                errorDiv.classList.remove('hidden');
+                errorDiv.innerHTML = `
+                    <strong>Error loading data files:</strong><br>${error.message}<br><br>
+                    <h3>Solution:</h3>
+                    <p>The browser cannot load files via fetch() when opening standalone.html directly from file:// protocol due to security restrictions.</p>
+                    <p><strong>Please use one of these options:</strong></p>
+                    <ol>
+                        <li><strong>Option 1:</strong> Move standalone.html to your parent directory, then double-click to open it.
+                            <br><small>(files will load from ./resources/ folder)</small></li>
+                        <li><strong>Option 2:</strong> Start a local HTTP server:
+                            <br><code>python3 -m http.server 8000</code>
+                            <br>Then open: http://localhost:8000/standalone.html</li>
+                        <li><strong>Option 3:</strong> Use the "Advanced" section below to manually select the data files from your computer.</li>
+                    </ol>
+                `;
+                status.textContent = 'Failed to load';
+            }
+        }
+
+        async function fetchText(url) {
+            const response = await fetch(url);
+            if (!response.ok) {
+                throw new Error(`Failed to load ${url}: ${response.statusText}`);
+            }
+            return await response.text();
+        }
+
+        // File readers (for custom file loading)
+        document.getElementById('loadBtn').addEventListener('click', loadIndividualFiles);
+        document.getElementById('jsonFile').addEventListener('change', loadJsonFile);
+        document.getElementById('casesFile').addEventListener('change', function() {
+            // Auto-load cases file when selected
+            const file = this.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    societyCases = parseCasesFile(e.target.result);
+                    alert(`Loaded ${Object.keys(societyCases).length} societies from cases file`);
+                };
+                reader.readAsText(file);
+            }
+        });
+
+        function showError(message) {
+            document.getElementById('errorDiv').classList.remove('hidden');
+            document.getElementById('errorText').textContent = message;
+            document.getElementById('loadingDiv').classList.add('hidden');
+        }
+
+        function parseCasesFile(text) {
+            const lines = text.split('\n');
+            const cases = {};
+
+            // Skip header lines until we find the data
+            let dataStarted = false;
+            for (let line of lines) {
+                // Detect start of data (when we see line starting with "1 ")
+                if (line.match(/^\s*1\s+/)) {
+                    dataStarted = true;
+                }
+
+                if (!dataStarted) continue;
+                if (!line.trim()) continue;
+
+                // Parse: No. Society (SCCS)  Date  E.A. Area Focus  Description
+                const match = line.match(/^\s*(\d+)\s+(.+?)\s+(\d{4})\s+([A-Za-z]\d+)\s+(.+?)\s*$/);
+                if (match) {
+                    const caseId = parseInt(match[1]);
+                    cases[caseId] = {
+                        name: match[2].trim(),
+                        year: match[3],
+                        areaCode: match[4],
+                        description: match[5].trim()
+                    };
+                }
+            }
+
+            return cases;
+        }
+
+        function showLoading() {
+            document.getElementById('loadingDiv').classList.remove('hidden');
+            document.getElementById('errorDiv').classList.add('hidden');
+        }
+
+        function hideLoading() {
+            document.getElementById('loadingDiv').classList.add('hidden');
+        }
+
+        async function loadJsonFile(e) {
+            const file = e.target.files[0];
+            if (!file) return;
+
+            showLoading();
+            try {
+                const text = await file.text();
+                const data = JSON.parse(text);
+                ethnoData = data.data;
+                labels = data.labels;
+                societies = data.societies;
+                initializeApp();
+            } catch (err) {
+                showError('Error loading JSON: ' + err.message);
+            }
+        }
+
+        async function loadIndividualFiles() {
+            const dataFile = document.getElementById('dataFile').files[0];
+            const lblFile = document.getElementById('lblFile').files[0];
+            const glblFile = document.getElementById('glblFile').files[0];
+
+            if (!dataFile || !lblFile || !glblFile) {
+                showError('Please select all three data files');
+                return;
+            }
+
+            showLoading();
+
+            try {
+                const [dataText, lblText, glblText] = await Promise.all([
+                    dataFile.text(),
+                    lblFile.text(),
+                    glblFile.text()
+                ]);
+
+                // Parse data file
+                ethnoData = parseDataFile(dataText);
+                labels = parseLabelFile(lblText);
+                societies = parseGlblFile(glblText);
+
+                initializeApp();
+            } catch (err) {
+                showError('Error loading files: ' + err.message);
+            }
+        }
+
+        function parseDataFile(text) {
+            const lines = text.trim().split('\n');
+            const data = [];
+            for (const line of lines) {
+                if (!line.trim()) continue;
+                const values = line.trim().split(/\s+/);
+                data.push(values.map(v => {
+                    if (v === '.') return null;
+                    const num = parseInt(v, 10);
+                    return isNaN(num) ? v : num;
+                }));
+            }
+            return data;
+        }
+
+        function parseLabelFile(text) {
+            const lines = text.split('\n');
+            const varLabels = {};
+            const valLabels = {};
+            let currentVar = null;
+            let inData = false;
+
+            for (let line of lines) {
+                if (line.includes('<<EOF')) { inData = true; continue; }
+                if (!inData) continue;
+                if (line.trim() === 'EOF' || line.trim() === "' EOF") continue;
+
+                const varMatch = line.match(/^(\d+)\.\s+(.+)$/);
+                if (varMatch) {
+                    currentVar = parseInt(varMatch[1]);
+                    varLabels[currentVar] = varMatch[2].trim();
+                    continue;
+                }
+
+                if (currentVar !== null) {
+                    const trimmed = line.trim();
+                    if (trimmed === '') { currentVar = null; continue; }
+
+                    const valMatch = trimmed.match(/^([.\d]+)\s+(.+)$/);
+                    if (valMatch) {
+                        valLabels[`${currentVar},${valMatch[1]}`] = valMatch[2].trim();
+                    }
+                }
+            }
+            return { varLabels, valLabels };
+        }
+
+        function parseGlblFile(text) {
+            const lines = text.split('\n');
+            const socs = {};
+            for (let line of lines) {
+                if (!line.trim() || line.includes('exec') || line.includes('EOF') || line.includes("'")) continue;
+                const fields = line.split('\t');
+                if (fields.length < 3) continue;
+                const id = parseInt(fields[0]);
+                if (!isNaN(id)) {
+                    socs[id] = { name: fields[1], year: fields[2], area: fields[3] };
+                }
+            }
+            return socs;
+        }
+
+        function initializeApp() {
+            hideLoading();
+            document.getElementById('appDiv').classList.remove('hidden');
+
+            // Populate dropdowns
+            const rowSelect = document.getElementById('rowVar');
+            const colSelect = document.getElementById('colVar');
+
+            for (const [num, name] of Object.entries(labels.varLabels)) {
+                const opt = new Option(`${num}. ${name}`, num);
+                rowSelect.add(opt.cloneNode(true));
+                colSelect.add(opt);
+            }
+
+            document.getElementById('generateBtn').addEventListener('click', generateCrosstab);
+        }
+
+        function showCellDetail(rowVal, colVal, rowVar, colVar, caseIds) {
+            const modal = document.getElementById('cellModal');
+            const title = document.getElementById('modalTitle');
+            const body = document.getElementById('modalBody');
+
+            const rowLabel = labels.valLabels[`${rowVar},${rowVal}`] || rowVal;
+            const colLabel = labels.valLabels[`${colVar},${colVal}`] || colVal;
+
+            title.textContent = `Cell Detail: ${rowVar}=${rowVal} (${rowLabel}) × ${colVar}=${colVal} (${colLabel})`;
+
+            let html = `<p><strong>${caseIds.length} societies in this cell</strong></p>`;
+            html += '<div class="society-list">';
+
+            if (caseIds.length === 0) {
+                html += '<p>No societies in this cell.</p>';
+            } else {
+                for (const caseId of caseIds) {
+                    // Use detailed cases info if available, otherwise fall back to glbl
+                    let society = societyCases && societyCases[caseId] ?
+                        societyCases[caseId] :
+                        (societies && societies[caseId] ? societies[caseId] : null);
+
+                    if (!society) {
+                        society = {
+                            name: `Society ${caseId}`,
+                            year: '',
+                            areaCode: '',
+                            description: 'No detailed information available'
+                        };
+                    }
+
+                    const caseNum = societyCases && societyCases[caseId] ? caseId : '';
+                    html += `
+                        <div class="society-item">
+                            <div class="society-name">${caseNum ? caseNum + '. ' : ''}${society.name}</div>
+                            <div class="society-info">
+                                ${society.year ? `Year: ${society.year}` : ''}
+                                ${society.areaCode ? ` | Area: ${society.areaCode}` : ''}
+                                ${society.description ? `<br>${society.description}` : ''}
+                            </div>
+                        </div>
+                    `;
+                }
+            }
+
+            html += '</div>';
+            body.innerHTML = html;
+            modal.classList.add('active');
+        }
+
+        function closeModal() {
+            document.getElementById('cellModal').classList.remove('active');
+        }
+
+        // Close modal when clicking outside
+        window.onclick = function(event) {
+            const modal = document.getElementById('cellModal');
+            if (event.target === modal) {
+                closeModal();
+            }
+        }
+
+        function generateStatistics(rowVar, colVar, rowVals, colVals, cells, rowTotals, colTotals, grandTotal) {
+            let html = '';
+
+            // Calculate expected values, O-E, chi-square
+            const expected = {};
+            const observedMinusExpected = {};
+            const chiSquareContributions = {};
+            let totalChiSquare = 0;
+
+            for (const rv of rowVals) {
+                for (const cv of colVals) {
+                    const key = `${rv},${cv}`;
+                    const observed = cells[key] || 0;
+                    const exp = (rowTotals[rv] * colTotals[cv]) / grandTotal;
+                    expected[key] = exp;
+
+                    const oe = observed - exp;
+                    observedMinusExpected[key] = oe;
+
+                    if (exp > 0) {
+                        const chi = (oe * oe) / exp;
+                        chiSquareContributions[key] = chi;
+                        totalChiSquare += chi;
+                    } else {
+                        chiSquareContributions[key] = 0;
+                    }
+                }
+            }
+
+            // Degrees of freedom
+            const df = (rowVals.length - 1) * (colVals.length - 1);
+
+            // Check significance (simplified chi-square table for p < 0.05)
+            const criticalValues = {
+                1: 3.841, 2: 5.991, 3: 7.815, 4: 9.488, 5: 11.070,
+                6: 12.592, 7: 14.067, 8: 15.507, 9: 16.919, 10: 18.307,
+                12: 21.026, 15: 24.996, 20: 31.410, 30: 43.773
+            };
+            const critical = criticalValues[df] || (df + 2 * Math.sqrt(df));
+            const isSignificant = totalChiSquare > critical;
+
+            // Observed - Expected table
+            html += '<h3>Observed - Expected</h3>';
+            html += '<table><thead><tr><th>' + labels.varLabels[rowVar] + ' \\ ' + labels.varLabels[colVar] + '</th>';
+            for (const cv of colVals) {
+                html += '<th>' + cv + '</th>';
+            }
+            html += '</tr></thead><tbody>';
+
+            for (const rv of rowVals) {
+                html += '<tr><td><strong>' + rv + '</strong></td>';
+                for (const cv of colVals) {
+                    const key = `${rv},${cv}`;
+                    const val = observedMinusExpected[key];
+                    const sign = val >= 0 ? '+' : '';
+                    const colorClass = val >= 0 ? 'positive' : 'negative';
+                    html += `<td class="${colorClass}">${sign}${val.toFixed(2)}</td>`;
+                }
+                html += '</tr>';
+            }
+            html += '</tbody></table>';
+
+            // Chi-square contributions table
+            html += '<h3>Chi-Square Contributions</h3>';
+            html += '<table><thead><tr><th>' + labels.varLabels[rowVar] + ' \\ ' + labels.varLabels[colVar] + '</th>';
+            for (const cv of colVals) {
+                html += '<th>' + cv + '</th>';
+            }
+            html += '</tr></thead><tbody>';
+
+            for (const rv of rowVals) {
+                html += '<tr><td><strong>' + rv + '</strong></td>';
+                for (const cv of colVals) {
+                    const key = `${rv},${cv}`;
+                    const val = chiSquareContributions[key];
+                    html += `<td>${val.toFixed(2)}</td>`;
+                }
+                html += '</tr>';
+            }
+            html += '</tbody></table>';
+
+            // Chi-square summary
+            html += '<div style="padding: 20px; background: #f5f5f5; border-radius: 4px; margin: 20px 0;">';
+            html += '<h3>Chi-Square Test of Independence</h3>';
+            html += '<p><strong>Chi-Square Value:</strong> ' + totalChiSquare.toFixed(4) + '</p>';
+            html += '<p><strong>Degrees of Freedom:</strong> ' + df + '</p>';
+            html += '<p><strong>Result:</strong> ' + (isSignificant ?
+                '<span style="color: #2e7d32;">✓ Significant (p < 0.05) - Variables are NOT independent</span>' :
+                '<span>Not significant (p ≥ 0.05) - Variables appear independent</span>') + '</p>';
+            html += '</div>';
+
+            return html;
+        }
+
+        function generateCrosstab() {
+            const rowVar = parseInt(document.getElementById('rowVar').value);
+            const colVar = parseInt(document.getElementById('colVar').value);
+
+            if (!rowVar || !colVar) {
+                alert('Please select both variables');
+                return;
+            }
+
+            const rowColIdx = rowVar - 1;
+            const colColIdx = colVar - 1;
+
+            // Get unique values
+            const rowVals = [...new Set(ethnoData.map(r => r[rowColIdx]))].filter(v => v !== null).sort((a,b) => a-b);
+            const colVals = [...new Set(ethnoData.map(r => r[colColIdx]))].filter(v => v !== null).sort((a,b) => a-b);
+
+            // Count cells and track case IDs
+            const cells = {};
+            const cellCases = {};
+            const rowTotals = {};
+            const colTotals = {};
+            let grandTotal = 0;
+
+            for (const rv of rowVals) rowTotals[rv] = 0;
+            for (const cv of colVals) colTotals[cv] = 0;
+
+            let caseIndex = 0;
+            for (const row of ethnoData) {
+                const rv = row[rowColIdx];
+                const cv = row[colColIdx];
+                if (rv === null || cv === null) continue;
+                const key = `${rv},${cv}`;
+                cells[key] = (cells[key] || 0) + 1;
+                if (!cellCases[key]) cellCases[key] = [];
+                cellCases[key].push(caseIndex + 1); // Store 1-indexed case ID
+                rowTotals[rv]++;
+                colTotals[cv]++;
+                grandTotal++;
+                caseIndex++;
+            }
+
+            // Build table
+            const useColor = document.getElementById('useColor').checked;
+            const showStats = document.getElementById('showStats').checked;
+            const maxVal = Math.max(...Object.values(cells));
+            const minVal = Math.min(...Object.values(cells).filter(v => v > 0));
+
+            let html = '<h3>Observed Frequencies</h3>';
+            html += '<table><thead><tr><th>' + labels.varLabels[rowVar] + ' \\ ' + labels.varLabels[colVar] + '</th>';
+            for (const cv of colVals) {
+                html += '<th>' + cv + ': ' + (labels.valLabels[`${colVar},${cv}`] || '') + '</th>';
+            }
+            html += '<th>Total</th></tr></thead><tbody>';
+
+            for (const rv of rowVals) {
+                html += '<tr><td><strong>' + rv + ': ' + (labels.valLabels[`${rowVar},${rv}`] || '') + '</strong></td>';
+                for (const cv of colVals) {
+                    const count = cells[`${rv},${cv}`] || 0;
+                    const pct = ((count/grandTotal)*100).toFixed(1);
+                    let bg = '';
+                    if (useColor && count > 0) {
+                        const ratio = maxVal > minVal ? (count-minVal)/(maxVal-minVal) : 0;
+                        const r = Math.round(255 - ratio*75);
+                        const g = Math.round(255 - ratio*255);
+                        const b = Math.round(255 - ratio*255);
+                        bg = `background: rgb(${r},${g},${b});`;
+                    }
+                    html += `<td class="cell-value" style="${bg} cursor: pointer;" title="${pct}%"
+                        data-row="${rv}" data-col="${cv}">
+                        <strong>${count}</strong></td>`;
+                }
+                html += `<td><strong>${rowTotals[rv]}</strong></td></tr>`;
+            }
+
+            html += '<tr><td><strong>Total</strong></td>';
+            for (const cv of colVals) {
+                html += `<td><strong>${colTotals[cv]}</strong></td>`;
+            }
+            html += `<td><strong>${grandTotal}</strong></td></tr></tbody></table>`;
+
+            // Add statistics if requested
+            if (showStats) {
+                html += generateStatistics(rowVar, colVar, rowVals, colVals, cells, rowTotals, colTotals, grandTotal);
+            }
+
+            document.getElementById('results').innerHTML = html;
+
+            // Add click handlers to cells after rendering
+            document.querySelectorAll('.cell-value').forEach(cell => {
+                cell.addEventListener('click', function() {
+                    const rowVal = parseInt(this.dataset.row);
+                    const colVal = parseInt(this.dataset.col);
+                    const cases = cellCases[`${rowVal},${colVal}`] || [];
+                    showCellDetail(rowVal, colVal, rowVar, colVar, cases);
+                });
+            });
+        }
+    </script>
+</body>
+</html>

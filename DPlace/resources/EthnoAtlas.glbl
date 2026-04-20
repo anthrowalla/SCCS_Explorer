@@ -1,0 +1,187 @@
+No.	Society	Date	Area	EA	OWC	Note	Focus
+1	Nama Hottentot	1860	102	Aa3	FX13	a	Gei/Khauan tribe
+2	Kung Bushmen	1950	1	Aa1	FX10	a	Nyai Nyae region
+3	Thonga	1865	104	Ab4	FT6	a	Ronga subtribe
+4	Lozi	1900	103	Ab3	FQ9	-a	Ruling Luyana
+5	Mbundu	1890	202	Ab5	FP13	a	Bailundo subtribe
+6	Suku	1920	731	Ac17			Feshi territory lineage center
+7	Bemba	1897	105	Ac3	FQ5	b	Zambia branch
+8	Nyakyusa	1934	208	Ad6	FN17	ba	Age villages of Mwaya and Masoko
+9	Hadza	1930	726	Aa9			Tribe
+10	Luguru	1925	704	Ad14			Morogoro District
+11	Kikuyu	1920	108	Ad3	FL10	a	Fort Hall or Metume District
+12	Ganda	1875	306	Ad7	FK7	a	Kyaddondo district (V: Kampala)
+13	Mbuti	1950	202	Aa5	FO4	-a	Epulu net-hunters; Ituri forest
+14	Nkundo Mongo	1930	110	Ae4	FO32	a	Ilanga group
+15	Banen	1935	830	Ae51			Ndiki subtribe
+16	Tiv	1920	116	Ah3	FF57	a	Tar of Benue Province
+17	Ibo	1935	643	Af10	FF26	-a	E. Isu-Ana group of South Ibo
+18	Fon	1890	10	Af1			City and environs of Abomey
+19	Ashanti	1895	111	Af3	FE12	a	Kumasi State
+20	Mende	1945	211	Af5	FC7	a	Vicinity of town of Bo
+21	Wolof	1950	21	Cb2	MS30	a	Upper and lower Salum in Gambia
+22	Bambara	1902	12	Ag1	FA8	a	Segou to Bamako on Niger River
+23	Tallensi	1934	114	Ag4	FE11	a	Tribe
+24	Songhai	1940	122	Cb3			Bamba division
+25	Pastoral Fulani	1951	1082	Cb24			Wodaabe of Niger
+26	Hausa	1900	1084	Cb26	MS12	b	Zazzagawa of Zaria
+27	Massa (Masa)	1910	646	Ai9			Around Yagoua in Cameroon
+28	Azande	1905	117	Ai3	FO7	a	Yambio Chiefdom
+29	Fur (Darfur)	1880	875	Cb17			Jebel Marra
+30	Otoro Nuba	1930	647	Ai10			Nuba Hills
+31	Shilluk	1910	218	Ai6	FJ23	a	Kingdom
+32	Mao	1939	1062	Ai47			Northern division
+33	Kaffa (Kafa)	1905	860	Ca30			Kingdom
+34	Masai	1900	119	Aj2	FL12	cb	Kisonko or S. Masai of Tanzania
+35	Konso	1935	18	Ca1			Town of Buso
+36	Somali	1900	19	Ca2	MO4	ca	Dolbahanta clan or subtribe
+37	Amhara	1953	679	Ca7	MP5	a	Gondar district
+38	Bogo	1855	867	Ca37			Tribe
+39	Kenuzi Nubians	1900	24	Cd1			Kenuzi Nubians of Dahmit
+40	Teda	1950	23	Cc2	MS22	-a	Nomads of Tibesti
+41	Tuareg	1900	880	Cc9	MS25	a	Ahaggaren tribe
+42	Riffians	1926	125	Cd3	MX3	b	Entirety: Moroccan
+43	Egyptians	1950	124	Cd2	MR13	a	Town and environs of Silwa
+44	Hebrews	-621	230	Cj3			Kingdom of Judea
+45	Babylonians	-1750	413	Cj4			City and environs of Babylon
+46	Rwala Bedouin	1913	132	Cj2	MD4	a	Unspecified
+47	Turks	1950	653	Ci5	MB1	ba	Northern Anatolian Plateau
+48	Gheg Albanians	1910	25	Ce1	EG1	a	Mountain Gheg of No. Albania
+49	Romans	110	126	Ce3	EI9	-b	City and environs of Rome
+50	Basques	1934	225	Ce4			Village of Vera de Bidasoa
+51	Irish	1932	128	Cg3	ER6	a	County Clare
+52	Sámi	1950	129	Cg4	EP4	a	Konkama District
+53	Yurak Samoyed	1894	136	Ec4	RU4	a	Tribe
+54	Russians	1955	1257	Ch11	RF1	c	Viriatino village
+55	Abkhaz	1880	1265	Ci12	RI3	b	Tribe
+56	Armenians	1843	912	Ci10	RJ1*	-	Vicinity of Erevan
+57	Kurd	1951	913	Ci11	MA11	ca	Town and environs of Rowanduz
+58	Basseri	1958	358	Ea6			Nomadic branch
+59	Punjabi (West)	1950	1258	Ea13			Mohla village
+60	Gond	1938	142	Eg3	AW32	a	Hill Maria
+61	Toda	1900	143	Eg4	AW60	a	Tribe
+62	Santal	1940	42	Ef1	AW42	-c	Bankura and Berghum Districts
+63	Uttar Pradesh	1945	1260	Ef11	AW19	c	Village and environs of Senapur
+64	Burusho	1934	139	Ee2	AV7	a	Hunza State
+65	Kazak	1885	35	Eb1	RQ2	b	Great Horde
+66	Khalka Mongols	1920	134	Eb3	AH7*	b	Narobanchin territory
+67	Lolo	1910	40	Ed2	AE4	cb	Liang Shan and Taliang Shan
+68	Lepcha	1937	140	Ee3	AK5	a	Lingthem and vicinity
+69	Garo	1955	47	Ei1	AR5	-a	Rengsanggri village
+70	Lakher	1930	147	Ei4			Tribe
+71	Burmese	1965	146	Ei3	AP1	c	Nondwin village
+72	Lamet	1940	49	Ej1			Tribe; Northwestern Laos
+73	Vietnamese	1930	149	Ej4	AM1	a	Red River Delta in Tonkin
+74	Rhade	1962	456	Ej10			Ko-Sier village
+75	Khmer	1292	248	Ej5	AM1	c	City of Angkor; Capital
+76	Siamese	1955	367	Ej9	AO7	c	Bang Chan village
+77	Semang	1925	148	Ej3	AN7	b	Jehai Group or subtribe
+78	Nicobarese	1870	244	Eh5			Car Nicobar of North Islands
+79	Andamanese	1860	45	Eh1	AZ2	a	Aka-Bea of South Andaman
+80	Vedda	1860	145	Eh4	AX5	a	Danigala Forest hunting group
+81	Tanala	1925	144	Eh3	FY8	b	Menabe subtribe
+82	Negri Sembilan	1958	1262	Eh16	AN1	c	Inas District
+83	Javanese	1954	54	Ib2	OE5	-a	Town and environs of Pare
+84	Balinese	1958	152	Ib3	OF7	c	Tihingan village
+85	Iban	1950	53	Ib1	OC6	a	Ulu Ai group
+86	Badjau	1963	1099	Ia13			Tawi-Tawi and adjacent islands
+87	Toradja	1910	254	Ic5	OG11	-a	Bare'e subgroup
+88	Tobelorese	1900	1118	Ic10			Tobelo District
+89	Alorese	1938	154	Ic2	OF5	a	Abui of Atimelang village
+90	Tiwi	1929	157	Id3	OI20	a	Tribe: Melville Island
+91	Aranda	1896	56	Id1	OI8	a	Alice Springs and environs
+92	Orokaiva	1925	457	Ie9	OJ23	a	Aiga subtribe
+93	Kimam	1960	1101	Ie18			Bamol village
+94	Kapauku	1955	57	Ie1	OJ29	cb	Botukebo village
+95	Kwoma	1960	655	Ie12	OJ13	-b	Hongwam subtribe
+96	Manus	1937	373	Ig9	OM6	a	Peri village
+97	New Ireland	1930	163	Ig4	OM10	a	Lesu village
+98	Trobrianders	1914	62	Ig2	OL6	a	Kiriwina Island
+99	Siuai	1939	61	Ig1			Northeastern group
+100	Tikopia	1930	66	Ii2	OT11	a	Ravenga District
+101	Pentecost	1953	164	Ih3			Bunlap village
+102	Mbau Fijians	1840	1267	Ih14			Bau Chiefdom; Vanua Levu
+103	Ajie	1845	263	Ih5			Neje Chiefdom
+104	Maori	1820	167	Ij2	OZ4	cb	Nga Puhi Tribe
+105	Marquesans	1800	168	Ij3	OX6	c	Te-i'i Chiefdom S.W. Nuku Hiva
+106	Western Samoans	1829	1263	Iil4	OU8	b	Aana in Western Upolu Island
+107	Gilbertese	1890	633	If4			Makin and Butiritari Islands (N)
+108	Marshallese	1900	1266	Ih14	OR11	a	Jaluit Atoll
+109	Trukese	1947	60	If2	OR19	b	Romonum Island
+110	Yapese	1910	260	If6	OR22	a	Island
+111	Palauans	1947	59	If1			Ulimang village
+112	Ifugao	1910	150	Ia3	OA19	ba	Kiangan group
+113	Atayal	1930	51	Ia1	AD1	c	Tribe (excluding Sedeq)
+114	Chinese	1936	1259	Ed15	AF1	a	Kaihsienkung village; Chekiang
+115	Manchu	1915	137	Ed3	AG1	a	Aigun District
+116	Koreans	1947	39	Ed1	AA1	a	Kanghwa Island
+117	Japanese	1950	237	Ed5	AB43	-a	Southern Okayama
+118	Ainu	1880	325	Ec7	AB6	cb	Saru Basin in Hokkaido
+119	Gilyak	1890	37	Ec1	RX2	a	Sakhalin Island
+120	Yukaghir	1850	236	Ec6			Upper Kolyma River
+121	Chukchee	1900	135	Ec3	RY2	a	Reindeer division
+122	Ingalik	1885	377	Na8			Shageluk village
+123	Aleut	1800	458	Na9	NA6	a	Unalaska branch
+124	Copper Eskimo	1915	169	Na3	ND8	a	Coronation Gulf
+125	Montagnais	1910	495	Na32	NH6	a	Lake St. John & Mistassahi band
+126	Micmac	1650	504	Na41	NJ5	ba	Mainland division
+127	Saulteaux	1930	496	Na33	NG6	b	Berens River band
+128	Slave	1940	466	Na17			Lynx Point band
+129	Kaska	1900	170	Na4	ND12	a	Upper Liard River group
+130	Eyak	1890	270	Nb5			Tribe
+131	Haida	1875	70	Nb1			Masset town
+132	Bellacoola	1880	471	Nb9	NE6	a	Central group; lower B.C. River
+133	Twana	1860	71	Nb2			Tribe
+134	Yurok	1850	172	Nb4	NS31	b	Tsurai village
+135	Pomo (Eastern)	1850	533	Nc18	NS18	a	Clear Lake; village of Cignon
+136	Yokuts (Lake)	1850	539	NC24	NS29	a	Tulare Lake
+137	Paiute (North.)	1870	564	Nd22	NR13	a	Wadadika of Harney Valley
+138	Klamath	1860	523	Nc8	NR10	-a	Tribe
+139	Kutenai	1890	380	Nd7			Lower or eastern branch
+140	Gros Ventre	1880	75	Ne1	NQ13	a	Tribe
+141	Hidatsa	1836	622	Ne15			Village
+142	Pawnee	1867	342	Nf6	NQ18	ca	Skidi band or subtribe
+143	Omaha	1860	179	Nf3	NQ12	ba	Tribe
+144	Huron	1634	79	Ng1			Bear and Cord subtribes
+145	Creek	1800	180	Ng3	NN11	cb	Upper division in Alabama
+146	Natchez	1718	385	Ng7			Kingdom
+147	Comanche	1870	177	Ne3	NO6	a	Tribe
+148	Chiricahua	1870	81	Nh1	NT8	-a	Central band
+149	Zuni	1880	183	Nh4	NT23	a	Pueblo
+150	Havasupai	1918	175	Nd3	NT14	a	Tribe
+151	Papago	1910	184	Ni2	NU28	a	Archie division
+152	Huichol	1890	282	Ni3			Tribe
+153	Aztec	1520	185	Nj2	NU7	ba	City & environs of Tenochtitlan
+154	Popoluca	1940	284	Nj3			Town and environs of Soteapan
+155	Quiche	1930	1166	Sa13			Town of Chichicastenango
+156	Miskito	1921	390	Sa9	SA15	b	Vicinity: Cape Gracias a Dios
+157	Bribri	1917	287	Sa5	SA19	a	Tribe
+158	Cuna (Tule)	1927	85	Sa1	SB5	a	San Blas Archipelago
+159	Goajiro	1947	391	Sb6	SC13	a	Tribe
+160	Haitians	1935	1237	Sb9	SV3	b	Town of Mirebalais
+161	Callinago	1650	87	Sb1	ST13	a	Dominica Island
+162	Warrau	1935	88	Sc1	SS18	a	Winikina of Orinoco Delta
+163	Yanomamo	1965	1264	Sd9	SQ18	-b	Shamatari tribe
+164	Carib (Barama)	1932	189	Sc3	SR9	a	Barama River
+165	Saramacca	1928	392	Sc6	SR8	ab	Upper Suriname River
+166	Mundurucu	1850	90	Sd1	SQ13	ba	Cabrua village
+167	Cubeo (Tucano)	1939	293	Se5	SQ19	-a	Village on Caduiari River
+168	Cayapa	1908	194	Sf3	SD6	a	Rio Cayapas Basin
+169	Jivaro	1920	191	Se3	SD9	a	Tribe
+170	Amahuaca	1960	634	Se8			Upper Inuya River
+171	Inca	1530	93	Sf1	SE13	b	City and environs of Cuzco
+172	Aymara	1940	193	Sf2	SF5	a	Chucuito clan community in Peru
+173	Siriono	1942	91	Se1	SF21	a	Vicinity of the Rio Blanco
+174	Nambicuara	1940	198	Si4	SP17	a	Cocozu Group
+175	Trumai	1938	98	Si2	SP23	-a	Village of Vanivani
+176	Timbira	1915	200	Sj4	SO8	b	Ramcocamecra or Canella
+177	Tupinamba	1550	400	Sj8	SO9	a	Hinterland of Rio de Janeiro
+178	Botocudo	1884	299	Sj5			Naknenuk subtribe
+179	Shavante	1958	1184	Sj11			Village of Sao Domingo
+180	Aweikoma	1932	199	Sj3	SM3	-a	Duque de Caxias Reservation
+181	Cayua	1890	1170	Sj10	SM4	-c	S. Mato Grosso & adj. Paraguay
+182	Lengua	1889	1168	Sh9			Those in contact with mission
+183	Abipon	1750	196	Sh3	SI4	a	Those in contact with mission
+184	Mapuche	1950	195	Sg2	SG4	ca	Vicinity of Temuco
+185	Tehuelche	1870	349	Sg4	SH5	a	Equestrian
+186	Yahgan	1865	94	Sg1	SH6	ba	Eastern and central
