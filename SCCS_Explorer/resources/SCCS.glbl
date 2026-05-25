@@ -1,0 +1,200 @@
+#! /bin/sh
+exec nawk '
+BEGIN {FS="	"}
+$1 != "" {group[$1] = $0 }
+END {
+	if (lookup != "") {
+		nl = split(lookup,glist,",")
+		for(i=1;i<=nl;i++) {
+			printf("%s\n",group[glist[i]]);
+		}
+	}
+}
+'	  lookup="$1"  <<EOF
+1	Nama	1860	-27.5	17
+2	!Kung	1950	-19.83	20.58
+3	Tsonga	1895	-25.83	32.33
+4	Lozi	1900	-16	23.5
+5	Mbundu	1890	-12.25	16.5
+6	Suku	1920	-6	18
+7	Bemba	1897	-10.5	30.5
+8	Nyakyusa	1934	-9.5	34
+9	Hadza	1930	-3.75	35.18
+10	Luguru	1925	-6.83	37.67
+11	Kikuyu	1920	-0.67	37.17
+12	Ganda	1875	0.33	32.5
+13	Mbuti	1950	1.5	28.33
+14	Nkundo	1930	-0.75	19.17
+15	Banen	1935	4.67	10.8
+16	Tiv	1920	7.25	9
+17	Igbo	1935	5.5	7.33
+18	Fon	1890	7.2	1.91
+19	Ashanti	1895	7	-1.5
+20	Mende	1945	7.83	-12
+21	Wolof	1950	13.75	-15.33
+22	Bambara	1902	12.5	-7
+23	Tallensi	1934	10.66	-0.57
+24	Songhai	1940	16.58	-1.67
+25	Wodaabe Fulani	1951	15	7.5
+26	Zazzagawa Hausa	1900	10.5	7.5
+27	Masa	1910	10.5	15.5
+28	Azande	1905	5.08	28.25
+29	Fur	1880	13.5	25.5
+30	Otoro	1930	11.33	30.67
+31	Shilluk	1910	9.75	31.5
+32	Mao	1939	9.27	34.67
+33	Kafa	1905	7.27	36.5
+34	Maasi	1900	-3.5	36.75
+35	Konso	1935	5.25	37.5
+36	Somali (Dolbahanta)	1900	9	47.25
+37	Amhara	1953	12.5	37.75
+38	Blin	1855	15.75	38.75
+39	Barabra	1900	23	39.11
+40	Teda	1950	20.5	17.5
+41	Tuareg Ahaggar	1900	23	6.5
+42	Riffians	1926	34.92	-3.25
+43	Egyptians	1950	24.75	33
+44	Hebrews	-621	31.18	34.92
+45	Babylonians	-1750	32.58	44.75
+46	Rwala	1913	33.25	38.5
+47	Turks	1950	39.33	34.25
+48	Gheg	1910	42	20.17
+49	Ancient Romans	110	41.67	13.5
+50	Spanish Basques	1934	43.25	-1.67
+51	Irish	1932	53.5	-10
+52	Sami	1950	68.7	21.5
+53	Yurak-Samoyeds	1894	68	51.5
+54	Russians	1955	52.67	41.33
+55	Abkhaz	1880	43.13	40.77
+56	Armenians	1843	40	44.5
+57	Kurd	1951	36.5	44.5
+58	Basseri	1958	29	53
+59	Punjabi	1950	32.5	74
+60	Madia	1938	19.63	80.92
+61	Toda	1900	11.5	76.5
+62	Santal	1940	23.5	87.17
+63	Uttar Pradesh	1945	25.92	83
+64	Burusho	1934	36.43	74.58
+65	Kazakh	1885	42.5	75.5
+66	Khalka	1920	47.17	96.08
+67	Lolo	1910	27.5	103.5
+68	Lepcha	1937	27.5	89
+69	Garo	1955	26	91
+70	Maras	1930	22.33	93
+71	Burmese	1965	22	95.67
+72	Lamet	1940	20	100.67
+73	Annamese	1930	20.5	106.25
+74	Rade	1962	13	108
+75	Ancient Khmer	1292	13	103.83
+76	Thai	1955	14	100.85
+77	Semang	1925	5	101.25
+78	Nicobarese	1870	7	93.75
+79	Andamanese	1860	12	93
+80	Vedda	1860	7.75	81.25
+81	Tanala	1925	-22	48
+82	Negri Sembilan	1958	2.58	102.25
+83	Javanese	1954	-7.7	112.22
+84	Balinese	1958	-8.5	115.33
+85	Iban	1950	2	113
+86	Badjau Tawi-Tawi	1963	5	120
+87	Toradja	1910	-2	121
+88	Tobelorese	1900	2	127.94
+89	Alorese	1938	-8.33	124.67
+90	Tiwi	1929	-11.38	131
+91	Northern Aranda	1896	-24.25	133.5
+92	Orokaiva	1925	-8.5	148
+93	Kimam	1960	-7.5	138.5
+94	Mee	1955	-4	136
+95	Kwoma	1937	-4.17	142.67
+96	Manus	1929	-2.17	147.17
+97	Lesu	1930	-2.71	151
+98	Trobriands	1914	-8.54	151.01
+99	Siuai	1939	-6.76	155.45
+100	Tikopia	1930	-12.29	168.83
+101	Bunlap	1953	-15.95	168.22
+102	Mbau Fijians	1840	-18	178.58
+103	Ajie	1845	-21.33	165.67
+104	Māori	1820	-35.33	174.17
+105	Marquesans	1800	-8.92	-140.17
+106	Upolu Samoans	1829	-13.94	-171.77
+107	Makin	1890	3.38	172.99
+108	Marshallese - Jaluit Atoll	1900	6.28	169.49
+109	Trukese	1947	7.34	151.6
+110	Yapese	1910	9.52	138.16
+111	Palauans	1947	7.5	134.5
+112	Ifugao	1910	16.83	121.17
+113	Atayal	1930	24.33	120.75
+114	Chekiang	1936	31	120.08
+115	Manchu	1915	50	125.5
+116	Koreans	1947	37.6	126.42
+117	Japanese	1950	34.67	133.67
+118	Ainu	1880	42.83	143
+119	Nivkh	1890	53	142
+120	Yukaghir	1850	64.75	153.5
+121	Chukchi	1900	66.5	179.6
+122	Deg Xit'an	1885	62.5	-159.5
+123	Aleut	1824	55	-162.85
+124	Copper Inuit	1915	68.72	-112.53
+125	Montagnais	1910	50	-74
+126	Mi'kmaq	1650	46.99	-65
+127	Northern Saulteaux	1930	52	-95.5
+128	DeneTha	1940	62	-122
+129	Kaska	1900	60	-131
+130	Eyak	1890	60.5	-145
+131	Haida	1875	54	-132.5
+132	Nuxalk	1880	52.33	-126.5
+133	Twana	1860	47.43	-123.25
+134	Yurok	1850	41.5	-124
+135	Eastern Pomo	1850	39	-123
+136	Southern Valley Yokuts	1850	35	-119.5
+137	Wadadokado	1870	43.5	-119
+138	Klamath	1860	42.63	-121.67
+139	Kutenai	1890	49	-116.67
+140	Gros Ventre	1880	48	-108
+141	Hidatsa	1836	47	-101
+142	Pawnee	1867	42	-100
+143	Omaha	1860	41.43	-96.5
+144	Huron	1634	44.5	-79
+145	Muscogee	1800	32.93	-86
+146	Natchez	1718	31.5	-91.42
+147	Comanche	1870	34	-101.5
+148	Chiricahua	1870	32	-109.5
+149	Zuni	1880	35.67	-108.75
+150	Havasupai	1918	35.83	-112.17
+151	Tohono O'odham	1910	32	-112
+152	Huichol	1890	22	-105
+153	Aztec	1520	19	-99.17
+154	Sierra Popoluca	1940	18.25	-94.83
+155	K'iche'	1930	15	-91
+156	Miskito	1921	15.16	-84.29
+157	Bribri	1917	9	-83.25
+158	Guna	1927	9.25	-78.5
+159	Wayuu	1947	11.92	-71.75
+160	Haitians	1935	18.83	-72.17
+161	Callinago	1650	15.41	-61.27
+162	Warao	1935	9.08	-62
+163	Yanomami	1965	2.42	-65
+164	Barama River Carib	1932	7.42	-60.17
+165	Saramaccan 	1928	3.5	-55.75
+166	Munduruku	1850	-6.5	-56.5
+167	Cubeo	1939	1.25	-70.5
+168	Chachi	1908	1	-79
+169	Shuar	1920	-3	-78
+170	Amahuaca	1960	-10.33	-72.25
+171	Inca	1530	-13.5	-72
+172	Aymara	1940	-16	-65.75
+173	Sirionó	1942	-14.5	-63.5
+174	Nambikwara	1940	-13	-58.75
+175	Trumai	1938	-11.83	-53.67
+176	Canela	1915	-6.5	-46
+177	Tupinambá	1550	-22.79	-44.5
+178	Aimoré	1884	-19	-42.5
+179	Shavante	1958	-13.5	-51.5
+180	Aweikoma	1932	-28	-50
+181	Cayua	1890	-23.5	-55
+182	Lengua	1889	-23	-58.5
+183	Abipón	1750	-28	-59.5
+184	Mapuche	1950	-38.5	-72.58
+185	Tehuelche	1870	-40.5	-68
+186	Yahgan	1865	-55.5	-69.5
+EOF

@@ -56,6 +56,8 @@ These files will be needed as the project progresses (e.g. for enhanced variable
 - **EthnoAtlas.glbl** - Society names, years, areas, classifications (tab-separated)
 - **EthnoAtlas.cases** - Detailed society information (optional)
 
+**Note:** The SCCS_Explorer/resources data files are hard-linked to their counterparts in DPlace/resources. Editing one will modify the other.
+
 ### Key Architectural Patterns
 
 1. **Variable numbering is 1-indexed** - The original data format uses 1-based indexing for variables. DataParser converts to 0-indexed internally but other modules expect 1-indexed variable numbers.

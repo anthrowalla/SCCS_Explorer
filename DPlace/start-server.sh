@@ -8,4 +8,4 @@ echo "Press Ctrl+C to stop the server"
 echo ""
 
 cd "$(dirname "$0")"
-python3 -m http.server 8000
+python3 -m http.server 8011
