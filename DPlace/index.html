@@ -20,16 +20,14 @@
                     <div class="form-row">
                         <div class="form-group">
                             <label for="row-var" class="row-var-label">Row Variable:</label>
-                            <select id="row-var" name="rowVar" required>
-                                <option value="">Select variable...</option>
-                            </select>
+                            <input type="text" id="row-var" readonly placeholder="Click to select..."
+                                   class="var-picker-input" data-slot="row" data-var-num="">
                         </div>
 
                         <div class="form-group">
                             <label for="col-var">Column Variable:</label>
-                            <select id="col-var" name="colVar" required>
-                                <option value="">Select variable...</option>
-                            </select>
+                            <input type="text" id="col-var" readonly placeholder="Click to select..."
+                                   class="var-picker-input" data-slot="col" data-var-num="">
                         </div>
                     </div>
 
@@ -103,7 +101,7 @@
         </main>
 
         <footer>
-            <p>Based on the Ethnographic Atlas - <span id="case-count">Loading...</span> societies</p>
+            <p>The Standard Cross Cultural Sample. G. P. Murdock and Douglas R. White, 1969. Standard cross-cultural sample. <em>Ethnology</em>, 8(4), pp.329&ndash;369. Individual variable citations are available when selecting variables.</p>
         </footer>
     </div>
 

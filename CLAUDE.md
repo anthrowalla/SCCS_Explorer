@@ -55,8 +55,11 @@ These files will be needed as the project progresses (e.g. for enhanced variable
 - **EthnoAtlas.lbl** - Variable definitions and value labels in AWK script format
 - **EthnoAtlas.glbl** - Society names, years, areas, classifications (tab-separated)
 - **EthnoAtlas.cases** - Detailed society information (optional)
+- **SCCS.data** - SCCS data matrix (hard-linked from DPlace/resources)
+- **SCCS.glbl** - SCCS society metadata (hard-linked from DPlace/resources)
+- **SCCS.lbl** - SCCS variable definitions and value labels (hard-linked from DPlace/resources)
 
-**Note:** The SCCS_Explorer/resources data files are hard-linked to their counterparts in DPlace/resources. Editing one will modify the other.
+**Note:** The SCCS.* data files in SCCS_Explorer/resources are hard-linked to their counterparts in DPlace/resources. Editing one will modify the other.
 
 ### Key Architectural Patterns
 

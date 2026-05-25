@@ -9,6 +9,12 @@ export class LabelParser {
         this.variableLabels = {};      // varNum -> variable name
         this.valueLabels = {};          // "varNum,valueCode" -> label text
         this.variableDescriptions = {}; // varNum -> full description
+        this.varCategories = {};        // varNum -> category string
+        this.varTypes = {};             // varNum -> type string (Categorical/Ordinal)
+        this.varDefinitions = {};       // varNum -> description text
+        this.varCitations = {};         // varNum -> bibliographic citation
+        this.varSources = {};           // varNum -> source citation code
+        this.varSccsNums = {};          // varNum (sequential) -> original SCCS number
     }
 
     /**
@@ -137,7 +143,7 @@ export class LabelParser {
 
     /**
      * Get all variable labels
-     * Returns an array of {number, name} objects
+     * Returns an array of {number, name, sccsNum} objects
      */
     getAllVariables() {
         const variables = [];
@@ -145,7 +151,8 @@ export class LabelParser {
         for (const [num, name] of Object.entries(this.variableLabels)) {
             variables.push({
                 number: parseInt(num, 10),
-                name: name
+                name: name,
+                sccsNum: this.varSccsNums[num] || num
             });
         }
 
@@ -179,6 +186,102 @@ export class LabelParser {
             }
         }
         return false;
+    }
+
+    /**
+     * Load and parse SCCS.varinfo — tab-separated variable metadata
+     */
+    async loadVarInfo(filePath) {
+        try {
+            const response = await fetch(filePath);
+            if (!response.ok) {
+                throw new Error(`Failed to load varinfo file: ${response.statusText}`);
+            }
+            const text = await response.text();
+            return this.parseVarInfo(text);
+        } catch (error) {
+            console.error('Error loading varinfo:', error);
+            throw error;
+        }
+    }
+
+    /**
+     * Parse tab-separated varinfo text
+     */
+    parseVarInfo(text) {
+        const lines = text.split('\n');
+        for (const line of lines) {
+            const trimmed = line.trim();
+            if (!trimmed) continue;
+            const parts = trimmed.split('\t');
+            if (parts.length >= 4) {
+                const num = parseInt(parts[0], 10);
+                this.varSccsNums[num] = parts[1];
+                this.varCategories[num] = parts[2];
+                this.varTypes[num] = parts[4];
+                this.varDefinitions[num] = parts[5] || '';
+                this.varCitations[num] = parts[6] || '';
+                this.varSources[num] = parts[7] || '';
+            }
+        }
+        return {
+            varCategories: this.varCategories,
+            varTypes: this.varTypes,
+            varDefinitions: this.varDefinitions,
+            varCitations: this.varCitations,
+            varSources: this.varSources,
+            varSccsNums: this.varSccsNums
+        };
+    }
+
+    /**
+     * Get the category for a variable
+     */
+    getCategory(varNum) {
+        return this.varCategories[varNum] || '';
+    }
+
+    /**
+     * Get the type for a variable (Categorical/Ordinal)
+     */
+    getType(varNum) {
+        return this.varTypes[varNum] || '';
+    }
+
+    /**
+     * Get the definition snippet for a variable
+     */
+    getDefinition(varNum) {
+        return this.varDefinitions[varNum] || '';
+    }
+
+    /**
+     * Get sorted list of unique categories
+     */
+    getCategories() {
+        const cats = new Set(Object.values(this.varCategories));
+        return [...cats].filter(c => c).sort();
+    }
+
+    /**
+     * Get the original SCCS number for a variable (e.g. 860 for column 860)
+     */
+    getSccsNum(varNum) {
+        return this.varSccsNums[varNum] || String(varNum);
+    }
+
+    /**
+     * Get the bibliographic citation for a variable
+     */
+    getCitation(varNum) {
+        return this.varCitations[varNum] || '';
+    }
+
+    /**
+     * Get the source citation code for a variable
+     */
+    getSource(varNum) {
+        return this.varSources[varNum] || '';
     }
 }
 

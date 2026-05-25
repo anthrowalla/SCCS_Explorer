@@ -13,6 +13,7 @@ Output (to resources/):
   - SCCS.data     (186 rows x N cols, space-separated)
   - SCCS.lbl      (AWK heredoc format, compatible with labelParser.js)
   - SCCS.glbl     (tab-separated society info, compatible with societyLookup.js)
+  - SCCS.varinfo  (tab-separated variable metadata: category, title, type, definition)
   - badata.dat    (anomaly report)
 """
 
@@ -46,20 +47,26 @@ def parse_societies():
 
 
 def parse_variables():
-    """Parse variables.csv -> ordered list of var_ids (SCCS1..SCCS2002)."""
+    """Parse variables.csv -> ordered dict of var_id -> {title, category, type, definition}."""
     path = os.path.join(DATA_DIR, 'variables.csv')
-    var_titles = OrderedDict()
+    var_meta = OrderedDict()
     with open(path, newline='', encoding='utf-8') as f:
         for row in csv.DictReader(f):
             var_id = row['id']  # e.g. 'SCCS1'
-            var_titles[var_id] = row['title']
+            var_meta[var_id] = {
+                'title': row['title'],
+                'category': row['category'],
+                'type': row['type'],
+                'definition': row['definition'],
+                'source': row['source'],
+            }
     # Sort by numeric part
     def var_sort_key(item):
         v = item[0]
         # Handle sub-variables like SCCS1805.1
         parts = v.replace('SCCS', '').split('.')
         return (int(parts[0]), int(parts[1]) if len(parts) > 1 else 0)
-    return OrderedDict(sorted(var_titles.items(), key=var_sort_key))
+    return OrderedDict(sorted(var_meta.items(), key=var_sort_key))
 
 
 def find_sub_variables():
@@ -158,7 +165,56 @@ def write_data_matrix(data, societies, all_var_ids, out_path):
             f.write(' '.join(row_vals) + '\n')
 
 
-def write_labels(var_titles, codes, all_var_ids, out_path):
+def write_varinfo(var_meta, all_var_ids, out_path):
+    """
+    Write SCCS.varinfo: tab-separated variable metadata for the web picker.
+
+    Columns: col  sccs_num  category  title  type  description  citation  source
+    col = sequential column number (1-based, matches SCCS.data column position)
+    sccs_num = original SCCS variable number (e.g. 860 from SCCS860)
+    """
+    col_map = {}
+    for i, var_id in enumerate(all_var_ids, 1):
+        col_map[var_id] = i
+
+    with open(out_path, 'w', encoding='utf-8') as f:
+        for var_id in all_var_ids:
+            col = col_map[var_id]
+            # Extract original SCCS number (e.g. SCCS860 -> 860, SCCS1805.3 -> 1805.3)
+            sccs_num = var_id.replace('SCCS', '')
+            info = var_meta.get(var_id, {})
+            title = info.get('title', var_id)
+            category = info.get('category', '')
+            vtype = info.get('type', '')
+            raw_def = info.get('definition', '').replace('\t', ' ')
+            source = info.get('source', '')
+
+            # Split definition into description and citation.
+            # Citations follow Author (Year). Title. Journal pattern.
+            # They appear at the end, separated by blank lines (\n\n or \r\n\r\n).
+            # Normalize line endings, then split on the last double-newline
+            # before what looks like a citation.
+            normalized = raw_def.replace('\r\n', '\n')
+            parts = normalized.rsplit('\n\n', 1)
+
+            if len(parts) == 2 and re.match(r'[A-Z]', parts[1].strip()):
+                # Last part looks like a citation (starts with capital letter after blank line)
+                description = parts[0].replace('\n', ' ').strip()
+                citation = parts[1].replace('\n', ' ').strip()
+            else:
+                # No clear split — check if the whole thing looks like a citation
+                # (starts with an author name pattern like "Murdock, G. P.")
+                if re.match(r'^[A-Z][a-z]+,?\s+[A-Z]\.', normalized.strip()):
+                    description = ''
+                    citation = normalized.replace('\n', ' ').strip()
+                else:
+                    description = normalized.replace('\n', ' ').strip()
+                    citation = ''
+
+            f.write(f"{col}\t{sccs_num}\t{category}\t{title}\t{vtype}\t{description}\t{citation}\t{source}\n")
+
+
+def write_labels(var_meta, codes, all_var_ids, out_path):
     """
     Write SCCS.lbl in AWK heredoc format compatible with labelParser.js.
 
@@ -215,8 +271,9 @@ def write_labels(var_titles, codes, all_var_ids, out_path):
         # Variable definitions
         for var_id in all_var_ids:
             col = col_map[var_id]
-            title = var_titles.get(var_id, var_id)
-            # For sub-variables, append sub indicator to title
+            info = var_meta.get(var_id, {})
+            title = info.get('title', var_id)
+            # For sub-variables, append sub indicator
             if '.' in var_id:
                 sub_num = var_id.split('.')[1]
                 title = f"{title} [sub {sub_num}]"
@@ -316,8 +373,8 @@ def main():
 
     # Step 2: Parse variables
     print("2. Parsing variables.csv...")
-    var_titles = parse_variables()
-    print(f"   {len(var_titles)} variables found")
+    var_meta = parse_variables()
+    print(f"   {len(var_meta)} variables found")
 
     # Step 3: Find sub-variables
     print("3. Scanning for sub-variables...")
@@ -325,15 +382,21 @@ def main():
     print(f"   {len(sub_vars)} sub-variables found: {sub_vars}")
 
     # Build combined variable list: main vars sorted numerically, then sub-vars
-    all_var_ids = list(var_titles.keys())
+    all_var_ids = list(var_meta.keys())
     # Add sub-variables that aren't already in the list
     for sv in sub_vars:
-        if sv not in var_titles:
-            # Sub-vars don't appear in variables.csv - use ID as title
+        if sv not in var_meta:
+            # Sub-vars don't appear in variables.csv - use parent metadata
             parent = sv.split('.')[0]
             sub_num = sv.split('.')[1]
-            parent_title = var_titles.get(parent, parent)
-            var_titles[sv] = f"{parent_title} (sub {sub_num})"
+            parent_info = var_meta.get(parent, {})
+            var_meta[sv] = {
+                'title': f"{parent_info.get('title', parent)} (sub {sub_num})",
+                'category': parent_info.get('category', ''),
+                'type': parent_info.get('type', ''),
+                'definition': parent_info.get('definition', ''),
+                'source': parent_info.get('source', ''),
+            }
             all_var_ids.append(sv)
 
     # Re-sort: main vars by number, sub-vars after their parent
@@ -362,16 +425,21 @@ def main():
     # Step 7: Write SCCS.lbl
     lbl_path = os.path.join(OUT_DIR, 'SCCS.lbl')
     print(f"7. Writing {lbl_path}...")
-    write_labels(var_titles, codes, all_var_ids, lbl_path)
+    write_labels(var_meta, codes, all_var_ids, lbl_path)
 
     # Step 8: Write SCCS.glbl
     glbl_path = os.path.join(OUT_DIR, 'SCCS.glbl')
     print(f"8. Writing {glbl_path}...")
     write_societies(societies, glbl_path)
 
-    # Step 9: Write anomaly report
+    # Step 9: Write SCCS.varinfo
+    varinfo_path = os.path.join(OUT_DIR, 'SCCS.varinfo')
+    print(f"9. Writing {varinfo_path}...")
+    write_varinfo(var_meta, all_var_ids, varinfo_path)
+
+    # Step 10: Write anomaly report
     report_path = os.path.join(OUT_DIR, 'badata.dat')
-    print(f"9. Writing {report_path}...")
+    print(f"10. Writing {report_path}...")
     write_anomaly_report(anomaly_info, sub_vars, report_path)
 
     # Verification
@@ -385,7 +453,7 @@ def main():
     print(f"  SCCS.data columns: {len(first_row)} (expect {len(all_var_ids)})")
 
     # File sizes
-    for fname in ['SCCS.data', 'SCCS.lbl', 'SCCS.glbl', 'badata.dat']:
+    for fname in ['SCCS.data', 'SCCS.lbl', 'SCCS.glbl', 'SCCS.varinfo', 'badata.dat']:
         fpath = os.path.join(OUT_DIR, fname)
         size = os.path.getsize(fpath)
         print(f"  {fname}: {size:,} bytes")

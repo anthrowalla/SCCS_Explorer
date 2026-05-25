@@ -7,6 +7,7 @@ import DataParser from './dataParser.js';
 import LabelParser from './labelParser.js';
 import CrosstabEngine from './crosstab.js';
 import SocietyLookup from './societyLookup.js';
+import VariablePicker from './variablePicker.js';
 
 class EthnoAtlasApp {
     constructor() {
@@ -19,13 +20,19 @@ class EthnoAtlasApp {
         this.mergeEnabled = false;
         this.rowMergeMap = {};
         this.colMergeMap = {};
+        this.picker = null;
+
+        // Selected variable state
+        this.selectedRowVar = null;
+        this.selectedColVar = null;
 
         // Configuration - paths relative to the HTML file
         this.config = {
-            dataFile: 'resources/EthnoAtlas.data',
-            labelFile: 'resources/EthnoAtlas.lbl',
+            dataFile: 'resources/SCCS.data',
+            labelFile: 'resources/SCCS.lbl',
             casesFile: 'resources/EthnoAtlas.cases',
-            societyFile: 'resources/EthnoAtlas.glbl'
+            societyFile: 'resources/SCCS.glbl',
+            varInfoFile: 'resources/SCCS.varinfo'
         };
 
         this.init();
@@ -43,12 +50,14 @@ class EthnoAtlasApp {
             console.log('  ', this.config.dataFile);
             console.log('  ', this.config.labelFile);
             console.log('  ', this.config.societyFile);
+            console.log('  ', this.config.varInfoFile);
 
             // Load all data
-            const [dataResult, labelsResult, societiesResult] = await Promise.allSettled([
+            const [dataResult, labelsResult, societiesResult, varInfoResult] = await Promise.allSettled([
                 this.dataParser.loadData(this.config.dataFile),
                 this.labelParser.loadLabels(this.config.labelFile),
-                this.societyLookup.loadSocieties(this.config.societyFile)
+                this.societyLookup.loadSocieties(this.config.societyFile),
+                this.labelParser.loadVarInfo(this.config.varInfoFile)
             ]);
 
             // Check for errors
@@ -56,6 +65,7 @@ class EthnoAtlasApp {
             if (dataResult.status === 'rejected') errors.push(`Data file: ${dataResult.reason.message}`);
             if (labelsResult.status === 'rejected') errors.push(`Label file: ${labelsResult.reason.message}`);
             if (societiesResult.status === 'rejected') errors.push(`Society file: ${societiesResult.reason.message}`);
+            if (varInfoResult.status === 'rejected') errors.push(`VarInfo file: ${varInfoResult.reason.message}`);
 
             if (errors.length > 0) {
                 throw new Error('Failed to load data files:\n' + errors.join('\n'));
@@ -76,25 +86,34 @@ class EthnoAtlasApp {
             // Initialize crosstab engine
             this.crosstabEngine = new CrosstabEngine(this.dataParser, this.labelParser);
 
-            // Update case count in footer
-            const caseCount = this.dataParser.getCaseCount();
-            document.getElementById('case-count').textContent = caseCount;
-
-            // Populate variable dropdowns
-            this.populateVariableSelects();
+            // Initialize variable picker
+            this.picker = new VariablePicker(this.labelParser, this.dataParser, (slot, varNum) => {
+                this.onVariableSelected(slot, varNum);
+            });
 
             // Set up event listeners
             this.setupEventListeners();
 
             this.hideLoading();
             console.log('Initialization complete!');
-            console.log(`Loaded ${caseCount} societies with ${this.dataParser.getVariableCount()} variables`);
+            console.log(`Loaded ${this.dataParser.getCaseCount()} societies with ${this.dataParser.getVariableCount()} variables`);
+            console.log(`Categories: ${this.labelParser.getCategories().join(', ')}`);
 
         } catch (error) {
             this.hideLoading();
             console.error('Error during initialization:', error);
             this.showErrorDetailed(error);
         }
+    }
+
+    onVariableSelected(slot, varNum) {
+        if (slot === 'row') {
+            this.selectedRowVar = varNum;
+        } else {
+            this.selectedColVar = varNum;
+        }
+        this.picker.setSelected(slot, varNum);
+        this.updateVariableInfo();
     }
 
     showLoading(message) {
@@ -125,41 +144,22 @@ class EthnoAtlasApp {
                 <ol>
                     <li><strong>Use a local web server</strong> - Browsers block file:// access for security.
                         <ul>
-                            <li>From the js/ directory, run: <code>python3 -m http.server 8000</code></li>
-                            <li>Or: <code>npx http-server -p 8000</code></li>
+                            <li>From the DPlace/ directory, run: <code>python3 -m http.server 8000</code>
                             <li>Then open: http://localhost:8000</li>
                         </ul>
                     </li>
-                    <li><strong>Check file locations</strong> - The data files should be in the parent directory:
+                    <li><strong>Check file locations</strong> - The data files should be in resources/:
                         <ul>
-                            <li>../EthnoAtlas.data</li>
-                            <li>../EthnoAtlas.lbl</li>
-                            <li>../EthnoAtlas.glbl</li>
+                            <li>resources/SCCS.data</li>
+                            <li>resources/SCCS.lbl</li>
+                            <li>resources/SCCS.glbl</li>
+                            <li>resources/SCCS.varinfo</li>
                         </ul>
                     </li>
                 </ol>
                 <p><button onclick="location.reload()" class="btn-primary">Retry</button></p>
             </div>
         `;
-    }
-
-    populateVariableSelects() {
-        const variables = this.labelParser.getAllVariables();
-
-        const rowSelect = document.getElementById('row-var');
-        const colSelect = document.getElementById('col-var');
-
-        // Clear existing options (except the first one)
-        rowSelect.innerHTML = '<option value="">Select variable...</option>';
-        colSelect.innerHTML = '<option value="">Select variable...</option>';
-
-        // Add options
-        for (const v of variables) {
-            const option1 = new Option(`${v.number}. ${v.name}`, v.number);
-            const option2 = new Option(`${v.number}. ${v.name}`, v.number);
-            rowSelect.add(option1);
-            colSelect.add(option2);
-        }
     }
 
     setupEventListeners() {
@@ -169,9 +169,18 @@ class EthnoAtlasApp {
             this.generateCrosstab();
         });
 
-        // Variable selection changes
-        document.getElementById('row-var').addEventListener('change', () => this.updateVariableInfo());
-        document.getElementById('col-var').addEventListener('change', () => this.updateVariableInfo());
+        // Variable picker inputs — open picker on click
+        document.querySelectorAll('.var-picker-input').forEach(input => {
+            input.addEventListener('click', () => {
+                const slot = input.dataset.slot;
+                this.picker.open(slot);
+            });
+            input.addEventListener('focus', () => {
+                input.blur(); // prevent keyboard on mobile; we want the picker
+                const slot = input.dataset.slot;
+                this.picker.open(slot);
+            });
+        });
 
         // New search button
         document.getElementById('btn-new-search').addEventListener('click', () => {
@@ -195,7 +204,7 @@ class EthnoAtlasApp {
 
         // Browse variables button
         document.getElementById('btn-browse-vars').addEventListener('click', () => {
-            this.showBrowsePanel();
+            this.picker.open(this.selectedRowVar ? 'col' : 'row');
         });
 
         // Close browse button
@@ -213,22 +222,28 @@ class EthnoAtlasApp {
     }
 
     updateVariableInfo() {
-        const rowVar = document.getElementById('row-var').value;
-        const colVar = document.getElementById('col-var').value;
         const infoPanel = document.getElementById('variable-info');
         const descriptions = document.getElementById('var-descriptions');
 
-        if (rowVar || colVar) {
+        if (this.selectedRowVar || this.selectedColVar) {
             let html = '';
 
-            if (rowVar) {
-                const label = this.labelParser.getVariableLabel(parseInt(rowVar));
-                html += `<div class="var-description"><strong>Row Variable:</strong> ${rowVar}. ${label}</div>`;
+            if (this.selectedRowVar) {
+                const label = this.labelParser.getVariableLabel(this.selectedRowVar);
+                const sccsNum = this.labelParser.getSccsNum(this.selectedRowVar);
+                const cat = this.labelParser.getCategory(this.selectedRowVar);
+                html += `<div class="var-description"><strong>Row Variable:</strong> ${sccsNum}. ${label}`;
+                if (cat) html += ` <span class="var-category">[${cat}]</span>`;
+                html += `</div>`;
             }
 
-            if (colVar) {
-                const label = this.labelParser.getVariableLabel(parseInt(colVar));
-                html += `<div class="var-description"><strong>Column Variable:</strong> ${colVar}. ${label}</div>`;
+            if (this.selectedColVar) {
+                const label = this.labelParser.getVariableLabel(this.selectedColVar);
+                const sccsNum = this.labelParser.getSccsNum(this.selectedColVar);
+                const cat = this.labelParser.getCategory(this.selectedColVar);
+                html += `<div class="var-description"><strong>Column Variable:</strong> ${sccsNum}. ${label}`;
+                if (cat) html += ` <span class="var-category">[${cat}]</span>`;
+                html += `</div>`;
             }
 
             descriptions.innerHTML = html;
@@ -239,8 +254,8 @@ class EthnoAtlasApp {
     }
 
     generateCrosstab() {
-        const rowVar = parseInt(document.getElementById('row-var').value);
-        const colVar = parseInt(document.getElementById('col-var').value);
+        const rowVar = this.selectedRowVar;
+        const colVar = this.selectedColVar;
         const useColor = document.getElementById('colour').checked;
         const showStats = document.getElementById('expected').checked;
 
@@ -280,7 +295,8 @@ class EthnoAtlasApp {
         const colVarLabel = this.labelParser.getVariableLabel(colVar);
 
         // Display column variable name in styled box
-        columnVarDisplay.textContent = `${colVar} - ${colVarLabel}`;
+        const colSccsNum = this.labelParser.getSccsNum(colVar);
+        columnVarDisplay.textContent = `${colSccsNum} - ${colVarLabel}`;
 
         // Build table
         let html = '<table class="crosstab-table">';
@@ -410,8 +426,8 @@ class EthnoAtlasApp {
 
         // Chi-square summary
         const significance = stats.isSignificant ?
-            '<span class="significant">✓ Significant (p < 0.05)</span>' :
-            '<span>Not significant (p ≥ 0.05)</span>';
+            '<span class="significant">&#10003; Significant (p < 0.05)</span>' :
+            '<span>Not significant (p >= 0.05)</span>';
 
         chiSquareContainer.innerHTML = `
             <div class="chi-square-summary">
@@ -472,7 +488,7 @@ class EthnoAtlasApp {
         const title = document.getElementById('modalTitle');
         const body = document.getElementById('modalBody');
 
-        title.textContent = `Cell: ${rowVar}=${rowVal} (${rowLabel}) × ${colVar}=${colVal} (${colLabel})`;
+        title.textContent = `Cell: ${rowVar}=${rowVal} (${rowLabel}) x ${colVar}=${colVal} (${colLabel})`;
 
         let html = `<p><strong>${caseIds.length} societies in this cell</strong></p>`;
         html += '<div class="society-list">';
@@ -502,65 +518,6 @@ class EthnoAtlasApp {
 
     closeModal() {
         document.getElementById('cellModal').classList.remove('active');
-    }
-
-    showBrowsePanel() {
-        const panel = document.getElementById('browse-panel');
-        const listContainer = document.getElementById('variable-list');
-
-        const variables = this.labelParser.getAllVariables();
-
-        let html = '<div class="variable-list">';
-
-        for (const v of variables) {
-            html += `
-                <div class="variable-item" data-var-num="${v.number}">
-                    <div class="variable-number">${v.number}</div>
-                    <div class="variable-name">${v.name}</div>
-                </div>
-            `;
-
-            // Add value labels if they exist
-            if (this.labelParser.hasValueLabels(v.number)) {
-                const valueLabels = this.labelParser.getValueLabelsForVariable(v.number);
-                html += '<div style="margin-left: 20px; margin-bottom: 15px; font-size: 0.9rem;">';
-                for (const vl of valueLabels) {
-                    html += `<div style="margin-left: 10px;">${vl.code}: ${vl.label}</div>`;
-                }
-                html += '</div>';
-            }
-        }
-
-        html += '</div>';
-        listContainer.innerHTML = html;
-
-        // Add click handlers for variable items
-        listContainer.querySelectorAll('.variable-item').forEach(item => {
-            item.addEventListener('click', () => {
-                const varNum = parseInt(item.dataset.varNum);
-                const rowSelect = document.getElementById('row-var');
-                const colSelect = document.getElementById('col-var');
-
-                // Select in first empty select
-                if (!rowSelect.value) {
-                    rowSelect.value = varNum;
-                } else if (!colSelect.value) {
-                    colSelect.value = varNum;
-                } else {
-                    // Both filled, ask which to replace
-                    if (confirm('Replace row variable? (Cancel for column variable)')) {
-                        rowSelect.value = varNum;
-                    } else {
-                        colSelect.value = varNum;
-                    }
-                }
-
-                panel.classList.add('hidden');
-                this.updateVariableInfo();
-            });
-        });
-
-        panel.classList.remove('hidden');
     }
 
     showPanel(panelId) {
