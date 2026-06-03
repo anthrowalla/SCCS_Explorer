@@ -824,15 +824,64 @@ button {
     white-space: nowrap;
 }
 
+/* Filter row: categories + history side by side */
+.picker-filter-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    padding: 10px 20px;
+    border-bottom: 1px solid var(--border-color);
+    background: var(--light-gray);
+}
+
 /* Category chips */
 .picker-categories {
     display: flex;
     flex-wrap: wrap;
     gap: 6px;
-    padding: 10px 20px;
-    border-bottom: 1px solid var(--border-color);
+    flex: 1;
     max-height: 80px;
     overflow-y: auto;
+}
+
+/* History wrapper */
+.picker-history-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    flex-shrink: 0;
+    width: 200px;
+}
+
+.picker-history-label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--secondary-color);
+}
+
+.picker-history {
+    padding: 6px 10px;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    font-size: 0.85rem;
+    background-color: var(--white);
+    cursor: pointer;
+}
+
+.picker-history:disabled {
+    background-color: var(--medium-gray);
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+
+.picker-history:not(:disabled):hover {
+    border-color: var(--primary-color);
+}
+
+.picker-history:not(:disabled):focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(44, 95, 141, 0.1);
 }
 
 .picker-chip {
@@ -1015,6 +1064,24 @@ button {
     font-style: italic;
 }
 
+.picker-more-top {
+    cursor: pointer;
+    user-select: none;
+    transition: background 0.2s;
+}
+
+.picker-more-top:hover,
+.picker-more-bottom:hover {
+    background-color: #e8f0f8;
+    color: var(--primary-color);
+}
+
+.picker-more-bottom {
+    cursor: pointer;
+    user-select: none;
+    transition: background 0.2s;
+}
+
 /* Responsive: stack preview below on narrow screens */
 @media (max-width: 768px) {
     .picker-body {
@@ -1029,5 +1096,19 @@ button {
     .picker-results {
         border-right: none;
         max-height: 300px;
+    }
+
+    /* Stack filter row on mobile */
+    .picker-filter-row {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .picker-history-wrapper {
+        width: 100%;
+    }
+
+    .picker-categories {
+        max-height: 60px;
     }
 }

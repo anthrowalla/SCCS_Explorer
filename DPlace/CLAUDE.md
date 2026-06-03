@@ -18,7 +18,11 @@ Then open http://localhost:8000
 ### JS Modules (ES6, imported by app.js)
 
 - **app.js** — Main controller. Loads all data files, initializes components, handles crosstab generation and display. Selected variables stored in `selectedRowVar`/`selectedColVar` (sequential column numbers).
-- **variablePicker.js** — Searchable modal for picking variables from ~1800 options. Category filter chips, text search, keyboard nav, preview pane with coverage counts, value codes, citations, and descriptions. Constructed with `(labelParser, dataParser, onSelect)`.
+- **variablePicker.js** — Searchable modal for picking variables from ~1800 options. Category filter chips, text search, keyboard nav, preview pane with coverage counts, value codes, citations, and descriptions. Constructed with `(labelParser, dataParser, onSelect)`. **Features**:
+  - **History dropdown** — Tracks previously selected variables (uniquely, most recent first). Selecting from history clears filters and highlights the variable in the list.
+  - **Selected variable positioning** — When reopened, if a variable is already selected for the slot, it's highlighted and positioned within the first 5 items of the visible list.
+  - **Hover-to-scroll** — Top "... X earlier variables" and bottom "... and X more" indicators allow scrolling through the list by hovering for 300ms. Scrolls one item at a time while maintaining a 100-item window.
+  - **Scroll behavior** — Scroll-down auto-scrolls the container to keep the bottom indicator visible for continued hovering. Scroll-up only adjusts the list without repositioning the view.
 - **labelParser.js** — Parses `SCCS.lbl` (variable names + value labels) and `SCCS.varinfo` (category, type, citation, description, original SCCS number). Key accessors: `getVariableLabel()`, `getSccsNum()`, `getCategory()`, `getCitation()`, `getCategories()`.
 - **dataParser.js** — Parses `SCCS.data` (186×N space-separated matrix, `.` = missing). Variables are 1-indexed externally, 0-indexed internally.
 - **crosstab.js** — Crosstabulation engine with chi-square calculations and cell case tracking.
