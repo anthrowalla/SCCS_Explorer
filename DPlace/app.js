@@ -258,6 +258,7 @@ class EthnoAtlasApp {
         const colVar = this.selectedColVar;
         const useColor = document.getElementById('colour').checked;
         const showStats = document.getElementById('expected').checked;
+        const includeMissing = document.getElementById('missing').checked;
 
         if (!rowVar || !colVar) {
             alert('Please select both row and column variables');
@@ -265,7 +266,7 @@ class EthnoAtlasApp {
         }
 
         // Generate crosstab
-        this.currentCrosstab = this.crosstabEngine.crosstab(rowVar, colVar);
+        this.currentCrosstab = this.crosstabEngine.crosstab(rowVar, colVar, includeMissing);
 
         // Calculate statistics if requested
         if (showStats) {
@@ -307,8 +308,9 @@ class EthnoAtlasApp {
         html += `<th class="row-header">${rowSccsNum} - ${rowVarLabel}</th>`;
 
         for (const cv of colValues) {
-            const colLabel = this.labelParser.getValueLabel(colVar, cv);
-            html += `<th>${cv}: ${colLabel}</th>`;
+            const colLabel = cv === null ? 'Missing' : this.labelParser.getValueLabel(colVar, cv);
+            const colDisplay = cv === null ? '.' : cv;
+            html += `<th>${colDisplay}: ${colLabel}</th>`;
         }
         html += '<th>Total</th></tr></thead><tbody>';
 
@@ -332,9 +334,10 @@ class EthnoAtlasApp {
 
         // Data rows
         for (const rv of rowValues) {
-            const rowLabel = this.labelParser.getValueLabel(rowVar, rv);
+            const rowLabel = rv === null ? 'Missing' : this.labelParser.getValueLabel(rowVar, rv);
+            const rowDisplay = rv === null ? '.' : rv;
             html += `<tr>`;
-            html += `<td class="row-header">${rv}: ${rowLabel}</td>`;
+            html += `<td class="row-header">${rowDisplay}: ${rowLabel}</td>`;
 
             for (const cv of colValues) {
                 const key = `${rv},${cv}`;
@@ -378,8 +381,10 @@ class EthnoAtlasApp {
         // Add click handlers for cells
         container.querySelectorAll('.cell-value').forEach(cell => {
             cell.addEventListener('click', (e) => {
-                const rowVal = parseInt(e.currentTarget.dataset.row);
-                const colVal = parseInt(e.currentTarget.dataset.col);
+                const rowValStr = e.currentTarget.dataset.row;
+                const colValStr = e.currentTarget.dataset.col;
+                const rowVal = rowValStr === 'null' ? null : parseInt(rowValStr);
+                const colVal = colValStr === 'null' ? null : parseInt(colValStr);
                 this.showCellDetail(rowVal, colVal);
             });
         });
@@ -500,12 +505,14 @@ class EthnoAtlasApp {
         html += `<th>${this.labelParser.getVariableLabel(rowVar)} \\ ${this.labelParser.getVariableLabel(colVar)}</th>`;
 
         for (const cv of colValues) {
-            html += `<th>${cv}</th>`;
+            const colDisplay = cv === null ? '.' : cv;
+            html += `<th>${colDisplay}</th>`;
         }
         html += '</tr></thead><tbody>';
 
         for (const rv of rowValues) {
-            html += `<tr><td><strong>${rv}</strong></td>`;
+            const rowDisplay = rv === null ? '.' : rv;
+            html += `<tr><td><strong>${rowDisplay}</strong></td>`;
             for (const cv of colValues) {
                 const key = `${rv},${cv}`;
                 const val = data[key] || 0;
@@ -522,14 +529,16 @@ class EthnoAtlasApp {
         const { rowVar, colVar } = this.currentCrosstab;
         const caseIds = this.crosstabEngine.getCellCases(this.currentCrosstab, rowVal, colVal);
 
-        const rowLabel = this.labelParser.getValueLabel(rowVar, rowVal);
-        const colLabel = this.labelParser.getValueLabel(colVar, colVal);
+        const rowLabel = rowVal === null ? 'Missing' : this.labelParser.getValueLabel(rowVar, rowVal);
+        const colLabel = colVal === null ? 'Missing' : this.labelParser.getValueLabel(colVar, colVal);
+        const rowDisplay = rowVal === null ? '.' : rowVal;
+        const colDisplay = colVal === null ? '.' : colVal;
 
         const modal = document.getElementById('cellModal');
         const title = document.getElementById('modalTitle');
         const body = document.getElementById('modalBody');
 
-        title.textContent = `Cell: ${rowVar}=${rowVal} (${rowLabel}) x ${colVar}=${colVal} (${colLabel})`;
+        title.textContent = `Cell: ${rowDisplay} (${rowLabel}) x ${colDisplay} (${colLabel})`;
 
         let html = `<p><strong>${caseIds.length} societies in this cell</strong></p>`;
         html += '<div class="society-list">';

@@ -14,20 +14,35 @@ export class CrosstabEngine {
      * Generate a cross-tabulation of two variables
      * @param {number} rowVar - Row variable number (1-indexed)
      * @param {number} colVar - Column variable number (1-indexed)
+     * @param {boolean} includeMissing - Whether to include missing (null) values
      * @returns {object} Crosstabulation result
      */
-    crosstab(rowVar, colVar) {
+    crosstab(rowVar, colVar, includeMissing = false) {
         const data = this.dataParser.getAllData();
         const rowColIndex = rowVar - 1;
         const colColIndex = colVar - 1;
 
         // Get unique values for each variable
-        const rowValues = this.dataParser.getUniqueValues(rowVar).filter(v => v !== null);
-        const colValues = this.dataParser.getUniqueValues(colVar).filter(v => v !== null);
+        let rowValues = this.dataParser.getUniqueValues(rowVar);
+        let colValues = this.dataParser.getUniqueValues(colVar);
 
-        // Sort values numerically
-        rowValues.sort((a, b) => a - b);
-        colValues.sort((a, b) => a - b);
+        // Filter out null unless includeMissing is true
+        if (!includeMissing) {
+            rowValues = rowValues.filter(v => v !== null);
+            colValues = colValues.filter(v => v !== null);
+        }
+
+        // Sort values numerically (null sorts first when included)
+        rowValues.sort((a, b) => {
+            if (a === null) return -1;
+            if (b === null) return 1;
+            return a - b;
+        });
+        colValues.sort((a, b) => {
+            if (a === null) return -1;
+            if (b === null) return 1;
+            return a - b;
+        });
 
         // Initialize cell counts and case lists
         const cellCounts = {};
@@ -56,8 +71,10 @@ export class CrosstabEngine {
             const rv = row[rowColIndex];
             const cv = row[colColIndex];
 
-            // Skip cases with missing data
-            if (rv === null || cv === null) continue;
+            // Skip cases with missing data only if not including missing
+            if (!includeMissing && (rv === null || cv === null)) continue;
+            // When including missing, skip only if BOTH are null (case has no data for either variable)
+            if (includeMissing && rv === null && cv === null) continue;
 
             const key = `${rv},${cv}`;
             cellCounts[key]++;
