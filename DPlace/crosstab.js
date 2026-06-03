@@ -156,34 +156,51 @@ export class CrosstabEngine {
         // For df values not in table, interpolate or use approximation
         const critical = criticalValues[df];
         if (critical) {
-            return chiSquare > critical;
+            return chiSquare >= critical;
         }
 
-        // Approximation: chiSquare > df + 2*sqrt(df) for large df
-        return chiSquare > df + 2 * Math.sqrt(df);
+        // Approximation: chiSquare >= df + 2*sqrt(df) for large df
+        return chiSquare >= df + 2 * Math.sqrt(df);
     }
 
     /**
      * Estimate p-value (simplified approximation)
+     * Uses same critical values as isSignificant() for consistency
      */
     estimatePValue(chiSquare, df) {
-        // This is a simplified approximation
-        // For accurate p-values, you'd need a statistical library
-        if (df === 1) {
-            if (chiSquare > 10.828) return "< 0.001";
-            if (chiSquare > 6.635) return "< 0.01";
-            if (chiSquare > 3.841) return "< 0.05";
-            return "> 0.05";
-        } else if (df === 2) {
-            if (chiSquare > 13.816) return "< 0.001";
-            if (chiSquare > 9.210) return "< 0.01";
-            if (chiSquare > 5.991) return "< 0.05";
-            return "> 0.05";
-        } else {
-            if (chiSquare > df * 2) return "< 0.01";
-            if (chiSquare > df * 1.5) return "< 0.05";
-            return "> 0.05";
-        }
+        // Critical values from chi-square distribution table
+        const critical001 = {
+            1: 10.828, 2: 13.816, 3: 16.266, 4: 18.467, 5: 20.515,
+            6: 22.457, 7: 24.322, 8: 26.125, 9: 27.877, 10: 29.588,
+            12: 32.909, 15: 37.697, 20: 45.315, 30: 59.703
+        };
+        const critical01 = {
+            1: 6.635, 2: 9.210, 3: 11.345, 4: 13.277, 5: 15.086,
+            6: 16.812, 7: 18.475, 8: 20.090, 9: 21.666, 10: 23.209,
+            12: 26.217, 15: 30.578, 20: 37.566, 30: 50.892
+        };
+        const critical005 = {
+            1: 3.841, 2: 5.991, 3: 7.815, 4: 9.488, 5: 11.070,
+            6: 12.592, 7: 14.067, 8: 15.507, 9: 16.919, 10: 18.307,
+            12: 21.026, 15: 24.996, 20: 31.410, 30: 43.773
+        };
+
+        const c001 = critical001[df];
+        const c01 = critical01[df];
+        const c005 = critical005[df];
+
+        if (c001 && chiSquare >= c001) return "<= 0.001";
+        if (c01 && chiSquare >= c01) return "<= 0.01";
+        if (c005 && chiSquare >= c005) return "<= 0.05";
+
+        // For df not in table, use approximation
+        if (c001) return "> 0.05";  // df is in table but chiSquare below 0.05 threshold
+
+        // Approximation for larger df using same logic as isSignificant
+        const critical = df + 2 * Math.sqrt(df);
+        if (chiSquare >= critical + 5) return "<= 0.01";
+        if (chiSquare >= critical) return "<= 0.05";
+        return "> 0.05";
     }
 
     /**

@@ -296,6 +296,7 @@ class EthnoAtlasApp {
 
         // Display column variable name in styled box
         const colSccsNum = this.labelParser.getSccsNum(colVar);
+        const rowSccsNum = this.labelParser.getSccsNum(rowVar);
         columnVarDisplay.textContent = `${colSccsNum} - ${colVarLabel}`;
 
         // Build table
@@ -303,7 +304,7 @@ class EthnoAtlasApp {
 
         // Header row
         html += '<thead><tr>';
-        html += `<th class="row-header">${rowVarLabel}</th>`;
+        html += `<th class="row-header">${rowSccsNum} - ${rowVarLabel}</th>`;
 
         for (const cv of colValues) {
             const colLabel = this.labelParser.getValueLabel(colVar, cv);
@@ -426,8 +427,8 @@ class EthnoAtlasApp {
 
         // Chi-square summary
         const significance = stats.isSignificant ?
-            '<span class="significant">&#10003; Significant (p < 0.05)</span>' :
-            '<span>Not significant (p >= 0.05)</span>';
+            '<span class="significant">&#10003; Significant (p <= 0.05)</span>' :
+            '<span>Not significant (p > 0.05)</span>';
 
         chiSquareContainer.innerHTML = `
             <div class="chi-square-summary">

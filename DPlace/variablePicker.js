@@ -22,7 +22,8 @@ export default class VariablePicker {
         this.history = [];             // Array of previously selected varNums (unique)
         this.renderStartIdx = 0;       // Track current render range
         this.renderEndIdx = 0;
-        this.hoverTimer = null;        // Timer for hover detection
+        this.hoverTimer = null;        // Timer for hover-to-scroll
+        this.hoverDelayMs = 300;       // Delay before scroll triggers (ms)
 
         this.modal = null;
         this.built = false;
@@ -290,7 +291,7 @@ export default class VariablePicker {
             topMore.addEventListener('mouseenter', () => {
                 this.hoverTimer = setTimeout(() => {
                     this.scrollUpOne();
-                }, 300);
+                }, this.hoverDelayMs);
             });
             topMore.addEventListener('mouseleave', () => {
                 if (this.hoverTimer) {
@@ -306,7 +307,7 @@ export default class VariablePicker {
             bottomMore.addEventListener('mouseenter', () => {
                 this.hoverTimer = setTimeout(() => {
                     this.scrollDownOne();
-                }, 300);
+                }, this.hoverDelayMs);
             });
             bottomMore.addEventListener('mouseleave', () => {
                 if (this.hoverTimer) {
@@ -486,14 +487,6 @@ export default class VariablePicker {
 
         // Re-render with new range
         this.renderRange(newStartIdx, newEndIdx);
-
-        // Scroll to bottom so the bottom indicator remains visible for continued hovering
-        setTimeout(() => {
-            const bottomMore = this.resultsContainer.querySelector('.picker-more-bottom');
-            if (bottomMore) {
-                bottomMore.scrollIntoView({ block: 'nearest' });
-            }
-        }, 0);
     }
 
     /**
@@ -531,7 +524,7 @@ export default class VariablePicker {
             topMore.addEventListener('mouseenter', () => {
                 this.hoverTimer = setTimeout(() => {
                     this.scrollUpOne();
-                }, 300);
+                }, this.hoverDelayMs);
             });
             topMore.addEventListener('mouseleave', () => {
                 if (this.hoverTimer) {
@@ -547,7 +540,7 @@ export default class VariablePicker {
             bottomMore.addEventListener('mouseenter', () => {
                 this.hoverTimer = setTimeout(() => {
                     this.scrollDownOne();
-                }, 300);
+                }, this.hoverDelayMs);
             });
             bottomMore.addEventListener('mouseleave', () => {
                 if (this.hoverTimer) {

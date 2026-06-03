@@ -758,7 +758,7 @@ button {
     border-radius: 8px;
     width: 90%;
     max-width: 900px;
-    max-height: 85vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
@@ -926,6 +926,7 @@ button {
 .picker-preview {
     width: 320px;
     min-width: 320px;
+    height: 100%;
     padding: 15px;
     overflow-y: auto;
     background: var(--light-gray);
