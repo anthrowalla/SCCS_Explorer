@@ -4,7 +4,7 @@ A web-based tool for cross-tabulating variables from the DPlace Standard Cross-C
 
 ## About This Branch
 
-This is the `dplace` branch - an extension of the original SCCS Explorer to support the full DPlace SCCS dataset with **over 1,968 variables** for 186 societies.
+This is the `dplace` branch - an extension of the original SCCS Explorer to support the data foound in the full DPlace SCCS dataset with **over 1,968 variables** for 186 societies.
 
 ## Features
 
@@ -77,7 +77,11 @@ Educational and research use.
 
 ## Authors
 
-Mike Fischer
+Software: Mike Fischer, Human Relations Area Files at Yale University
+
+Data design and collection:  Murdock, G. P. and White, D. R. (1969). Standard cross-cultural sample. *Ethnology*, 8(4), 329–369. Variable-level citations are shown in the picker preview pane.
+
+Data Set: Kirby et al. (2016). D-PLACE: A Global Database of Cultural, Linguistic and Environmental Diversity. *PLoS ONE*, 11(7): e0158391.
 
 ## Version
 
