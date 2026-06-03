@@ -18,8 +18,8 @@ This is the `dplace` branch - an extension of the original SCCS Explorer to supp
 
 ## Data
 
-- **186 societies** from the DPlace SCCS dataset
-- **1,968 variables** covering various aspects of human societies
+- **186 societies** from the Standard Cross Cultural Sample created by G. P. Murdock and D. R. White.
+- **1,968 variables** covering various aspects of human societies, from dataset assembled and normalized by D-Place (https://d-place.org)
 - **Rich metadata**: Categories, definitions, sources for each variable
 - **Detailed society information** including geographic location and external references
 
@@ -28,11 +28,11 @@ This is the `dplace` branch - an extension of the original SCCS Explorer to supp
 ### Modular Version (Requires HTTP Server)
 ```bash
 cd DPlace
-python3 -m http.server 8000
+python3 -m http.server 8011
 # Or use: ./start-server.sh
 ```
 
-Then open: http://localhost:8000/index.html
+Then open: http://localhost:8011/index.html
 
 ### Standalone Version (Works Offline)
 ```bash
