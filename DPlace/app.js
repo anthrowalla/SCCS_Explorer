@@ -312,15 +312,20 @@ class EthnoAtlasApp {
         }
         html += '<th>Total</th></tr></thead><tbody>';
 
-        // Calculate color range if enabled
-        let minValue = Infinity;
-        let maxValue = -Infinity;
+        // Calculate color range based on deviation from expected if enabled
+        let maxPositiveDeviation = 0;  // max (observed - expected) for green scale
+        let maxNegativeDeviation = 0;  // max (expected - observed) for red scale
 
-        if (document.getElementById('colour').checked) {
-            for (const count of Object.values(cellCounts)) {
-                if (count > 0) {
-                    minValue = Math.min(minValue, count);
-                    maxValue = Math.max(maxValue, count);
+        if (document.getElementById('colour').checked && this.currentStats) {
+            const expected = this.currentStats.expected;
+            for (const [key, observed] of Object.entries(cellCounts)) {
+                if (expected[key] > 0) {
+                    const deviation = observed - expected[key];
+                    if (deviation > 0) {
+                        maxPositiveDeviation = Math.max(maxPositiveDeviation, deviation);
+                    } else {
+                        maxNegativeDeviation = Math.max(maxNegativeDeviation, -deviation);
+                    }
                 }
             }
         }
@@ -337,8 +342,12 @@ class EthnoAtlasApp {
                 const percentage = grandTotal > 0 ? ((count / grandTotal) * 100).toFixed(1) : 0;
 
                 let bgColor = '';
-                if (document.getElementById('colour').checked && count > 0 && maxValue > minValue) {
-                    bgColor = this.getBackgroundColor(count, minValue, maxValue);
+                if (document.getElementById('colour').checked && this.currentStats && count > 0) {
+                    const expected = this.currentStats.expected[key];
+                    if (expected && expected > 0) {
+                        const deviation = count - expected;
+                        bgColor = this.getDeviationColor(deviation, maxPositiveDeviation, maxNegativeDeviation);
+                    }
                 }
 
                 html += `<td class="cell-value" style="background-color: ${bgColor}; cursor: pointer;" data-row="${rv}" data-col="${cv}">`;
@@ -396,6 +405,37 @@ class EthnoAtlasApp {
         const b = Math.round(255 - (normalized * 255));
 
         return `rgb(${r}, ${g}, ${b})`;
+    }
+
+    /**
+     * Get background color based on deviation from expected value
+     * Red scale for below expected, green scale for above expected
+     */
+    getDeviationColor(deviation, maxPos, maxNeg) {
+        // No deviation - white
+        if (deviation === 0 || (maxPos === 0 && maxNeg === 0)) {
+            return 'rgb(255, 255, 255)';
+        }
+
+        if (deviation > 0) {
+            // Above expected - green scale
+            // White (255,255,255) to medium green (49, 146, 49)
+            if (maxPos === 0) return 'rgb(255, 255, 255)';
+            const intensity = deviation / maxPos;
+            const r = Math.round(255 - (intensity * 206));   // 255 - 49 = 206
+            const g = Math.round(255 - (intensity * 109));    // 255 - 146 = 109
+            const b = Math.round(255 - (intensity * 206));
+            return `rgb(${r}, ${g}, ${b})`;
+        } else {
+            // Below expected - red scale
+            // White (255,255,255) to medium red (195, 49, 49)
+            if (maxNeg === 0) return 'rgb(255, 255, 255)';
+            const intensity = Math.abs(deviation) / maxNeg;
+            const r = Math.round(255 - (intensity * 60));    // 255 - 195 = 60
+            const g = Math.round(255 - (intensity * 206));
+            const b = Math.round(255 - (intensity * 206));
+            return `rgb(${r}, ${g}, ${b})`;
+        }
     }
 
     displayStatistics() {
