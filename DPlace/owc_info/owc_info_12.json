@@ -1,0 +1,773 @@
+{
+    "numFound": 365,
+    "qTime": 0,
+    "pageCount": 15,
+    "data": [
+        {
+            "id": "nn16",
+            "hsla": "hsla(21.37,95.30%,81.29%,0.790)",
+            "description": "The Seminole are a Native American group that had diverse and complex origin in a mixture of native societies and African slaves. The Seminole developed in Florida but now are divided with the majority living in Oklahoma as the Seminole Nation and the minority living in a few small reservations in Florida. Before the modern era, Seminole subsistence activities were primarily slash and burn horticulture supplemented by hunting, gathering, and the fur trade with non-Seminoles. The basic kinship groups are matrilineal clans named after ancestral totems. In Florida, farming was modified to match the Everglades environment. Principal crops included pumpkins, corn, and beans. In Oklahoma, these same crops were grown, with Seminoles also practicing small-scale commercial agriculture, growing cotton and other cash crops into the twentieth century. Seminoles also work in the oil industry. In Florida, tourism became the center of the Florida Seminole economic adaptation. Recently, all of the Seminole tribal governments established commercial business ventures, including retail, tourism, and gaming operations.",
+            "highest_bt": "North America",
+            "bt": "Eastern Woodlands",
+            "subsistence_type": "horticulturalists",
+            "docs": 40,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Seminole"
+        },
+        {
+            "id": "n017",
+            "hsla": "hsla(22.12,96.13%,81.10%,0.780)",
+            "description": "Serbian Americans are an ethnic minority in the United States. They live mostly in the industrial and mining centers of the United States Midwest and Great Lakes region, as well as in California. Serbian Americans today are represented in most American occupations. Among Serbian Americans the single most meaningful institution and the most important center of community life has always been the Serbian Orthodox Church. They continue to regard the celebration of the patriline patron saint, the slava, as a uniquely Serbian ritual and of equal importance to Easter and Christmas.",
+            "highest_bt": "North America",
+            "bt": "Regional, Ethnic and Diaspora Cultures",
+            "subsistence_type": "commercial economy",
+            "docs": 11,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Serbian Americans"
+        },
+        {
+            "id": "ef06",
+            "hsla": "hsla(79.69,95.38%,84.37%,0.790)",
+            "description": "Serbs are Slavs and practice the Serbian Orthodox religion. Serbs speak mainly the Ekavian subdialect of the Stokavian dialect of Serbo-Croatian, a South Slavic language in the Slavic branch of Indo-European. Serbs prefer the use of the Serbian Cyrillic alphabet, which differentiates them from the Croats who use the Latin alphabet. Prior to World War II, Serbs were primarily subsistence agriculturalists who also raised animals and sold some crops. After the war, with modernization and urbanization, there was less dependence on agriculture.",
+            "highest_bt": "Europe",
+            "bt": "Southeastern Europe",
+            "subsistence_type": "intensive agriculturalists",
+            "docs": 39,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Serbs"
+        },
+        {
+            "id": "ak06",
+            "hsla": "hsla(331.35,95.33%,84.37%,0.790)",
+            "description": "The Sherpa are a Tibetan-speaking people who moved into the valleys of eastern Nepal in the middle of the sixteenth century. They survived as traders transporting goods by Yak across the Himalayas, linking the markets of China to Nepal and India. Today mountaineering and tourism have become major industries profoundly affecting their way of life. Successful traders in the past and today businessmen enjoy a big man status.  The Sherpa practice a form of Mahayana Buddhism, which supports a significant population of monks.",
+            "highest_bt": "Asia",
+            "bt": "Central Asia",
+            "subsistence_type": "agro-pastoralists",
+            "docs": 20,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Sherpa"
+        },
+        {
+            "id": "fj23",
+            "hsla": "hsla(65.25,95.34%,80.15%,0.820)",
+            "description": "The Shilluk are a Nilotic people living in hamlets scattered along both banks of the river Nile, with the highest concentration in the western bank near the town of Malakal. They earn their living primarily from cereal cultivation and animal husbandry, supplemented by fishing and seasonal hunting. Traditional Shilluk social organization, like that of the neighboring Nuer, is a segmentary lineage system consisting of vertically connected territorial and social units. The Shilluk were historically united in a single state headed by a divine king (reth).",
+            "highest_bt": "Africa",
+            "bt": "Eastern Africa",
+            "subsistence_type": "agro-pastoralists",
+            "docs": 23,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Shilluk"
+        },
+        {
+            "id": "se26",
+            "hsla": "hsla(355.21,95.38%,79.77%,0.790)",
+            "description": "The Shipibo occupy the central R&iacute;o Ucayali region of eastern Peru and its major western tributaries. The Shipibo collection includes information on the closely related Conibo and Shetibo. The Shipibo language belongs to the Panoan family. The Shipibo practice slash-and-burn horticulture and subsist primarily on plantains and bananas, supplemented by other crops and foraging. Now some Shipibo are producing rice to sell in regional markets.  The Shipibo are known worldwide for the complicated geometrical motifs with which they decorate objects. Women make ceramics, cotton textiles, baskets, and bead work, both for personal use and for sale to tourists.",
+            "highest_bt": "South America",
+            "bt": "Amazon and Orinoco",
+            "subsistence_type": "horticulturalists",
+            "docs": 25,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Shipibo"
+        },
+        {
+            "id": "mw11",
+            "hsla": "hsla(65.34,95.22%,82.47%,0.840)",
+            "description": "The Shluh belong to the Masmuda branch of sedentary Berbers inhabiting the Grand-Atlas and Anti-Atlas Mountains and the Sous River Valley in southern Morocco. They are primarily agricultural, utilizing plow cultivation, irrigation, and the terracing of fields. Animal husbandry is second in importance. Kin groups of 10 to 50 families are headed by the eldest male member and form clan-barrios occupying either a small hamlet or a specific quarter in a larger village. A larger social unit called a MUDA is the basic land-owning and political unit and is governed by a democratic assembly.",
+            "highest_bt": "Africa",
+            "bt": "Northern Africa",
+            "subsistence_type": "intensive agriculturalists",
+            "docs": 7,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Shluh"
+        },
+        {
+            "id": "fs05",
+            "hsla": "hsla(65.35,95.26%,84.95%,0.800)",
+            "description": "The Shona are Bantu-speaking peoples living primarily in Zimbabwe. Major cultural-linguistic subdivisions include the Zezuru, Karanga, Korekore, Manyika, Tavara, Ndau, and Kalanga. Each of these groups was semi-autonomous for part of their history, but also formed confederations of chiefdoms united into larger states. Traditionally cultivators and cattle herders, the Shona  underwent significant changes in the colonial and postcolonial periods with expanding market forces, income from wage and salaried labor including remittances of migrants, land shortage, protracted civil wars, and political unrest.",
+            "highest_bt": "Africa",
+            "bt": "Southern Africa",
+            "subsistence_type": "agro-pastoralists",
+            "docs": 45,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Shona"
+        },
+        {
+            "id": "ax04",
+            "hsla": "hsla(331.17,95.21%,85.65%,0.810)",
+            "description": "The Sinhalese are the dominant ethnic group in Sri Lanka. They live primarily in the wetter zones of Sri Lanka in the central, south, and west provinces. Most of Sri Lanka is rural and subsistence agriculture supplemented by some wage-labor is characteristic of much of the Sinhalese population. The Sinhalese are primarily Theravada Buddhists and speak Sinhala, an Indo-European language of the Indo-Aryan group of languages.",
+            "highest_bt": "Asia",
+            "bt": "South Asia",
+            "subsistence_type": "intensive agriculturalists",
+            "docs": 11,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Sinhalese"
+        },
+        {
+            "id": "sf21",
+            "hsla": "hsla(355.21,95.38%,80.44%,0.840)",
+            "description": "The Sirionó are a group of foragers inhabiting an extensive tropical forest in northern and eastern Bolivia. Their subsistence depends largely on hunting, fishing, and gathering, in that order. They also practiced some plant cultivation. Traditionally they lived in bands under a headman with limited power in the community. These headmen or chiefs were chosen on the basis of their prowess as a hunter and warrior.",
+            "highest_bt": "South America",
+            "bt": "Amazon and Orinoco",
+            "subsistence_type": "hunter-gatherers",
+            "docs": 8,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Sirionó"
+        },
+        {
+            "id": "on19",
+            "hsla": "hsla(242.29,95.30%,80.75%,0.760)",
+            "description": "The Papuan-speaking Siwai reside in South Bougainville, Papua New Guinea. Siwais have long been horticulturalists, subsisting largely on taro (sweet potatoes after World War II), supplemented with a variety of other vegetables, pigs (particularly important in ceremonies), fishing, and tree crops. Cocoa was introduced in the late 1950s and has become a major cash crop. Most adult men have since been employed as plantation laborers or as copper miners in other parts of the island. Households are comprised of nuclear families. Many Siwais go on to secondary and tertiary education, and some participate in the local, regional and national democratic government. Prior to the establishment of wage labor and a cash economy, women held some sway through matrilineage control of agricultural and hunting lands, and enterprising men amassed prestige and power through organizing multi-village feasts.",
+            "highest_bt": "Oceania",
+            "bt": "Melanesia",
+            "subsistence_type": "agro-pastoralists",
+            "docs": 8,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Siwai"
+        },
+        {
+            "id": "nd14",
+            "hsla": "hsla(21.49,95.39%,81.71%,0.810)",
+            "description": "The Slavey of western Canada inhabit a territory within the Mackenzie River drainage, roughly from the Fort Nelson, Hay and Peace rivers in the south to Great Bear River in the north. Traditionally, they were nomadic hunters and fishermen, organized into small, highly cooperative and mobile groups when game was dispersed, and coming together into gatherings of a few hundred or more when and where resources were concentrated, as during fish spawns. In either situation leadership was provisional and informal. With the collapse of the private fur trade early in the twentieth century, and increased government investments since then, by the 1990s they have come to reside year-round in small towns and communities, scheduling seasonal hunting, fishing, and trapping around local employment and schooling.",
+            "highest_bt": "North America",
+            "bt": "Arctic and Subarctic",
+            "subsistence_type": "hunter-gatherers",
+            "docs": 9,
+            "hasSummary": false,
+            "ocms": [],
+            "hl": {},
+            "term": "Slavey"
+        },
+        {
+            "id": "ef07",
+            "hsla": "hsla(79.69,95.38%,83.89%,0.780)",
+            "description": "Slovenes are Slavic people living in Slovenia, an independent state that was formerly the northwesternmost republic of Yugoslavia. The largest part of Slovenia is mountainous. Slovenia is highly industrialized and only a minority of the population is involved in agriculture, animal husbandry, and forestry. Slovenes are mainly Roman Catholic.",
+            "highest_bt": "Europe",
+            "bt": "Southeastern Europe",
+            "subsistence_type": "intensive agriculturalists",
+            "docs": 4,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Slovenes"
+        },
+        {
+            "id": "mo04",
+            "hsla": "hsla(65.25,95.29%,85.65%,0.810)",
+            "description": "The Somali of the Horn of Africa speak the Somali language and live primarily in Somalia. Somalis also live in southern Djibouti, eastern Ethiopia, and northeastern Kenya. Animal husbandry (primarily camel herding) is traditionally the major subsistence activity, and the only one in large parts of northern and central Somalia. In the south, nomadic pastoralism is often mixed with rain-fed agriculture. The Somali system of patrilineal descent embraces the whole country in a genealogical grid and claims ultimate descent from the Qurayshitic lineage of the prophet Mohammed. Smaller patrilineal units play an important role in social and political life and feuding and armed conflicts over grazing and water rights are not uncommon.",
+            "highest_bt": "Africa",
+            "bt": "Eastern Africa",
+            "subsistence_type": "pastoralists",
+            "docs": 33,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Somali"
+        },
+        {
+            "id": "ms20",
+            "hsla": "hsla(65.27,95.26%,80.59%,0.850)",
+            "description": "The Songhai and closely related Zarma peoples, centered on the Niger-Mali border area, are united by a shared Nilo-Saharan language spread by the Songhai Empire at its peak in the fifteenth and sixteenth centuries. They are largely village dwelling dryland farmers, with rice grown along rivers. Authority is vested in elected chiefs forming a village council, with an appointed village chief who, in larger villages, may be a paramount chief of noble decent; a rising class of wealthy merchants and government officials is challenging that traditional authority.",
+            "highest_bt": "Africa",
+            "bt": "Western Africa",
+            "subsistence_type": "intensive agriculturalists",
+            "docs": 12,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Songhai"
+        },
+        {
+            "id": "nr26",
+            "hsla": "hsla(21.91,95.26%,79.77%,0.790)",
+            "description": "The Southern Coast Salish comprise a number of Lushootseed and Tuwaduq (Twana) speaking peoples whose pre-reservation homeland extended along the shores and inland river basins of Puget Sound and the Hood Canal of Washington state. Their traditional economy relied on fishing, gathering, and hunting. Society was organized according to family, household and village, with class distinctions of upper, freeman and slave; chiefdoms likely arose in late pre-reservation times as a means of resistance. Following the signing of an 1855 treaty with the United States, Southern Coast Salish peoples ceded much of their land to white settlers, but the government largely reneged on its promises of adequate access to traditional resources, farmland, and services on the reservations. In addition, introduced diseases, Christian missions, continued settler incursions, and global economic pressures served to drive the cultures of many groups underground or to extinction.",
+            "highest_bt": "North America",
+            "bt": "Northwest Coast and California",
+            "subsistence_type": "hunter-gatherers",
+            "docs": 15,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Southern Coast Salish"
+        },
+        {
+            "id": "og13",
+            "hsla": "hsla(331.55,95.37%,81.95%,0.820)",
+            "description": "The Southern Toraja live in southern Celebes (Sulawesi), Indonesia. In this tropical climate, the Southern Toraja depend largely on rice grown in terraced highland paddies. These people speak the Sa'dan Toraja dialect of Toraja, an Austronesian language. The Toraja only began to accept the name &#x22;Toraja&#x22; for themselves in the 20th century. Christian missionaries are believed to have enhanced a sense of Toraja identity. Most Southern Toraja are now Christian.",
+            "highest_bt": "Asia",
+            "bt": "Southeast Asia",
+            "subsistence_type": "intensive agriculturalists",
+            "docs": 7,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Southern Toraja"
+        },
+        {
+            "id": "nf12",
+            "hsla": "hsla(21.38,95.38%,82.20%,0.830)",
+            "description": "The Stoney are often confused in the literature with the Assiniboine from whom they evolved. They became an independent people during the eighteenth century. The Stoney are Siouan-speaking and are located in the northwestern portion of the Plains\/Prairie on five reserves in Alberta, Canada. Traditional economic pursuits were hunting, fishing, trapping, and gathering.",
+            "highest_bt": "North America",
+            "bt": "Plains and Plateau",
+            "subsistence_type": "hunter-gatherers",
+            "docs": 9,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Stoney"
+        },
+        {
+            "id": "fo46",
+            "hsla": "hsla(65.24,95.29%,77.98%,0.790)",
+            "description": "The Suku are a Bantu-speaking people living in hamlets and small villages scattered across the rolling savannas of the southwestern Democratic Republic of the Congo. They were traditionally organized in a pyramidal political system, with the royal lineage at the apex and, at the bottom, a number of smaller matrilineages averaging some thirty-five members. Subsistence is primarily agricultural, broadly supplemented by gathering, hunting, fishing and domestic animals; local mission and government employment and migratory labor are increasingly important. There is a strong division of labor by gender.",
+            "highest_bt": "Africa",
+            "bt": "Central Africa",
+            "subsistence_type": "horticulturalists",
+            "docs": 10,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Suku"
+        },
+        {
+            "id": "ad05",
+            "hsla": "hsla(331.02,95.39%,84.95%,0.800)",
+            "description": "The Hokkien are the major ethnic group of Taiwan, migrating from Fujian Province, People's Republic of China, between 1600 and 1890. They speak the Southern Min dialect of southern Fujian. Until 1950s, Hokkien Taiwanese were farmers and fishermen. Since then they have became successful entrepreneurs leading Taiwan's remarkable postwar industrial transformation and growth. With the lifting of martial law in 1989, they have also become among the nation's political leaders and elite.",
+            "highest_bt": "Asia",
+            "bt": "East Asia",
+            "subsistence_type": "intensive agriculturalists",
+            "docs": 72,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Taiwan Hokkien"
+        },
+        {
+            "id": "ro02",
+            "hsla": "hsla(331.35,95.29%,87.82%,0.830)",
+            "description": "Tajiks comprise about 80 percent of the population of Tajikistan. Tajiks also live in several other countries in Central Asia. Tajiks primarily live in rural areas. Commercialized growing of cotton is the dominant agricultural activity. Tajiks are Sunni Muslims. The dialect of Farsi that the Tajiks speak is mutually intelligible with Persian of Iran and Dari of Afghanistan.",
+            "highest_bt": "Asia",
+            "bt": "Central Asia",
+            "subsistence_type": "not assigned",
+            "docs": 1,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Tajiks"
+        },
+        {
+            "id": "sa19",
+            "hsla": "hsla(274.28,95.43%,80.75%,0.760)",
+            "description": "At the time of European conquest, there were numerous Indian groups present in the Talamanca mountain range and surrounding coastal plains of southern Costa Rica and western Panama. Pursuing notably divergent strategies for cultural survival over the centuries, four of the Chibchan-speaking groups remain: the Boruca, Bribri and Cabécar (many on reservations in Costa Rica) and the Teribe (largely in Panama). Traditional subsistence was based on agriculture, supplemented by hunting and river fishing, but Talamancans are now largely integrated into their national economies, with fewer individuals dependent upon a rapidly diminishing supply of available land. Although some work in national government, or for national and international Indian advocacy agencies, self-government within communities is informal, with the opinions of elders and shamans respected.",
+            "highest_bt": "Middle America and the Caribbean",
+            "bt": "Central America",
+            "subsistence_type": "other subsistence combinations",
+            "docs": 8,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Talamancans"
+        },
+        {
+            "id": "fe11",
+            "hsla": "hsla(65.27,95.38%,82.47%,0.840)",
+            "description": "The Tallensi are a small group of culturally and linguistically distinct people located in the Volota River basin of northern Ghana.  Their dialect, called Talni, belongs to the Farefare branch of the Niger-Congo family. Their traditional subsistence centers on cultivating millet and sorghum as staples, together with animal husbandry, gathering, hunting and fishing.  The head of each domestic group is connected to a wide network of patrilineal kin groups through an elaborate clan system.",
+            "highest_bt": "Africa",
+            "bt": "Western Africa",
+            "subsistence_type": "intensive agriculturalists",
+            "docs": 12,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Tallensi"
+        },
+        {
+            "id": "aw16",
+            "hsla": "hsla(331.17,95.22%,81.29%,0.790)",
+            "description": "The Tamil homeland is in southwestern India and is roughly equivalent to the modern state of Tamil Nadu. The Tamil comprise the vast majority of the population of Tamil Nadu and a good number of Indian Tamil also live in the small territory of Pondicherry, around the city of Bangalore, and elsewhere in India. The Tamil speak Tamil, a Dravidian language. The economy is based primarily on agriculture, supplemented with household craftwork, weaving, and fine metal work in brass, silver, and gold. Cross-cousin marriage is the preferred form of marriage. Within villages, society is ordered by a hierarchy of castes.",
+            "highest_bt": "Asia",
+            "bt": "South Asia",
+            "subsistence_type": "intensive agriculturalists",
+            "docs": 48,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Tamil"
+        },
+        {
+            "id": "fy08",
+            "hsla": "hsla(65.35,95.20%,83.47%,0.770)",
+            "description": "The Tanala (also called Antanala) are a Malagasy speaking people living in southeastern Madagascar, an island country located off the eastern coast of southern Africa. They grow rice, supplemented with other crops. The basic unit of Tanala society is the extended family. This unit grows into a residential patrilineage as married sons in each generation build their house close to that of their fathers. Closely related lineages show political alliance and solidarity by maintaining common tombs and in some cases loyalty to clans and paramount chiefs.",
+            "highest_bt": "Africa",
+            "bt": "Southern Africa",
+            "subsistence_type": "intensive agriculturalists",
+            "docs": 2,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Tanala"
+        }
+    ],
+    "facet_buckets": {
+        "regions": {
+            "allIds": [
+                "Africa",
+                "Asia",
+                "Europe",
+                "Middle America and the Caribbean",
+                "Middle East",
+                "North America",
+                "Oceania",
+                "South America"
+            ],
+            "byId": {
+                "Africa": {
+                    "id": "Africa",
+                    "count": 71,
+                    "childName": "subregions",
+                    "subregions": [
+                        "Central Africa",
+                        "Eastern Africa",
+                        "Northern Africa",
+                        "Southern Africa",
+                        "Western Africa"
+                    ]
+                },
+                "Asia": {
+                    "id": "Asia",
+                    "count": 82,
+                    "childName": "subregions",
+                    "subregions": [
+                        "Caucasus",
+                        "Central Asia",
+                        "East Asia",
+                        "North Asia",
+                        "South Asia",
+                        "Southeast Asia"
+                    ]
+                },
+                "Europe": {
+                    "id": "Europe",
+                    "count": 17,
+                    "childName": "subregions",
+                    "subregions": [
+                        "British Isles",
+                        "Scandinavia",
+                        "Southeastern Europe",
+                        "Southern Europe"
+                    ]
+                },
+                "Middle America and the Caribbean": {
+                    "id": "Middle America and the Caribbean",
+                    "count": 21,
+                    "childName": "subregions",
+                    "subregions": [
+                        "Caribbean",
+                        "Central America",
+                        "Central Mexico",
+                        "Maya Area",
+                        "Northern Mexico"
+                    ]
+                },
+                "Middle East": {
+                    "id": "Middle East",
+                    "count": 12,
+                    "childName": "subregions",
+                    "subregions": [
+                        "Middle East"
+                    ]
+                },
+                "North America": {
+                    "id": "North America",
+                    "count": 81,
+                    "childName": "subregions",
+                    "subregions": [
+                        "Arctic and Subarctic",
+                        "Eastern Woodlands",
+                        "Northwest Coast and California",
+                        "Plains and Plateau",
+                        "Regional, Ethnic and Diaspora Cultures",
+                        "Southwest and Basin"
+                    ]
+                },
+                "Oceania": {
+                    "id": "Oceania",
+                    "count": 33,
+                    "childName": "subregions",
+                    "subregions": [
+                        "Australia",
+                        "Melanesia",
+                        "Micronesia",
+                        "Polynesia"
+                    ]
+                },
+                "South America": {
+                    "id": "South America",
+                    "count": 48,
+                    "childName": "subregions",
+                    "subregions": [
+                        "Amazon and Orinoco",
+                        "Central Andes",
+                        "Eastern South America",
+                        "Northwestern South America",
+                        "Southern South America"
+                    ]
+                }
+            }
+        },
+        "subregions": {
+            "allIds": [
+                "Amazon and Orinoco",
+                "Arctic and Subarctic",
+                "Australia",
+                "British Isles",
+                "Caribbean",
+                "Caucasus",
+                "Central Africa",
+                "Central America",
+                "Central Andes",
+                "Central Asia",
+                "Central Mexico",
+                "East Asia",
+                "Eastern Africa",
+                "Eastern Europe",
+                "Eastern South America",
+                "Eastern Woodlands",
+                "Maya Area",
+                "Melanesia",
+                "Micronesia",
+                "Middle East",
+                "North Asia",
+                "Northern Africa",
+                "Northern Mexico",
+                "Northwest Coast and California",
+                "Northwestern South America",
+                "Plains and Plateau",
+                "Polynesia",
+                "Regional, Ethnic and Diaspora Cultures",
+                "Scandinavia",
+                "South Asia",
+                "Southeast Asia",
+                "Southeastern Europe",
+                "Southern Africa",
+                "Southern Europe",
+                "Southern South America",
+                "Southwest and Basin",
+                "Western Africa"
+            ],
+            "byId": {
+                "Amazon and Orinoco": {
+                    "id": "Amazon and Orinoco",
+                    "count": 17,
+                    "parentName": "regions"
+                },
+                "Arctic and Subarctic": {
+                    "id": "Arctic and Subarctic",
+                    "count": 11,
+                    "parentName": "regions"
+                },
+                "Australia": {
+                    "id": "Australia",
+                    "count": 2,
+                    "parentName": "regions"
+                },
+                "British Isles": {
+                    "id": "British Isles",
+                    "count": 4,
+                    "parentName": "regions"
+                },
+                "Caribbean": {
+                    "id": "Caribbean",
+                    "count": 6,
+                    "parentName": "regions"
+                },
+                "Caucasus": {
+                    "id": "Caucasus",
+                    "count": 2,
+                    "parentName": "regions"
+                },
+                "Central Africa": {
+                    "id": "Central Africa",
+                    "count": 8,
+                    "parentName": "regions"
+                },
+                "Central America": {
+                    "id": "Central America",
+                    "count": 4,
+                    "parentName": "regions"
+                },
+                "Central Andes": {
+                    "id": "Central Andes",
+                    "count": 7,
+                    "parentName": "regions"
+                },
+                "Central Asia": {
+                    "id": "Central Asia",
+                    "count": 17,
+                    "parentName": "regions"
+                },
+                "Central Mexico": {
+                    "id": "Central Mexico",
+                    "count": 5,
+                    "parentName": "regions"
+                },
+                "East Asia": {
+                    "id": "East Asia",
+                    "count": 11,
+                    "parentName": "regions"
+                },
+                "Eastern Africa": {
+                    "id": "Eastern Africa",
+                    "count": 24,
+                    "parentName": "regions"
+                },
+                "Eastern Europe": {
+                    "id": "Eastern Europe",
+                    "count": 1,
+                    "parentName": "regions"
+                },
+                "Eastern South America": {
+                    "id": "Eastern South America",
+                    "count": 10,
+                    "parentName": "regions"
+                },
+                "Eastern Woodlands": {
+                    "id": "Eastern Woodlands",
+                    "count": 10,
+                    "parentName": "regions"
+                },
+                "Maya Area": {
+                    "id": "Maya Area",
+                    "count": 4,
+                    "parentName": "regions"
+                },
+                "Melanesia": {
+                    "id": "Melanesia",
+                    "count": 15,
+                    "parentName": "regions"
+                },
+                "Micronesia": {
+                    "id": "Micronesia",
+                    "count": 7,
+                    "parentName": "regions"
+                },
+                "Middle East": {
+                    "id": "Middle East",
+                    "count": 12,
+                    "parentName": "regions"
+                },
+                "North Asia": {
+                    "id": "North Asia",
+                    "count": 7,
+                    "parentName": "regions"
+                },
+                "Northern Africa": {
+                    "id": "Northern Africa",
+                    "count": 6,
+                    "parentName": "regions"
+                },
+                "Northern Mexico": {
+                    "id": "Northern Mexico",
+                    "count": 2,
+                    "parentName": "regions"
+                },
+                "Northwest Coast and California": {
+                    "id": "Northwest Coast and California",
+                    "count": 13,
+                    "parentName": "regions"
+                },
+                "Northwestern South America": {
+                    "id": "Northwestern South America",
+                    "count": 3,
+                    "parentName": "regions"
+                },
+                "Plains and Plateau": {
+                    "id": "Plains and Plateau",
+                    "count": 12,
+                    "parentName": "regions"
+                },
+                "Polynesia": {
+                    "id": "Polynesia",
+                    "count": 9,
+                    "parentName": "regions"
+                },
+                "Regional, Ethnic and Diaspora Cultures": {
+                    "id": "Regional, Ethnic and Diaspora Cultures",
+                    "count": 20,
+                    "parentName": "regions"
+                },
+                "Scandinavia": {
+                    "id": "Scandinavia",
+                    "count": 3,
+                    "parentName": "regions"
+                },
+                "South Asia": {
+                    "id": "South Asia",
+                    "count": 22,
+                    "parentName": "regions"
+                },
+                "Southeast Asia": {
+                    "id": "Southeast Asia",
+                    "count": 23,
+                    "parentName": "regions"
+                },
+                "Southeastern Europe": {
+                    "id": "Southeastern Europe",
+                    "count": 7,
+                    "parentName": "regions"
+                },
+                "Southern Africa": {
+                    "id": "Southern Africa",
+                    "count": 14,
+                    "parentName": "regions"
+                },
+                "Southern Europe": {
+                    "id": "Southern Europe",
+                    "count": 2,
+                    "parentName": "regions"
+                },
+                "Southern South America": {
+                    "id": "Southern South America",
+                    "count": 11,
+                    "parentName": "regions"
+                },
+                "Southwest and Basin": {
+                    "id": "Southwest and Basin",
+                    "count": 15,
+                    "parentName": "regions"
+                },
+                "Western Africa": {
+                    "id": "Western Africa",
+                    "count": 19,
+                    "parentName": "regions"
+                }
+            }
+        },
+        "subsistence_types": {
+            "byId": {
+                "intensive agriculturalists": {
+                    "id": "intensive agriculturalists",
+                    "count": 80
+                },
+                "horticulturalists": {
+                    "id": "horticulturalists",
+                    "count": 60
+                },
+                "hunter-gatherers": {
+                    "id": "hunter-gatherers",
+                    "count": 59
+                },
+                "other subsistence combinations": {
+                    "id": "other subsistence combinations",
+                    "count": 52
+                },
+                "primarily hunter-gatherers": {
+                    "id": "primarily hunter-gatherers",
+                    "count": 31
+                },
+                "commercial economy": {
+                    "id": "commercial economy",
+                    "count": 29
+                },
+                "agro-pastoralists": {
+                    "id": "agro-pastoralists",
+                    "count": 28
+                },
+                "pastoralists": {
+                    "id": "pastoralists",
+                    "count": 20
+                },
+                "not assigned": {
+                    "id": "not assigned",
+                    "count": 5
+                }
+            },
+            "allIds": [
+                "intensive agriculturalists",
+                "horticulturalists",
+                "hunter-gatherers",
+                "other subsistence combinations",
+                "primarily hunter-gatherers",
+                "commercial economy",
+                "agro-pastoralists",
+                "pastoralists",
+                "not assigned"
+            ]
+        },
+        "samples": {
+            "allIds": [
+                "EA",
+                "SCCS",
+                "PSF",
+                "SRS"
+            ],
+            "byId": {
+                "EA": {
+                    "id": "EA",
+                    "count": 285
+                },
+                "SCCS": {
+                    "id": "SCCS",
+                    "count": 186
+                },
+                "PSF": {
+                    "id": "PSF",
+                    "count": 60
+                },
+                "SRS": {
+                    "id": "SRS",
+                    "count": 28
+                }
+            }
+        },
+        "subSamples": {
+            "allIds": [
+                "EA",
+                "SCCS"
+            ],
+            "byId": {
+                "EA": {
+                    "id": "EA",
+                    "count": 285,
+                    "parentName": "samples"
+                },
+                "SCCS": {
+                    "id": "SCCS",
+                    "count": 186,
+                    "parentName": "samples"
+                }
+            }
+        },
+        "allIds": [
+            "regions",
+            "subsistence_types",
+            "samples"
+        ]
+    },
+    "overview": {
+        "docs": 0,
+        "cultures": 0
+    },
+    "spell": ""
+}

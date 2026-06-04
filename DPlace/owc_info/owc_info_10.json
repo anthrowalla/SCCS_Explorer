@@ -1,0 +1,773 @@
+{
+    "numFound": 365,
+    "qTime": 0,
+    "pageCount": 15,
+    "data": [
+        {
+            "id": "mr08",
+            "hsla": "hsla(65.34,95.26%,83.47%,0.770)",
+            "description": "Nubians, separately identified according to regional languages, live in villages scattered along the banks of the Nile in southern Egypt and northern Sudan. Their traditional economy depended on sorghum, wheat, and date palms; cash crops such as sugarcane and cotton have grown in importance. The raising of the Aswan Dam in 1933 submerged much of \"Old Nubia\" in Egypt, and most Nubians relocated to new villages north of the dam where they became increasingly dependent on income from an established pattern of labor migration to Cairo and other big cities in which they had built a reputation as hard-working and ethical. Increased rural-urban interaction led to additional religious syncretism, and to modifications in taboos in rites such as circumcision and marriage. Another round of resettlement in 1963 with the construction of the Aswan High Dam galvanized a sense of common ethnic identity and raised their political profile nationally.",
+            "highest_bt": "Africa",
+            "bt": "Northern Africa",
+            "subsistence_type": "horticulturalists",
+            "docs": 19,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Nubians"
+        },
+        {
+            "id": "fj22",
+            "hsla": "hsla(65.25,95.34%,80.29%,0.830)",
+            "description": "The Nuer live in South Sudan. Their country is divided by the Nile River into western and eastern regions. The Nuer language is in the Nilotic branch of the Nilo-Saharan language family. Most of Nuerland consists of open savanna and subsistence is based on raising cattle, horticulture, fishing, and foraging. Cattle are central to the Nuer way of life. The settlement pattern includes living in villages on high ground during the rainy season and cattle camps during the dry season. Districts consist of several camps in communication with each other.",
+            "highest_bt": "Africa",
+            "bt": "Eastern Africa",
+            "subsistence_type": "agro-pastoralists",
+            "docs": 22,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Nuer"
+        },
+        {
+            "id": "ff52",
+            "hsla": "hsla(65.27,95.38%,77.59%,0.830)",
+            "description": "The majority of Nupe are located in west-central Nigeria, northwest of the Niger River in the lowlands centered on its tributary, the Kaduna. A centralized Nupe kingdom emerged in the fifteenth century. Although subject to the conquering Fulani starting in 1820, and subsequently to the British colonial authority and to an independent Nigerian state, the king remains an important symbol of unity. The Nupe typically live in large villages or towns. Most Nupe practice shifting cultivation and fishing is important along rivers. Craftsmen organized by guilds are renowned for their metallurgy, textiles, glass beads and woodworking.",
+            "highest_bt": "Africa",
+            "bt": "Western Africa",
+            "subsistence_type": "horticulturalists",
+            "docs": 13,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Nupe"
+        },
+        {
+            "id": "ne11",
+            "hsla": "hsla(21.91,95.38%,82.47%,0.840)",
+            "description": "The Nuu-Chah-Nulth live primarily on the western coast of Vancouver Island, British Columbia, Canada, A closely related group, the Makah, live in the Cape Flattery area of northwestern Washington State, The Nuu-Chah-Nulth and the related Makah speak languages in the Southern Wakashan language family. Traditionally, subsistence was based on the hunting of both land and sea animals (seals, whales) as well as fishing (primarily salmon), supplemented by the gathering of wild plants and roots. The basic political unit was the local group. Several local groups together constituted a tribe governed by a chief. In Nuu-Chah-Nulth society each person had an inherited social rank, and all Nuu-Chah-Nulth were rank-ordered in relation to each other. Class structure was apparent by the division of communities into nobles, commoners, and slaves.",
+            "highest_bt": "North America",
+            "bt": "Northwest Coast and California",
+            "subsistence_type": "hunter-gatherers",
+            "docs": 17,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Nuu-chah-nulth"
+        },
+        {
+            "id": "ne06",
+            "hsla": "hsla(21.91,95.38%,84.37%,0.790)",
+            "description": "The Nuxalk are a Canadian First Nations group living on the central coast of British Columbia, Canada. They speak a Salishan language known as Bella Coola that is isolated from the other Salishan languages of the coast. Subsistence was centered on fishing (primarily salmon), as well as hunting and gathering with some limited trade. Social structure consisted of chiefs, an aristocracy, commoners, and slaves. Nuxalk families are large in size and trace their descent ambilineally to a particular area of Nuxalk territory. Household members supported one another in potlatching and economic pursuits.",
+            "highest_bt": "North America",
+            "bt": "Northwest Coast and California",
+            "subsistence_type": "hunter-gatherers",
+            "docs": 11,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Nuxalk"
+        },
+        {
+            "id": "fn17",
+            "hsla": "hsla(65.25,95.30%,81.10%,0.780)",
+            "description": "The Nyakyusa and Ngonde are ethnically and culturally related people living in southwestern Tanzania and northern Malawi. They speak closely related Bantu languages, with minor dialectal differences in some regions. They are primarily rural people, earning their living from a combination of grain cultivation, banana\/plantain gardens, cattle herding and seasonal migration to towns. Traditional Nyakyusa society was especially noted for its nucleated \"age villages\", a residential segregation of generations in adjoining communities.",
+            "highest_bt": "Africa",
+            "bt": "Eastern Africa",
+            "subsistence_type": "intensive agriculturalists",
+            "docs": 10,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Nyakyusa and Ngonde"
+        },
+        {
+            "id": "ng06",
+            "hsla": "hsla(21.49,95.37%,84.37%,0.790)",
+            "description": "The Ojibwa communities range from southern and northwestern Ontario, northern Michigan and Wisconsin, and Minnesota, to North Dakota and southern and central Manitoba and Saskatchewan. The four main Ojibwa groups are the Northern Ojibwa, or Saulteaux; the Plains Ojibwa, or Bungi; the southeastern Ojibwa; and the southwestern Chippewa. The Ojibwa economy was mixed, combining fishing, hunting, and gathering with gardening (in the south) and trade, particularly the fur trade. The Plains Ojibwa turned more to bison hunting. By the 1850s, their land base and population had been severely reduced by United States removal policies, disease, and the overall pressures of heavy European American settlement, especially in more southern areas.",
+            "highest_bt": "North America",
+            "bt": "Arctic and Subarctic",
+            "subsistence_type": "hunter-gatherers",
+            "docs": 73,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Ojibwa"
+        },
+        {
+            "id": "ab43",
+            "hsla": "hsla(331.02,95.42%,78.19%,0.820)",
+            "description": "Okayama is a prefecture on the Inland Sea in southwestern Honshu that is part of the core zone of Japanese history and culture. While the cities have long been commercial and industrial hubs, paddy rice is grown in rural areas along with some rushes for making tatami mats. Fishing dominates in coastal settlements. Below the village administrative level of the state, hamlets consist of lineage main and branch houses that include one to two conjugal or stem families. Buddhism and Shintoism are the major religions.",
+            "highest_bt": "Asia",
+            "bt": "East Asia",
+            "subsistence_type": "intensive agriculturalists",
+            "docs": 18,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Okayama"
+        },
+        {
+            "id": "fl20",
+            "hsla": "hsla(65.25,95.32%,80.59%,0.850)",
+            "description": "“Okiek” is a collective name for a number of dispersed groups who speak a common language and live in the highland areas of west-central Kenya and northern Tanzania. The Okiek are marginalized and looked down upon by larger groups such as the Maasai and Kipsigis, with whom they interact economically. Originally hunter gathers, the Okiek practice a diversified economy that also includes farming and herding. They are organized into lineages, clans and age-sets, which vary in their importance depending on the group.  Traditional beliefs in gods and ancestral spirits have been complimented by a growing presence of Christian missionaries and settlers in the region since 1980.",
+            "highest_bt": "Africa",
+            "bt": "Eastern Africa",
+            "subsistence_type": "hunter-gatherers",
+            "docs": 17,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Okiek"
+        },
+        {
+            "id": "ac07",
+            "hsla": "hsla(331.02,95.40%,83.89%,0.780)",
+            "description": "The Okinawans inhabit the Ryukyu Archipelago, a chain of 146 islands, stretching in a 1200-kilometer arc from Kyushu, Japan to Taiwan. The islands to the south of make up Okinawa Prefecture and those to the north are part of Kagoshima Prefecture.  The Ryukyuan languages and Japanese diverged about 1300 years ago. Young people speak only Japanese. Before 1960 about half of Okinawan families were farm families, but today it is a minority occupation. Fishing is a major occupation of coastal villages. The major commercial activities on Okinawa are food processing (sugar and pineapples), oil refining, and tourism.",
+            "highest_bt": "Asia",
+            "bt": "East Asia",
+            "subsistence_type": "intensive agriculturalists",
+            "docs": 23,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Okinawans"
+        },
+        {
+            "id": "nq21",
+            "hsla": "hsla(21.38,95.27%,80.44%,0.840)",
+            "description": "The Omaha live mostly in and around the northeastern Nebraska town of Macy on a portion of their aboriginal lands retained under an 1854 treaty. Their language is in the Dhegiha branch of the Siouan language family, which also includes the Osage, Ponca, Kansa and Quapaw. Prereservation Omaha relied mainly on maize, beans, and squash as well as hunting and gathering. Having lost most of their land, they have mostly shifted to wage labor. They have continued to be significant participants in local development and identity politics through casino gaming, negotiations over the repatriation of human remains and grave goods, and the maintenance of cultural heritages.",
+            "highest_bt": "North America",
+            "bt": "Plains and Plateau",
+            "subsistence_type": "primarily hunter-gatherers",
+            "docs": 8,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Omaha"
+        },
+        {
+            "id": "sh04",
+            "hsla": "hsla(355.43,95.36%,85.65%,0.810)",
+            "description": "The Ona were a Native American ethnic group who occupied most of the large island of Tierra del Fuego at the southern tip of South America. The Ona were divided into two main groups, the Haush and Selk'nam, who were distinct both dialectically and culturally. As of the 1990s, the Ona are considered to be extinct. The Ona language is closely related to Tehuelche. Subsistence was based primarily on hunting and the Ona were nomadic.",
+            "highest_bt": "South America",
+            "bt": "Southern South America",
+            "subsistence_type": "hunter-gatherers",
+            "docs": 6,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Ona"
+        },
+        {
+            "id": "nu79",
+            "hsla": "hsla(21.46,95.24%,76.28%,0.760)",
+            "description": "Aboriginally the O'odham occupied about forty thousand square miles of the Sonoran Desert in the present states of Sonora, Mexico and Arizona in the United States. The present day (late twentieth century) population is believed to be the remnant and consolidation of that territory's earlier occupant whom the Spaniards called the \"Upper Pimas.\" The O'odham speak several closely related dialects of the Uto-Aztecan language family. Traditionally, subsistence was based on gathering, hunting, and agriculture with the primary crops being beans, maize, and squash. Each village was autonomous but joined with other villages of the regional band for war and ceremonies.",
+            "highest_bt": "North America",
+            "bt": "Southwest and Basin",
+            "subsistence_type": "other subsistence combinations",
+            "docs": 17,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "O'odham"
+        },
+        {
+            "id": "oj23",
+            "hsla": "hsla(242.29,95.34%,80.15%,0.820)",
+            "description": "Orokaiva refers to a number of culturally similar ethnic groups concentrated in the Popondetta district of Oro Province, Papua New Guinea. The most representative language, Orokaiva, is classified in the Binanderean (or Binandere) family in the Non-Austronesian Trans-New Guinea phylum and is spoken in most of the heavily populated parts of Oro Province. The economy is based primarily on agriculture supplemented by gathering, and limited hunting. Villages are small and leadership in the hands of  &#x22;big men&#x22; and elders.",
+            "highest_bt": "Oceania",
+            "bt": "Melanesia",
+            "subsistence_type": "other subsistence combinations",
+            "docs": 32,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Orokaiva"
+        },
+        {
+            "id": "nq22",
+            "hsla": "hsla(21.38,95.27%,80.29%,0.830)",
+            "description": "The Osage live mostly in Oklahoma. Their language is in the Dhegiha branch of the Siouan language family, which also includes the Omaha, Ponca, Kansa and Quapaw. Traditional Osage society was divided into five named bands. Each band had its own chiefs who represented it at the assembly of clans and religious leaders called \"little Old Men\". Pre-reservation Osage economy was based on horticulture, hunting, the collection of wild food plants, and the fur trade. Having lost most of their land, the Osage receive income mostly from wage work, oil and mineral rights, and per capita payments from interest paid on the Kansas land sale money in the Federal Treasury.",
+            "highest_bt": "North America",
+            "bt": "Plains and Plateau",
+            "subsistence_type": "primarily hunter-gatherers",
+            "docs": 12,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Osage"
+        },
+        {
+            "id": "sd16",
+            "hsla": "hsla(354.88,95.39%,81.29%,0.790)",
+            "description": "The Otavalo Quichua are the Quichua-speaking people traditionally settled within the cantons of Otavalo and Cotacachi, Imabura province, Ecuador. An economy based on subsistence agriculture and external trade since prehistory, and on industrial-scale weaving during the colonial period (revived by worldwide wool shortages during World War II) has in recent decades, through the combination of trade and textiles, stimulated a diaspora of Otavalo Quichua to urban areas both within Ecuador and internationally. A fundamentally egalitarian society of small landholders is becoming divided along class lines not only by occupation (i.e. subsistence farmers versus textile producers and merchants) but increasingly according to wealth. Nevertheless, the persistent cultural identity most prominently asserted by the distinctive native costume, is continuously reinforced and renegotiated through a virtually nonstop cycle of festival events ranging from the spiritual to the secular that has a centripetal effect of global reach thanks to modern means of rapid communication and travel.",
+            "highest_bt": "South America",
+            "bt": "Central Andes",
+            "subsistence_type": "horticulturalists",
+            "docs": 4,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Otavalo Quichua"
+        },
+        {
+            "id": "fx08",
+            "hsla": "hsla(65.35,95.21%,83.47%,0.770)",
+            "description": "The Ovambo are matrilineal people living in north-central Namibia and south-central Angola. They speak a variety of languages, collectively known as Oshiwambo, part the Southern Bantu group. Traditionally, Oshiwambo-speakers resided in scattered, palisaded homesteads within independent polities led either by a monarch or popularly-chosen community heads, but shared religious practices and an agro-pastoral subsistence pattern.",
+            "highest_bt": "Africa",
+            "bt": "Southern Africa",
+            "subsistence_type": "agro-pastoralists",
+            "docs": 15,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Ovambo"
+        },
+        {
+            "id": "fp13",
+            "hsla": "hsla(65.35,95.28%,81.95%,0.820)",
+            "description": "The Ovimbundu are the largest ethnic group in Angola. They live in the Benguela Highlands (Bié Plateau) practicing shifting cultivation, primarily of maize and beans, raise domestic animals(cattle, goats, pigs, and fowl), and fish, hunt and trap in the dry season. The Ovimbundu were major traders in central Africa, operating Large caravans operated throughout the region. Trade items included slaves, ivory, domesticated animals, axes, hoes, guns, salt, skins, and maize. In precolonial times, Ovimbundu society included a king, other members of the ruling elite, freeborn, clients, and slaves.",
+            "highest_bt": "Africa",
+            "bt": "Southern Africa",
+            "subsistence_type": "horticulturalists",
+            "docs": 13,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Ovimbundu"
+        },
+        {
+            "id": "m013",
+            "hsla": "hsla(172.38,96.13%,81.95%,0.820)",
+            "description": "Palestinians are Arabs who are a mixture of pre-Israelite and other groups who settled in Palestine. They speak a dialect of Arabic and write classical Arabic. Until 1948 the country of Palestine occupied an area east of the Mediterranean that is now occupied by Israel and Jordan. The creation of the state of Israel created hundreds of thousands of Palestinian refugees.",
+            "highest_bt": "Middle East",
+            "bt": "Middle East",
+            "subsistence_type": "commercial economy",
+            "docs": 40,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Palestinians"
+        },
+        {
+            "id": "ro03",
+            "hsla": "hsla(331.35,95.29%,86.55%,0.820)",
+            "description": "The Pamir Peoples live in one of  the highest mountain ranges in the world, the western Pamir Mountains, in the Mountain-Badakhshan District of Tajikistan. There are various  named subgroups of Pamirians, some also living in Afghanistan and Pakistan. The dialects of these groups are mostly mutually unintelligible. Western Iranian Farsi of India and the Dari language of Afghanistan are lingua francas. Grain and legume agriculture and animal husbandry are the primary economic activities. The Pamirians belong to the Isma'ili sect of Islam.",
+            "highest_bt": "Asia",
+            "bt": "Central Asia",
+            "subsistence_type": "agro-pastoralists",
+            "docs": 1,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Pamir Peoples"
+        },
+        {
+            "id": "au04",
+            "hsla": "hsla(331.35,95.24%,85.65%,0.810)",
+            "description": "The Pashtun inhabit southern and eastern Afghanistan and western Pakistan. Their language is Pushto (Pashto), in the Iranian branch of the Indo-European language family. Except for a small minority, they are Sunni Muslims. Until recently, Pashtun dynasties controlled the tribal kingdom of Afghanistan. Agriculture, primarily grain farming, and animal husbandry are the most important activities in the Pashtun economy. The most important crop is wheat. In addition to raising stock, nomads as well as some farmers engage in trade and moneylending. The presence of the border dividing Pashtun territory into two countries also makes smuggling a lucrative pursuit.",
+            "highest_bt": "Asia",
+            "bt": "Central Asia",
+            "subsistence_type": "intensive agriculturalists",
+            "docs": 22,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Pashtun"
+        },
+        {
+            "id": "nq18",
+            "hsla": "hsla(21.38,95.27%,80.92%,0.770)",
+            "description": "The Pawnee are Native Americans who originally lived in what is now central Nebraska and central Kansas in the basins of the Platte and Republican rivers. The Pawnee spoke a Caddoan language. Prior to 1833 they lived in large villages along the Platte River where they farmed and hunted mostly bison. Nineteenth century Pawnee society included a series of class-like hierarchical divisions. Resettlement in Indian Territory made traditional subsistence methods impossible. They now live on a reservation in north-central Oklahoma.",
+            "highest_bt": "North America",
+            "bt": "Plains and Plateau",
+            "subsistence_type": "other subsistence combinations",
+            "docs": 22,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Pawnee"
+        },
+        {
+            "id": "ns18",
+            "hsla": "hsla(21.91,95.26%,80.92%,0.770)",
+            "description": "Pomo and Pomoan refer to the Hokan family of seven California Indian languages and to their speakers. Early literature on the Pomo failed to distinguish the subgroups, lumping them all under the general rubric of &#x22;Pomo&#x22;. Later researchers of the Pomo consider the seven language groups as distinct ethnic entities. The seven are often differentiated by placing a directional term before the word Pomo: Southwestern Pomo, Southern Pomo, Central Pomo, Northern Pomo, Northeastern Pomo, Eastern Pomo, and Southeastern Pomo. The Pomo were hunters and gatherers. The staple food for all the Pomo was the acorn. Most now work for wages and buy their food in a grocery, though many still like to gather old-time foods like acorns and seaweed.",
+            "highest_bt": "North America",
+            "bt": "Northwest Coast and California",
+            "subsistence_type": "hunter-gatherers",
+            "docs": 31,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Pomo"
+        },
+        {
+            "id": "nu30",
+            "hsla": "hsla(274.22,95.24%,79.32%,0.850)",
+            "description": "The Mixe-Zoquean speaking Popoluca of southern Veracruz traditionally practiced a mixed agriculture emphasizing maize, supplemented by hunting, fishing and gathering. By the end of the twentieth century cattle ranching dominated, along with forage and commercial crops. Sociopolitical life centers on villages and municipalities with elected official. The Popoluca practice of Catholicism is infused pre-Columbian elements, many related to traditional subsistence, and religious ceremonies, celebrations of major life events, and magical practices influence the distribution and consumption and of goods.",
+            "highest_bt": "Middle America and the Caribbean",
+            "bt": "Central Mexico",
+            "subsistence_type": "horticulturalists",
+            "docs": 4,
+            "hasSummary": false,
+            "ocms": [],
+            "hl": {},
+            "term": "Popoluca"
+        },
+        {
+            "id": "su01",
+            "hsla": "hsla(273.80,95.24%,90.00%,0.840)",
+            "description": "Puerto Ricans are the modern inhabitants of the island of Puerto Rico, a territory of the United States that has commonwealth status. The distinctive ethnic identity of Puerto Ricans is based on Spanish, Afro-Caribbean, and North American historical traditions. Puerto Rico is basically self-governing, headed by a democratically elected governor. The people are principally Spanish speakers with a minority being bilingual in both Spanish and English. Most Puerto Ricans live in cities and the economy is now largely commercial, with agribusinesses (primarily sugar cane), service industries, tourism, and manufacturing.",
+            "highest_bt": "Middle America and the Caribbean",
+            "bt": "Caribbean",
+            "subsistence_type": "commercial economy",
+            "docs": 21,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Puerto Ricans (Island)"
+        }
+    ],
+    "facet_buckets": {
+        "regions": {
+            "allIds": [
+                "Africa",
+                "Asia",
+                "Europe",
+                "Middle America and the Caribbean",
+                "Middle East",
+                "North America",
+                "Oceania",
+                "South America"
+            ],
+            "byId": {
+                "Africa": {
+                    "id": "Africa",
+                    "count": 71,
+                    "childName": "subregions",
+                    "subregions": [
+                        "Central Africa",
+                        "Eastern Africa",
+                        "Northern Africa",
+                        "Southern Africa",
+                        "Western Africa"
+                    ]
+                },
+                "Asia": {
+                    "id": "Asia",
+                    "count": 82,
+                    "childName": "subregions",
+                    "subregions": [
+                        "Caucasus",
+                        "Central Asia",
+                        "East Asia",
+                        "North Asia",
+                        "South Asia",
+                        "Southeast Asia"
+                    ]
+                },
+                "Europe": {
+                    "id": "Europe",
+                    "count": 17,
+                    "childName": "subregions",
+                    "subregions": [
+                        "British Isles",
+                        "Scandinavia",
+                        "Southeastern Europe",
+                        "Southern Europe"
+                    ]
+                },
+                "Middle America and the Caribbean": {
+                    "id": "Middle America and the Caribbean",
+                    "count": 21,
+                    "childName": "subregions",
+                    "subregions": [
+                        "Caribbean",
+                        "Central America",
+                        "Central Mexico",
+                        "Maya Area",
+                        "Northern Mexico"
+                    ]
+                },
+                "Middle East": {
+                    "id": "Middle East",
+                    "count": 12,
+                    "childName": "subregions",
+                    "subregions": [
+                        "Middle East"
+                    ]
+                },
+                "North America": {
+                    "id": "North America",
+                    "count": 81,
+                    "childName": "subregions",
+                    "subregions": [
+                        "Arctic and Subarctic",
+                        "Eastern Woodlands",
+                        "Northwest Coast and California",
+                        "Plains and Plateau",
+                        "Regional, Ethnic and Diaspora Cultures",
+                        "Southwest and Basin"
+                    ]
+                },
+                "Oceania": {
+                    "id": "Oceania",
+                    "count": 33,
+                    "childName": "subregions",
+                    "subregions": [
+                        "Australia",
+                        "Melanesia",
+                        "Micronesia",
+                        "Polynesia"
+                    ]
+                },
+                "South America": {
+                    "id": "South America",
+                    "count": 48,
+                    "childName": "subregions",
+                    "subregions": [
+                        "Amazon and Orinoco",
+                        "Central Andes",
+                        "Eastern South America",
+                        "Northwestern South America",
+                        "Southern South America"
+                    ]
+                }
+            }
+        },
+        "subregions": {
+            "allIds": [
+                "Amazon and Orinoco",
+                "Arctic and Subarctic",
+                "Australia",
+                "British Isles",
+                "Caribbean",
+                "Caucasus",
+                "Central Africa",
+                "Central America",
+                "Central Andes",
+                "Central Asia",
+                "Central Mexico",
+                "East Asia",
+                "Eastern Africa",
+                "Eastern Europe",
+                "Eastern South America",
+                "Eastern Woodlands",
+                "Maya Area",
+                "Melanesia",
+                "Micronesia",
+                "Middle East",
+                "North Asia",
+                "Northern Africa",
+                "Northern Mexico",
+                "Northwest Coast and California",
+                "Northwestern South America",
+                "Plains and Plateau",
+                "Polynesia",
+                "Regional, Ethnic and Diaspora Cultures",
+                "Scandinavia",
+                "South Asia",
+                "Southeast Asia",
+                "Southeastern Europe",
+                "Southern Africa",
+                "Southern Europe",
+                "Southern South America",
+                "Southwest and Basin",
+                "Western Africa"
+            ],
+            "byId": {
+                "Amazon and Orinoco": {
+                    "id": "Amazon and Orinoco",
+                    "count": 17,
+                    "parentName": "regions"
+                },
+                "Arctic and Subarctic": {
+                    "id": "Arctic and Subarctic",
+                    "count": 11,
+                    "parentName": "regions"
+                },
+                "Australia": {
+                    "id": "Australia",
+                    "count": 2,
+                    "parentName": "regions"
+                },
+                "British Isles": {
+                    "id": "British Isles",
+                    "count": 4,
+                    "parentName": "regions"
+                },
+                "Caribbean": {
+                    "id": "Caribbean",
+                    "count": 6,
+                    "parentName": "regions"
+                },
+                "Caucasus": {
+                    "id": "Caucasus",
+                    "count": 2,
+                    "parentName": "regions"
+                },
+                "Central Africa": {
+                    "id": "Central Africa",
+                    "count": 8,
+                    "parentName": "regions"
+                },
+                "Central America": {
+                    "id": "Central America",
+                    "count": 4,
+                    "parentName": "regions"
+                },
+                "Central Andes": {
+                    "id": "Central Andes",
+                    "count": 7,
+                    "parentName": "regions"
+                },
+                "Central Asia": {
+                    "id": "Central Asia",
+                    "count": 17,
+                    "parentName": "regions"
+                },
+                "Central Mexico": {
+                    "id": "Central Mexico",
+                    "count": 5,
+                    "parentName": "regions"
+                },
+                "East Asia": {
+                    "id": "East Asia",
+                    "count": 11,
+                    "parentName": "regions"
+                },
+                "Eastern Africa": {
+                    "id": "Eastern Africa",
+                    "count": 24,
+                    "parentName": "regions"
+                },
+                "Eastern Europe": {
+                    "id": "Eastern Europe",
+                    "count": 1,
+                    "parentName": "regions"
+                },
+                "Eastern South America": {
+                    "id": "Eastern South America",
+                    "count": 10,
+                    "parentName": "regions"
+                },
+                "Eastern Woodlands": {
+                    "id": "Eastern Woodlands",
+                    "count": 10,
+                    "parentName": "regions"
+                },
+                "Maya Area": {
+                    "id": "Maya Area",
+                    "count": 4,
+                    "parentName": "regions"
+                },
+                "Melanesia": {
+                    "id": "Melanesia",
+                    "count": 15,
+                    "parentName": "regions"
+                },
+                "Micronesia": {
+                    "id": "Micronesia",
+                    "count": 7,
+                    "parentName": "regions"
+                },
+                "Middle East": {
+                    "id": "Middle East",
+                    "count": 12,
+                    "parentName": "regions"
+                },
+                "North Asia": {
+                    "id": "North Asia",
+                    "count": 7,
+                    "parentName": "regions"
+                },
+                "Northern Africa": {
+                    "id": "Northern Africa",
+                    "count": 6,
+                    "parentName": "regions"
+                },
+                "Northern Mexico": {
+                    "id": "Northern Mexico",
+                    "count": 2,
+                    "parentName": "regions"
+                },
+                "Northwest Coast and California": {
+                    "id": "Northwest Coast and California",
+                    "count": 13,
+                    "parentName": "regions"
+                },
+                "Northwestern South America": {
+                    "id": "Northwestern South America",
+                    "count": 3,
+                    "parentName": "regions"
+                },
+                "Plains and Plateau": {
+                    "id": "Plains and Plateau",
+                    "count": 12,
+                    "parentName": "regions"
+                },
+                "Polynesia": {
+                    "id": "Polynesia",
+                    "count": 9,
+                    "parentName": "regions"
+                },
+                "Regional, Ethnic and Diaspora Cultures": {
+                    "id": "Regional, Ethnic and Diaspora Cultures",
+                    "count": 20,
+                    "parentName": "regions"
+                },
+                "Scandinavia": {
+                    "id": "Scandinavia",
+                    "count": 3,
+                    "parentName": "regions"
+                },
+                "South Asia": {
+                    "id": "South Asia",
+                    "count": 22,
+                    "parentName": "regions"
+                },
+                "Southeast Asia": {
+                    "id": "Southeast Asia",
+                    "count": 23,
+                    "parentName": "regions"
+                },
+                "Southeastern Europe": {
+                    "id": "Southeastern Europe",
+                    "count": 7,
+                    "parentName": "regions"
+                },
+                "Southern Africa": {
+                    "id": "Southern Africa",
+                    "count": 14,
+                    "parentName": "regions"
+                },
+                "Southern Europe": {
+                    "id": "Southern Europe",
+                    "count": 2,
+                    "parentName": "regions"
+                },
+                "Southern South America": {
+                    "id": "Southern South America",
+                    "count": 11,
+                    "parentName": "regions"
+                },
+                "Southwest and Basin": {
+                    "id": "Southwest and Basin",
+                    "count": 15,
+                    "parentName": "regions"
+                },
+                "Western Africa": {
+                    "id": "Western Africa",
+                    "count": 19,
+                    "parentName": "regions"
+                }
+            }
+        },
+        "subsistence_types": {
+            "byId": {
+                "intensive agriculturalists": {
+                    "id": "intensive agriculturalists",
+                    "count": 80
+                },
+                "horticulturalists": {
+                    "id": "horticulturalists",
+                    "count": 60
+                },
+                "hunter-gatherers": {
+                    "id": "hunter-gatherers",
+                    "count": 59
+                },
+                "other subsistence combinations": {
+                    "id": "other subsistence combinations",
+                    "count": 52
+                },
+                "primarily hunter-gatherers": {
+                    "id": "primarily hunter-gatherers",
+                    "count": 31
+                },
+                "commercial economy": {
+                    "id": "commercial economy",
+                    "count": 29
+                },
+                "agro-pastoralists": {
+                    "id": "agro-pastoralists",
+                    "count": 28
+                },
+                "pastoralists": {
+                    "id": "pastoralists",
+                    "count": 20
+                },
+                "not assigned": {
+                    "id": "not assigned",
+                    "count": 5
+                }
+            },
+            "allIds": [
+                "intensive agriculturalists",
+                "horticulturalists",
+                "hunter-gatherers",
+                "other subsistence combinations",
+                "primarily hunter-gatherers",
+                "commercial economy",
+                "agro-pastoralists",
+                "pastoralists",
+                "not assigned"
+            ]
+        },
+        "samples": {
+            "allIds": [
+                "EA",
+                "SCCS",
+                "PSF",
+                "SRS"
+            ],
+            "byId": {
+                "EA": {
+                    "id": "EA",
+                    "count": 285
+                },
+                "SCCS": {
+                    "id": "SCCS",
+                    "count": 186
+                },
+                "PSF": {
+                    "id": "PSF",
+                    "count": 60
+                },
+                "SRS": {
+                    "id": "SRS",
+                    "count": 28
+                }
+            }
+        },
+        "subSamples": {
+            "allIds": [
+                "EA",
+                "SCCS"
+            ],
+            "byId": {
+                "EA": {
+                    "id": "EA",
+                    "count": 285,
+                    "parentName": "samples"
+                },
+                "SCCS": {
+                    "id": "SCCS",
+                    "count": 186,
+                    "parentName": "samples"
+                }
+            }
+        },
+        "allIds": [
+            "regions",
+            "subsistence_types",
+            "samples"
+        ]
+    },
+    "overview": {
+        "docs": 0,
+        "cultures": 0
+    },
+    "spell": ""
+}
