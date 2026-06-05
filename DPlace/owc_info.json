@@ -16,7 +16,10 @@
             "hl": {},
             "term": "Khoi",
             "sccs": "Nama",
-            "sccs_group": "1"
+            "sccs_group": "1",
+            "year": "1860",
+            "latitude": "-27.5",
+            "longitude": "17"
         },
         {
             "id": "fx10",
@@ -31,7 +34,10 @@
             "hl": {},
             "term": "San",
             "sccs": "!Kung",
-            "sccs_group": "2"
+            "sccs_group": "2",
+            "year": "1950",
+            "latitude": "-19.83",
+            "longitude": "20.58"
         },
         {
             "id": "ft06",
@@ -46,7 +52,10 @@
             "hl": {},
             "term": "Tsonga",
             "sccs": "Tsonga",
-            "sccs_group": "3"
+            "sccs_group": "3",
+            "year": "1895",
+            "latitude": "-25.83",
+            "longitude": "32.33"
         },
         {
             "id": "fq09",
@@ -61,7 +70,10 @@
             "hl": {},
             "term": "Lozi",
             "sccs": "Lozi",
-            "sccs_group": "4"
+            "sccs_group": "4",
+            "year": "1900",
+            "latitude": "-16",
+            "longitude": "23.5"
         },
         {
             "id": "fp13",
@@ -76,7 +88,10 @@
             "hl": {},
             "term": "Ovimbundu",
             "sccs": "Mbundu",
-            "sccs_group": "5"
+            "sccs_group": "5",
+            "year": "1890",
+            "latitude": "-12.25",
+            "longitude": "16.5"
         },
         {
             "id": "fo46",
@@ -91,7 +106,10 @@
             "hl": {},
             "term": "Suku",
             "sccs": "Suku",
-            "sccs_group": "6"
+            "sccs_group": "6",
+            "year": "1920",
+            "latitude": "-6",
+            "longitude": "18"
         },
         {
             "id": "fq05",
@@ -106,7 +124,10 @@
             "hl": {},
             "term": "Bemba",
             "sccs": "Bemba",
-            "sccs_group": "7"
+            "sccs_group": "7",
+            "year": "1897",
+            "latitude": "-10.5",
+            "longitude": "30.5"
         },
         {
             "id": "fn17",
@@ -121,7 +142,10 @@
             "hl": {},
             "term": "Nyakyusa and Ngonde",
             "sccs": "Nyakyusa",
-            "sccs_group": "8"
+            "sccs_group": "8",
+            "year": "1934",
+            "latitude": "-9.5",
+            "longitude": "34"
         },
         {
             "id": "fn11",
@@ -136,7 +160,10 @@
             "hl": {},
             "term": "Hadza",
             "sccs": "Hadza",
-            "sccs_group": "9"
+            "sccs_group": "9",
+            "year": "1930",
+            "latitude": "-3.75",
+            "longitude": "35.18"
         },
         {
             "id": "fn32",
@@ -151,7 +178,10 @@
             "hl": {},
             "term": "Luguru",
             "sccs": "Luguru",
-            "sccs_group": "10"
+            "sccs_group": "10",
+            "year": "1925",
+            "latitude": "-6.83",
+            "longitude": "37.67"
         },
         {
             "id": "fl10",
@@ -166,7 +196,10 @@
             "hl": {},
             "term": "Gikuyu",
             "sccs": "Kikuyu",
-            "sccs_group": "11"
+            "sccs_group": "11",
+            "year": "1920",
+            "latitude": "-0.67",
+            "longitude": "37.17"
         },
         {
             "id": "fk07",
@@ -181,7 +214,10 @@
             "hl": {},
             "term": "Ganda",
             "sccs": "Ganda",
-            "sccs_group": "12"
+            "sccs_group": "12",
+            "year": "1875",
+            "latitude": "0.33",
+            "longitude": "32.5"
         },
         {
             "id": "fo04",
@@ -196,7 +232,10 @@
             "hl": {},
             "term": "Mbuti",
             "sccs": "Mbuti",
-            "sccs_group": "13"
+            "sccs_group": "13",
+            "year": "1950",
+            "latitude": "1.5",
+            "longitude": "28.33"
         },
         {
             "id": "fo32",
@@ -211,7 +250,10 @@
             "hl": {},
             "term": "Mongo",
             "sccs": "Nkundo",
-            "sccs_group": "14"
+            "sccs_group": "14",
+            "year": "1930",
+            "latitude": "-0.75",
+            "longitude": "19.17"
         },
         {
             "id": "fh26",
@@ -226,7 +268,10 @@
             "hl": {},
             "term": "Banen",
             "sccs": "Banen",
-            "sccs_group": "15"
+            "sccs_group": "15",
+            "year": "1935",
+            "latitude": "4.67",
+            "longitude": "10.8"
         },
         {
             "id": "ff57",
@@ -241,7 +286,10 @@
             "hl": {},
             "term": "Tiv",
             "sccs": "Tiv",
-            "sccs_group": "16"
+            "sccs_group": "16",
+            "year": "1920",
+            "latitude": "7.25",
+            "longitude": "9"
         },
         {
             "id": "ff26",
@@ -256,7 +304,10 @@
             "hl": {},
             "term": "Igbo",
             "sccs": "Igbo",
-            "sccs_group": "17"
+            "sccs_group": "17",
+            "year": "1935",
+            "latitude": "5.5",
+            "longitude": "7.33"
         },
         {
             "id": "fa18",
@@ -271,7 +322,10 @@
             "hl": {},
             "term": "Fon",
             "sccs": "Fon",
-            "sccs_group": "18"
+            "sccs_group": "18",
+            "year": "1890",
+            "latitude": "7.2",
+            "longitude": "1.91"
         },
         {
             "id": "fe12",
@@ -286,7 +340,10 @@
             "hl": {},
             "term": "Akan",
             "sccs": "Ashanti",
-            "sccs_group": "19"
+            "sccs_group": "19",
+            "year": "1895",
+            "latitude": "7",
+            "longitude": "-1.5"
         },
         {
             "id": "fc07",
@@ -301,7 +358,10 @@
             "hl": {},
             "term": "Mende",
             "sccs": "Mende",
-            "sccs_group": "20"
+            "sccs_group": "20",
+            "year": "1945",
+            "latitude": "7.83",
+            "longitude": "-12"
         },
         {
             "id": "ms30",
@@ -316,7 +376,10 @@
             "hl": {},
             "term": "Wolof",
             "sccs": "Wolof",
-            "sccs_group": "21"
+            "sccs_group": "21",
+            "year": "1950",
+            "latitude": "13.75",
+            "longitude": "-15.33"
         },
         {
             "id": "fa08",
@@ -331,7 +394,10 @@
             "hl": {},
             "term": "Bambara",
             "sccs": "Bambara",
-            "sccs_group": "22"
+            "sccs_group": "22",
+            "year": "1902",
+            "latitude": "12.5",
+            "longitude": "-7"
         },
         {
             "id": "fe11",
@@ -346,7 +412,10 @@
             "hl": {},
             "term": "Tallensi",
             "sccs": "Tallensi",
-            "sccs_group": "23"
+            "sccs_group": "23",
+            "year": "1934",
+            "latitude": "10.66",
+            "longitude": "-0.57"
         },
         {
             "id": "ms20",
@@ -361,7 +430,10 @@
             "hl": {},
             "term": "Songhai",
             "sccs": "Songhai",
-            "sccs_group": "24"
+            "sccs_group": "24",
+            "year": "1940",
+            "latitude": "16.58",
+            "longitude": "-1.67"
         },
         {
             "id": "ms11",
@@ -376,7 +448,10 @@
             "hl": {},
             "term": "Fulani",
             "sccs": "Wodaabe Fulani",
-            "sccs_group": "25"
+            "sccs_group": "25",
+            "year": "1951",
+            "latitude": "15",
+            "longitude": "7.5"
         },
         {
             "id": "ms12",
@@ -391,7 +466,10 @@
             "hl": {},
             "term": "Hausa",
             "sccs": "Zazzagawa Hausa",
-            "sccs_group": "26"
+            "sccs_group": "26",
+            "year": "1900",
+            "latitude": "10.5",
+            "longitude": "7.5"
         },
         {
             "id": "fi21",
@@ -406,7 +484,10 @@
             "hl": {},
             "term": "Masa",
             "sccs": "Masa",
-            "sccs_group": "27"
+            "sccs_group": "27",
+            "year": "1910",
+            "latitude": "10.5",
+            "longitude": "15.5"
         },
         {
             "id": "fo07",
@@ -421,7 +502,10 @@
             "hl": {},
             "term": "Azande",
             "sccs": "Azande",
-            "sccs_group": "28"
+            "sccs_group": "28",
+            "year": "1905",
+            "latitude": "5.08",
+            "longitude": "28.25"
         },
         {
             "id": "mq08",
@@ -436,7 +520,10 @@
             "hl": {},
             "term": "Fur",
             "sccs": "Fur",
-            "sccs_group": "29"
+            "sccs_group": "29",
+            "year": "1880",
+            "latitude": "13.5",
+            "longitude": "25.5"
         },
         {
             "id": "fj21",
@@ -451,7 +538,10 @@
             "hl": {},
             "term": "Nuba",
             "sccs": "Otoro",
-            "sccs_group": "30"
+            "sccs_group": "30",
+            "year": "1930",
+            "latitude": "11.33",
+            "longitude": "30.67"
         },
         {
             "id": "fj23",
@@ -466,7 +556,10 @@
             "hl": {},
             "term": "Shilluk",
             "sccs": "Shilluk",
-            "sccs_group": "31"
+            "sccs_group": "31",
+            "year": "1910",
+            "latitude": "9.75",
+            "longitude": "31.5"
         },
         {
             "id": "mp19",
@@ -481,7 +574,10 @@
             "hl": {},
             "term": "Mao",
             "sccs": "Mao",
-            "sccs_group": "32"
+            "sccs_group": "32",
+            "year": "1939",
+            "latitude": "9.27",
+            "longitude": "34.67"
         },
         {
             "id": "mp14",
@@ -496,7 +592,10 @@
             "hl": {},
             "term": "Kaffa",
             "sccs": "Kafa",
-            "sccs_group": "33"
+            "sccs_group": "33",
+            "year": "1905",
+            "latitude": "7.27",
+            "longitude": "36.5"
         },
         {
             "id": "fl12",
@@ -511,7 +610,10 @@
             "hl": {},
             "term": "Maasai",
             "sccs": "Maasi",
-            "sccs_group": "34"
+            "sccs_group": "34",
+            "year": "1900",
+            "latitude": "-3.5",
+            "longitude": "36.75"
         },
         {
             "id": "mp17",
@@ -526,7 +628,10 @@
             "hl": {},
             "term": "Konso",
             "sccs": "Konso",
-            "sccs_group": "35"
+            "sccs_group": "35",
+            "year": "1935",
+            "latitude": "5.25",
+            "longitude": "37.5"
         },
         {
             "id": "mo04",
@@ -541,7 +646,10 @@
             "hl": {},
             "term": "Somali",
             "sccs": "Somali (Dolbahanta)",
-            "sccs_group": "36"
+            "sccs_group": "36",
+            "year": "1900",
+            "latitude": "9",
+            "longitude": "47.25"
         },
         {
             "id": "mp05",
@@ -556,7 +664,10 @@
             "hl": {},
             "term": "Amhara",
             "sccs": "Amhara",
-            "sccs_group": "37"
+            "sccs_group": "37",
+            "year": "1953",
+            "latitude": "12.5",
+            "longitude": "37.75"
         },
         {
             "id": "mn06",
@@ -571,7 +682,10 @@
             "hl": {},
             "term": "Bilen",
             "sccs": "Blin",
-            "sccs_group": "38"
+            "sccs_group": "38",
+            "year": "1855",
+            "latitude": "15.75",
+            "longitude": "38.75"
         },
         {
             "id": "mr08",
@@ -586,7 +700,10 @@
             "hl": {},
             "term": "Nubians",
             "sccs": "Barabra",
-            "sccs_group": "39"
+            "sccs_group": "39",
+            "year": "1900",
+            "latitude": "23",
+            "longitude": "39.11"
         },
         {
             "id": "ms22",
@@ -601,7 +718,10 @@
             "hl": {},
             "term": "Teda",
             "sccs": "Teda",
-            "sccs_group": "40"
+            "sccs_group": "40",
+            "year": "1950",
+            "latitude": "20.5",
+            "longitude": "17.5"
         },
         {
             "id": "ms25",
@@ -616,7 +736,10 @@
             "hl": {},
             "term": "Tuareg",
             "sccs": "Tuareg Ahaggar",
-            "sccs_group": "41"
+            "sccs_group": "41",
+            "year": "1900",
+            "latitude": "23",
+            "longitude": "6.5"
         },
         {
             "id": "mx03",
@@ -631,7 +754,10 @@
             "hl": {},
             "term": "Berbers of Morocco",
             "sccs": "Riffians",
-            "sccs_group": "42"
+            "sccs_group": "42",
+            "year": "1926",
+            "latitude": "34.92",
+            "longitude": "-3.25"
         },
         {
             "id": "mr13",
@@ -646,7 +772,10 @@
             "hl": {},
             "term": "Fellahin",
             "sccs": "Egyptians",
-            "sccs_group": "43"
+            "sccs_group": "43",
+            "year": "1950",
+            "latitude": "24.75",
+            "longitude": "33"
         },
         {
             "id": "mf07",
@@ -661,7 +790,10 @@
             "hl": {},
             "term": "Israelites",
             "sccs": "Hebrews",
-            "sccs_group": "44"
+            "sccs_group": "44",
+            "year": "-621",
+            "latitude": "31.18",
+            "longitude": "34.92"
         },
         {
             "id": "mh07",
@@ -676,7 +808,10 @@
             "hl": {},
             "term": "Babylonians",
             "sccs": "Babylonians",
-            "sccs_group": "45"
+            "sccs_group": "45",
+            "year": "-1750",
+            "latitude": "32.58",
+            "longitude": "44.75"
         },
         {
             "id": "md04",
@@ -691,7 +826,10 @@
             "hl": {},
             "term": "Rwala Bedouin",
             "sccs": "Rwala",
-            "sccs_group": "46"
+            "sccs_group": "46",
+            "year": "1913",
+            "latitude": "33.25",
+            "longitude": "38.5"
         },
         {
             "id": "mb01",
@@ -706,7 +844,10 @@
             "hl": {},
             "term": "Turks",
             "sccs": "Turks",
-            "sccs_group": "47"
+            "sccs_group": "47",
+            "year": "1950",
+            "latitude": "39.33",
+            "longitude": "34.25"
         },
         {
             "id": "eg01",
@@ -721,7 +862,10 @@
             "hl": {},
             "term": "Albanians",
             "sccs": "Gheg",
-            "sccs_group": "48"
+            "sccs_group": "48",
+            "year": "1910",
+            "latitude": "42",
+            "longitude": "20.17"
         },
         {
             "id": "ei09",
@@ -736,7 +880,10 @@
             "hl": {},
             "term": "Imperial Romans",
             "sccs": "Ancient Romans",
-            "sccs_group": "49"
+            "sccs_group": "49",
+            "year": "110",
+            "latitude": "41.67",
+            "longitude": "13.5"
         },
         {
             "id": "ex08",
@@ -751,7 +898,10 @@
             "hl": {},
             "term": "Basques",
             "sccs": "Spanish Basques",
-            "sccs_group": "50"
+            "sccs_group": "50",
+            "year": "1934",
+            "latitude": "43.25",
+            "longitude": "-1.67"
         },
         {
             "id": "er06",
@@ -766,7 +916,10 @@
             "hl": {},
             "term": "Rural Irish",
             "sccs": "Irish",
-            "sccs_group": "51"
+            "sccs_group": "51",
+            "year": "1932",
+            "latitude": "53.5",
+            "longitude": "-10"
         },
         {
             "id": "ep04",
@@ -781,7 +934,10 @@
             "hl": {},
             "term": "Saami",
             "sccs": "Sami",
-            "sccs_group": "52"
+            "sccs_group": "52",
+            "year": "1950",
+            "latitude": "68.7",
+            "longitude": "21.5"
         },
         {
             "id": "ru04",
@@ -796,7 +952,10 @@
             "hl": {},
             "term": "Samoyed",
             "sccs": "Yurak-Samoyeds",
-            "sccs_group": "53"
+            "sccs_group": "53",
+            "year": "1894",
+            "latitude": "68",
+            "longitude": "51.5"
         },
         {
             "id": "rf10",
@@ -811,7 +970,10 @@
             "hl": {},
             "term": "Russians",
             "sccs": "Russians",
-            "sccs_group": "54"
+            "sccs_group": "54",
+            "year": "1955",
+            "latitude": "52.67",
+            "longitude": "41.33"
         },
         {
             "id": "ri03",
@@ -826,7 +988,10 @@
             "hl": {},
             "term": "Abkhazians",
             "sccs": "Abkhaz",
-            "sccs_group": "55"
+            "sccs_group": "55",
+            "year": "1880",
+            "latitude": "43.13",
+            "longitude": "40.77"
         },
         {
             "id": "rj01",
@@ -841,7 +1006,10 @@
             "hl": {},
             "term": "Armenia",
             "sccs": "Armenians",
-            "sccs_group": "56"
+            "sccs_group": "56",
+            "year": "1843",
+            "latitude": "40",
+            "longitude": "44.5"
         },
         {
             "id": "ma11",
@@ -856,7 +1024,10 @@
             "hl": {},
             "term": "Kurds",
             "sccs": "Kurd",
-            "sccs_group": "57"
+            "sccs_group": "57",
+            "year": "1951",
+            "latitude": "36.5",
+            "longitude": "44.5"
         },
         {
             "id": "ma10",
@@ -871,7 +1042,10 @@
             "hl": {},
             "term": "Basseri",
             "sccs": "Basseri",
-            "sccs_group": "58"
+            "sccs_group": "58",
+            "year": "1958",
+            "latitude": "29",
+            "longitude": "53"
         },
         {
             "id": "at03",
@@ -886,7 +1060,10 @@
             "hl": {},
             "term": "West Punjabi",
             "sccs": "Punjabi",
-            "sccs_group": "59"
+            "sccs_group": "59",
+            "year": "1950",
+            "latitude": "32.5",
+            "longitude": "74"
         },
         {
             "id": "aw32",
@@ -901,7 +1078,10 @@
             "hl": {},
             "term": "Gond",
             "sccs": "Madia",
-            "sccs_group": "60"
+            "sccs_group": "60",
+            "year": "1938",
+            "latitude": "19.63",
+            "longitude": "80.92"
         },
         {
             "id": "aw60",
@@ -916,7 +1096,10 @@
             "hl": {},
             "term": "Toda",
             "sccs": "Toda",
-            "sccs_group": "61"
+            "sccs_group": "61",
+            "year": "1900",
+            "latitude": "11.5",
+            "longitude": "76.5"
         },
         {
             "id": "aw42",
@@ -931,7 +1114,10 @@
             "hl": {},
             "term": "Santal",
             "sccs": "Santal",
-            "sccs_group": "62"
+            "sccs_group": "62",
+            "year": "1940",
+            "latitude": "23.5",
+            "longitude": "87.17"
         },
         {
             "id": "aw19",
@@ -946,7 +1132,10 @@
             "hl": {},
             "term": "Uttar Pradesh",
             "sccs": "Uttar Pradesh",
-            "sccs_group": "63"
+            "sccs_group": "63",
+            "year": "1945",
+            "latitude": "25.92",
+            "longitude": "83"
         },
         {
             "id": "av07",
@@ -961,7 +1150,10 @@
             "hl": {},
             "term": "Burusho",
             "sccs": "Burusho",
-            "sccs_group": "64"
+            "sccs_group": "64",
+            "year": "1934",
+            "latitude": "36.43",
+            "longitude": "74.58"
         },
         {
             "id": "rq02",
@@ -976,7 +1168,10 @@
             "hl": {},
             "term": "Kazakh",
             "sccs": "Kazakh",
-            "sccs_group": "65"
+            "sccs_group": "65",
+            "year": "1885",
+            "latitude": "42.5",
+            "longitude": "75.5"
         },
         {
             "id": "ah01",
@@ -991,7 +1186,10 @@
             "hl": {},
             "term": "Mongolia",
             "sccs": "Khalka",
-            "sccs_group": "66"
+            "sccs_group": "66",
+            "year": "1920",
+            "latitude": "47.17",
+            "longitude": "96.08"
         },
         {
             "id": "ae04",
@@ -1006,7 +1204,10 @@
             "hl": {},
             "term": "Yi",
             "sccs": "Lolo",
-            "sccs_group": "67"
+            "sccs_group": "67",
+            "year": "1910",
+            "latitude": "27.5",
+            "longitude": "103.5"
         },
         {
             "id": "ak05",
@@ -1021,7 +1222,10 @@
             "hl": {},
             "term": "Lepcha",
             "sccs": "Lepcha",
-            "sccs_group": "68"
+            "sccs_group": "68",
+            "year": "1937",
+            "latitude": "27.5",
+            "longitude": "89"
         },
         {
             "id": "ar05",
@@ -1036,7 +1240,10 @@
             "hl": {},
             "term": "Garo",
             "sccs": "Garo",
-            "sccs_group": "69"
+            "sccs_group": "69",
+            "year": "1955",
+            "latitude": "26",
+            "longitude": "91"
         },
         {
             "id": "ar20",
@@ -1051,7 +1258,10 @@
             "hl": {},
             "term": "Mara",
             "sccs": "Maras",
-            "sccs_group": "70"
+            "sccs_group": "70",
+            "year": "1930",
+            "latitude": "22.33",
+            "longitude": "93"
         },
         {
             "id": "ap04",
@@ -1066,7 +1276,10 @@
             "hl": {},
             "term": "Burmans",
             "sccs": "Burmese",
-            "sccs_group": "71"
+            "sccs_group": "71",
+            "year": "1965",
+            "latitude": "22",
+            "longitude": "95.67"
         },
         {
             "id": "am28",
@@ -1081,7 +1294,10 @@
             "hl": {},
             "term": "Rmeet",
             "sccs": "Lamet",
-            "sccs_group": "72"
+            "sccs_group": "72",
+            "year": "1940",
+            "latitude": "20",
+            "longitude": "100.67"
         },
         {
             "id": "am11",
@@ -1096,7 +1312,10 @@
             "hl": {},
             "term": "Vietnamese",
             "sccs": "Annamese",
-            "sccs_group": "73"
+            "sccs_group": "73",
+            "year": "1930",
+            "latitude": "20.5",
+            "longitude": "106.25"
         },
         {
             "id": "am35",
@@ -1111,7 +1330,10 @@
             "hl": {},
             "term": "Rhade",
             "sccs": "Rade",
-            "sccs_group": "74"
+            "sccs_group": "74",
+            "year": "1962",
+            "latitude": "13",
+            "longitude": "108"
         },
         {
             "id": "am04",
@@ -1126,7 +1348,10 @@
             "hl": {},
             "term": "Cambodians",
             "sccs": "Ancient Khmer",
-            "sccs_group": "75"
+            "sccs_group": "75",
+            "year": "1292",
+            "latitude": "13",
+            "longitude": "103.83"
         },
         {
             "id": "ao07",
@@ -1141,7 +1366,10 @@
             "hl": {},
             "term": "Central Thai",
             "sccs": "Thai",
-            "sccs_group": "76"
+            "sccs_group": "76",
+            "year": "1955",
+            "latitude": "14",
+            "longitude": "100.85"
         },
         {
             "id": "an07",
@@ -1156,7 +1384,10 @@
             "hl": {},
             "term": "Semang",
             "sccs": "Semang",
-            "sccs_group": "77"
+            "sccs_group": "77",
+            "year": "1925",
+            "latitude": "5",
+            "longitude": "101.25"
         },
         {
             "id": "az07",
@@ -1171,7 +1402,10 @@
             "hl": {},
             "term": "Nicobarese",
             "sccs": "Nicobarese",
-            "sccs_group": "78"
+            "sccs_group": "78",
+            "year": "1870",
+            "latitude": "7",
+            "longitude": "93.75"
         },
         {
             "id": "az02",
@@ -1186,7 +1420,10 @@
             "hl": {},
             "term": "Andamans",
             "sccs": "Andamanese",
-            "sccs_group": "79"
+            "sccs_group": "79",
+            "year": "1860",
+            "latitude": "12",
+            "longitude": "93"
         },
         {
             "id": "ax05",
@@ -1201,7 +1438,10 @@
             "hl": {},
             "term": "Vedda",
             "sccs": "Vedda",
-            "sccs_group": "80"
+            "sccs_group": "80",
+            "year": "1860",
+            "latitude": "7.75",
+            "longitude": "81.25"
         },
         {
             "id": "fy08",
@@ -1216,7 +1456,10 @@
             "hl": {},
             "term": "Tanala",
             "sccs": "Tanala",
-            "sccs_group": "81"
+            "sccs_group": "81",
+            "year": "1925",
+            "latitude": "-22",
+            "longitude": "48"
         },
         {
             "id": "an06",
@@ -1231,7 +1474,10 @@
             "hl": {},
             "term": "Semai",
             "sccs": "Negri Sembilan",
-            "sccs_group": "82"
+            "sccs_group": "82",
+            "year": "1958",
+            "latitude": "2.58",
+            "longitude": "102.25"
         },
         {
             "id": "oe05",
@@ -1246,7 +1492,10 @@
             "hl": {},
             "term": "Javanese",
             "sccs": "Javanese",
-            "sccs_group": "83"
+            "sccs_group": "83",
+            "year": "1954",
+            "latitude": "-7.7",
+            "longitude": "112.22"
         },
         {
             "id": "of07",
@@ -1261,7 +1510,10 @@
             "hl": {},
             "term": "Balinese",
             "sccs": "Balinese",
-            "sccs_group": "84"
+            "sccs_group": "84",
+            "year": "1958",
+            "latitude": "-8.5",
+            "longitude": "115.33"
         },
         {
             "id": "oc06",
@@ -1276,7 +1528,10 @@
             "hl": {},
             "term": "Iban",
             "sccs": "Iban",
-            "sccs_group": "85"
+            "sccs_group": "85",
+            "year": "1950",
+            "latitude": "2",
+            "longitude": "113"
         },
         {
             "id": "oa08",
@@ -1291,7 +1546,10 @@
             "hl": {},
             "term": "Sama-Bajau",
             "sccs": "Badjau Tawi-Tawi",
-            "sccs_group": "86"
+            "sccs_group": "86",
+            "year": "1963",
+            "latitude": "5",
+            "longitude": "120"
         },
         {
             "id": "og11",
@@ -1306,7 +1564,10 @@
             "hl": {},
             "term": "Eastern Toraja",
             "sccs": "Toradja",
-            "sccs_group": "87"
+            "sccs_group": "87",
+            "year": "1910",
+            "latitude": "-2",
+            "longitude": "121"
         },
         {
             "id": "oh18",
@@ -1321,7 +1582,10 @@
             "hl": {},
             "term": "Tobelo",
             "sccs": "Tobelorese",
-            "sccs_group": "88"
+            "sccs_group": "88",
+            "year": "1900",
+            "latitude": "2",
+            "longitude": "127.94"
         },
         {
             "id": "of05",
@@ -1336,7 +1600,10 @@
             "hl": {},
             "term": "Alorese",
             "sccs": "Alorese",
-            "sccs_group": "89"
+            "sccs_group": "89",
+            "year": "1938",
+            "latitude": "-8.33",
+            "longitude": "124.67"
         },
         {
             "id": "oi20",
@@ -1351,7 +1618,10 @@
             "hl": {},
             "term": "Tiwi",
             "sccs": "Tiwi",
-            "sccs_group": "90"
+            "sccs_group": "90",
+            "year": "1929",
+            "latitude": "-11.38",
+            "longitude": "131"
         },
         {
             "id": "oi08",
@@ -1366,7 +1636,10 @@
             "hl": {},
             "term": "Aranda",
             "sccs": "Northern Aranda",
-            "sccs_group": "91"
+            "sccs_group": "91",
+            "year": "1896",
+            "latitude": "-24.25",
+            "longitude": "133.5"
         },
         {
             "id": "oj23",
@@ -1381,7 +1654,10 @@
             "hl": {},
             "term": "Orokaiva",
             "sccs": "Orokaiva",
-            "sccs_group": "92"
+            "sccs_group": "92",
+            "year": "1925",
+            "latitude": "-8.5",
+            "longitude": "148"
         },
         {
             "id": "oj82",
@@ -1396,7 +1672,10 @@
             "hl": {},
             "term": "Kimam",
             "sccs": "Kimam",
-            "sccs_group": "93"
+            "sccs_group": "93",
+            "year": "1960",
+            "latitude": "-7.5",
+            "longitude": "138.5"
         },
         {
             "id": "oj29",
@@ -1411,7 +1690,10 @@
             "hl": {},
             "term": "Kapauku",
             "sccs": "Mee",
-            "sccs_group": "94"
+            "sccs_group": "94",
+            "year": "1955",
+            "latitude": "-4",
+            "longitude": "136"
         },
         {
             "id": "oj13",
@@ -1426,7 +1708,10 @@
             "hl": {},
             "term": "Kwoma",
             "sccs": "Kwoma",
-            "sccs_group": "95"
+            "sccs_group": "95",
+            "year": "1937",
+            "latitude": "-4.17",
+            "longitude": "142.67"
         },
         {
             "id": "om06",
@@ -1441,7 +1726,10 @@
             "hl": {},
             "term": "Manus",
             "sccs": "Manus",
-            "sccs_group": "96"
+            "sccs_group": "96",
+            "year": "1929",
+            "latitude": "-2.17",
+            "longitude": "147.17"
         },
         {
             "id": "om24",
@@ -1456,7 +1744,10 @@
             "hl": {},
             "term": "Lesu",
             "sccs": "Lesu",
-            "sccs_group": "97"
+            "sccs_group": "97",
+            "year": "1930",
+            "latitude": "-2.71",
+            "longitude": "151"
         },
         {
             "id": "ol06",
@@ -1471,7 +1762,10 @@
             "hl": {},
             "term": "Trobriands",
             "sccs": "Trobriands",
-            "sccs_group": "98"
+            "sccs_group": "98",
+            "year": "1914",
+            "latitude": "-8.54",
+            "longitude": "151.01"
         },
         {
             "id": "on19",
@@ -1486,7 +1780,10 @@
             "hl": {},
             "term": "Siwai",
             "sccs": "Siuai",
-            "sccs_group": "99"
+            "sccs_group": "99",
+            "year": "1939",
+            "latitude": "-6.76",
+            "longitude": "155.45"
         },
         {
             "id": "ot11",
@@ -1501,7 +1798,10 @@
             "hl": {},
             "term": "Tikopia",
             "sccs": "Tikopia",
-            "sccs_group": "100"
+            "sccs_group": "100",
+            "year": "1930",
+            "latitude": "-12.29",
+            "longitude": "168.83"
         },
         {
             "id": "oo17",
@@ -1516,7 +1816,10 @@
             "hl": {},
             "term": "Sa",
             "sccs": "Bunlap",
-            "sccs_group": "101"
+            "sccs_group": "101",
+            "year": "1953",
+            "latitude": "-15.95",
+            "longitude": "168.22"
         },
         {
             "id": "oq12",
@@ -1531,7 +1834,10 @@
             "hl": {},
             "term": "Bau Fijians",
             "sccs": "Mbau Fijians",
-            "sccs_group": "102"
+            "sccs_group": "102",
+            "year": "1840",
+            "latitude": "-18",
+            "longitude": "178.58"
         },
         {
             "id": "op04",
@@ -1546,7 +1852,10 @@
             "hl": {},
             "term": "Kanak",
             "sccs": "Ajie",
-            "sccs_group": "103"
+            "sccs_group": "103",
+            "year": "1845",
+            "latitude": "-21.33",
+            "longitude": "165.67"
         },
         {
             "id": "oz04",
@@ -1561,7 +1870,10 @@
             "hl": {},
             "term": "Maori",
             "sccs": "M\u0101ori",
-            "sccs_group": "104"
+            "sccs_group": "104",
+            "year": "1820",
+            "latitude": "-35.33",
+            "longitude": "174.17"
         },
         {
             "id": "ox06",
@@ -1576,7 +1888,10 @@
             "hl": {},
             "term": "Marquesas",
             "sccs": "Marquesans",
-            "sccs_group": "105"
+            "sccs_group": "105",
+            "year": "1800",
+            "latitude": "-8.92",
+            "longitude": "-140.17"
         },
         {
             "id": "ou08",
@@ -1591,7 +1906,10 @@
             "hl": {},
             "term": "Samoans",
             "sccs": "Upolu Samoans",
-            "sccs_group": "106"
+            "sccs_group": "106",
+            "year": "1829",
+            "latitude": "-13.94",
+            "longitude": "-171.77"
         },
         {
             "id": "or06",
@@ -1606,7 +1924,10 @@
             "hl": {},
             "term": "Kiribati",
             "sccs": "Makin",
-            "sccs_group": "107"
+            "sccs_group": "107",
+            "year": "1890",
+            "latitude": "3.38",
+            "longitude": "172.99"
         },
         {
             "id": "or11",
@@ -1621,7 +1942,10 @@
             "hl": {},
             "term": "Marshallese",
             "sccs": "Marshallese - Jaluit Atoll",
-            "sccs_group": "108"
+            "sccs_group": "108",
+            "year": "1900",
+            "latitude": "6.28",
+            "longitude": "169.49"
         },
         {
             "id": "or19",
@@ -1636,7 +1960,10 @@
             "hl": {},
             "term": "Chuuk",
             "sccs": "Trukese",
-            "sccs_group": "109"
+            "sccs_group": "109",
+            "year": "1947",
+            "latitude": "7.34",
+            "longitude": "151.6"
         },
         {
             "id": "or22",
@@ -1651,7 +1978,10 @@
             "hl": {},
             "term": "Yapese",
             "sccs": "Yapese",
-            "sccs_group": "110"
+            "sccs_group": "110",
+            "year": "1910",
+            "latitude": "9.52",
+            "longitude": "138.16"
         },
         {
             "id": "or15",
@@ -1666,7 +1996,10 @@
             "hl": {},
             "term": "Belau",
             "sccs": "Palauans",
-            "sccs_group": "111"
+            "sccs_group": "111",
+            "year": "1947",
+            "latitude": "7.5",
+            "longitude": "134.5"
         },
         {
             "id": "oa19",
@@ -1681,7 +2014,10 @@
             "hl": {},
             "term": "Ifugao",
             "sccs": "Ifugao",
-            "sccs_group": "112"
+            "sccs_group": "112",
+            "year": "1910",
+            "latitude": "16.83",
+            "longitude": "121.17"
         },
         {
             "id": "ad08",
@@ -1696,7 +2032,10 @@
             "hl": {},
             "term": "Atayal",
             "sccs": "Atayal",
-            "sccs_group": "113"
+            "sccs_group": "113",
+            "year": "1930",
+            "latitude": "24.33",
+            "longitude": "120.75"
         },
         {
             "id": "ae15",
@@ -1711,7 +2050,10 @@
             "hl": {},
             "term": "Han Chinese",
             "sccs": "Chekiang",
-            "sccs_group": "114"
+            "sccs_group": "114",
+            "year": "1936",
+            "latitude": "31",
+            "longitude": "120.08"
         },
         {
             "id": "ag04",
@@ -1726,7 +2068,10 @@
             "hl": {},
             "term": "Manchu",
             "sccs": "Manchu",
-            "sccs_group": "115"
+            "sccs_group": "115",
+            "year": "1915",
+            "latitude": "50",
+            "longitude": "125.5"
         },
         {
             "id": "aa01",
@@ -1741,7 +2086,10 @@
             "hl": {},
             "term": "Korea",
             "sccs": "Koreans",
-            "sccs_group": "116"
+            "sccs_group": "116",
+            "year": "1947",
+            "latitude": "37.6",
+            "longitude": "126.42"
         },
         {
             "id": "ab43",
@@ -1756,7 +2104,10 @@
             "hl": {},
             "term": "Okayama",
             "sccs": "Japanese",
-            "sccs_group": "117"
+            "sccs_group": "117",
+            "year": "1950",
+            "latitude": "34.67",
+            "longitude": "133.67"
         },
         {
             "id": "ab06",
@@ -1771,7 +2122,10 @@
             "hl": {},
             "term": "Ainu",
             "sccs": "Ainu",
-            "sccs_group": "118"
+            "sccs_group": "118",
+            "year": "1880",
+            "latitude": "42.83",
+            "longitude": "143"
         },
         {
             "id": "rx02",
@@ -1786,7 +2140,10 @@
             "hl": {},
             "term": "Nivkh",
             "sccs": "Nivkh",
-            "sccs_group": "119"
+            "sccs_group": "119",
+            "year": "1890",
+            "latitude": "53",
+            "longitude": "142"
         },
         {
             "id": "rv03",
@@ -1801,7 +2158,10 @@
             "hl": {},
             "term": "Yukaghir",
             "sccs": "Yukaghir",
-            "sccs_group": "120"
+            "sccs_group": "120",
+            "year": "1850",
+            "latitude": "64.75",
+            "longitude": "153.5"
         },
         {
             "id": "ry02",
@@ -1816,7 +2176,10 @@
             "hl": {},
             "term": "Chukchee",
             "sccs": "Chukchi",
-            "sccs_group": "121"
+            "sccs_group": "121",
+            "year": "1900",
+            "latitude": "66.5",
+            "longitude": "179.6"
         },
         {
             "id": "na08",
@@ -1831,7 +2194,10 @@
             "hl": {},
             "term": "Ingalik",
             "sccs": "Deg Xit'an",
-            "sccs_group": "122"
+            "sccs_group": "122",
+            "year": "1885",
+            "latitude": "62.5",
+            "longitude": "-159.5"
         },
         {
             "id": "na06",
@@ -1846,7 +2212,10 @@
             "hl": {},
             "term": "Aleut",
             "sccs": "Aleut",
-            "sccs_group": "123"
+            "sccs_group": "123",
+            "year": "1824",
+            "latitude": "55",
+            "longitude": "-162.85"
         },
         {
             "id": "nd08",
@@ -1861,7 +2230,10 @@
             "hl": {},
             "term": "Copper Inuit",
             "sccs": "Copper Inuit",
-            "sccs_group": "124"
+            "sccs_group": "124",
+            "year": "1915",
+            "latitude": "68.72",
+            "longitude": "-112.53"
         },
         {
             "id": "nh06",
@@ -1876,7 +2248,10 @@
             "hl": {},
             "term": "Innu",
             "sccs": "Montagnais",
-            "sccs_group": "125"
+            "sccs_group": "125",
+            "year": "1910",
+            "latitude": "50",
+            "longitude": "-74"
         },
         {
             "id": "nj05",
@@ -1891,7 +2266,10 @@
             "hl": {},
             "term": "Mi'kmaq",
             "sccs": "Mi'kmaq",
-            "sccs_group": "126"
+            "sccs_group": "126",
+            "year": "1650",
+            "latitude": "46.99",
+            "longitude": "-65"
         },
         {
             "id": "ng06",
@@ -1906,7 +2284,10 @@
             "hl": {},
             "term": "Ojibwa",
             "sccs": "Northern Saulteaux",
-            "sccs_group": "127"
+            "sccs_group": "127",
+            "year": "1930",
+            "latitude": "52",
+            "longitude": "-95.5"
         },
         {
             "id": "nd14",
@@ -1921,7 +2302,10 @@
             "hl": {},
             "term": "Slavey",
             "sccs": "DeneTha",
-            "sccs_group": "128"
+            "sccs_group": "128",
+            "year": "1940",
+            "latitude": "62",
+            "longitude": "-122"
         },
         {
             "id": "nd12",
@@ -1936,7 +2320,10 @@
             "hl": {},
             "term": "Kaska",
             "sccs": "Kaska",
-            "sccs_group": "129"
+            "sccs_group": "129",
+            "year": "1900",
+            "latitude": "60",
+            "longitude": "-131"
         },
         {
             "id": "na07",
@@ -1951,7 +2338,10 @@
             "hl": {},
             "term": "Eyak",
             "sccs": "Eyak",
-            "sccs_group": "130"
+            "sccs_group": "130",
+            "year": "1890",
+            "latitude": "60.5",
+            "longitude": "-145"
         },
         {
             "id": "ne09",
@@ -1966,7 +2356,10 @@
             "hl": {},
             "term": "Haida",
             "sccs": "Haida",
-            "sccs_group": "131"
+            "sccs_group": "131",
+            "year": "1875",
+            "latitude": "54",
+            "longitude": "-132.5"
         },
         {
             "id": "ne06",
@@ -1981,7 +2374,10 @@
             "hl": {},
             "term": "Nuxalk",
             "sccs": "Nuxalk",
-            "sccs_group": "132"
+            "sccs_group": "132",
+            "year": "1880",
+            "latitude": "52.33",
+            "longitude": "-126.5"
         },
         {
             "id": "nr26",
@@ -1996,7 +2392,10 @@
             "hl": {},
             "term": "Southern Coast Salish",
             "sccs": "Twana",
-            "sccs_group": "133"
+            "sccs_group": "133",
+            "year": "1860",
+            "latitude": "47.43",
+            "longitude": "-123.25"
         },
         {
             "id": "ns31",
@@ -2011,7 +2410,10 @@
             "hl": {},
             "term": "Yurok",
             "sccs": "Yurok",
-            "sccs_group": "134"
+            "sccs_group": "134",
+            "year": "1850",
+            "latitude": "41.5",
+            "longitude": "-124"
         },
         {
             "id": "ns18",
@@ -2026,7 +2428,10 @@
             "hl": {},
             "term": "Pomo",
             "sccs": "Eastern Pomo",
-            "sccs_group": "135"
+            "sccs_group": "135",
+            "year": "1850",
+            "latitude": "39",
+            "longitude": "-123"
         },
         {
             "id": "ns29",
@@ -2041,7 +2446,10 @@
             "hl": {},
             "term": "Yokuts",
             "sccs": "Southern Valley Yokuts",
-            "sccs_group": "136"
+            "sccs_group": "136",
+            "year": "1850",
+            "latitude": "35",
+            "longitude": "-119.5"
         },
         {
             "id": "nr13",
@@ -2056,7 +2464,10 @@
             "hl": {},
             "term": "Northern Paiute",
             "sccs": "Wadadokado",
-            "sccs_group": "137"
+            "sccs_group": "137",
+            "year": "1870",
+            "latitude": "43.5",
+            "longitude": "-119"
         },
         {
             "id": "nr10",
@@ -2071,7 +2482,10 @@
             "hl": {},
             "term": "Klamath",
             "sccs": "Klamath",
-            "sccs_group": "138"
+            "sccs_group": "138",
+            "year": "1860",
+            "latitude": "42.63",
+            "longitude": "-121.67"
         },
         {
             "id": "nf08",
@@ -2086,7 +2500,10 @@
             "hl": {},
             "term": "Kutenai",
             "sccs": "Kutenai",
-            "sccs_group": "139"
+            "sccs_group": "139",
+            "year": "1890",
+            "latitude": "49",
+            "longitude": "-116.67"
         },
         {
             "id": "nq13",
@@ -2101,7 +2518,10 @@
             "hl": {},
             "term": "Gros Ventre",
             "sccs": "Gros Ventre",
-            "sccs_group": "140"
+            "sccs_group": "140",
+            "year": "1880",
+            "latitude": "48",
+            "longitude": "-108"
         },
         {
             "id": "nq14",
@@ -2116,7 +2536,10 @@
             "hl": {},
             "term": "Hidatsa",
             "sccs": "Hidatsa",
-            "sccs_group": "141"
+            "sccs_group": "141",
+            "year": "1836",
+            "latitude": "47",
+            "longitude": "-101"
         },
         {
             "id": "nq18",
@@ -2131,7 +2554,10 @@
             "hl": {},
             "term": "Pawnee",
             "sccs": "Pawnee",
-            "sccs_group": "142"
+            "sccs_group": "142",
+            "year": "1867",
+            "latitude": "42",
+            "longitude": "-100"
         },
         {
             "id": "nq21",
@@ -2146,7 +2572,10 @@
             "hl": {},
             "term": "Omaha",
             "sccs": "Omaha",
-            "sccs_group": "143"
+            "sccs_group": "143",
+            "year": "1860",
+            "latitude": "41.43",
+            "longitude": "-96.5"
         },
         {
             "id": "ng05",
@@ -2161,7 +2590,10 @@
             "hl": {},
             "term": "Huron/Wendat",
             "sccs": "Huron",
-            "sccs_group": "144"
+            "sccs_group": "144",
+            "year": "1634",
+            "latitude": "44.5",
+            "longitude": "-79"
         },
         {
             "id": "nn11",
@@ -2176,7 +2608,10 @@
             "hl": {},
             "term": "Creek",
             "sccs": "Muscogee",
-            "sccs_group": "145"
+            "sccs_group": "145",
+            "year": "1800",
+            "latitude": "32.93",
+            "longitude": "-86"
         },
         {
             "id": "no08",
@@ -2191,7 +2626,10 @@
             "hl": {},
             "term": "Natchez",
             "sccs": "Natchez",
-            "sccs_group": "146"
+            "sccs_group": "146",
+            "year": "1718",
+            "latitude": "31.5",
+            "longitude": "-91.42"
         },
         {
             "id": "no06",
@@ -2206,7 +2644,10 @@
             "hl": {},
             "term": "Comanche",
             "sccs": "Comanche",
-            "sccs_group": "147"
+            "sccs_group": "147",
+            "year": "1870",
+            "latitude": "34",
+            "longitude": "-101.5"
         },
         {
             "id": "nt08",
@@ -2221,7 +2662,10 @@
             "hl": {},
             "term": "Chiricahua Apache",
             "sccs": "Chiricahua",
-            "sccs_group": "148"
+            "sccs_group": "148",
+            "year": "1870",
+            "latitude": "32",
+            "longitude": "-109.5"
         },
         {
             "id": "nt23",
@@ -2236,7 +2680,10 @@
             "hl": {},
             "term": "Zuni",
             "sccs": "Zuni",
-            "sccs_group": "149"
+            "sccs_group": "149",
+            "year": "1880",
+            "latitude": "35.67",
+            "longitude": "-108.75"
         },
         {
             "id": "nt14",
@@ -2251,7 +2698,10 @@
             "hl": {},
             "term": "Havasupai",
             "sccs": "Havasupai",
-            "sccs_group": "150"
+            "sccs_group": "150",
+            "year": "1918",
+            "latitude": "35.83",
+            "longitude": "-112.17"
         },
         {
             "id": "nu79",
@@ -2266,7 +2716,10 @@
             "hl": {},
             "term": "O'odham",
             "sccs": "Tohono O'odham",
-            "sccs_group": "151"
+            "sccs_group": "151",
+            "year": "1910",
+            "latitude": "32",
+            "longitude": "-112"
         },
         {
             "id": "nu19",
@@ -2281,7 +2734,10 @@
             "hl": {},
             "term": "Huichol",
             "sccs": "Huichol",
-            "sccs_group": "152"
+            "sccs_group": "152",
+            "year": "1890",
+            "latitude": "22",
+            "longitude": "-105"
         },
         {
             "id": "nu07",
@@ -2296,7 +2752,10 @@
             "hl": {},
             "term": "Aztecs",
             "sccs": "Aztec",
-            "sccs_group": "153"
+            "sccs_group": "153",
+            "year": "1520",
+            "latitude": "19",
+            "longitude": "-99.17"
         },
         {
             "id": "nu30",
@@ -2311,7 +2770,10 @@
             "hl": {},
             "term": "Popoluca",
             "sccs": "Sierra Popoluca",
-            "sccs_group": "154"
+            "sccs_group": "154",
+            "year": "1940",
+            "latitude": "18.25",
+            "longitude": "-94.83"
         },
         {
             "id": "nw10",
@@ -2326,7 +2788,10 @@
             "hl": {},
             "term": "Quich\u00e9 Maya",
             "sccs": "K'iche'",
-            "sccs_group": "155"
+            "sccs_group": "155",
+            "year": "1930",
+            "latitude": "15",
+            "longitude": "-91"
         },
         {
             "id": "sa15",
@@ -2341,7 +2806,10 @@
             "hl": {},
             "term": "Miskito",
             "sccs": "Miskito",
-            "sccs_group": "156"
+            "sccs_group": "156",
+            "year": "1921",
+            "latitude": "15.16",
+            "longitude": "-84.29"
         },
         {
             "id": "sa19",
@@ -2356,7 +2824,10 @@
             "hl": {},
             "term": "Talamancans",
             "sccs": "Bribri",
-            "sccs_group": "157"
+            "sccs_group": "157",
+            "year": "1917",
+            "latitude": "9",
+            "longitude": "-83.25"
         },
         {
             "id": "sb05",
@@ -2371,7 +2842,10 @@
             "hl": {},
             "term": "Kuna",
             "sccs": "Guna",
-            "sccs_group": "158"
+            "sccs_group": "158",
+            "year": "1927",
+            "latitude": "9.25",
+            "longitude": "-78.5"
         },
         {
             "id": "sc13",
@@ -2386,7 +2860,10 @@
             "hl": {},
             "term": "Goajiro",
             "sccs": "Wayuu",
-            "sccs_group": "159"
+            "sccs_group": "159",
+            "year": "1947",
+            "latitude": "11.92",
+            "longitude": "-71.75"
         },
         {
             "id": "sv03",
@@ -2401,7 +2878,10 @@
             "hl": {},
             "term": "Haitians",
             "sccs": "Haitians",
-            "sccs_group": "160"
+            "sccs_group": "160",
+            "year": "1935",
+            "latitude": "18.83",
+            "longitude": "-72.17"
         },
         {
             "id": "st13",
@@ -2416,7 +2896,10 @@
             "hl": {},
             "term": "Kalinago",
             "sccs": "Callinago",
-            "sccs_group": "161"
+            "sccs_group": "161",
+            "year": "1650",
+            "latitude": "15.41",
+            "longitude": "-61.27"
         },
         {
             "id": "ss18",
@@ -2431,7 +2914,10 @@
             "hl": {},
             "term": "Warao",
             "sccs": "Warao",
-            "sccs_group": "162"
+            "sccs_group": "162",
+            "year": "1935",
+            "latitude": "9.08",
+            "longitude": "-62"
         },
         {
             "id": "sq18",
@@ -2446,7 +2932,10 @@
             "hl": {},
             "term": "Yanoama",
             "sccs": "Yanomami",
-            "sccs_group": "163"
+            "sccs_group": "163",
+            "year": "1965",
+            "latitude": "2.42",
+            "longitude": "-65"
         },
         {
             "id": "sr09",
@@ -2461,7 +2950,10 @@
             "hl": {},
             "term": "Barama River Carib",
             "sccs": "Barama River Carib",
-            "sccs_group": "164"
+            "sccs_group": "164",
+            "year": "1932",
+            "latitude": "7.42",
+            "longitude": "-60.17"
         },
         {
             "id": "sr15",
@@ -2476,7 +2968,10 @@
             "hl": {},
             "term": "Saramaka",
             "sccs": "Saramaccan ",
-            "sccs_group": "165"
+            "sccs_group": "165",
+            "year": "1928",
+            "latitude": "3.5",
+            "longitude": "-55.75"
         },
         {
             "id": "sq13",
@@ -2491,7 +2986,10 @@
             "hl": {},
             "term": "Mundurucu",
             "sccs": "Munduruku",
-            "sccs_group": "166"
+            "sccs_group": "166",
+            "year": "1850",
+            "latitude": "-6.5",
+            "longitude": "-56.5"
         },
         {
             "id": "sq19",
@@ -2506,7 +3004,10 @@
             "hl": {},
             "term": "Tukano",
             "sccs": "Cubeo",
-            "sccs_group": "167"
+            "sccs_group": "167",
+            "year": "1939",
+            "latitude": "1.25",
+            "longitude": "-70.5"
         },
         {
             "id": "sd06",
@@ -2521,7 +3022,10 @@
             "hl": {},
             "term": "Chachi",
             "sccs": "Chachi",
-            "sccs_group": "168"
+            "sccs_group": "168",
+            "year": "1908",
+            "latitude": "1",
+            "longitude": "-79"
         },
         {
             "id": "sd09",
@@ -2536,7 +3040,10 @@
             "hl": {},
             "term": "Jivaro",
             "sccs": "Shuar",
-            "sccs_group": "169"
+            "sccs_group": "169",
+            "year": "1920",
+            "latitude": "-3",
+            "longitude": "-78"
         },
         {
             "id": "se06",
@@ -2551,7 +3058,10 @@
             "hl": {},
             "term": "Amahuaca",
             "sccs": "Amahuaca",
-            "sccs_group": "170"
+            "sccs_group": "170",
+            "year": "1960",
+            "latitude": "-10.33",
+            "longitude": "-72.25"
         },
         {
             "id": "se13",
@@ -2566,7 +3076,10 @@
             "hl": {},
             "term": "Inka",
             "sccs": "Inca",
-            "sccs_group": "171"
+            "sccs_group": "171",
+            "year": "1530",
+            "latitude": "-13.5",
+            "longitude": "-72"
         },
         {
             "id": "sf05",
@@ -2581,7 +3094,10 @@
             "hl": {},
             "term": "Aymara",
             "sccs": "Aymara",
-            "sccs_group": "172"
+            "sccs_group": "172",
+            "year": "1940",
+            "latitude": "-16",
+            "longitude": "-65.75"
         },
         {
             "id": "sf21",
@@ -2596,7 +3112,10 @@
             "hl": {},
             "term": "Sirion\u00f3",
             "sccs": "Sirion\u00f3",
-            "sccs_group": "173"
+            "sccs_group": "173",
+            "year": "1942",
+            "latitude": "-14.5",
+            "longitude": "-63.5"
         },
         {
             "id": "sp17",
@@ -2611,7 +3130,10 @@
             "hl": {},
             "term": "Nambicuara",
             "sccs": "Nambikwara",
-            "sccs_group": "174"
+            "sccs_group": "174",
+            "year": "1940",
+            "latitude": "-13",
+            "longitude": "-58.75"
         },
         {
             "id": "sp23",
@@ -2626,7 +3148,10 @@
             "hl": {},
             "term": "Trumai",
             "sccs": "Trumai",
-            "sccs_group": "175"
+            "sccs_group": "175",
+            "year": "1938",
+            "latitude": "-11.83",
+            "longitude": "-53.67"
         },
         {
             "id": "so08",
@@ -2641,7 +3166,10 @@
             "hl": {},
             "term": "Canela",
             "sccs": "Canela",
-            "sccs_group": "176"
+            "sccs_group": "176",
+            "year": "1915",
+            "latitude": "-6.5",
+            "longitude": "-46"
         },
         {
             "id": "so09",
@@ -2656,7 +3184,10 @@
             "hl": {},
             "term": "Tupinamba",
             "sccs": "Tupinamb\u00e1",
-            "sccs_group": "177"
+            "sccs_group": "177",
+            "year": "1550",
+            "latitude": "-22.79",
+            "longitude": "-44.5"
         },
         {
             "id": "sn02",
@@ -2671,7 +3202,10 @@
             "hl": {},
             "term": "Botocudo",
             "sccs": "Aimor\u00e9",
-            "sccs_group": "178"
+            "sccs_group": "178",
+            "year": "1884",
+            "latitude": "-19",
+            "longitude": "-42.5"
         },
         {
             "id": "sp26",
@@ -2686,7 +3220,10 @@
             "hl": {},
             "term": "Xavante",
             "sccs": "Shavante",
-            "sccs_group": "179"
+            "sccs_group": "179",
+            "year": "1958",
+            "latitude": "-13.5",
+            "longitude": "-51.5"
         },
         {
             "id": "sm03",
@@ -2701,7 +3238,10 @@
             "hl": {},
             "term": "Xokleng",
             "sccs": "Aweikoma",
-            "sccs_group": "180"
+            "sccs_group": "180",
+            "year": "1932",
+            "latitude": "-28",
+            "longitude": "-50"
         },
         {
             "id": "sm04",
@@ -2716,7 +3256,10 @@
             "hl": {},
             "term": "Guaran\u00ed",
             "sccs": "Cayua",
-            "sccs_group": "181"
+            "sccs_group": "181",
+            "year": "1890",
+            "latitude": "-23.5",
+            "longitude": "-55"
         },
         {
             "id": "sk15",
@@ -2731,7 +3274,10 @@
             "hl": {},
             "term": "Enxet and Enlhet",
             "sccs": "Lengua",
-            "sccs_group": "182"
+            "sccs_group": "182",
+            "year": "1889",
+            "latitude": "-23",
+            "longitude": "-58.5"
         },
         {
             "id": "si04",
@@ -2746,7 +3292,10 @@
             "hl": {},
             "term": "Abip\u00f3n",
             "sccs": "Abip\u00f3n",
-            "sccs_group": "183"
+            "sccs_group": "183",
+            "year": "1750",
+            "latitude": "-28",
+            "longitude": "-59.5"
         },
         {
             "id": "sg04",
@@ -2761,7 +3310,10 @@
             "hl": {},
             "term": "Mapuche",
             "sccs": "Mapuche",
-            "sccs_group": "184"
+            "sccs_group": "184",
+            "year": "1950",
+            "latitude": "-38.5",
+            "longitude": "-72.58"
         },
         {
             "id": "sh05",
@@ -2776,7 +3328,10 @@
             "hl": {},
             "term": "Tehuelche",
             "sccs": "Tehuelche",
-            "sccs_group": "185"
+            "sccs_group": "185",
+            "year": "1870",
+            "latitude": "-40.5",
+            "longitude": "-68"
         },
         {
             "id": "sh06",
@@ -2791,7 +3346,10 @@
             "hl": {},
             "term": "Yahgan",
             "sccs": "Yahgan",
-            "sccs_group": "186"
+            "sccs_group": "186",
+            "year": "1865",
+            "latitude": "-55.5",
+            "longitude": "-69.5"
         }
     ],
     "facet_buckets": {
