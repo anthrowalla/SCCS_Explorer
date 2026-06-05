@@ -582,7 +582,9 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Belau"
+            "term": "Belau",
+            "sccs": "Palauans",
+            "sccs_group": "111"
         },
         {
             "id": "fq05",
@@ -2709,7 +2711,9 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Marquesas"
+            "term": "Marquesas",
+            "sccs": "Marquesans",
+            "sccs_group": "105"
         },
         {
             "id": "or11",
@@ -3252,7 +3256,9 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Ojibwa"
+            "term": "Ojibwa",
+            "sccs": "Northern Saulteaux",
+            "sccs_group": "127"
         },
         {
             "id": "ab43",
@@ -3265,7 +3271,9 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Okayama"
+            "term": "Okayama",
+            "sccs": "Japanese",
+            "sccs_group": "117"
         },
         {
             "id": "fl20",
@@ -3593,7 +3601,9 @@
             "hasSummary": false,
             "ocms": [],
             "hl": {},
-            "term": "Rhade"
+            "term": "Rhade",
+            "sccs": "Rade",
+            "sccs_group": "74"
         },
         {
             "id": "am28",
@@ -3838,7 +3848,9 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Semai"
+            "term": "Semai",
+            "sccs": "Negri Sembilan",
+            "sccs_group": "82"
         },
         {
             "id": "an07",
@@ -4073,7 +4085,9 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Southern Coast Salish"
+            "term": "Southern Coast Salish",
+            "sccs": "Twana",
+            "sccs_group": "133"
         },
         {
             "id": "og13",
