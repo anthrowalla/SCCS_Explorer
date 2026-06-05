@@ -14,9 +14,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Abip\u00f3n",
-            "sccs": "Abip\u00f3n",
-            "sccs_group": "183"
+            "term": "Abip\u00f3n"
         },
         {
             "id": "ri03",
@@ -29,9 +27,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Abkhazians",
-            "sccs": "Abkhaz",
-            "sccs_group": "55"
+            "term": "Abkhazians"
         },
         {
             "id": "nk04",
@@ -57,9 +53,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Ainu",
-            "sccs": "Ainu",
-            "sccs_group": "118"
+            "term": "Ainu"
         },
         {
             "id": "fe12",
@@ -72,9 +66,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Akan",
-            "sccs": "Ashanti",
-            "sccs_group": "19"
+            "term": "Akan"
         },
         {
             "id": "eg01",
@@ -87,9 +79,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Albanians",
-            "sccs": "Gheg",
-            "sccs_group": "48"
+            "term": "Albanians"
         },
         {
             "id": "na06",
@@ -102,9 +92,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Aleut",
-            "sccs": "Aleut",
-            "sccs_group": "123"
+            "term": "Aleut"
         },
         {
             "id": "of05",
@@ -117,9 +105,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Alorese",
-            "sccs": "Alorese",
-            "sccs_group": "89"
+            "term": "Alorese"
         },
         {
             "id": "na10",
@@ -145,9 +131,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Amahuaca",
-            "sccs": "Amahuaca",
-            "sccs_group": "170"
+            "term": "Amahuaca"
         },
         {
             "id": "mp05",
@@ -160,9 +144,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Amhara",
-            "sccs": "Amhara",
-            "sccs_group": "37"
+            "term": "Amhara"
         },
         {
             "id": "nm06",
@@ -188,9 +170,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Andamans",
-            "sccs": "Andamanese",
-            "sccs_group": "79"
+            "term": "Andamans"
         },
         {
             "id": "nk09",
@@ -229,9 +209,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Aranda",
-            "sccs": "Northern Aranda",
-            "sccs_group": "91"
+            "term": "Aranda"
         },
         {
             "id": "rj01",
@@ -244,9 +222,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Armenia",
-            "sccs": "Armenians",
-            "sccs_group": "56"
+            "term": "Armenia"
         },
         {
             "id": "nf04",
@@ -272,9 +248,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Atayal",
-            "sccs": "Atayal",
-            "sccs_group": "113"
+            "term": "Atayal"
         },
         {
             "id": "sf05",
@@ -287,9 +261,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Aymara",
-            "sccs": "Aymara",
-            "sccs_group": "172"
+            "term": "Aymara"
         },
         {
             "id": "sk16",
@@ -315,9 +287,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Azande",
-            "sccs": "Azande",
-            "sccs_group": "28"
+            "term": "Azande"
         },
         {
             "id": "nu07",
@@ -330,9 +300,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Aztecs",
-            "sccs": "Aztec",
-            "sccs_group": "153"
+            "term": "Aztecs"
         },
         {
             "id": "mh07",
@@ -345,9 +313,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Babylonians",
-            "sccs": "Babylonians",
-            "sccs_group": "45"
+            "term": "Babylonians"
         },
         {
             "id": "aw50",
@@ -412,9 +378,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Balinese",
-            "sccs": "Balinese",
-            "sccs_group": "84"
+            "term": "Balinese"
         },
         {
             "id": "at02",
@@ -440,9 +404,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Bambara",
-            "sccs": "Bambara",
-            "sccs_group": "22"
+            "term": "Bambara"
         },
         {
             "id": "fh26",
@@ -455,9 +417,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Banen",
-            "sccs": "Banen",
-            "sccs_group": "15"
+            "term": "Banen"
         },
         {
             "id": "fk11",
@@ -483,9 +443,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Barama River Carib",
-            "sccs": "Barama River Carib",
-            "sccs_group": "164"
+            "term": "Barama River Carib"
         },
         {
             "id": "fo58",
@@ -524,9 +482,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Basques",
-            "sccs": "Spanish Basques",
-            "sccs_group": "50"
+            "term": "Basques"
         },
         {
             "id": "ma10",
@@ -539,9 +495,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Basseri",
-            "sccs": "Basseri",
-            "sccs_group": "58"
+            "term": "Basseri"
         },
         {
             "id": "oq12",
@@ -554,9 +508,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Bau Fijians",
-            "sccs": "Mbau Fijians",
-            "sccs_group": "102"
+            "term": "Bau Fijians"
         },
         {
             "id": "mj04",
@@ -595,9 +547,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Bemba",
-            "sccs": "Bemba",
-            "sccs_group": "7"
+            "term": "Bemba"
         },
         {
             "id": "fn31",
@@ -636,9 +586,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Berbers of Morocco",
-            "sccs": "Riffians",
-            "sccs_group": "42"
+            "term": "Berbers of Morocco"
         },
         {
             "id": "fy11",
@@ -677,9 +625,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Bilen",
-            "sccs": "Blin",
-            "sccs_group": "38"
+            "term": "Bilen"
         },
         {
             "id": "nf06",
@@ -731,9 +677,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Botocudo",
-            "sccs": "Aimor\u00e9",
-            "sccs_group": "178"
+            "term": "Botocudo"
         },
         {
             "id": "es14",
@@ -772,9 +716,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Burmans",
-            "sccs": "Burmese",
-            "sccs_group": "71"
+            "term": "Burmans"
         },
         {
             "id": "av07",
@@ -787,9 +729,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Burusho",
-            "sccs": "Burusho",
-            "sccs_group": "64"
+            "term": "Burusho"
         },
         {
             "id": "no12",
@@ -815,9 +755,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Cambodians",
-            "sccs": "Ancient Khmer",
-            "sccs_group": "75"
+            "term": "Cambodians"
         },
         {
             "id": "so08",
@@ -830,9 +768,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Canela",
-            "sccs": "Canela",
-            "sccs_group": "176"
+            "term": "Canela"
         },
         {
             "id": "sd18",
@@ -858,9 +794,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Central Thai",
-            "sccs": "Thai",
-            "sccs_group": "76"
+            "term": "Central Thai"
         },
         {
             "id": "sd06",
@@ -873,9 +807,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Chachi",
-            "sccs": "Chachi",
-            "sccs_group": "168"
+            "term": "Chachi"
         },
         {
             "id": "fn04",
@@ -979,9 +911,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Chiricahua Apache",
-            "sccs": "Chiricahua",
-            "sccs_group": "148"
+            "term": "Chiricahua Apache"
         },
         {
             "id": "sf10",
@@ -1020,9 +950,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Chukchee",
-            "sccs": "Chukchi",
-            "sccs_group": "121"
+            "term": "Chukchee"
         },
         {
             "id": "or19",
@@ -1035,9 +963,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Chuuk",
-            "sccs": "Trukese",
-            "sccs_group": "109"
+            "term": "Chuuk"
         },
         {
             "id": "no06",
@@ -1050,9 +976,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Comanche",
-            "sccs": "Comanche",
-            "sccs_group": "147"
+            "term": "Comanche"
         },
         {
             "id": "nd08",
@@ -1065,9 +989,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Copper Inuit",
-            "sccs": "Copper Inuit",
-            "sccs_group": "124"
+            "term": "Copper Inuit"
         },
         {
             "id": "nn11",
@@ -1080,9 +1002,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Creek",
-            "sccs": "Muscogee",
-            "sccs_group": "145"
+            "term": "Creek"
         },
         {
             "id": "ef04",
@@ -1198,9 +1118,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Eastern Toraja",
-            "sccs": "Toradja",
-            "sccs_group": "87"
+            "term": "Eastern Toraja"
         },
         {
             "id": "sk15",
@@ -1213,9 +1131,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Enxet and Enlhet",
-            "sccs": "Lengua",
-            "sccs_group": "182"
+            "term": "Enxet and Enlhet"
         },
         {
             "id": "na07",
@@ -1228,9 +1144,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Eyak",
-            "sccs": "Eyak",
-            "sccs_group": "130"
+            "term": "Eyak"
         },
         {
             "id": "mr13",
@@ -1243,9 +1157,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Fellahin",
-            "sccs": "Egyptians",
-            "sccs_group": "43"
+            "term": "Fellahin"
         },
         {
             "id": "of09",
@@ -1271,9 +1183,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Fon",
-            "sccs": "Fon",
-            "sccs_group": "18"
+            "term": "Fon"
         },
         {
             "id": "np05",
@@ -1299,9 +1209,7 @@
             "hasSummary": false,
             "ocms": [],
             "hl": {},
-            "term": "Fulani",
-            "sccs": "Wodaabe Fulani",
-            "sccs_group": "25"
+            "term": "Fulani"
         },
         {
             "id": "mq08",
@@ -1314,9 +1222,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Fur",
-            "sccs": "Fur",
-            "sccs_group": "29"
+            "term": "Fur"
         },
         {
             "id": "fk07",
@@ -1329,9 +1235,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Ganda",
-            "sccs": "Ganda",
-            "sccs_group": "12"
+            "term": "Ganda"
         },
         {
             "id": "sa12",
@@ -1357,9 +1261,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Garo",
-            "sccs": "Garo",
-            "sccs_group": "69"
+            "term": "Garo"
         },
         {
             "id": "au07",
@@ -1385,9 +1287,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Gikuyu",
-            "sccs": "Kikuyu",
-            "sccs_group": "11"
+            "term": "Gikuyu"
         },
         {
             "id": "sc13",
@@ -1400,9 +1300,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Goajiro",
-            "sccs": "Wayuu",
-            "sccs_group": "159"
+            "term": "Goajiro"
         },
         {
             "id": "aw32",
@@ -1415,9 +1313,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Gond",
-            "sccs": "Madia",
-            "sccs_group": "60"
+            "term": "Gond"
         },
         {
             "id": "sk04",
@@ -1456,9 +1352,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Gros Ventre",
-            "sccs": "Gros Ventre",
-            "sccs_group": "140"
+            "term": "Gros Ventre"
         },
         {
             "id": "sm04",
@@ -1471,9 +1365,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Guaran\u00ed",
-            "sccs": "Cayua",
-            "sccs_group": "181"
+            "term": "Guaran\u00ed"
         },
         {
             "id": "nn23",
@@ -1512,9 +1404,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Hadza",
-            "sccs": "Hadza",
-            "sccs_group": "9"
+            "term": "Hadza"
         },
         {
             "id": "ne09",
@@ -1527,9 +1417,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Haida",
-            "sccs": "Haida",
-            "sccs_group": "131"
+            "term": "Haida"
         },
         {
             "id": "nk07",
@@ -1555,9 +1443,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Haitians",
-            "sccs": "Haitians",
-            "sccs_group": "160"
+            "term": "Haitians"
         },
         {
             "id": "ae15",
@@ -1570,9 +1456,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Han Chinese",
-            "sccs": "Chekiang",
-            "sccs_group": "114"
+            "term": "Han Chinese"
         },
         {
             "id": "ms12",
@@ -1585,9 +1469,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Hausa",
-            "sccs": "Zazzagawa Hausa",
-            "sccs_group": "26"
+            "term": "Hausa"
         },
         {
             "id": "nt14",
@@ -1600,9 +1482,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Havasupai",
-            "sccs": "Havasupai",
-            "sccs_group": "150"
+            "term": "Havasupai"
         },
         {
             "id": "ov05",
@@ -1641,9 +1521,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Hidatsa",
-            "sccs": "Hidatsa",
-            "sccs_group": "141"
+            "term": "Hidatsa"
         },
         {
             "id": "es10",
@@ -1682,9 +1560,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Huichol",
-            "sccs": "Huichol",
-            "sccs_group": "152"
+            "term": "Huichol"
         },
         {
             "id": "ng05",
@@ -1697,9 +1573,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Huron/Wendat",
-            "sccs": "Huron",
-            "sccs_group": "144"
+            "term": "Huron/Wendat"
         },
         {
             "id": "oc06",
@@ -1712,9 +1586,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Iban",
-            "sccs": "Iban",
-            "sccs_group": "85"
+            "term": "Iban"
         },
         {
             "id": "eq01",
@@ -1740,9 +1612,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Ifugao",
-            "sccs": "Ifugao",
-            "sccs_group": "112"
+            "term": "Ifugao"
         },
         {
             "id": "ff26",
@@ -1755,9 +1625,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Igbo",
-            "sccs": "Igbo",
-            "sccs_group": "17"
+            "term": "Igbo"
         },
         {
             "id": "fq06",
@@ -1783,9 +1651,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Imperial Romans",
-            "sccs": "Ancient Romans",
-            "sccs_group": "49"
+            "term": "Imperial Romans"
         },
         {
             "id": "na08",
@@ -1798,9 +1664,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Ingalik",
-            "sccs": "Deg Xit'an",
-            "sccs_group": "122"
+            "term": "Ingalik"
         },
         {
             "id": "se13",
@@ -1813,9 +1677,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Inka",
-            "sccs": "Inca",
-            "sccs_group": "171"
+            "term": "Inka"
         },
         {
             "id": "ah06",
@@ -1841,9 +1703,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Innu",
-            "sccs": "Montagnais",
-            "sccs_group": "125"
+            "term": "Innu"
         },
         {
             "id": "ma01",
@@ -1895,9 +1755,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Israelites",
-            "sccs": "Hebrews",
-            "sccs_group": "44"
+            "term": "Israelites"
         },
         {
             "id": "n010",
@@ -1949,9 +1807,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Javanese",
-            "sccs": "Javanese",
-            "sccs_group": "83"
+            "term": "Javanese"
         },
         {
             "id": "nt26",
@@ -1977,9 +1833,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Jivaro",
-            "sccs": "Shuar",
-            "sccs_group": "169"
+            "term": "Jivaro"
         },
         {
             "id": "ap06",
@@ -2005,9 +1859,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Kaffa",
-            "sccs": "Kafa",
-            "sccs_group": "33"
+            "term": "Kaffa"
         },
         {
             "id": "st13",
@@ -2020,9 +1872,7 @@
             "hasSummary": false,
             "ocms": [],
             "hl": {},
-            "term": "Kalinago",
-            "sccs": "Callinago",
-            "sccs_group": "161"
+            "term": "Kalinago"
         },
         {
             "id": "op04",
@@ -2035,9 +1885,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Kanak",
-            "sccs": "Ajie",
-            "sccs_group": "103"
+            "term": "Kanak"
         },
         {
             "id": "ms14",
@@ -2063,9 +1911,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Kapauku",
-            "sccs": "Mee",
-            "sccs_group": "94"
+            "term": "Kapauku"
         },
         {
             "id": "sp09",
@@ -2130,9 +1976,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Kaska",
-            "sccs": "Kaska",
-            "sccs_group": "129"
+            "term": "Kaska"
         },
         {
             "id": "ff38",
@@ -2158,9 +2002,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Kazakh",
-            "sccs": "Kazakh",
-            "sccs_group": "65"
+            "term": "Kazakh"
         },
         {
             "id": "aw11",
@@ -2199,9 +2041,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Khoi",
-            "sccs": "Nama",
-            "sccs_group": "1"
+            "term": "Khoi"
         },
         {
             "id": "oj82",
@@ -2214,9 +2054,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Kimam",
-            "sccs": "Kimam",
-            "sccs_group": "93"
+            "term": "Kimam"
         },
         {
             "id": "or06",
@@ -2229,9 +2067,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Kiribati",
-            "sccs": "Makin",
-            "sccs_group": "107"
+            "term": "Kiribati"
         },
         {
             "id": "nr10",
@@ -2244,9 +2080,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Klamath",
-            "sccs": "Klamath",
-            "sccs_group": "138"
+            "term": "Klamath"
         },
         {
             "id": "sc07",
@@ -2285,9 +2119,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Konso",
-            "sccs": "Konso",
-            "sccs_group": "35"
+            "term": "Konso"
         },
         {
             "id": "aa01",
@@ -2300,9 +2132,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Korea",
-            "sccs": "Koreans",
-            "sccs_group": "116"
+            "term": "Korea"
         },
         {
             "id": "n019",
@@ -2354,9 +2184,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Kuna",
-            "sccs": "Guna",
-            "sccs_group": "158"
+            "term": "Kuna"
         },
         {
             "id": "ma11",
@@ -2369,9 +2197,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Kurds",
-            "sccs": "Kurd",
-            "sccs_group": "57"
+            "term": "Kurds"
         },
         {
             "id": "nf08",
@@ -2384,9 +2210,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Kutenai",
-            "sccs": "Kutenai",
-            "sccs_group": "139"
+            "term": "Kutenai"
         },
         {
             "id": "oj13",
@@ -2399,9 +2223,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Kwoma",
-            "sccs": "Kwoma",
-            "sccs_group": "95"
+            "term": "Kwoma"
         },
         {
             "id": "rp02",
@@ -2453,9 +2275,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Lepcha",
-            "sccs": "Lepcha",
-            "sccs_group": "68"
+            "term": "Lepcha"
         },
         {
             "id": "om24",
@@ -2468,9 +2288,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Lesu",
-            "sccs": "Lesu",
-            "sccs_group": "97"
+            "term": "Lesu"
         },
         {
             "id": "mt09",
@@ -2496,9 +2314,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Lozi",
-            "sccs": "Lozi",
-            "sccs_group": "4"
+            "term": "Lozi"
         },
         {
             "id": "fn32",
@@ -2511,9 +2327,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Luguru",
-            "sccs": "Luguru",
-            "sccs_group": "10"
+            "term": "Luguru"
         },
         {
             "id": "fl11",
@@ -2552,9 +2366,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Maasai",
-            "sccs": "Maasi",
-            "sccs_group": "34"
+            "term": "Maasai"
         },
         {
             "id": "an05",
@@ -2606,9 +2418,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Manchu",
-            "sccs": "Manchu",
-            "sccs_group": "115"
+            "term": "Manchu"
         },
         {
             "id": "om06",
@@ -2621,9 +2431,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Manus",
-            "sccs": "Manus",
-            "sccs_group": "96"
+            "term": "Manus"
         },
         {
             "id": "mp19",
@@ -2636,9 +2444,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Mao",
-            "sccs": "Mao",
-            "sccs_group": "32"
+            "term": "Mao"
         },
         {
             "id": "oz04",
@@ -2651,9 +2457,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Maori",
-            "sccs": "M\u0101ori",
-            "sccs_group": "104"
+            "term": "Maori"
         },
         {
             "id": "sg04",
@@ -2666,9 +2470,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Mapuche",
-            "sccs": "Mapuche",
-            "sccs_group": "184"
+            "term": "Mapuche"
         },
         {
             "id": "ar20",
@@ -2681,9 +2483,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Mara",
-            "sccs": "Maras",
-            "sccs_group": "70"
+            "term": "Mara"
         },
         {
             "id": "nt43",
@@ -2722,9 +2522,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Marshallese",
-            "sccs": "Marshallese - Jaluit Atoll",
-            "sccs_group": "108"
+            "term": "Marshallese"
         },
         {
             "id": "fi21",
@@ -2737,9 +2535,7 @@
             "hasSummary": false,
             "ocms": [],
             "hl": {},
-            "term": "Masa",
-            "sccs": "Masa",
-            "sccs_group": "27"
+            "term": "Masa"
         },
         {
             "id": "si07",
@@ -2778,9 +2574,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Mbuti",
-            "sccs": "Mbuti",
-            "sccs_group": "13"
+            "term": "Mbuti"
         },
         {
             "id": "fc07",
@@ -2793,9 +2587,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Mende",
-            "sccs": "Mende",
-            "sccs_group": "20"
+            "term": "Mende"
         },
         {
             "id": "od09",
@@ -2847,9 +2639,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Mi'kmaq",
-            "sccs": "Mi'kmaq",
-            "sccs_group": "126"
+            "term": "Mi'kmaq"
         },
         {
             "id": "sa15",
@@ -2862,9 +2652,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Miskito",
-            "sccs": "Miskito",
-            "sccs_group": "156"
+            "term": "Miskito"
         },
         {
             "id": "fo32",
@@ -2877,9 +2665,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Mongo",
-            "sccs": "Nkundo",
-            "sccs_group": "14"
+            "term": "Mongo"
         },
         {
             "id": "ah01",
@@ -2892,9 +2678,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Mongolia",
-            "sccs": "Khalka",
-            "sccs_group": "66"
+            "term": "Mongolia"
         },
         {
             "id": "ae09",
@@ -2959,9 +2743,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Mundurucu",
-            "sccs": "Munduruku",
-            "sccs_group": "166"
+            "term": "Mundurucu"
         },
         {
             "id": "nu46",
@@ -2987,9 +2769,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Nambicuara",
-            "sccs": "Nambikwara",
-            "sccs_group": "174"
+            "term": "Nambicuara"
         },
         {
             "id": "no08",
@@ -3002,9 +2782,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Natchez",
-            "sccs": "Natchez",
-            "sccs_group": "146"
+            "term": "Natchez"
         },
         {
             "id": "nt13",
@@ -3056,9 +2834,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Nicobarese",
-            "sccs": "Nicobarese",
-            "sccs_group": "78"
+            "term": "Nicobarese"
         },
         {
             "id": "rx02",
@@ -3071,9 +2847,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Nivkh",
-            "sccs": "Nivkh",
-            "sccs_group": "119"
+            "term": "Nivkh"
         },
         {
             "id": "n016",
@@ -3138,9 +2912,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Northern Paiute",
-            "sccs": "Wadadokado",
-            "sccs_group": "137"
+            "term": "Northern Paiute"
         },
         {
             "id": "fj21",
@@ -3153,9 +2925,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Nuba",
-            "sccs": "Otoro",
-            "sccs_group": "30"
+            "term": "Nuba"
         },
         {
             "id": "mr08",
@@ -3168,9 +2938,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Nubians",
-            "sccs": "Barabra",
-            "sccs_group": "39"
+            "term": "Nubians"
         },
         {
             "id": "fj22",
@@ -3222,9 +2990,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Nuxalk",
-            "sccs": "Nuxalk",
-            "sccs_group": "132"
+            "term": "Nuxalk"
         },
         {
             "id": "fn17",
@@ -3237,9 +3003,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Nyakyusa and Ngonde",
-            "sccs": "Nyakyusa",
-            "sccs_group": "8"
+            "term": "Nyakyusa and Ngonde"
         },
         {
             "id": "ng06",
@@ -3304,9 +3068,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Omaha",
-            "sccs": "Omaha",
-            "sccs_group": "143"
+            "term": "Omaha"
         },
         {
             "id": "sh04",
@@ -3332,9 +3094,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "O'odham",
-            "sccs": "Tohono O'odham",
-            "sccs_group": "151"
+            "term": "O'odham"
         },
         {
             "id": "oj23",
@@ -3347,9 +3107,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Orokaiva",
-            "sccs": "Orokaiva",
-            "sccs_group": "92"
+            "term": "Orokaiva"
         },
         {
             "id": "nq22",
@@ -3401,9 +3159,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Ovimbundu",
-            "sccs": "Mbundu",
-            "sccs_group": "5"
+            "term": "Ovimbundu"
         },
         {
             "id": "m013",
@@ -3455,9 +3211,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Pawnee",
-            "sccs": "Pawnee",
-            "sccs_group": "142"
+            "term": "Pawnee"
         },
         {
             "id": "ns18",
@@ -3470,9 +3224,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Pomo",
-            "sccs": "Eastern Pomo",
-            "sccs_group": "135"
+            "term": "Pomo"
         },
         {
             "id": "nu30",
@@ -3485,9 +3237,7 @@
             "hasSummary": false,
             "ocms": [],
             "hl": {},
-            "term": "Popoluca",
-            "sccs": "Sierra Popoluca",
-            "sccs_group": "154"
+            "term": "Popoluca"
         },
         {
             "id": "su01",
@@ -3539,9 +3289,7 @@
             "hasSummary": false,
             "ocms": [],
             "hl": {},
-            "term": "Quich\u00e9 Maya",
-            "sccs": "K'iche'",
-            "sccs_group": "155"
+            "term": "Quich\u00e9 Maya"
         },
         {
             "id": "nr17",
@@ -3606,9 +3354,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Rmeet",
-            "sccs": "Lamet",
-            "sccs_group": "72"
+            "term": "Rmeet"
         },
         {
             "id": "oc13",
@@ -3634,9 +3380,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Rural Irish",
-            "sccs": "Irish",
-            "sccs_group": "51"
+            "term": "Rural Irish"
         },
         {
             "id": "rf10",
@@ -3649,9 +3393,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Russians",
-            "sccs": "Russians",
-            "sccs_group": "54"
+            "term": "Russians"
         },
         {
             "id": "md04",
@@ -3664,9 +3406,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Rwala Bedouin",
-            "sccs": "Rwala",
-            "sccs_group": "46"
+            "term": "Rwala Bedouin"
         },
         {
             "id": "fo57",
@@ -3692,9 +3432,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Sa",
-            "sccs": "Bunlap",
-            "sccs_group": "101"
+            "term": "Sa"
         },
         {
             "id": "ep04",
@@ -3707,9 +3445,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Saami",
-            "sccs": "Sami",
-            "sccs_group": "52"
+            "term": "Saami"
         },
         {
             "id": "oa08",
@@ -3722,9 +3458,7 @@
             "hasSummary": false,
             "ocms": [],
             "hl": {},
-            "term": "Sama-Bajau",
-            "sccs": "Badjau Tawi-Tawi",
-            "sccs_group": "86"
+            "term": "Sama-Bajau"
         },
         {
             "id": "ou08",
@@ -3737,9 +3471,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Samoans",
-            "sccs": "Upolu Samoans",
-            "sccs_group": "106"
+            "term": "Samoans"
         },
         {
             "id": "ru04",
@@ -3752,9 +3484,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Samoyed",
-            "sccs": "Yurak-Samoyeds",
-            "sccs_group": "53"
+            "term": "Samoyed"
         },
         {
             "id": "fx10",
@@ -3767,9 +3497,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "San",
-            "sccs": "!Kung",
-            "sccs_group": "2"
+            "term": "San"
         },
         {
             "id": "on13",
@@ -3795,9 +3523,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Santal",
-            "sccs": "Santal",
-            "sccs_group": "62"
+            "term": "Santal"
         },
         {
             "id": "sd17",
@@ -3823,9 +3549,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Saramaka",
-            "sccs": "Saramaccan ",
-            "sccs_group": "165"
+            "term": "Saramaka"
         },
         {
             "id": "an06",
@@ -3851,9 +3575,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Semang",
-            "sccs": "Semang",
-            "sccs_group": "77"
+            "term": "Semang"
         },
         {
             "id": "nn16",
@@ -3918,9 +3640,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Shilluk",
-            "sccs": "Shilluk",
-            "sccs_group": "31"
+            "term": "Shilluk"
         },
         {
             "id": "se26",
@@ -3985,9 +3705,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Sirion\u00f3",
-            "sccs": "Sirion\u00f3",
-            "sccs_group": "173"
+            "term": "Sirion\u00f3"
         },
         {
             "id": "on19",
@@ -4000,9 +3718,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Siwai",
-            "sccs": "Siuai",
-            "sccs_group": "99"
+            "term": "Siwai"
         },
         {
             "id": "nd14",
@@ -4015,9 +3731,7 @@
             "hasSummary": false,
             "ocms": [],
             "hl": {},
-            "term": "Slavey",
-            "sccs": "DeneTha",
-            "sccs_group": "128"
+            "term": "Slavey"
         },
         {
             "id": "ef07",
@@ -4043,9 +3757,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Somali",
-            "sccs": "Somali (Dolbahanta)",
-            "sccs_group": "36"
+            "term": "Somali"
         },
         {
             "id": "ms20",
@@ -4058,9 +3770,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Songhai",
-            "sccs": "Songhai",
-            "sccs_group": "24"
+            "term": "Songhai"
         },
         {
             "id": "nr26",
@@ -4112,9 +3822,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Suku",
-            "sccs": "Suku",
-            "sccs_group": "6"
+            "term": "Suku"
         },
         {
             "id": "ad05",
@@ -4153,9 +3861,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Talamancans",
-            "sccs": "Bribri",
-            "sccs_group": "157"
+            "term": "Talamancans"
         },
         {
             "id": "fe11",
@@ -4168,9 +3874,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Tallensi",
-            "sccs": "Tallensi",
-            "sccs_group": "23"
+            "term": "Tallensi"
         },
         {
             "id": "aw16",
@@ -4196,9 +3900,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Tanala",
-            "sccs": "Tanala",
-            "sccs_group": "81"
+            "term": "Tanala"
         },
         {
             "id": "sp22",
@@ -4250,9 +3952,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Teda",
-            "sccs": "Teda",
-            "sccs_group": "40"
+            "term": "Teda"
         },
         {
             "id": "sh05",
@@ -4265,9 +3965,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Tehuelche",
-            "sccs": "Tehuelche",
-            "sccs_group": "185"
+            "term": "Tehuelche"
         },
         {
             "id": "aw17",
@@ -4345,9 +4043,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Tikopia",
-            "sccs": "Tikopia",
-            "sccs_group": "100"
+            "term": "Tikopia"
         },
         {
             "id": "nr21",
@@ -4386,9 +4082,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Tiv",
-            "sccs": "Tiv",
-            "sccs_group": "16"
+            "term": "Tiv"
         },
         {
             "id": "oi20",
@@ -4401,9 +4095,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Tiwi",
-            "sccs": "Tiwi",
-            "sccs_group": "90"
+            "term": "Tiwi"
         },
         {
             "id": "na12",
@@ -4429,9 +4121,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Tobelo",
-            "sccs": "Tobelorese",
-            "sccs_group": "88"
+            "term": "Tobelo"
         },
         {
             "id": "aw60",
@@ -4444,9 +4134,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Toda",
-            "sccs": "Toda",
-            "sccs_group": "61"
+            "term": "Toda"
         },
         {
             "id": "fq12",
@@ -4485,9 +4173,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Trobriands",
-            "sccs": "Trobriands",
-            "sccs_group": "98"
+            "term": "Trobriands"
         },
         {
             "id": "sp23",
@@ -4500,9 +4186,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Trumai",
-            "sccs": "Trumai",
-            "sccs_group": "175"
+            "term": "Trumai"
         },
         {
             "id": "ft06",
@@ -4515,9 +4199,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Tsonga",
-            "sccs": "Tsonga",
-            "sccs_group": "3"
+            "term": "Tsonga"
         },
         {
             "id": "ms25",
@@ -4530,9 +4212,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Tuareg",
-            "sccs": "Tuareg Ahaggar",
-            "sccs_group": "41"
+            "term": "Tuareg"
         },
         {
             "id": "ns22",
@@ -4558,9 +4238,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Tukano",
-            "sccs": "Cubeo",
-            "sccs_group": "167"
+            "term": "Tukano"
         },
         {
             "id": "so09",
@@ -4573,9 +4251,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Tupinamba",
-            "sccs": "Tupinamb\u00e1",
-            "sccs_group": "177"
+            "term": "Tupinamba"
         },
         {
             "id": "fl17",
@@ -4614,9 +4290,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Turks",
-            "sccs": "Turks",
-            "sccs_group": "47"
+            "term": "Turks"
         },
         {
             "id": "nv09",
@@ -4681,9 +4355,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Uttar Pradesh",
-            "sccs": "Uttar Pradesh",
-            "sccs_group": "63"
+            "term": "Uttar Pradesh"
         },
         {
             "id": "ai04",
@@ -4722,9 +4394,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Vedda",
-            "sccs": "Vedda",
-            "sccs_group": "80"
+            "term": "Vedda"
         },
         {
             "id": "am11",
@@ -4737,9 +4407,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Vietnamese",
-            "sccs": "Annamese",
-            "sccs_group": "73"
+            "term": "Vietnamese"
         },
         {
             "id": "ss18",
@@ -4752,9 +4420,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Warao",
-            "sccs": "Warao",
-            "sccs_group": "162"
+            "term": "Warao"
         },
         {
             "id": "nt21",
@@ -4793,9 +4459,7 @@
             "hasSummary": false,
             "ocms": [],
             "hl": {},
-            "term": "West Punjabi",
-            "sccs": "Punjabi",
-            "sccs_group": "59"
+            "term": "West Punjabi"
         },
         {
             "id": "np12",
@@ -4847,9 +4511,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Wolof",
-            "sccs": "Wolof",
-            "sccs_group": "21"
+            "term": "Wolof"
         },
         {
             "id": "sp26",
@@ -4862,9 +4524,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Xavante",
-            "sccs": "Shavante",
-            "sccs_group": "179"
+            "term": "Xavante"
         },
         {
             "id": "ai01",
@@ -4890,9 +4550,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Xokleng",
-            "sccs": "Aweikoma",
-            "sccs_group": "180"
+            "term": "Xokleng"
         },
         {
             "id": "sh06",
@@ -4905,9 +4563,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Yahgan",
-            "sccs": "Yahgan",
-            "sccs_group": "186"
+            "term": "Yahgan"
         },
         {
             "id": "rv02",
@@ -4933,9 +4589,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Yanoama",
-            "sccs": "Yanomami",
-            "sccs_group": "163"
+            "term": "Yanoama"
         },
         {
             "id": "or22",
@@ -4948,9 +4602,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Yapese",
-            "sccs": "Yapese",
-            "sccs_group": "110"
+            "term": "Yapese"
         },
         {
             "id": "ml01",
@@ -4976,9 +4628,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Yi",
-            "sccs": "Lolo",
-            "sccs_group": "67"
+            "term": "Yi"
         },
         {
             "id": "ns29",
@@ -4991,9 +4641,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Yokuts",
-            "sccs": "Southern Valley Yokuts",
-            "sccs_group": "136"
+            "term": "Yokuts"
         },
         {
             "id": "ff62",
@@ -5019,9 +4667,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Yukaghir",
-            "sccs": "Yukaghir",
-            "sccs_group": "120"
+            "term": "Yukaghir"
         },
         {
             "id": "ns30",
@@ -5047,9 +4693,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Yurok",
-            "sccs": "Yurok",
-            "sccs_group": "134"
+            "term": "Yurok"
         },
         {
             "id": "nu44",
@@ -5101,9 +4745,7 @@
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Zuni",
-            "sccs": "Zuni",
-            "sccs_group": "149"
+            "term": "Zuni"
         }
     ],
     "facet_buckets": {
