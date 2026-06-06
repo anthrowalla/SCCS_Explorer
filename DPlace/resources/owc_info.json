@@ -1462,17 +1462,17 @@
             "longitude": "48"
         },
         {
-            "id": "an06",
-            "hsla": "hsla(331.55,95.30%,84.37%,0.790)",
-            "description": "The Semai are the largest of the central Malay Peninsula Senoi peoples. They live in areas ranging from mountain rainforest to urban suburbs in the states of Pahang and Perak. Most Semai subsist by means of hunting, fishing, swidden cultivation, gathering and trading of forest products such as durian, petai, and rattan, or work as day laborers in nearby towns. The Semai are recognized as one of the original 17 aboriginal peoples of Malaysia, who call themselves Orang Asli. They descend from people who originally arrived on the peninsula around 8000-6000 BC.",
+            "id": "an05",
+            "hsla": "hsla(331.55,95.30%,84.95%,0.800)",
+            "description": "Malays live chiefly in peninsular Malaysia, where they are more than half of the population. Malays also live in East Malaysia (Sabah and Sarawak), on the coasts of Sumatra and other islands of Indonesia, extending up to the Sulu Sea of the southern Philippines. Their language (also called Malay or Bahasa Melayu) belongs to the Malayo-Polynesian family of languages. Wet-rice agriculture,  occasionally with modern irrigation, is the primary occupation of Malays, followed by fishing and rubber tapping. These products are sold commercially.",
             "highest_bt": "Asia",
             "bt": "Southeast Asia",
-            "subsistence_type": "horticulturalists",
-            "docs": 23,
+            "subsistence_type": "intensive agriculturalists",
+            "docs": 22,
             "hasSummary": true,
             "ocms": [],
             "hl": {},
-            "term": "Semai",
+            "term": "Malays",
             "sccs": "Negri Sembilan",
             "sccs_group": "82",
             "year": "1958",
@@ -3793,5 +3793,7 @@
         "cultures": 0
     },
     "spell": "",
-    "url": "https://ehrafworldcultures.yale.edu/cultures/XXXX/summary"
+    "url": "https://ehrafworldcultures.yale.edu/cultures/XXXX/summary",
+    "summary": "https://ehrafworldcultures.yale.edu/collection?owc=",
+    "dplace": "https://d-place.org/society/SCCS"
 }

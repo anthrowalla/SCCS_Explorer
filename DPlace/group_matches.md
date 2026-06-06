@@ -125,7 +125,7 @@ These SCCS names could not be matched to any OWC term. Many may have outdated or
 | 155 | K'iche' | Quiché Maya |
 | 157 | Bribri | Talamancans |
 | 159 | Wayuu | Goajiro |
-| 167 | Cubeo | Tucano |
+| 167 | Cubeo | Tukano |
 | 169 | Shuar | Jivaro |
 | 178 | Aimoré | Botocudo |
 | 180 | Aweikoma | Xokleng |

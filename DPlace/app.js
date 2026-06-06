@@ -6,14 +6,14 @@
 import DataParser from './dataParser.js';
 import LabelParser from './labelParser.js';
 import CrosstabEngine from './crosstab.js';
-import SocietyLookup from './societyLookup.js';
+import OwcLookup from './owcLookup.js';
 import VariablePicker from './variablePicker.js';
 
 class EthnoAtlasApp {
     constructor() {
         this.dataParser = new DataParser();
         this.labelParser = new LabelParser();
-        this.societyLookup = new SocietyLookup();
+        this.owlLookup = new OwcLookup();
         this.crosstabEngine = null;
         this.currentCrosstab = null;
         this.currentStats = null;
@@ -30,8 +30,7 @@ class EthnoAtlasApp {
         this.config = {
             dataFile: 'resources/SCCS.data',
             labelFile: 'resources/SCCS.lbl',
-            casesFile: 'resources/EthnoAtlas.cases',
-            societyFile: 'resources/SCCS.glbl',
+            owcInfoFile: 'resources/owc_info.json',
             varInfoFile: 'resources/SCCS.varinfo'
         };
 
@@ -49,14 +48,14 @@ class EthnoAtlasApp {
             console.log('Attempting to load files from:');
             console.log('  ', this.config.dataFile);
             console.log('  ', this.config.labelFile);
-            console.log('  ', this.config.societyFile);
+            console.log('  ', this.config.owcInfoFile);
             console.log('  ', this.config.varInfoFile);
 
             // Load all data
-            const [dataResult, labelsResult, societiesResult, varInfoResult] = await Promise.allSettled([
+            const [dataResult, labelsResult, owcResult, varInfoResult] = await Promise.allSettled([
                 this.dataParser.loadData(this.config.dataFile),
                 this.labelParser.loadLabels(this.config.labelFile),
-                this.societyLookup.loadSocieties(this.config.societyFile),
+                this.owlLookup.loadOwcInfo(this.config.owcInfoFile),
                 this.labelParser.loadVarInfo(this.config.varInfoFile)
             ]);
 
@@ -64,23 +63,11 @@ class EthnoAtlasApp {
             const errors = [];
             if (dataResult.status === 'rejected') errors.push(`Data file: ${dataResult.reason.message}`);
             if (labelsResult.status === 'rejected') errors.push(`Label file: ${labelsResult.reason.message}`);
-            if (societiesResult.status === 'rejected') errors.push(`Society file: ${societiesResult.reason.message}`);
+            if (owcResult.status === 'rejected') errors.push(`OWC info file: ${owcResult.reason.message}`);
             if (varInfoResult.status === 'rejected') errors.push(`VarInfo file: ${varInfoResult.reason.message}`);
 
             if (errors.length > 0) {
                 throw new Error('Failed to load data files:\n' + errors.join('\n'));
-            }
-
-            // Try to load cases file (optional, for detailed info)
-            try {
-                const response = await fetch(this.config.casesFile);
-                if (response.ok) {
-                    const text = await response.text();
-                    this.societyLookup.loadCasesFromText(text);
-                    console.log('Loaded cases file for detailed society information');
-                }
-            } catch (e) {
-                console.log('Cases file not available, using basic society info');
             }
 
             // Initialize crosstab engine
@@ -547,14 +534,13 @@ class EthnoAtlasApp {
             html += '<p>No societies in this cell.</p>';
         } else {
             for (const caseId of caseIds) {
-                const society = this.societyLookup.getSociety(caseId);
+                const society = this.owlLookup.getSociety(caseId);
                 html += `
                     <div class="society-item">
-                        <div class="society-name">${caseId}. ${society.name}</div>
+                        <div class="society-name">${caseId}. ${society.name} (eHRAF: ${society.term})${society.highest_bt ? ' / ' + society.highest_bt : ''}${society.bt ? ' / ' + society.bt : ''}</div>
                         <div class="society-info">
                             ${society.year ? `Year: ${society.year}` : ''}
-                            ${society.area ? ` | Area: ${society.area}` : ''}
-                            ${society.classification ? ` | Classification: ${society.classification}` : ''}
+                            ${society.subsistence_type ? ` | Subsistence: ${society.subsistence_type}` : ''}
                         </div>
                     </div>
                 `;
