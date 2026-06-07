@@ -21,6 +21,7 @@ export class OwcLookup {
                 this.societies[caseId] = {
                     id: entry.id,
                     name: entry.sccs,
+                    sccs_group: entry.sccs_group,
                     term: entry.term,
                     year: entry.year,
                     latitude: entry.latitude,
@@ -61,6 +62,7 @@ export class OwcLookup {
     getSociety(caseId) {
         return this.societies[caseId] || {
             name: `Society ${caseId}`,
+            sccs_group: caseId,
             term: '',
             year: '',
             latitude: '',

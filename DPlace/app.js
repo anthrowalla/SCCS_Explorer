@@ -535,12 +535,27 @@ class EthnoAtlasApp {
         } else {
             for (const caseId of caseIds) {
                 const society = this.owlLookup.getSociety(caseId);
+                // Get first sentence of description
+                let firstSentence = '';
+                let fullDesc = society.description || '';
+                if (fullDesc) {
+                    const match = fullDesc.match(/^.*?[.!?](?:\s|$)/);
+                    firstSentence = match ? match[0] : fullDesc;
+                }
+
                 html += `
-                    <div class="society-item">
+                    <div class="society-item" data-case-id="${caseId}">
                         <div class="society-name">${caseId}. ${society.name} (eHRAF: ${society.term})${society.highest_bt ? ' / ' + society.highest_bt : ''}${society.bt ? ' / ' + society.bt : ''}</div>
                         <div class="society-info">
                             ${society.year ? `Year: ${society.year}` : ''}
                             ${society.subsistence_type ? ` | Subsistence: ${society.subsistence_type}` : ''}
+                        </div>
+                        <div class="society-description" data-full-desc="${encodeURIComponent(fullDesc)}">
+                            Description: ${firstSentence}<span class="desc-toggle">[More]</span>
+                        </div>
+                        <div class="society-buttons">
+                            <button class="btn-info ehraf-btn" data-owc-id="${society.id}" title="Opens in new tab">eHRAF Info</button>
+                            <button class="btn-info sccs-btn" data-sccs-group="${society.sccs_group}" title="Opens in new tab">D-Place SCCS Info</button>
                         </div>
                     </div>
                 `;
@@ -550,6 +565,43 @@ class EthnoAtlasApp {
         html += '</div>';
         body.innerHTML = html;
         modal.classList.add('active');
+
+        // Add click handlers for description toggles
+        const toggleHandler = (e) => {
+            const descDiv = e.target.closest('.society-description');
+            const fullDesc = decodeURIComponent(descDiv.dataset.fullDesc);
+
+            if (e.target.textContent === '[More]') {
+                descDiv.innerHTML = `Description: ${fullDesc}<span class="desc-toggle">[Less]</span>`;
+            } else {
+                const match = fullDesc.match(/^.*?[.!?](?:\s|$)/);
+                const firstSentence = match ? match[0] : fullDesc;
+                descDiv.innerHTML = `Description: ${firstSentence}<span class="desc-toggle">[More]</span>`;
+            }
+
+            // Re-attach click handler to the new toggle
+            descDiv.querySelector('.desc-toggle').addEventListener('click', toggleHandler);
+        };
+
+        body.querySelectorAll('.desc-toggle').forEach(toggle => {
+            toggle.addEventListener('click', toggleHandler);
+        });
+
+        // Add click handlers for eHRAF Info buttons
+        body.querySelectorAll('.ehraf-btn').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                const owcId = e.target.dataset.owcId;
+                window.open(`https://ehrafworldcultures.yale.edu/collection?owc=${owcId}`, '_blank');
+            });
+        });
+
+        // Add click handlers for D-Place SCCS Info buttons
+        body.querySelectorAll('.sccs-btn').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                const sccsGroup = e.target.dataset.sccsGroup;
+                window.open(`https://d-place.org/society/SCCS${sccsGroup}`, '_blank');
+            });
+        });
     }
 
     closeModal() {
