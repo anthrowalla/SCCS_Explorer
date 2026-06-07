@@ -220,9 +220,9 @@ button {
     background: var(--white);
     padding: 30px;
     border-radius: 8px;
-    max-width: 900px;
-    max-height: 70vh;
-    min-height: 100px;
+    width: 80vw;
+    max-width: 1400px;
+    max-height: 90vh;
     overflow-y: auto;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
 }
@@ -254,10 +254,8 @@ button {
 }
 
 .society-list {
-    max-height: 400px;
+    max-height: 70vh;
     overflow-y: auto;
-    border: 1px solid var(--border-color);
-    border-radius: 4px;
 }
 
 .society-item {
@@ -476,10 +474,8 @@ button {
 }
 
 .society-list {
-    max-height: 400px;
+    max-height: 70vh;
     overflow-y: auto;
-    border: 1px solid var(--border-color);
-    border-radius: 4px;
 }
 
 .society-item {
@@ -660,8 +656,8 @@ button {
     background: white;
     padding: 30px;
     border-radius: 8px;
-    max-width: 600px;
-    max-height: 80vh;
+    max-width: 1200px;
+    max-height: 85vh;
     overflow-y: auto;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
 }
@@ -703,7 +699,7 @@ button {
 }
 
 .society-list {
-    max-height: 400px;
+    max-height: 70vh;
     overflow-y: auto;
 }
 
