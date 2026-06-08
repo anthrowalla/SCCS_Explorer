@@ -309,14 +309,52 @@ class EthnoAtlasApp {
         // Build table
         let html = '<table class="crosstab-table">';
 
+        // Helper function to get merged label for a value
+        const getMergedRowLabel = (rv) => {
+            // Check if this is a merged group
+            if (this.currentCrosstab.rowMergeGroups && this.currentCrosstab.rowMergeGroups[rv]) {
+                const originalValues = this.currentCrosstab.rowMergeGroups[rv];
+                // If it's a merge group (has multiple values or is a string group name)
+                if (originalValues.length > 1 || typeof rv === 'string') {
+                    return originalValues.map(v => {
+                        if (v === null) return 'Missing';
+                        const label = this.labelParser.getValueLabel(rowVar, v);
+                        return `${v}: ${label}`;
+                    }).join(', ');
+                }
+            }
+            // Single value, not merged
+            if (rv === null) return 'Missing';
+            const label = this.labelParser.getValueLabel(rowVar, rv);
+            return `${rv}: ${label}`;
+        };
+
+        const getMergedColLabel = (cv) => {
+            // Check if this is a merged group
+            if (this.currentCrosstab.colMergeGroups && this.currentCrosstab.colMergeGroups[cv]) {
+                const originalValues = this.currentCrosstab.colMergeGroups[cv];
+                // If it's a merge group (has multiple values or is a string group name)
+                if (originalValues.length > 1 || typeof cv === 'string') {
+                    return originalValues.map(v => {
+                        if (v === null) return 'Missing';
+                        const label = this.labelParser.getValueLabel(colVar, v);
+                        return `${v}: ${label}`;
+                    }).join(', ');
+                }
+            }
+            // Single value, not merged
+            if (cv === null) return 'Missing';
+            const label = this.labelParser.getValueLabel(colVar, cv);
+            return `${cv}: ${label}`;
+        };
+
         // Header row
         html += '<thead><tr>';
         html += `<th class="row-header">${rowSccsNum} - ${rowVarLabel}</th>`;
 
         for (const cv of colValues) {
-            const colLabel = cv === null ? 'Missing' : this.labelParser.getValueLabel(colVar, cv);
-            const colDisplay = cv === null ? '.' : cv;
-            html += `<th>${colDisplay}: ${colLabel}</th>`;
+            const colLabel = getMergedColLabel(cv);
+            html += `<th>${colLabel}</th>`;
         }
         html += '<th>Total</th></tr>';
 
@@ -360,8 +398,7 @@ class EthnoAtlasApp {
 
         // Data rows
         for (const rv of rowValues) {
-            const rowLabel = rv === null ? 'Missing' : this.labelParser.getValueLabel(rowVar, rv);
-            const rowDisplay = rv === null ? '.' : rv;
+            const rowLabel = getMergedRowLabel(rv);
             html += `<tr>`;
 
             // Row header with merge select if enabled
@@ -376,9 +413,9 @@ class EthnoAtlasApp {
                 html += `<option value="4" ${currentMerge === '4' ? 'selected' : ''}>4</option>`;
                 html += `<option value="drop" ${currentMerge === 'drop' ? 'selected' : ''}>drop</option>`;
                 html += `</select> `;
-                html += `${rowDisplay}: ${rowLabel}</td>`;
+                html += `${rowLabel}</td>`;
             } else {
-                html += `<td class="row-header">${rowDisplay}: ${rowLabel}</td>`;
+                html += `<td class="row-header">${rowLabel}</td>`;
             }
 
             for (const cv of colValues) {
@@ -606,11 +643,16 @@ class EthnoAtlasApp {
         // Update current crosstab
         this.currentCrosstab = mergedCrosstab;
 
-        // Recalculate statistics if needed
-        if (this.currentStats) {
+        // Recalculate statistics if expected values or color coding is enabled
+        const showStats = document.getElementById('expected').checked;
+        const useColor = document.getElementById('colour').checked;
+
+        if (showStats || useColor) {
             const alphaInput = document.getElementById('alpha-level');
             const alpha = alphaInput ? parseFloat(alphaInput.value) || 0.05 : 0.05;
             this.currentStats = this.crosstabEngine.calculateStatistics(mergedCrosstab, alpha);
+        } else {
+            this.currentStats = null;
         }
 
         // Redisplay

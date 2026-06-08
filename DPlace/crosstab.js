@@ -109,10 +109,28 @@ export class CrosstabEngine {
         let totalChiSquare = 0;
 
         for (const [key, observed] of Object.entries(cellCounts)) {
-            const [rv, cv] = key.split(',').map(Number);
+            const [rvStr, cvStr] = key.split(',');
+            // Parse values - handle both numeric and string (merge group) keys
+            // Try to convert to number first, fall back to string
+            const rv = (rvStr === '' || isNaN(rvStr)) ? rvStr : Number(rvStr);
+            const cv = (cvStr === '' || isNaN(cvStr)) ? cvStr : Number(cvStr);
+
+            // Helper function to get total value with flexible key lookup
+            const getTotal = (obj, key) => {
+                if (key in obj) return obj[key];
+                // Try with type conversion
+                const numKey = Number(key);
+                if (!isNaN(numKey) && numKey in obj) return obj[numKey];
+                const strKey = String(key);
+                if (strKey in obj) return obj[strKey];
+                return 0;
+            };
+
+            const rowTotal = getTotal(rowTotals, rv);
+            const colTotal = getTotal(colTotals, cv);
 
             // Expected value = (row_total * col_total) / grand_total
-            const expectedVal = (rowTotals[rv] * colTotals[cv]) / grandTotal;
+            const expectedVal = (rowTotal * colTotal) / grandTotal;
             expected[key] = expectedVal;
 
             // Observed - Expected
@@ -327,7 +345,8 @@ export class CrosstabEngine {
             rowValues: newRowValues,
             cellCounts: newCellCounts,
             cellCases: newCellCases,
-            rowTotals: newRowTotals
+            rowTotals: newRowTotals,
+            rowMergeGroups: mergeGroups
         };
     }
 
@@ -391,7 +410,8 @@ export class CrosstabEngine {
             colValues: newColValues,
             cellCounts: newCellCounts,
             cellCases: newCellCases,
-            colTotals: newColTotals
+            colTotals: newColTotals,
+            colMergeGroups: mergeGroups
         };
     }
 }
