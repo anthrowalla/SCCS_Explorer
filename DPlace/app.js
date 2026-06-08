@@ -600,31 +600,49 @@ class EthnoAtlasApp {
         // Filter out dropped rows and columns
         if (rowsToDrop.length > 0) {
             mergedCrosstab.rowValues = mergedCrosstab.rowValues.filter(rv => !rowsToDrop.includes(rv));
-            for (const rv of rowsToDrop) {
-                delete mergedCrosstab.rowTotals[rv];
-            }
             // Clean up cell counts and cases for dropped rows
             for (const key of Object.keys(mergedCrosstab.cellCounts)) {
-                const [rv] = key.split(',').map(Number);
+                const [rv] = key.split(',').map(k => (k === '' || isNaN(k)) ? k : Number(k));
                 if (rowsToDrop.includes(rv)) {
                     delete mergedCrosstab.cellCounts[key];
                     delete mergedCrosstab.cellCases[key];
                 }
             }
+            // Recalculate row totals based on remaining cells
+            for (const rv of mergedCrosstab.rowValues) {
+                mergedCrosstab.rowTotals[rv] = 0;
+                for (const cv of mergedCrosstab.colValues) {
+                    const key = `${rv},${cv}`;
+                    mergedCrosstab.rowTotals[rv] += mergedCrosstab.cellCounts[key] || 0;
+                }
+            }
+            // Remove totals for dropped rows
+            for (const rv of rowsToDrop) {
+                delete mergedCrosstab.rowTotals[rv];
+            }
         }
 
         if (colsToDrop.length > 0) {
             mergedCrosstab.colValues = mergedCrosstab.colValues.filter(cv => !colsToDrop.includes(cv));
-            for (const cv of colsToDrop) {
-                delete mergedCrosstab.colTotals[cv];
-            }
             // Clean up cell counts and cases for dropped columns
             for (const key of Object.keys(mergedCrosstab.cellCounts)) {
-                const [, cv] = key.split(',').map(Number);
+                const [, cv] = key.split(',').map(k => (k === '' || isNaN(k)) ? k : Number(k));
                 if (colsToDrop.includes(cv)) {
                     delete mergedCrosstab.cellCounts[key];
                     delete mergedCrosstab.cellCases[key];
                 }
+            }
+            // Recalculate column totals based on remaining cells
+            for (const cv of mergedCrosstab.colValues) {
+                mergedCrosstab.colTotals[cv] = 0;
+                for (const rv of mergedCrosstab.rowValues) {
+                    const key = `${rv},${cv}`;
+                    mergedCrosstab.colTotals[cv] += mergedCrosstab.cellCounts[key] || 0;
+                }
+            }
+            // Remove totals for dropped columns
+            for (const cv of colsToDrop) {
+                delete mergedCrosstab.colTotals[cv];
             }
         }
 
