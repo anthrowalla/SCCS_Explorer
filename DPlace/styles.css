@@ -411,6 +411,49 @@ button {
     opacity: 0.8;
 }
 
+/* Merge selects */
+.row-merge-select,
+.col-merge-select {
+    padding: 3px 6px;
+    border: 1px solid var(--border-color);
+    border-radius: 3px;
+    font-size: 0.85rem;
+    margin-right: 8px;
+    background: var(--white);
+    cursor: pointer;
+}
+
+.row-merge-select:hover,
+.col-merge-select:hover {
+    border-color: var(--primary-color);
+}
+
+.merge-select-row th {
+    padding: 8px;
+    background-color: var(--light-gray);
+    color: var(--text-color);
+}
+
+.merge-button-row td {
+    padding: 15px;
+}
+
+.btn-merge {
+    padding: 8px 20px;
+    background-color: var(--primary-color);
+    color: var(--white);
+    border: none;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.btn-merge:hover {
+    background-color: var(--secondary-color);
+}
+
 /* Statistics Tables */
 .stats-section {
     margin: 40px 0;
