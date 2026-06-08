@@ -100,7 +100,7 @@ export class CrosstabEngine {
     /**
      * Calculate statistics (expected values, O-E, chi-square)
      */
-    calculateStatistics(crosstabResult) {
+    calculateStatistics(crosstabResult, alpha = 0.05) {
         const { cellCounts, rowTotals, colTotals, grandTotal } = crosstabResult;
 
         const expected = {};
@@ -134,8 +134,8 @@ export class CrosstabEngine {
         const numColValues = crosstabResult.colValues.length;
         const degreesOfFreedom = (numRowValues - 1) * (numColValues - 1);
 
-        // Determine significance (using chi-square table for p < 0.05)
-        const isSignificant = this.isSignificant(totalChiSquare, degreesOfFreedom);
+        // Determine significance using the provided alpha level
+        const isSignificant = this.isSignificant(totalChiSquare, degreesOfFreedom, alpha);
 
         return {
             expected,
@@ -144,47 +144,79 @@ export class CrosstabEngine {
             totalChiSquare,
             degreesOfFreedom,
             isSignificant,
-            pValue: this.estimatePValue(totalChiSquare, degreesOfFreedom)
+            pValue: this.estimatePValue(totalChiSquare, degreesOfFreedom, alpha),
+            alpha
         };
     }
 
     /**
-     * Check if chi-square is significant at p < 0.05 level
+     * Check if chi-square is significant at specified alpha level
      * Critical values from chi-square distribution table
+     * @param {number} chiSquare - The chi-square test statistic
+     * @param {number} df - Degrees of freedom
+     * @param {number} alpha - Significance level (default 0.05)
      */
-    isSignificant(chiSquare, df) {
+    isSignificant(chiSquare, df, alpha = 0.05) {
+        // Critical values for different alpha levels
         const criticalValues = {
-            1: 3.841,
-            2: 5.991,
-            3: 7.815,
-            4: 9.488,
-            5: 11.070,
-            6: 12.592,
-            7: 14.067,
-            8: 15.507,
-            9: 16.919,
-            10: 18.307,
-            12: 21.026,
-            15: 24.996,
-            20: 31.410,
-            30: 43.773
+            0.001: {
+                1: 10.828, 2: 13.816, 3: 16.266, 4: 18.467, 5: 20.515,
+                6: 22.457, 7: 24.322, 8: 26.125, 9: 27.877, 10: 29.588,
+                12: 32.909, 15: 37.697, 20: 45.315, 30: 59.703
+            },
+            0.01: {
+                1: 6.635, 2: 9.210, 3: 11.345, 4: 13.277, 5: 15.086,
+                6: 16.812, 7: 18.475, 8: 20.090, 9: 21.666, 10: 23.209,
+                12: 26.217, 15: 30.578, 20: 37.566, 30: 50.892
+            },
+            0.05: {
+                1: 3.841, 2: 5.991, 3: 7.815, 4: 9.488, 5: 11.070,
+                6: 12.592, 7: 14.067, 8: 15.507, 9: 16.919, 10: 18.307,
+                12: 21.026, 15: 24.996, 20: 31.410, 30: 43.773
+            },
+            0.10: {
+                1: 2.706, 2: 4.605, 3: 6.251, 4: 7.779, 5: 9.236,
+                6: 10.645, 7: 12.017, 8: 13.362, 9: 14.684, 10: 15.987,
+                12: 18.549, 15: 22.307, 20: 28.412, 30: 40.256
+            }
         };
 
-        // For df values not in table, interpolate or use approximation
-        const critical = criticalValues[df];
+        // Find closest alpha level
+        const alphaLevels = [0.001, 0.01, 0.05, 0.10];
+        let closestAlpha = alphaLevels[0];
+        let minDiff = Math.abs(alpha - alphaLevels[0]);
+        for (const level of alphaLevels) {
+            const diff = Math.abs(alpha - level);
+            if (diff < minDiff) {
+                minDiff = diff;
+                closestAlpha = level;
+            }
+        }
+
+        const critical = criticalValues[closestAlpha][df];
         if (critical) {
             return chiSquare >= critical;
         }
 
         // Approximation: chiSquare >= df + 2*sqrt(df) for large df
-        return chiSquare >= df + 2 * Math.sqrt(df);
+        // Adjust based on alpha level
+        const adjustment = {
+            0.001: 8,
+            0.01: 5,
+            0.05: 0,
+            0.10: -3
+        }[closestAlpha] || 0;
+        return chiSquare >= df + 2 * Math.sqrt(df) + adjustment;
     }
 
     /**
      * Estimate p-value (simplified approximation)
      * Uses same critical values as isSignificant() for consistency
+     * @param {number} chiSquare - The chi-square test statistic
+     * @param {number} df - Degrees of freedom
+     * @param {number} alpha - Significance level (for display)
      */
-    estimatePValue(chiSquare, df) {
+    estimatePValue(chiSquare, df, alpha = 0.05) {
         // Critical values from chi-square distribution table
         const critical001 = {
             1: 10.828, 2: 13.816, 3: 16.266, 4: 18.467, 5: 20.515,
@@ -201,23 +233,30 @@ export class CrosstabEngine {
             6: 12.592, 7: 14.067, 8: 15.507, 9: 16.919, 10: 18.307,
             12: 21.026, 15: 24.996, 20: 31.410, 30: 43.773
         };
+        const critical01custom = {
+            1: 2.706, 2: 4.605, 3: 6.251, 4: 7.779, 5: 9.236,
+            6: 10.645, 7: 12.017, 8: 13.362, 9: 14.684, 10: 15.987,
+            12: 18.549, 15: 22.307, 20: 28.412, 30: 40.256
+        };
 
         const c001 = critical001[df];
         const c01 = critical01[df];
         const c005 = critical005[df];
+        const c01custom = critical01custom[df];
 
         if (c001 && chiSquare >= c001) return "<= 0.001";
         if (c01 && chiSquare >= c01) return "<= 0.01";
-        if (c005 && chiSquare >= c005) return "<= 0.05";
+        if (c005 && chiSquare >= c005) return `<= 0.05`;
+        if (c01custom && chiSquare >= c01custom) return `<= 0.10`;
 
         // For df not in table, use approximation
-        if (c001) return "> 0.05";  // df is in table but chiSquare below 0.05 threshold
+        if (c001) return `> ${alpha}`;  // df is in table but chiSquare below threshold
 
         // Approximation for larger df using same logic as isSignificant
         const critical = df + 2 * Math.sqrt(df);
         if (chiSquare >= critical + 5) return "<= 0.01";
-        if (chiSquare >= critical) return "<= 0.05";
-        return "> 0.05";
+        if (chiSquare >= critical) return `<= 0.05`;
+        return `> ${alpha}`;
     }
 
     /**

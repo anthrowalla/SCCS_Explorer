@@ -206,6 +206,16 @@ class EthnoAtlasApp {
                 this.displayCrosstab();
             }
         });
+
+        // Expected checkbox - toggle alpha input visibility
+        const expectedCheckbox = document.getElementById('expected');
+        const alphaInputGroup = document.getElementById('alpha-input-group');
+        if (expectedCheckbox && alphaInputGroup) {
+            alphaInputGroup.style.display = expectedCheckbox.checked ? 'inline-flex' : 'none';
+            expectedCheckbox.addEventListener('change', (e) => {
+                alphaInputGroup.style.display = e.target.checked ? 'inline-flex' : 'none';
+            });
+        }
     }
 
     updateVariableInfo() {
@@ -255,9 +265,13 @@ class EthnoAtlasApp {
         // Generate crosstab
         this.currentCrosstab = this.crosstabEngine.crosstab(rowVar, colVar, includeMissing);
 
-        // Calculate statistics if requested
-        if (showStats) {
-            this.currentStats = this.crosstabEngine.calculateStatistics(this.currentCrosstab);
+        // Calculate statistics if requested or if colour coding is enabled
+        // Get alpha value from input field
+        const alphaInput = document.getElementById('alpha-level');
+        const alpha = alphaInput ? parseFloat(alphaInput.value) || 0.05 : 0.05;
+
+        if (showStats || useColor) {
+            this.currentStats = this.crosstabEngine.calculateStatistics(this.currentCrosstab, alpha);
         } else {
             this.currentStats = null;
         }
@@ -377,7 +391,7 @@ class EthnoAtlasApp {
         });
 
         // Display statistics if requested
-        if (this.currentStats) {
+        if (document.getElementById('expected').checked) {
             this.displayStatistics();
         } else {
             statsContainer.classList.add('hidden');
@@ -458,9 +472,10 @@ class EthnoAtlasApp {
         statsContainer.innerHTML = html;
 
         // Chi-square summary
+        const alpha = stats.alpha || 0.05;
         const significance = stats.isSignificant ?
-            '<span class="significant">&#10003; Significant (p <= 0.05)</span>' :
-            '<span>Not significant (p > 0.05)</span>';
+            `<span class="significant">&#10003; Significant (p <= ${alpha})</span>` :
+            `<span>Not significant (p > ${alpha})</span>`;
 
         chiSquareContainer.innerHTML = `
             <div class="chi-square-summary">
@@ -521,11 +536,16 @@ class EthnoAtlasApp {
         const rowDisplay = rowVal === null ? '.' : rowVal;
         const colDisplay = colVal === null ? '.' : colVal;
 
+        const rowVarSccs = this.labelParser.getSccsNum(rowVar);
+        const rowVarLabel = this.labelParser.getVariableLabel(rowVar);
+        const colVarSccs = this.labelParser.getSccsNum(colVar);
+        const colVarLabel = this.labelParser.getVariableLabel(colVar);
+
         const modal = document.getElementById('cellModal');
         const title = document.getElementById('modalTitle');
         const body = document.getElementById('modalBody');
 
-        title.textContent = `Cell: ${rowDisplay} (${rowLabel}) x ${colDisplay} (${colLabel})`;
+        title.innerHTML = `Rows: ${rowVarSccs} ${rowVarLabel}<br>Cols: ${colVarSccs} ${colVarLabel}<br>Cell: ${rowDisplay} (${rowLabel}) x ${colDisplay} (${colLabel})`;
 
         let html = `<p><strong>${caseIds.length} societies in this cell</strong></p>`;
         html += '<div class="society-list">';
