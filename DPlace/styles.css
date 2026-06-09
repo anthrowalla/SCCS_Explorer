@@ -528,6 +528,125 @@ button {
     color: #2e7d32;
 }
 
+/* Information Metrics */
+.info-metrics-section {
+    margin: 40px 0;
+}
+
+.info-metrics-section h3 {
+    color: var(--primary-color);
+    margin-bottom: 15px;
+}
+
+.info-metrics-section h4 {
+    color: var(--secondary-color);
+    margin: 20px 0 10px 0;
+    font-size: 1.1rem;
+}
+
+.info-metrics-summary {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 15px;
+    background-color: var(--light-gray);
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.metric-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 150px;
+}
+
+.metric-label {
+    font-size: 0.85rem;
+    color: var(--dark-gray);
+    margin-bottom: 5px;
+}
+
+.metric-value {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.info-metrics-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0;
+    font-size: 0.9rem;
+}
+
+.info-metrics-table th,
+.info-metrics-table td {
+    border: 1px solid var(--border-color);
+    padding: 10px;
+    text-align: center;
+}
+
+.info-metrics-table th {
+    background-color: var(--primary-color);
+    color: var(--white);
+    font-weight: 600;
+}
+
+.info-metrics-table th.row-header {
+    background-color: var(--secondary-color);
+    text-align: left;
+    min-width: 150px;
+}
+
+.info-metrics-table td.row-header {
+    background-color: var(--light-gray);
+    font-weight: 600;
+    text-align: left;
+}
+
+.info-metrics-table .interaction-cell {
+    font-family: monospace;
+    font-size: 0.95rem;
+}
+
+.info-metrics-table .interaction-positive {
+    background-color: rgba(76, 175, 80, 0.15);
+    color: #2e7d32;
+}
+
+.info-metrics-table .interaction-negative {
+    background-color: rgba(244, 67, 54, 0.15);
+    color: #c62828;
+}
+
+.info-metrics-table .interaction-neutral {
+    background-color: rgba(158, 158, 158, 0.1);
+    color: #616161;
+}
+
+.info-metrics-table .row-total {
+    background-color: var(--secondary-color);
+    color: var(--white);
+    font-weight: 600;
+}
+
+.info-metrics-table .row-contribution {
+    background-color: var(--light-gray);
+    font-weight: 600;
+    font-family: monospace;
+}
+
+.info-metrics-table .col-contributions-row td {
+    background-color: var(--light-gray);
+    font-weight: 600;
+    border-top: 2px solid var(--border-color);
+}
+
+.info-metrics-table .col-contribution {
+    font-family: monospace;
+}
+
 /* Cell Detail Panel */
 .detail-header {
     display: flex;

@@ -8,6 +8,7 @@ import LabelParser from './labelParser.js';
 import CrosstabEngine from './crosstab.js';
 import OwcLookup from './owcLookup.js';
 import VariablePicker from './variablePicker.js';
+import InformationMetrics from './informationMetrics.js';
 
 class EthnoAtlasApp {
     constructor() {
@@ -15,8 +16,10 @@ class EthnoAtlasApp {
         this.labelParser = new LabelParser();
         this.owlLookup = new OwcLookup();
         this.crosstabEngine = null;
+        this.infoMetrics = new InformationMetrics();
         this.currentCrosstab = null;
         this.currentStats = null;
+        this.currentInfoMetrics = null;
         this.mergeEnabled = false;
         this.rowMergeMap = {};
         this.colMergeMap = {};
@@ -293,6 +296,7 @@ class EthnoAtlasApp {
         const container = document.getElementById('crosstab-container');
         const statsContainer = document.getElementById('statistics-container');
         const chiSquareContainer = document.getElementById('chi-square-summary');
+        const infoMetricsContainer = document.getElementById('info-metrics-container');
         const columnVarDisplay = document.getElementById('column-var-display');
 
         const { rowVar, colVar, rowValues, colValues, cellCounts, rowTotals, colTotals, grandTotal } = this.currentCrosstab;
@@ -509,6 +513,13 @@ class EthnoAtlasApp {
         } else {
             statsContainer.classList.add('hidden');
             chiSquareContainer.classList.add('hidden');
+        }
+
+        // Display information metrics if requested
+        if (document.getElementById('info-metrics').checked) {
+            this.displayInfoMetrics();
+        } else {
+            infoMetricsContainer.classList.add('hidden');
         }
     }
 
@@ -731,6 +742,119 @@ class EthnoAtlasApp {
                 </div>
             </div>
         `;
+    }
+
+    displayInfoMetrics() {
+        const infoMetricsContainer = document.getElementById('info-metrics-container');
+        const { rowVar, colVar, rowValues, colValues } = this.currentCrosstab;
+
+        // Calculate information metrics
+        this.currentInfoMetrics = this.infoMetrics.calculateMetrics(this.currentCrosstab);
+        const metrics = this.currentInfoMetrics;
+
+        // Get merged label functions (same as used in main table)
+        const getMergedRowLabel = (rv) => {
+            if (this.currentCrosstab.rowMergeGroups && this.currentCrosstab.rowMergeGroups[rv]) {
+                const originalValues = this.currentCrosstab.rowMergeGroups[rv];
+                if (originalValues.length > 1 || typeof rv === 'string') {
+                    return originalValues.map(v => {
+                        if (v === null) return 'Missing';
+                        const label = this.labelParser.getValueLabel(rowVar, v);
+                        return `${v}: ${label}`;
+                    }).join(', ');
+                }
+            }
+            if (rv === null) return 'Missing';
+            const label = this.labelParser.getValueLabel(rowVar, rv);
+            return `${rv}: ${label}`;
+        };
+
+        const getMergedColLabel = (cv) => {
+            if (this.currentCrosstab.colMergeGroups && this.currentCrosstab.colMergeGroups[cv]) {
+                const originalValues = this.currentCrosstab.colMergeGroups[cv];
+                if (originalValues.length > 1 || typeof cv === 'string') {
+                    return originalValues.map(v => {
+                        if (v === null) return 'Missing';
+                        const label = this.labelParser.getValueLabel(colVar, v);
+                        return `${v}: ${label}`;
+                    }).join(', ');
+                }
+            }
+            if (cv === null) return 'Missing';
+            const label = this.labelParser.getValueLabel(colVar, cv);
+            return `${cv}: ${label}`;
+        };
+
+        // Build metrics summary and interaction table
+        let html = '<div class="info-metrics-section">';
+        html += '<h3>Information Theory Metrics (Shannon Entropy)</h3>';
+
+        // Summary metrics
+        html += '<div class="info-metrics-summary">';
+        html += `<div class="metric-item"><span class="metric-label">Row Entropy H(R):</span><span class="metric-value">${this.infoMetrics.formatValue(metrics.rowEntropy)} bits</span></div>`;
+        html += `<div class="metric-item"><span class="metric-label">Column Entropy H(C):</span><span class="metric-value">${this.infoMetrics.formatValue(metrics.colEntropy)} bits</span></div>`;
+        html += `<div class="metric-item"><span class="metric-label">Joint Entropy H(R,C):</span><span class="metric-value">${this.infoMetrics.formatValue(metrics.jointEntropy)} bits</span></div>`;
+        html += `<div class="metric-item"><span class="metric-label">Mutual Information I(R;C):</span><span class="metric-value">${this.infoMetrics.formatValue(metrics.mutualInformation)} bits</span></div>`;
+        html += '</div>';
+
+        // Interaction table
+        html += '<h4>Cell-wise Interaction Contributions (Pointwise Mutual Information)</h4>';
+        html += '<table class="info-metrics-table">';
+
+        // Header row
+        html += '<thead><tr>';
+        html += '<th class="row-header"></th>';
+        for (const cv of colValues) {
+            const colLabel = getMergedColLabel(cv);
+            html += `<th>${colLabel}</th>`;
+        }
+        html += '<th class="row-total">H(R) contribution</th>';
+        html += '</tr></thead><tbody>';
+
+        // Data rows
+        for (const rv of rowValues) {
+            const rowLabel = getMergedRowLabel(rv);
+            html += '<tr>';
+            html += `<td class="row-header">${rowLabel}</td>`;
+
+            for (const cv of colValues) {
+                const key = `${rv},${cv}`;
+                const value = metrics.cellInteractions[key] || 0;
+                const jointContrib = metrics.cellJointContributions[key] || 0;
+
+                // Determine CSS class based on I(R;C) value
+                let cellClass = 'interaction-cell';
+                if (value > 0.001) {
+                    cellClass += ' interaction-positive';
+                } else if (value < -0.001) {
+                    cellClass += ' interaction-negative';
+                } else {
+                    cellClass += ' interaction-neutral';
+                }
+
+                html += `<td class="${cellClass}">${this.infoMetrics.formatValue(value)} (${this.infoMetrics.formatValue(jointContrib)})</td>`;
+            }
+
+            // Row entropy contribution
+            const rowContrib = metrics.rowEntropyContributions[rv] || 0;
+            html += `<td class="row-contribution">${this.infoMetrics.formatValue(rowContrib)}</td>`;
+            html += '</tr>';
+        }
+
+        // Column entropy contributions row
+        html += '<tr class="col-contributions-row">';
+        html += '<td class="row-header">H(C) contribution</td>';
+        for (const cv of colValues) {
+            const colContrib = metrics.colEntropyContributions[cv] || 0;
+            html += `<td class="col-contribution">${this.infoMetrics.formatValue(colContrib)}</td>`;
+        }
+        html += '<td></td></tr>';
+
+        html += '</tbody></table>';
+        html += '</div>';
+
+        infoMetricsContainer.innerHTML = html;
+        infoMetricsContainer.classList.remove('hidden');
     }
 
     buildStatsTable(data, valueFormatter) {
