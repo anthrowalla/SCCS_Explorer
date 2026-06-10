@@ -116,6 +116,13 @@ select:focus {
     margin-bottom: 10px;
 }
 
+.indent-group {
+    margin-left: 30px;
+    padding: 10px;
+    background-color: var(--light-gray);
+    border-radius: 4px;
+}
+
 .checkbox-group input[type="checkbox"] {
     margin-right: 10px;
 }
@@ -645,6 +652,30 @@ button {
 
 .info-metrics-table .col-contribution {
     font-family: monospace;
+}
+
+.info-metrics-table .corner-cell {
+    position: relative;
+    text-align: center;
+    padding: 8px;
+    background-color: var(--light-gray);
+    font-size: 0.85rem;
+}
+
+.info-metrics-table .corner-top-right {
+    position: absolute;
+    top: 2px;
+    right: 4px;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.info-metrics-table .corner-bottom-left {
+    position: absolute;
+    bottom: 2px;
+    left: 4px;
+    font-weight: 600;
+    color: var(--secondary-color);
 }
 
 /* Cell Detail Panel */

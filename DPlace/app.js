@@ -215,6 +215,30 @@ class EthnoAtlasApp {
             }
         });
 
+        // Info metrics checkbox - toggle info options visibility
+        const infoMetricsCheckbox = document.getElementById('info-metrics');
+        const infoOptionsGroup = document.getElementById('info-options-group');
+        if (infoMetricsCheckbox && infoOptionsGroup) {
+            infoMetricsCheckbox.addEventListener('change', (e) => {
+                infoOptionsGroup.style.display = e.target.checked ? 'block' : 'none';
+                if (this.currentCrosstab) {
+                    this.displayCrosstab();
+                }
+            });
+        }
+
+        // Info options checkboxes - refresh display when changed
+        ['info-show-joint', 'info-show-rc', 'info-show-cr'].forEach(id => {
+            const checkbox = document.getElementById(id);
+            if (checkbox) {
+                checkbox.addEventListener('change', () => {
+                    if (this.currentCrosstab) {
+                        this.displayCrosstab();
+                    }
+                });
+            }
+        });
+
         // Expected checkbox - toggle alpha input visibility
         const expectedCheckbox = document.getElementById('expected');
         const alphaInputGroup = document.getElementById('alpha-input-group');
@@ -801,6 +825,11 @@ class EthnoAtlasApp {
         html += '<h4>Cell-wise Interaction Contributions (Pointwise Mutual Information)</h4>';
         html += '<table class="info-metrics-table">';
 
+        // Check which info options are enabled
+        const showJoint = document.getElementById('info-show-joint').checked;
+        const showRC = document.getElementById('info-show-rc').checked;
+        const showCR = document.getElementById('info-show-cr').checked;
+
         // Header row
         html += '<thead><tr>';
         html += '<th class="row-header"></th>';
@@ -821,6 +850,8 @@ class EthnoAtlasApp {
                 const key = `${rv},${cv}`;
                 const value = metrics.cellInteractions[key] || 0;
                 const jointContrib = metrics.cellJointContributions[key] || 0;
+                const condRC = metrics.cellConditionalRC[key] || 0;
+                const condCR = metrics.cellConditionalCR[key] || 0;
 
                 // Determine CSS class based on I(R;C) value
                 let cellClass = 'interaction-cell';
@@ -832,7 +863,19 @@ class EthnoAtlasApp {
                     cellClass += ' interaction-neutral';
                 }
 
-                html += `<td class="${cellClass}">${this.infoMetrics.formatValue(value)} (${this.infoMetrics.formatValue(jointContrib)})</td>`;
+                // Build cell content
+                let cellContent = this.infoMetrics.formatValue(value);
+                if (showJoint) {
+                    cellContent += ` (${this.infoMetrics.formatValue(jointContrib)})`;
+                }
+                if (showRC) {
+                    cellContent += ` [R|C ${this.infoMetrics.formatValue(condRC)}]`;
+                }
+                if (showCR) {
+                    cellContent += ` [C|R ${this.infoMetrics.formatValue(condCR)}]`;
+                }
+
+                html += `<td class="${cellClass}">${cellContent}</td>`;
             }
 
             // Row entropy contribution
@@ -848,7 +891,16 @@ class EthnoAtlasApp {
             const colContrib = metrics.colEntropyContributions[cv] || 0;
             html += `<td class="col-contribution">${this.infoMetrics.formatValue(colContrib)}</td>`;
         }
-        html += '<td></td></tr>';
+
+        // Calculate sums for the corner cell
+        const sumRowContribs = Object.values(metrics.rowEntropyContributions).reduce((a, b) => a + b, 0);
+        const sumColContribs = Object.values(metrics.colEntropyContributions).reduce((a, b) => a + b, 0);
+
+        // Corner cell with sums in different corners
+        html += '<td class="corner-cell">';
+        html += `<span class="corner-bottom-left">${this.infoMetrics.formatValue(sumColContribs)}</span>`;
+        html += `<span class="corner-top-right">${this.infoMetrics.formatValue(sumRowContribs)}</span>`;
+        html += '</td></tr>';
 
         html += '</tbody></table>';
         html += '</div>';

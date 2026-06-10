@@ -85,8 +85,11 @@ export class InformationMetrics {
 
         // Calculate cell-wise interaction contributions (weighted PMI)
         // and cell-wise joint entropy contributions
+        // and conditional probabilities
         const cellInteractions = {};
         const cellJointContributions = {};
+        const cellConditionalRC = {};  // p(r|c) = p_ij / p_j
+        const cellConditionalCR = {};  // p(c|r) = p_ij / p_i
         for (const rv of rowValues) {
             for (const cv of colValues) {
                 const key = `${rv},${cv}`;
@@ -103,6 +106,12 @@ export class InformationMetrics {
 
                 // H_ij = -p_ij * log2(p_ij) - joint entropy contribution for this cell
                 cellJointContributions[key] = -pij * this.safeLog2(pij);
+
+                // p(r|c) = p_ij / p_j (row given column)
+                cellConditionalRC[key] = pj > 0 ? pij / pj : 0;
+
+                // p(c|r) = p_ij / p_i (column given row)
+                cellConditionalCR[key] = pi > 0 ? pij / pi : 0;
             }
         }
 
@@ -127,6 +136,8 @@ export class InformationMetrics {
             mutualInformation,
             cellInteractions,
             cellJointContributions,
+            cellConditionalRC,
+            cellConditionalCR,
             rowEntropyContributions,
             colEntropyContributions,
             rowValues,
