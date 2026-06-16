@@ -97,9 +97,18 @@ class EthnoAtlasApp {
     }
 
     onVariableSelected(slot, varNum) {
+        // Check if the variable has changed and clear merge selectors if needed
         if (slot === 'row') {
+            if (this.selectedRowVar !== null && this.selectedRowVar !== varNum) {
+                // Row variable changed, clear row merge selectors
+                this.rowMergeMap = {};
+            }
             this.selectedRowVar = varNum;
         } else {
+            if (this.selectedColVar !== null && this.selectedColVar !== varNum) {
+                // Column variable changed, clear column merge selectors
+                this.colMergeMap = {};
+            }
             this.selectedColVar = varNum;
         }
         this.picker.setSelected(slot, varNum);
