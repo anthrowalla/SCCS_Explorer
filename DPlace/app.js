@@ -373,11 +373,12 @@ class EthnoAtlasApp {
                         return `${v}: ${label}`;
                     }).join(', ');
                 }
-                // Single value in a merge group - use that value's label
+                // Single value in a merge group - use that value's label and code
                 const singleValue = originalValues[0];
                 if (singleValue === null) return 'Missing';
-                const label = this.getValueLabel(rowVar, singleValue);
-                return `${rv}: ${label}`;
+                const label = this.labelParser.getValueLabel(rowVar, singleValue);
+                const displayLabel = this.summarizeLabels ? this.summarizeLabel(label) : label;
+                return `${singleValue}: ${displayLabel}`;
             }
             // Not merged - use the value as-is
             const label = this.getValueLabel(rowVar, rv);
@@ -397,11 +398,12 @@ class EthnoAtlasApp {
                         return `${v}: ${label}`;
                     }).join(', ');
                 }
-                // Single value in a merge group - use that value's label
+                // Single value in a merge group - use that value's label and code
                 const singleValue = originalValues[0];
                 if (singleValue === null) return 'Missing';
-                const label = this.getValueLabel(colVar, singleValue);
-                return `${cv}: ${label}`;
+                const label = this.labelParser.getValueLabel(colVar, singleValue);
+                const displayLabel = this.summarizeLabels ? this.summarizeLabel(label) : label;
+                return `${singleValue}: ${displayLabel}`;
             }
             // Not merged - use the value as-is
             const label = this.getValueLabel(colVar, cv);
@@ -961,11 +963,12 @@ class EthnoAtlasApp {
                         return `${v}: ${label}`;
                     }).join(', ');
                 }
-                // Single value in a merge group - use that value's label
+                // Single value in a merge group - use that value's label and code
                 const singleValue = originalValues[0];
                 if (singleValue === null) return 'Missing';
-                const label = this.getValueLabel(rowVar, singleValue);
-                return `${rv}: ${label}`;
+                const label = this.labelParser.getValueLabel(rowVar, singleValue);
+                const displayLabel = this.summarizeLabels ? this.summarizeLabel(label) : label;
+                return `${singleValue}: ${displayLabel}`;
             }
             const label = this.getValueLabel(rowVar, rv);
             return `${rv}: ${label}`;
@@ -982,11 +985,12 @@ class EthnoAtlasApp {
                         return `${v}: ${label}`;
                     }).join(', ');
                 }
-                // Single value in a merge group - use that value's label
+                // Single value in a merge group - use that value's label and code
                 const singleValue = originalValues[0];
                 if (singleValue === null) return 'Missing';
-                const label = this.getValueLabel(colVar, singleValue);
-                return `${cv}: ${label}`;
+                const label = this.labelParser.getValueLabel(colVar, singleValue);
+                const displayLabel = this.summarizeLabels ? this.summarizeLabel(label) : label;
+                return `${singleValue}: ${displayLabel}`;
             }
             const label = this.getValueLabel(colVar, cv);
             return `${cv}: ${label}`;
