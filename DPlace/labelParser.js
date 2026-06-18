@@ -31,7 +31,8 @@ export class LabelParser {
 
         for (let line of lines) {
             // Skip the AWK wrapper lines (before EOF)
-            if (line.includes('<<EOF') || line.includes('exec nawk') || line.includes("'")) {
+            // Only skip lines that are part of the AWK wrapper, not content with apostrophes
+            if (line.includes('<<EOF') || line.includes('exec nawk') || line.trim() === "'") {
                 continue;
             }
 
