@@ -24,6 +24,7 @@ class EthnoAtlasApp {
         this.rowMergeMap = {};
         this.colMergeMap = {};
         this.picker = null;
+        this.summarizeLabels = localStorage.getItem('summarizeLabels') === 'true';
 
         // Selected variable state
         this.selectedRowVar = null;
@@ -257,6 +258,18 @@ class EthnoAtlasApp {
                 alphaInputGroup.style.display = e.target.checked ? 'inline-flex' : 'none';
             });
         }
+
+        // Summarize labels checkbox
+        const summarizeLabelsCheckbox = document.getElementById('summarize-labels');
+        if (summarizeLabelsCheckbox) {
+            // Set initial state
+            summarizeLabelsCheckbox.checked = this.summarizeLabels;
+            summarizeLabelsCheckbox.addEventListener('change', (e) => {
+                this.summarizeLabels = e.target.checked;
+                localStorage.setItem('summarizeLabels', this.summarizeLabels);
+                this.updateValueLabels();
+            });
+        }
     }
 
     updateVariableInfo() {
@@ -355,14 +368,14 @@ class EthnoAtlasApp {
                 if (originalValues.length > 1 || typeof rv === 'string') {
                     return originalValues.map(v => {
                         if (v === null) return 'Missing';
-                        const label = this.labelParser.getValueLabel(rowVar, v);
+                        const label = this.getValueLabel(rowVar, v);
                         return `${v}: ${label}`;
                     }).join(', ');
                 }
             }
             // Single value, not merged
             if (rv === null) return 'Missing';
-            const label = this.labelParser.getValueLabel(rowVar, rv);
+            const label = this.getValueLabel(rowVar, rv);
             return `${rv}: ${label}`;
         };
 
@@ -374,14 +387,14 @@ class EthnoAtlasApp {
                 if (originalValues.length > 1 || typeof cv === 'string') {
                     return originalValues.map(v => {
                         if (v === null) return 'Missing';
-                        const label = this.labelParser.getValueLabel(colVar, v);
+                        const label = this.getValueLabel(colVar, v);
                         return `${v}: ${label}`;
                     }).join(', ');
                 }
             }
             // Single value, not merged
             if (cv === null) return 'Missing';
-            const label = this.labelParser.getValueLabel(colVar, cv);
+            const label = this.getValueLabel(colVar, cv);
             return `${cv}: ${label}`;
         };
 
@@ -602,6 +615,147 @@ class EthnoAtlasApp {
     }
 
     /**
+     * Summarize a label to first 5 words followed by '...'
+     */
+    summarizeLabel(label) {
+        if (!label || typeof label !== 'string') return label;
+        const words = label.trim().split(/\s+/);
+        if (words.length <= 5) return label;
+        return words.slice(0, 5).join(' ') + '...';
+    }
+
+    /**
+     * Get value label, optionally summarized
+     */
+    getValueLabel(varNum, valueCode) {
+        const label = this.labelParser.getValueLabel(varNum, valueCode);
+        return this.summarizeLabels ? this.summarizeLabel(label) : label;
+    }
+
+    /**
+     * Dynamically update all value labels in the current table
+     */
+    updateValueLabels() {
+        if (!this.currentCrosstab) return;
+
+        const container = document.getElementById('crosstab-container');
+        if (!container) return;
+
+        const { rowVar, colVar } = this.currentCrosstab;
+        const table = container.querySelector('table');
+        if (!table) return;
+
+        // Update column headers in thead
+        const headerRow = table.querySelector('thead tr:first-child');
+        if (headerRow) {
+            const thCells = headerRow.querySelectorAll('th');
+            for (let i = 1; i < thCells.length - 1; i++) {
+                const cv = this.currentCrosstab.colValues[i - 1];
+                if (cv !== undefined) {
+                    const label = this.getValueLabel(colVar, cv);
+                    thCells[i].textContent = `${cv}: ${label}`;
+                }
+            }
+        }
+
+        // Update row headers in tbody
+        const dataRows = table.querySelectorAll('tbody tr');
+        dataRows.forEach((row, rowIndex) => {
+            const rv = this.currentCrosstab.rowValues[rowIndex];
+            if (rv === undefined) return;
+
+            const rowHeader = row.querySelector('.row-header');
+            if (!rowHeader) return;
+
+            const label = this.getValueLabel(rowVar, rv);
+            const select = rowHeader.querySelector('select');
+
+            if (select) {
+                // Row has a merge select - preserve it and update the label text
+                // Get all child nodes that are not the select
+                const textNodes = Array.from(rowHeader.childNodes).filter(n => n !== select);
+                textNodes.forEach(n => n.remove());
+                // Insert the label after the select
+                select.insertAdjacentText('afterend', ' ' + label);
+            } else {
+                rowHeader.textContent = label;
+            }
+        });
+
+        // Update information metrics table if present
+        const infoMetricsContainer = document.getElementById('info-metrics-container');
+        if (infoMetricsContainer && !infoMetricsContainer.classList.contains('hidden')) {
+            this.updateInfoMetricsLabels();
+        }
+
+        // Update statistics tables if present
+        this.updateStatisticsLabels();
+    }
+
+    /**
+     * Update labels in information metrics table
+     */
+    updateInfoMetricsLabels() {
+        const infoMetricsContainer = document.getElementById('info-metrics-container');
+        if (!infoMetricsContainer) return;
+
+        const { rowVar, colVar } = this.currentCrosstab;
+        const table = infoMetricsContainer.querySelector('.info-metrics-table');
+        if (!table) return;
+
+        // Update column headers
+        const headerRow = table.querySelector('thead tr');
+        if (headerRow) {
+            const thCells = headerRow.querySelectorAll('th');
+            for (let i = 1; i < thCells.length - 1; i++) {
+                const cv = this.currentCrosstab.colValues[i - 1];
+                if (cv !== undefined) {
+                    const label = this.getValueLabel(colVar, cv);
+                    thCells[i].textContent = `${cv}: ${label}`;
+                }
+            }
+        }
+
+        // Update row headers
+        const dataRows = table.querySelectorAll('tbody tr:not(.col-contributions-row)');
+        dataRows.forEach((row, rowIndex) => {
+            const rv = this.currentCrosstab.rowValues[rowIndex];
+            if (rv === undefined) return;
+
+            const rowHeader = row.querySelector('.row-header');
+            if (rowHeader) {
+                const label = this.getValueLabel(rowVar, rv);
+                rowHeader.textContent = label;
+            }
+        });
+    }
+
+    /**
+     * Update labels in statistics tables
+     */
+    updateStatisticsLabels() {
+        const statsContainer = document.getElementById('statistics-container');
+        if (!statsContainer || statsContainer.classList.contains('hidden')) return;
+
+        const { rowVar, colVar } = this.currentCrosstab;
+
+        // Update labels in statistics tables
+        statsContainer.querySelectorAll('table').forEach(table => {
+            table.querySelectorAll('td:first-child, th:first-child').forEach(cell => {
+                const text = cell.textContent;
+                // Check if it matches a value pattern (e.g., "1: Label" or "2: Label")
+                const match = text.match(/^(\d+):\s*(.+)$/);
+                if (match) {
+                    const valueCode = parseInt(match[1]);
+                    const fullLabel = this.labelParser.getValueLabel(rowVar, valueCode);
+                    const label = this.summarizeLabels ? this.summarizeLabel(fullLabel) : fullLabel;
+                    cell.textContent = `${valueCode}: ${label}`;
+                }
+            });
+        });
+    }
+
+    /**
      * Perform row and column merging based on merge maps
      */
     performMerge() {
@@ -792,13 +946,13 @@ class EthnoAtlasApp {
                 if (originalValues.length > 1 || typeof rv === 'string') {
                     return originalValues.map(v => {
                         if (v === null) return 'Missing';
-                        const label = this.labelParser.getValueLabel(rowVar, v);
+                        const label = this.getValueLabel(rowVar, v);
                         return `${v}: ${label}`;
                     }).join(', ');
                 }
             }
             if (rv === null) return 'Missing';
-            const label = this.labelParser.getValueLabel(rowVar, rv);
+            const label = this.getValueLabel(rowVar, rv);
             return `${rv}: ${label}`;
         };
 
@@ -808,13 +962,13 @@ class EthnoAtlasApp {
                 if (originalValues.length > 1 || typeof cv === 'string') {
                     return originalValues.map(v => {
                         if (v === null) return 'Missing';
-                        const label = this.labelParser.getValueLabel(colVar, v);
+                        const label = this.getValueLabel(colVar, v);
                         return `${v}: ${label}`;
                     }).join(', ');
                 }
             }
             if (cv === null) return 'Missing';
-            const label = this.labelParser.getValueLabel(colVar, cv);
+            const label = this.getValueLabel(colVar, cv);
             return `${cv}: ${label}`;
         };
 

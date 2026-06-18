@@ -212,6 +212,15 @@ button {
 .results-header {
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.header-controls {
+    display: flex;
+    align-items: center;
+    gap: 15px;
 }
 
 .column-var-box {

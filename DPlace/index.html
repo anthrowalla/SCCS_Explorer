@@ -87,7 +87,13 @@
             <section id="results-panel" class="panel hidden">
                 <div class="results-header">
                     <h2>Crosstabulation Results</h2>
-                    <button id="btn-new-search" class="btn-secondary">New Search</button>
+                    <div class="header-controls">
+                        <div class="checkbox-group">
+                            <input type="checkbox" id="summarize-labels" name="summarize-labels" value="1">
+                            <label for="summarize-labels">Summarize value labels</label>
+                        </div>
+                        <button id="btn-new-search" class="btn-secondary">New Search</button>
+                    </div>
                 </div>
 
                 <div id="column-var-display" class="column-var-box"></div>
