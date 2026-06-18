@@ -361,6 +361,7 @@ class EthnoAtlasApp {
 
         // Helper function to get merged label for a value
         const getMergedRowLabel = (rv) => {
+            if (rv === null) return 'Missing';
             // Check if this is a merged group
             if (this.currentCrosstab.rowMergeGroups && this.currentCrosstab.rowMergeGroups[rv]) {
                 const originalValues = this.currentCrosstab.rowMergeGroups[rv];
@@ -372,14 +373,19 @@ class EthnoAtlasApp {
                         return `${v}: ${label}`;
                     }).join(', ');
                 }
+                // Single value in a merge group - use that value's label
+                const singleValue = originalValues[0];
+                if (singleValue === null) return 'Missing';
+                const label = this.getValueLabel(rowVar, singleValue);
+                return `${rv}: ${label}`;
             }
-            // Single value, not merged
-            if (rv === null) return 'Missing';
+            // Not merged - use the value as-is
             const label = this.getValueLabel(rowVar, rv);
             return `${rv}: ${label}`;
         };
 
         const getMergedColLabel = (cv) => {
+            if (cv === null) return 'Missing';
             // Check if this is a merged group
             if (this.currentCrosstab.colMergeGroups && this.currentCrosstab.colMergeGroups[cv]) {
                 const originalValues = this.currentCrosstab.colMergeGroups[cv];
@@ -391,9 +397,13 @@ class EthnoAtlasApp {
                         return `${v}: ${label}`;
                     }).join(', ');
                 }
+                // Single value in a merge group - use that value's label
+                const singleValue = originalValues[0];
+                if (singleValue === null) return 'Missing';
+                const label = this.getValueLabel(colVar, singleValue);
+                return `${cv}: ${label}`;
             }
-            // Single value, not merged
-            if (cv === null) return 'Missing';
+            // Not merged - use the value as-is
             const label = this.getValueLabel(colVar, cv);
             return `${cv}: ${label}`;
         };
@@ -941,6 +951,7 @@ class EthnoAtlasApp {
 
         // Get merged label functions (same as used in main table)
         const getMergedRowLabel = (rv) => {
+            if (rv === null) return 'Missing';
             if (this.currentCrosstab.rowMergeGroups && this.currentCrosstab.rowMergeGroups[rv]) {
                 const originalValues = this.currentCrosstab.rowMergeGroups[rv];
                 if (originalValues.length > 1 || typeof rv === 'string') {
@@ -950,13 +961,18 @@ class EthnoAtlasApp {
                         return `${v}: ${label}`;
                     }).join(', ');
                 }
+                // Single value in a merge group - use that value's label
+                const singleValue = originalValues[0];
+                if (singleValue === null) return 'Missing';
+                const label = this.getValueLabel(rowVar, singleValue);
+                return `${rv}: ${label}`;
             }
-            if (rv === null) return 'Missing';
             const label = this.getValueLabel(rowVar, rv);
             return `${rv}: ${label}`;
         };
 
         const getMergedColLabel = (cv) => {
+            if (cv === null) return 'Missing';
             if (this.currentCrosstab.colMergeGroups && this.currentCrosstab.colMergeGroups[cv]) {
                 const originalValues = this.currentCrosstab.colMergeGroups[cv];
                 if (originalValues.length > 1 || typeof cv === 'string') {
@@ -966,8 +982,12 @@ class EthnoAtlasApp {
                         return `${v}: ${label}`;
                     }).join(', ');
                 }
+                // Single value in a merge group - use that value's label
+                const singleValue = originalValues[0];
+                if (singleValue === null) return 'Missing';
+                const label = this.getValueLabel(colVar, singleValue);
+                return `${cv}: ${label}`;
             }
-            if (cv === null) return 'Missing';
             const label = this.getValueLabel(colVar, cv);
             return `${cv}: ${label}`;
         };
