@@ -21,6 +21,7 @@ class EthnoAtlasApp {
         this.currentStats = null;
         this.currentInfoMetrics = null;
         this.mergeEnabled = false;
+        this.hasMerged = false;
         this.rowMergeMap = {};
         this.colMergeMap = {};
         this.picker = null;
@@ -219,6 +220,7 @@ class EthnoAtlasApp {
                 // Clear merge maps and regenerate original crosstab
                 this.rowMergeMap = {};
                 this.colMergeMap = {};
+                this.hasMerged = false;
                 this.generateCrosstab();
             } else if (this.currentCrosstab) {
                 this.displayCrosstab();
@@ -420,22 +422,40 @@ class EthnoAtlasApp {
         }
         html += '<th>Total</th></tr>';
 
-        // Column merge selects row (if merge is enabled)
+        // Column merge selects row (if merge is enabled and not yet merged)
+        // OR merged state row (if merge has been performed)
         if (this.mergeEnabled) {
-            html += '<tr class="merge-select-row">';
-            html += '<th></th>';  // Empty cell for row header column
-            for (const cv of colValues) {
-                const currentMerge = this.colMergeMap[cv] || 'none';
-                html += `<th><select class="col-merge-select" data-col-value="${cv}">`;
-                html += `<option value="none" ${currentMerge === 'none' ? 'selected' : ''}> </option>`;
-                html += `<option value="A" ${currentMerge === 'A' ? 'selected' : ''}>A</option>`;
-                html += `<option value="B" ${currentMerge === 'B' ? 'selected' : ''}>B</option>`;
-                html += `<option value="C" ${currentMerge === 'C' ? 'selected' : ''}>C</option>`;
-                html += `<option value="D" ${currentMerge === 'D' ? 'selected' : ''}>D</option>`;
-                html += `<option value="drop" ${currentMerge === 'drop' ? 'selected' : ''}>drop</option>`;
-                html += `</select></th>`;
+            if (this.hasMerged) {
+                // Show merged state row with merge group labels
+                html += '<tr class="merged-state-row">';
+                html += '<th></th>';  // Empty cell for row header column
+                for (const cv of colValues) {
+                    // Get the merge label for this column
+                    let mergeLabel = '';
+                    if (this.currentCrosstab.colMergeGroups && this.currentCrosstab.colMergeGroups[cv]) {
+                        const originalValues = this.currentCrosstab.colMergeGroups[cv];
+                        mergeLabel = originalValues.map(v => v === null ? 'Missing' : v).join('|');
+                    }
+                    html += `<th class="merged-label">${mergeLabel}</th>`;
+                }
+                html += '<th></th></tr>';  // Empty cell for Total column
+            } else {
+                // Show merge selects
+                html += '<tr class="merge-select-row">';
+                html += '<th></th>';  // Empty cell for row header column
+                for (const cv of colValues) {
+                    const currentMerge = this.colMergeMap[cv] || 'none';
+                    html += `<th><select class="col-merge-select" data-col-value="${cv}">`;
+                    html += `<option value="none" ${currentMerge === 'none' ? 'selected' : ''}> </option>`;
+                    html += `<option value="A" ${currentMerge === 'A' ? 'selected' : ''}>A</option>`;
+                    html += `<option value="B" ${currentMerge === 'B' ? 'selected' : ''}>B</option>`;
+                    html += `<option value="C" ${currentMerge === 'C' ? 'selected' : ''}>C</option>`;
+                    html += `<option value="D" ${currentMerge === 'D' ? 'selected' : ''}>D</option>`;
+                    html += `<option value="drop" ${currentMerge === 'drop' ? 'selected' : ''}>drop</option>`;
+                    html += `</select></th>`;
+                }
+                html += '<th></th></tr>';  // Empty cell for Total column
             }
-            html += '<th></th></tr>';  // Empty cell for Total column
         }
 
         html += '</thead><tbody>';
@@ -463,18 +483,29 @@ class EthnoAtlasApp {
             const rowLabel = getMergedRowLabel(rv);
             html += `<tr>`;
 
-            // Row header with merge select if enabled
+            // Row header with merge select or merged state label if enabled
             if (this.mergeEnabled) {
-                const currentMerge = this.rowMergeMap[rv] || 'none';
                 html += `<td class="row-header">`;
-                html += `<select class="row-merge-select" data-row-value="${rv}">`;
-                html += `<option value="none" ${currentMerge === 'none' ? 'selected' : ''}> </option>`;
-                html += `<option value="1" ${currentMerge === '1' ? 'selected' : ''}>1</option>`;
-                html += `<option value="2" ${currentMerge === '2' ? 'selected' : ''}>2</option>`;
-                html += `<option value="3" ${currentMerge === '3' ? 'selected' : ''}>3</option>`;
-                html += `<option value="4" ${currentMerge === '4' ? 'selected' : ''}>4</option>`;
-                html += `<option value="drop" ${currentMerge === 'drop' ? 'selected' : ''}>drop</option>`;
-                html += `</select> `;
+                if (this.hasMerged) {
+                    // Show merged state label instead of select
+                    let mergeLabel = '';
+                    if (this.currentCrosstab.rowMergeGroups && this.currentCrosstab.rowMergeGroups[rv]) {
+                        const originalValues = this.currentCrosstab.rowMergeGroups[rv];
+                        mergeLabel = originalValues.map(v => v === null ? 'Missing' : v).join('|');
+                    }
+                    html += `<span class="merged-label">${mergeLabel}</span> `;
+                } else {
+                    // Show merge select
+                    const currentMerge = this.rowMergeMap[rv] || 'none';
+                    html += `<select class="row-merge-select" data-row-value="${rv}">`;
+                    html += `<option value="none" ${currentMerge === 'none' ? 'selected' : ''}> </option>`;
+                    html += `<option value="1" ${currentMerge === '1' ? 'selected' : ''}>1</option>`;
+                    html += `<option value="2" ${currentMerge === '2' ? 'selected' : ''}>2</option>`;
+                    html += `<option value="3" ${currentMerge === '3' ? 'selected' : ''}>3</option>`;
+                    html += `<option value="4" ${currentMerge === '4' ? 'selected' : ''}>4</option>`;
+                    html += `<option value="drop" ${currentMerge === 'drop' ? 'selected' : ''}>drop</option>`;
+                    html += `</select> `;
+                }
                 html += `${rowLabel}</td>`;
             } else {
                 html += `<td class="row-header">${rowLabel}</td>`;
@@ -523,7 +554,8 @@ class EthnoAtlasApp {
             for (const cv of colValues) {
                 html += '<td></td>';  // Empty cells for each data column
             }
-            html += '<td><button id="btn-merge" class="btn-merge">Merge</button></td>';
+            const buttonText = this.hasMerged ? 'Unmerge' : 'Merge';
+            html += `<td><button id="btn-merge" class="btn-merge">${buttonText}</button></td>`;
             html += '</tr>';
         }
 
@@ -562,7 +594,13 @@ class EthnoAtlasApp {
         // Add handler for merge button
         const mergeBtn = container.querySelector('#btn-merge');
         if (mergeBtn) {
-            mergeBtn.addEventListener('click', () => this.performMerge());
+            mergeBtn.addEventListener('click', () => {
+                if (this.hasMerged) {
+                    this.unmerge();
+                } else {
+                    this.performMerge();
+                }
+            });
         }
 
         // Display statistics if requested
@@ -957,6 +995,7 @@ class EthnoAtlasApp {
 
         // Update current crosstab
         this.currentCrosstab = mergedCrosstab;
+        this.hasMerged = true;
 
         // Recalculate statistics if expected values or color coding is enabled
         const showStats = document.getElementById('expected').checked;
@@ -966,6 +1005,40 @@ class EthnoAtlasApp {
             const alphaInput = document.getElementById('alpha-level');
             const alpha = alphaInput ? parseFloat(alphaInput.value) || 0.05 : 0.05;
             this.currentStats = this.crosstabEngine.calculateStatistics(mergedCrosstab, alpha);
+        } else {
+            this.currentStats = null;
+        }
+
+        // Redisplay
+        this.displayCrosstab();
+    }
+
+    /**
+     * Unmerge - regenerate the original crosstab with active merge selects
+     */
+    unmerge() {
+        if (!this.currentCrosstab) return;
+
+        // Clear merge maps but keep merge enabled
+        this.rowMergeMap = {};
+        this.colMergeMap = {};
+        this.hasMerged = false;
+
+        // Regenerate the original crosstab from raw data
+        const rowVar = this.currentCrosstab.rowVar;
+        const colVar = this.currentCrosstab.colVar;
+        const includeMissing = document.getElementById('missing').checked;
+
+        this.currentCrosstab = this.crosstabEngine.crosstab(rowVar, colVar, includeMissing);
+
+        // Recalculate statistics if expected values or color coding is enabled
+        const showStats = document.getElementById('expected').checked;
+        const useColor = document.getElementById('colour').checked;
+
+        if (showStats || useColor) {
+            const alphaInput = document.getElementById('alpha-level');
+            const alpha = alphaInput ? parseFloat(alphaInput.value) || 0.05 : 0.05;
+            this.currentStats = this.crosstabEngine.calculateStatistics(this.currentCrosstab, alpha);
         } else {
             this.currentStats = null;
         }

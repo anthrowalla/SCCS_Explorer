@@ -450,6 +450,19 @@ button {
     color: var(--text-color);
 }
 
+.merged-state-row th {
+    padding: 8px;
+    background-color: var(--light-gray);
+    color: var(--text-color);
+    font-weight: 600;
+}
+
+.merged-label {
+    font-size: 0.85em;
+    color: var(--dark-gray);
+    font-weight: 600;
+}
+
 .merge-button-row td {
     padding: 15px;
 }
