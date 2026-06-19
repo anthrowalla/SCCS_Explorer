@@ -1019,9 +1019,8 @@ class EthnoAtlasApp {
     unmerge() {
         if (!this.currentCrosstab) return;
 
-        // Clear merge maps but keep merge enabled
-        this.rowMergeMap = {};
-        this.colMergeMap = {};
+        // Keep merge maps intact to preserve user selections
+        // Only reset the merged state
         this.hasMerged = false;
 
         // Regenerate the original crosstab from raw data
