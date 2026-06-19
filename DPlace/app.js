@@ -657,6 +657,52 @@ class EthnoAtlasApp {
         const table = container.querySelector('table');
         if (!table) return;
 
+        // Helper to get merged label for rows
+        const getRowLabel = (rv) => {
+            if (rv === null) return 'Missing';
+            if (this.currentCrosstab.rowMergeGroups && this.currentCrosstab.rowMergeGroups[rv]) {
+                const originalValues = this.currentCrosstab.rowMergeGroups[rv];
+                if (originalValues.length > 1 || typeof rv === 'string') {
+                    return originalValues.map(v => {
+                        if (v === null) return 'Missing';
+                        const label = this.getValueLabel(rowVar, v);
+                        return `${v}: ${label}`;
+                    }).join(', ');
+                }
+                // Single value in a merge group - use that value's label and code
+                const singleValue = originalValues[0];
+                if (singleValue === null) return 'Missing';
+                const label = this.labelParser.getValueLabel(rowVar, singleValue);
+                const displayLabel = this.summarizeLabels ? this.summarizeLabel(label) : label;
+                return `${singleValue}: ${displayLabel}`;
+            }
+            const label = this.getValueLabel(rowVar, rv);
+            return `${rv}: ${label}`;
+        };
+
+        // Helper to get merged label for columns
+        const getColLabel = (cv) => {
+            if (cv === null) return 'Missing';
+            if (this.currentCrosstab.colMergeGroups && this.currentCrosstab.colMergeGroups[cv]) {
+                const originalValues = this.currentCrosstab.colMergeGroups[cv];
+                if (originalValues.length > 1 || typeof cv === 'string') {
+                    return originalValues.map(v => {
+                        if (v === null) return 'Missing';
+                        const label = this.getValueLabel(colVar, v);
+                        return `${v}: ${label}`;
+                    }).join(', ');
+                }
+                // Single value in a merge group - use that value's label and code
+                const singleValue = originalValues[0];
+                if (singleValue === null) return 'Missing';
+                const label = this.labelParser.getValueLabel(colVar, singleValue);
+                const displayLabel = this.summarizeLabels ? this.summarizeLabel(label) : label;
+                return `${singleValue}: ${displayLabel}`;
+            }
+            const label = this.getValueLabel(colVar, cv);
+            return `${cv}: ${label}`;
+        };
+
         // Update column headers in thead
         const headerRow = table.querySelector('thead tr:first-child');
         if (headerRow) {
@@ -664,8 +710,7 @@ class EthnoAtlasApp {
             for (let i = 1; i < thCells.length - 1; i++) {
                 const cv = this.currentCrosstab.colValues[i - 1];
                 if (cv !== undefined) {
-                    const label = this.getValueLabel(colVar, cv);
-                    thCells[i].textContent = `${cv}: ${label}`;
+                    thCells[i].textContent = getColLabel(cv);
                 }
             }
         }
@@ -679,7 +724,7 @@ class EthnoAtlasApp {
             const rowHeader = row.querySelector('.row-header');
             if (!rowHeader) return;
 
-            const label = this.getValueLabel(rowVar, rv);
+            const label = getRowLabel(rv);
             const select = rowHeader.querySelector('select');
 
             if (select) {
@@ -715,6 +760,50 @@ class EthnoAtlasApp {
         const table = infoMetricsContainer.querySelector('.info-metrics-table');
         if (!table) return;
 
+        // Helper to get merged label for rows
+        const getRowLabel = (rv) => {
+            if (rv === null) return 'Missing';
+            if (this.currentCrosstab.rowMergeGroups && this.currentCrosstab.rowMergeGroups[rv]) {
+                const originalValues = this.currentCrosstab.rowMergeGroups[rv];
+                if (originalValues.length > 1 || typeof rv === 'string') {
+                    return originalValues.map(v => {
+                        if (v === null) return 'Missing';
+                        const label = this.getValueLabel(rowVar, v);
+                        return `${v}: ${label}`;
+                    }).join(', ');
+                }
+                const singleValue = originalValues[0];
+                if (singleValue === null) return 'Missing';
+                const label = this.labelParser.getValueLabel(rowVar, singleValue);
+                const displayLabel = this.summarizeLabels ? this.summarizeLabel(label) : label;
+                return `${singleValue}: ${displayLabel}`;
+            }
+            const label = this.getValueLabel(rowVar, rv);
+            return `${rv}: ${label}`;
+        };
+
+        // Helper to get merged label for columns
+        const getColLabel = (cv) => {
+            if (cv === null) return 'Missing';
+            if (this.currentCrosstab.colMergeGroups && this.currentCrosstab.colMergeGroups[cv]) {
+                const originalValues = this.currentCrosstab.colMergeGroups[cv];
+                if (originalValues.length > 1 || typeof cv === 'string') {
+                    return originalValues.map(v => {
+                        if (v === null) return 'Missing';
+                        const label = this.getValueLabel(colVar, v);
+                        return `${v}: ${label}`;
+                    }).join(', ');
+                }
+                const singleValue = originalValues[0];
+                if (singleValue === null) return 'Missing';
+                const label = this.labelParser.getValueLabel(colVar, singleValue);
+                const displayLabel = this.summarizeLabels ? this.summarizeLabel(label) : label;
+                return `${singleValue}: ${displayLabel}`;
+            }
+            const label = this.getValueLabel(colVar, cv);
+            return `${cv}: ${label}`;
+        };
+
         // Update column headers
         const headerRow = table.querySelector('thead tr');
         if (headerRow) {
@@ -722,8 +811,7 @@ class EthnoAtlasApp {
             for (let i = 1; i < thCells.length - 1; i++) {
                 const cv = this.currentCrosstab.colValues[i - 1];
                 if (cv !== undefined) {
-                    const label = this.getValueLabel(colVar, cv);
-                    thCells[i].textContent = `${cv}: ${label}`;
+                    thCells[i].textContent = getColLabel(cv);
                 }
             }
         }
@@ -736,8 +824,7 @@ class EthnoAtlasApp {
 
             const rowHeader = row.querySelector('.row-header');
             if (rowHeader) {
-                const label = this.getValueLabel(rowVar, rv);
-                rowHeader.textContent = label;
+                rowHeader.textContent = getRowLabel(rv);
             }
         });
     }
