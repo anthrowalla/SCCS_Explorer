@@ -38,10 +38,14 @@ def load_hraf_societies():
                 'hraf_name': entry.get('term', ''),
                 'hraf_summary': entry.get('description', ''),
                 'region': entry.get('highest_bt', ''),
+                'bt': entry.get('bt', ''),
+                'subsistence_type': entry.get('subsistence_type', ''),
+                'docs': entry.get('docs', 0),
+                'hasSummary': entry.get('hasSummary', False),
                 'societies': []
             }
 
-    print(f"  Loaded {len(societies)} HRAF societies")
+    print(f"  Loaded {len(societies)} HRAF societies from owc_info.json")
     return societies
 
 
@@ -245,15 +249,34 @@ def build_unified_registry():
         }
 
         if owc_id and owc_id in registry:
+            # Add to existing HRAF group
             registry[owc_id]['societies'].append(society)
+        elif owc_id:
+            # Create new HRAF group for this OWC (from EA data)
+            hraf_name = hraf_name_id.replace(r'\([A-Z]{2}\d+\)', '').strip() if hraf_name_id else ''
+            registry[owc_id] = {
+                'hraf_name': hraf_name,
+                'hraf_summary': '',
+                'region': '',
+                'bt': '',
+                'subsistence_type': '',
+                'docs': 0,
+                'hasSummary': False,
+                'from_ea_only': True,  # Flag to indicate this HRAF entry came from EA data
+                'societies': [society]
+            }
         else:
-            # Create entry for EA societies without HRAF match
+            # Create entry for EA societies without any HRAF match
             temp_id = f'ea-{ea_id}'
             if temp_id not in registry:
                 registry[temp_id] = {
                     'hraf_name': '',
                     'hraf_summary': '',
                     'region': '',
+                    'bt': '',
+                    'subsistence_type': '',
+                    'docs': 0,
+                    'hasSummary': False,
                     'societies': []
                 }
             registry[temp_id]['societies'].append(society)

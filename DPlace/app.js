@@ -1527,6 +1527,15 @@ class EthnoAtlasApp {
                 if (society.latitude && society.longitude) {
                     infoHtml += (infoHtml ? ' | ' : '') + `Location: ${society.latitude}, ${society.longitude}`;
                 }
+                if (society.subsistence_type) {
+                    infoHtml += (infoHtml ? ' | ' : '') + `Subsistence: ${society.subsistence_type}`;
+                }
+                if (society.region && !society.bt) {
+                    infoHtml += (infoHtml ? ' | ' : '') + `Region: ${society.region}`;
+                }
+                if (society.bt) {
+                    infoHtml += (infoHtml ? ' | ' : '') + `Region: ${society.bt}`;
+                }
 
                 // Build buttons in correct order based on dataset
                 let buttonsHtml = '<div class="society-buttons">';

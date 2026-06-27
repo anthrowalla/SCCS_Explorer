@@ -36,6 +36,11 @@ export class OwcLookup {
                 hraf_name: group.hraf_name || '',
                 hraf_summary: group.hraf_summary || '',
                 region: group.region || '',
+                bt: group.bt || '',
+                subsistence_type: group.subsistence_type || '',
+                docs: group.docs || 0,
+                hasSummary: group.hasSummary || false,
+                from_ea_only: group.from_ea_only || false,
                 societies: []
             };
 
@@ -52,7 +57,11 @@ export class OwcLookup {
                     group_id: groupId,
                     hraf_name: group.hraf_name || '',
                     hraf_summary: group.hraf_summary || '',
-                    region: group.region || ''
+                    region: group.region || '',
+                    bt: group.bt || '',
+                    subsistence_type: group.subsistence_type || '',
+                    docs: group.docs || 0,
+                    hasSummary: group.hasSummary || false
                 };
 
                 // Index SCCS by case_id for backward compatibility
@@ -154,6 +163,10 @@ export class OwcLookup {
             hraf_name: '',
             hraf_summary: '',
             region: '',
+            bt: '',
+            subsistence_type: '',
+            docs: 0,
+            hasSummary: false,
             alt_names: []
         };
     }
