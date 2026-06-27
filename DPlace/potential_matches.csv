@@ -1,0 +1,86 @@
+owc_id,hraf_name,ea_id,ea_name,matched_name,similarity
+AD08,Atayal,Ia1,Atayal,atayal,1.00
+AE15,Han Chinese,Ed6,Min Chinese,min chinese,0.82
+AM28,Rmeet,Ne10,Arikara,ree,0.75
+AM35,Rhade,Ej10,Rade,rhade,1.00
+AO07,Central Thai,Ej9,Thai,central thai,1.00
+AR20,Mara,Ag28,Nononke,marka,0.89
+AT02,Baluchi,Ac27,Luchazi,balochasi,0.75
+AT03,West Punjabi,Ea13,Punjabi,punjabi,0.74
+AU05,Hazara,Ea3,Hazara,hazara,1.00
+AV04,Kashmiri,Ef8,Kashmiri,kashmiri,1.00
+AW11,Kerala,Eg6,Kerala,kerala,1.00
+AW50,Badaga,Ag14,Baga,baga,0.80
+EF04,Croats,Sj9,Kayapo,coroa,0.73
+EQ01,Icelanders,Cg2,Icelanders,icelanders,1.00
+FH26,Banen,Ae51,Banen,banen,1.00
+FI21,Masa,Ai9,Masa,masa,1.00
+FJ21,Nuba,Ai10,Otoro,nuba,1.00
+FN11,Hadza,Aa9,Hadza,hadza,1.00
+FN32,Luguru,Ad14,Luguru,luguru,1.00
+FX08,Ovambo,Ab19,Ambo,ovambo,1.00
+FY11,Betsileo,Eh10,Betsileo,betsileo,1.00
+M013,Palestinians,ch16,Estonians,estonians,0.76
+MA01,Iran,Ad25,Rangi,irangi,0.80
+MA12,Lur,Aj17,Alur,lur,1.00
+MF01,Israelis,Nd12,Bitterroot Salish,salish,0.71
+MH07,Babylonians,Cj4,Babylonians,babylonians,1.00
+MN06,Bilen,Ca37,Blin,belen,0.80
+MP19,Mao,Ai47,Mao,mao,1.00
+MQ08,Fur,Cb17,Fur,fur,1.00
+MR08,Nubians,Ai10,Otoro,nuba,0.73
+MS11,Fulani,Af42,Fante,fanti,0.73
+N007,Chicanos,Ng14,Chickasaw,chickasaw,0.71
+N016,North American Armenians,Id1,Northern Aranda,northern arenda,0.72
+NA07,Eyak,Nb5,Eyak,eyak,1.00
+NC04,Chinese Canadians,Cf5,French Canadians,french canadians,0.73
+NC05,Arab Canadians,Cf5,French Canadians,french canadians,0.73
+ND14,Slavey,Na17,DeneTha,slavey,1.00
+NE09,Haida,Nb1,Haida,haida,1.00
+NF08,Kutenai,Nd7,Kutenai,kutenai,1.00
+NF12,Stoney,Ne11,Assiniboine,stoney,1.00
+NG08,Western Woods Cree,Na31,Eastern Cree,eastern cree,0.73
+NM06,Amish,Nb13,Squamish,squamish,0.77
+NO08,Natchez,Ng7,Natchez,natchez,1.00
+NO12,Cajuns,Ad1,Bajuni,bajun,0.73
+NQ14,Hidatsa,Ne15,Hidatsa,hidatsa,1.00
+NR21,Tillamook,Nb20,Tillamook,tillamook,1.00
+NT24,Mormons,Cd16,Moroccans,moroccans,0.75
+NT25,Mescalero Apache,Nh1,Chiricahua,eastern apache,0.73
+NT26,Jicarilla Apache,Nh16,Jicarilla,jicarilla,0.72
+NT43,Maricopa,Nh5,Maricopa,maricopa,1.00
+NU07,Aztecs,Nj2,Aztec,aztec,0.91
+NU30,Popoluca,Nj3,Sierra Popoluca,popoluca,1.00
+NU34,Tarascans,Nj8,Tarasco,tarasco,0.75
+NU46,Nahua,Ig13,Aua,aua,0.75
+OA08,Sama-Bajau,Ad10,Shambaa,shambaa,0.71
+OF09,Flores,Ie31,Fore,fore,0.80
+OG13,Southern Toraja,Nd15,Sinkaitk,southern okanagon,0.75
+OH18,Tobelo,Ic10,Tobelorese,tobelorese,0.75
+OJ82,Kimam,Ie18,Kimam,kimam,1.00
+OO12,Malekula,Ac42,Makua,makua,0.77
+OO17,Sa,Nh25,Sia,sia,0.80
+OP04,Kanak,Ai44,Anuak,anuak,0.80
+OQ12,Bau Fijians,Ih14,Mbau Fijians,mbau fijians,0.96
+OR06,Kiribati,Cc1,Regeibat,rgibat,0.71
+OR20,Ulithi,If9,Ulithians,ulithians,0.80
+RF10,Russians,Ch11,Russians,russians,1.00
+RJ01,Armenia,Ci10,Armenians,armenians,0.88
+RM02,Turkmens,Eb5,Turkmen,turkmen,0.93
+RN02,Karakalpak,Ne16,Karankawa,karankawa,0.74
+RN05,Uzbeks,Eb8,Uzbek,uzbek,0.91
+RO03,Pamir Peoples,Ei3,Burmese,bamar people,0.80
+RU41,Nenets,Ec4,Yurak-Samoyeds,nenets,1.00
+RV03,Yukaghir,Ec6,Yukaghir,yukaghir,1.00
+SE06,Amahuaca,Se8,Amahuaca,amahuaca,1.00
+SF10,Chiriguano,Sh7,Guaraní,chiriguano,1.00
+SK06,Chorote,Sh5,Choroti,choroti,0.86
+SK16,Ayoreo,Ad2,Nyoro,banyoro,0.77
+SM05,Terena,Sh2,Terena,terena,1.00
+SN02,Botocudo,Sj5,Aimoré,botocudo,1.00
+SO11,Bahia Brazilians,Cf4,Brazilians,brazilians,0.77
+SP09,Karajá,Sj1,Carajá,carajá,0.83
+SP26,Xavante,Sj11,Shavante,shavante,0.80
+SR14,Ndyuka,Sc18,Ndyuka,ndyuka,1.00
+SX01,Cubans,Ia12,Sugbuanon,cebuans,0.77
+SY01,Jamaicans,Id8,Tasmanians (northwestern),tasmanians,0.74

@@ -1,0 +1,773 @@
+{
+    "numFound": 365,
+    "qTime": 0,
+    "pageCount": 15,
+    "data": [
+        {
+            "id": "aw32",
+            "hsla": "hsla(331.17,95.22%,79.12%,0.830)",
+            "description": "The Gond are a populous tribe of central India, concentrated primarily in eastern Madhya Pradesh. About half the Gond speak Gondi, while southern groups speak Parsi; both of the Dravidian language family. In northern regions, Gonds commonly speak local dialects of Hindi or Marathi. Originally hunters and gatherers, they became primarily agriculturalists in the twentieth century, first shifting horticulturalists and then mostly intensive agriculturalists. The basic political unit is the village community, in which leaders and officials are chosen by the inhabitants.",
+            "highest_bt": "Asia",
+            "bt": "South Asia",
+            "subsistence_type": "other subsistence combinations",
+            "docs": 7,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Gond"
+        },
+        {
+            "id": "sk04",
+            "hsla": "hsla(355.43,95.33%,85.65%,0.810)",
+            "description": "The Gran Chaco of northwestern Argentina, western Paraguay and southeastern Bolivia is an ecologically diverse semiarid lowland area of savannahs, wetlands, and dry and riverine forests subject to seasonal flooding. It is equally culturally diverse, comprised of peoples speaking languages from a number of families, Guaicuruan being the most extensive, and adapted to nomadic or semi-nomadic hunting, gathering, fishing and seasonal horticulture depending on locale. Groups are organized into lineage-based bands that might coalesce seasonally into villages, with prestige hierarchies and leadership mediating broad networks of group interactions, including episodic territorial conflicts that could lead to larger alliances headed by war chiefs and some dominant groups subjugating others. The introduction of the horse brought fundamental changes, including highly stratified warrior societies that exacted tribute from vassal horticulturalists. Colonial pacification and eventual relocation to Christian missions led to the late twentieth century pattern of subsistence agriculture and foraging, with wage labor on farms and ranches, yet little change to traditional forms of social organization.",
+            "highest_bt": "South America",
+            "bt": "Southern South America",
+            "subsistence_type": "primarily hunter-gatherers",
+            "docs": 1,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Gran Chaco"
+        },
+        {
+            "id": "eh01",
+            "hsla": "hsla(79.69,95.36%,90.00%,0.840)",
+            "description": "Greeks are an ethnic group of long historical duration and significance in the development of Western civilization. This collection is focused on the Greeks in Greece. The Greek language belongs to the Indo-European language family. Greece became over 50 percent urbanized in the late 1960s; about a third of the Greek population lives in Athens. In the rural areas, subsistence agriculture of grain, olives, and vines has generally been replaced by cash cropping. This collection also includes information about the pastoral Sarakatsani of northern and central Greece. Greece is one of the least industrialized European nations.",
+            "highest_bt": "Europe",
+            "bt": "Southeastern Europe",
+            "subsistence_type": "intensive agriculturalists",
+            "docs": 96,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Greeks"
+        },
+        {
+            "id": "nq13",
+            "hsla": "hsla(21.38,95.27%,81.95%,0.820)",
+            "description": "The Gros Ventre are an Algonquian-speaking Native American group closely related to the Arapaho.  Originally nomadic hunter-gatherers, subsistence was largely based on the hunting of buffalo (bison) and the gathering of wild food plants. Historically believed to have originated in the Great Lakes region, the Gros Ventre eventually spread to large areas of the Great Plains, but under intense pressure from neighboring tribal groups throughout the eighteenth century, and with the decline of the buffalo herds in the late nineteenth, economic  help was sought from the U.S. government.  Under the terms of the Fort Belknap agreement of 1888, the Gros Ventre gave up there land claims in the region and were subsequently placed on a reservation in northern Montana (the Fort Belknap Reservation), where they were soon joined by the Assiniboine.",
+            "highest_bt": "North America",
+            "bt": "Plains and Plateau",
+            "subsistence_type": "hunter-gatherers",
+            "docs": 8,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Gros Ventre"
+        },
+        {
+            "id": "sm04",
+            "hsla": "hsla(355.37,95.31%,85.65%,0.810)",
+            "description": "The Guaraní are heterogeneous wide-ranging groups inhabiting sub-tropical regions from the Andes to the Atlantic Ocean. The Guaraní language includes a variety of dialects. In the seventeenth century, Catholic missionaries used the Guaraní language to communicate with indigenous peoples throughout South America's lowlands. The Guaraní migrated out of the Amazon Basin onto the Paraná plateau early in their history. At the time of the Spanish arrival there were over a million Guaraní in small communities throughout South America's southern cone, albeit in the ensuing years that population was greatly reduced.",
+            "highest_bt": "South America",
+            "bt": "Eastern South America",
+            "subsistence_type": "other subsistence combinations",
+            "docs": 10,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Guaraní"
+        },
+        {
+            "id": "nn23",
+            "hsla": "hsla(22.12,95.30%,80.15%,0.820)",
+            "description": "Sea Islanders are Gullah-speaking people who live on the coast and sea islands of Georgia and South Carolina. They are descendents of slaves first brought to the islands in the 17th Century to cultivate indigo and latter cotton. Isolated from the mainland, the Sea Islanders developed a distinct culture, which remained largely intact until the first bridges were built in the 1920s. The focus of research has been on language, folk songs and oral history.",
+            "highest_bt": "North America",
+            "bt": "Regional, Ethnic and Diaspora Cultures",
+            "subsistence_type": "commercial economy",
+            "docs": 15,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Gullah Geechee"
+        },
+        {
+            "id": "fl08",
+            "hsla": "hsla(65.25,95.32%,83.47%,0.770)",
+            "description": "The Gusii are a Bantu-speaking people located in southwestern Kenya. The Gusii live in dispersed homesteads of nuclear or polygynous families, and support themselves by a combination of farming, trade, and wage labor. Exogamy, patrilocality, and patriliny are major features of the society.",
+            "highest_bt": "Africa",
+            "bt": "Eastern Africa",
+            "subsistence_type": "horticulturalists",
+            "docs": 33,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Gusii"
+        },
+        {
+            "id": "fn11",
+            "hsla": "hsla(65.25,95.30%,82.47%,0.840)",
+            "description": "The Hadza are a small group of hunter-gatherers living in the vicinity of Lake Eyasi in northeastern Tanzania. By the early twenty-first century only a small number of Hadza continued to live much as they had a century before: in bush camps frequently changing in size and composition, and with no formal leadership, seasonally moving from place to place in search of game, edible plants and fruits, and honey. A majority have adopted more diverse livelihood strategies due to increased pressures on the land from herders and agricultural immigrants, and the development of ethnic-tourism.",
+            "highest_bt": "Africa",
+            "bt": "Eastern Africa",
+            "subsistence_type": "hunter-gatherers",
+            "docs": 19,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Hadza"
+        },
+        {
+            "id": "ne09",
+            "hsla": "hsla(21.91,95.38%,83.10%,0.760)",
+            "description": "The Haida—renowned for their rank system, potlatches and totem poles—live on Haida Gwaii (Queen Charlotte Islands), British Columbia and Prince of Wales Island, Alaska. The traditional economy was based on fishing, supplemented by foraging and hunting; after contact they became involved in the global fur trade, and in the lumber and fishing industries. The matrilineage was the basic political and territorial unit.",
+            "highest_bt": "North America",
+            "bt": "Northwest Coast and California",
+            "subsistence_type": "hunter-gatherers",
+            "docs": 12,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Haida"
+        },
+        {
+            "id": "nk07",
+            "hsla": "hsla(22.12,95.33%,83.89%,0.780)",
+            "description": "Haitian Americans originate from the Republic of Haiti. During the late eighteenth century many Haitians came to the United States and participated in the American Revolution. They continued to come throughout the nineteenth century and settled in New Orleans, Philadelphia, and New York City, where they contributed to the cultural and economic development of these cities. They have also formed cultural concentrations in Boston and South Florida as well as settling in locations throughout the Eastern seaboard of the US. Haitians often work in industries such as health care, hotels, office cleaning, and transport services. They are also active in US politics.",
+            "highest_bt": "North America",
+            "bt": "Regional, Ethnic and Diaspora Cultures",
+            "subsistence_type": "commercial economy",
+            "docs": 12,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Haitian Americans"
+        },
+        {
+            "id": "sv03",
+            "hsla": "hsla(273.80,95.23%,86.55%,0.820)",
+            "description": "Haitians are citizens of the Republic of Haiti, comprising the western third of the Caribbean island of Hispaniola. With French-Creole heritage and overwhelmingly African culture, Haiti has been an independent state since 1804, after formerly enslaved rebels defeated French colonial forces. A majority of Haitians live in rural villages and a considerable number still farm. Jobs in the manufacturing and service sectors are other common means of securing a livelihood. Over the years, Haitians have suffered from frequently concurrent episodes of natural disasters, economic marginalization, and political instability and repression.",
+            "highest_bt": "Middle America and the Caribbean",
+            "bt": "Caribbean",
+            "subsistence_type": "commercial economy",
+            "docs": 12,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Haitians"
+        },
+        {
+            "id": "ae15",
+            "hsla": "hsla(331.02,95.38%,81.50%,0.800)",
+            "description": "The Han Chinese represent the largest and oldest continuous civilization in the world, originally centered on the Yellow River basin in North China where the dependence on cereal agriculture was established, supplemented by vegetables, domestic animals, and fishing. The Han make up most of the population of China proper, as well as on the islands of Taiwan and Singapore. Traditionally, China was an agrarian state with multiple administrative levels down to the village level, where corporate patrilineages ruled. In modern times, with new marriage laws and land reform, power has devolved to women and individual farming households. Religion was a combination of local beliefs and practices from Buddhism, Taoism and Confucianism; more recently also Christianity and Communist ideology.",
+            "highest_bt": "Asia",
+            "bt": "East Asia",
+            "subsistence_type": "intensive agriculturalists",
+            "docs": 49,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Han Chinese"
+        },
+        {
+            "id": "ms12",
+            "hsla": "hsla(65.27,95.26%,82.20%,0.830)",
+            "description": "The Hausa, the largest ethnic group in West Africa, are concentrated in northern Nigeria and adjacent Niger. The Hausa have evolved from many years of incorporation of different peoples. They share a common religion, Islam, and a common language. The Hausa are organized into centralized kingdoms, known as emirates and they live in hamlets, towns, and cities. Agriculture is the main economic activity. Grain is the staple diet, including Guinea corn, millet, maize, and rice.",
+            "highest_bt": "Africa",
+            "bt": "Western Africa",
+            "subsistence_type": "other subsistence combinations",
+            "docs": 22,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Hausa"
+        },
+        {
+            "id": "nt14",
+            "hsla": "hsla(21.46,95.25%,81.71%,0.810)",
+            "description": "The Havasupai are a Yuman-speaking Native American group located primarily in Cataract Canyon, part of the Grand Canyon, in northwestern  Arizona. Traditionally, the Havasupai lived in bands of related families and their subsistence was based on the cultivation of maize, beans, squash and melons in irrigated fields supplemented by gathering and hunting.  Religion centered around shamanism and magical healing.",
+            "highest_bt": "North America",
+            "bt": "Southwest and Basin",
+            "subsistence_type": "other subsistence combinations",
+            "docs": 12,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Havasupai"
+        },
+        {
+            "id": "ov05",
+            "hsla": "hsla(242.33,95.23%,84.95%,0.800)",
+            "description": "Hawaiians are the indigenous people of the Hawaiian Islands. Now a disadvantaged minority in their own homeland, they are the descendants of Eastern Polynesians who originated in the Marquesas Islands. The early Hawaiians lived on marine resources. They later developed a large and productive agricultural economy based on the cultivation of taro. In the 1840s the Hawaiian king was persuaded by resident foreigners to create private property; within a few decades most Hawaiians were without land. Foreigners bought huge tracts for plantations and ranches and the laborers they imported soon outnumbered the Hawaiians. The shift to wage labor began during the 19th century as Hawaiians increasingly worked on foreign-owned sugar cane plantations. About one-quarter of Hawaiians are engaged in agriculture with most working in service industries.",
+            "highest_bt": "Oceania",
+            "bt": "Polynesia",
+            "subsistence_type": "other subsistence combinations",
+            "docs": 28,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Hawaiians"
+        },
+        {
+            "id": "au05",
+            "hsla": "hsla(331.35,95.24%,84.95%,0.800)",
+            "description": "The Hazaras are one of the largest ethnic groups in Afghanistan, comprising about 20 percent of the population. Hazaras also live in Iran and Pakistan. Historically they were associated with the Hazarajat of central Afghanistan. Most Hazaras are Shia Muslims. Their language is a dialect of Persian. Hazaras and Pashtuns are historical enemies.  In medieval times the Hazaras were mainly dependent on animal husbandry, but in modern times they became more dependent on agriculture. Carpets, gilams, and more recently [until the recent fighting] woven gloves and mittens have been produced for western consumption. Wheat is the main cash crop, although poplar trees, used in construction, have been grown as a cash crop.",
+            "highest_bt": "Asia",
+            "bt": "Central Asia",
+            "subsistence_type": "intensive agriculturalists",
+            "docs": 1,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Hazara"
+        },
+        {
+            "id": "nq14",
+            "hsla": "hsla(21.38,95.27%,81.71%,0.810)",
+            "description": "The Hidatsa are a Siouan-speaking people who, at the time of contact, were settled in three independent villages near the mouth of the Knife River in North Dakota. They subsisted on horticulture and on hunting, which occasionally involved lengthy expeditions in pursuit of bison. A matrilineal society in which status was gained through age-grade societies and acquisition of medicine bundles, the Hidatsa were (and remain) governed by a tribal council. Pressured by depopulation from epidemics, militarily-dominant nomadic Plains tribes, and the collapse of the bison herds and the fur trade, during the late nineteenth century they settled on the Fort Berthold Reservation along with the closely-related Mandan and the Arikara, adopting commercial farming and ranching alongside traditional subsistence horticulture supplemented by hunting.",
+            "highest_bt": "North America",
+            "bt": "Plains and Plateau",
+            "subsistence_type": "intensive agriculturalists",
+            "docs": 11,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Hidatsa"
+        },
+        {
+            "id": "es10",
+            "hsla": "hsla(79.26,95.26%,82.77%,0.850)",
+            "description": "The Highlands of Scotland include the lands north of a line running south and west from the town of Inverness on the northeast, encompassing the shires of Caithness, Sutherland, Ross and Cromarty, Inverness, and Argyll, as well as the islands of the Inner and Outer Hebrides. English has been the official language since 1754, but some Gaelic is spoken in a few areas of the west coast. The Highland Scots have a mixed economy, including agriculture, fishing, animal husbandry, crafts, local industries, and tourism.",
+            "highest_bt": "Europe",
+            "bt": "British Isles",
+            "subsistence_type": "other subsistence combinations",
+            "docs": 26,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Highland Scots"
+        },
+        {
+            "id": "nt09",
+            "hsla": "hsla(21.46,95.25%,83.10%,0.760)",
+            "description": "The Hopi are a Native American group currently residing on the Hopi Reservation in northeastern Arizona, a region where they have always lived. The term \"Hopi\" means \"one who behaves\" or \"one who follows the proper way.\" The Hopi language belongs to the Shoshonean branch of Uto-Aztecan. Aboriginal Hopis were horticulturalists, hunters, and gatherers. The major crop was maize. Hopis traded widely with neighboring peoples and were well known for the textiles that men wove of the cotton they grew. Today, wage labor, commercial cattle ranching, pensions, and welfare are major sources of income for those who live on the reservation.",
+            "highest_bt": "North America",
+            "bt": "Southwest and Basin",
+            "subsistence_type": "intensive agriculturalists",
+            "docs": 65,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Hopi"
+        },
+        {
+            "id": "nu19",
+            "hsla": "hsla(274.32,95.24%,80.75%,0.760)",
+            "description": "The Huichol are an Uto-Aztecan speaking Mexican Indian group located in the southern Sierra Madre Occidental (northern Jalisco and eastern Nayarit, and adjacent areas of Zacatecas and Durango states). The extended family, commonly living in dispersed compounds called [i]ranchos[\/i], is the basis of Huichol social structure, with lineages organized into temple communities. A council of male elders, usually shamans, provides community leadership. Religion permeates all aspects of life, with peyote playing a central role, vividly expressed in the visual arts. Slash-and-burn agriculture along with hunting, gathering and fishing, was the traditional basis of the economy.  Seasonal migratory wage labor, craft production for external sale, and animal husbandry have become increasingly important in recent times.",
+            "highest_bt": "Middle America and the Caribbean",
+            "bt": "Northern Mexico",
+            "subsistence_type": "other subsistence combinations",
+            "docs": 25,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Huichol"
+        },
+        {
+            "id": "ng05",
+            "hsla": "hsla(21.37,95.37%,84.95%,0.800)",
+            "description": "The Iroquoian-speaking Huron\/Wendat, historically known as Huron, lived in Ontario south of Georgian Bay until conquered by the Iroquois in 1649. Refugee populations split into a Great Lakes and Midwestern United States group (uniting with the Tionontati to form the Wyandot) and a Quebec group (the Huron-Wendat); others were incorporated into the Iroquois. The Huron were horticulturalists, principally reliant on maize, supplemented by hunting, gathering and, especially, fishing. Contact with French explorers in the early seventeenth century made the Huron avid fur traders, exchanging maize for furs from Algonquin trappers.",
+            "highest_bt": "North America",
+            "bt": "Eastern Woodlands",
+            "subsistence_type": "other subsistence combinations",
+            "docs": 18,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Huron\/Wendat"
+        },
+        {
+            "id": "oc06",
+            "hsla": "hsla(331.55,95.40%,84.37%,0.790)",
+            "description": "The Iban live on the island of Borneo in Sarawak, a state of Malaysia. They have lived predominantly in the midrange hills of the island. For more than a century, the population has been moving onto the delta plains and more recently into the state's urban centers. In the hills and delta regions, the Iban are rice farmers. Today they are also wage workers in the city and in Malaysia's rubber, cacao, and lumber industries.",
+            "highest_bt": "Asia",
+            "bt": "Southeast Asia",
+            "subsistence_type": "horticulturalists",
+            "docs": 38,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Iban"
+        },
+        {
+            "id": "eq01",
+            "hsla": "hsla(79.14,95.27%,90.00%,0.840)",
+            "description": "Iceland is an island in the North Atlantic Ocean, located between Greenland and Norway, just south of the Arctic Circle. Its inhabitants, generally referred to as &#x22;Icelanders&#x22;, speak a language called &#x22;Icelandic&#x22; which is a Germanic language (in the Indo-European language family) similar to Norwegian. Icelanders trace their origins to settlers who came from Norway in the ninth century. Modern Iceland has an industrial economy based on fishing, fish processing, and fish exporting.  Prior to 1944 Iceland had been a colony of Denmark, but it is now an independent republic.",
+            "highest_bt": "Europe",
+            "bt": "Scandinavia",
+            "subsistence_type": "other subsistence combinations",
+            "docs": 23,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Icelanders"
+        },
+        {
+            "id": "oa19",
+            "hsla": "hsla(331.55,95.43%,80.75%,0.760)",
+            "description": "The Ifugao (Ifugaw) are a group of wet-rice agriculturalists occupying the mountainous area of northern Luzon, in the Philippines. Scholars estimate that the Ifugao probably lived in the area since the fifteenth century. The Ifugao language is classified as Austronesian (Malayo-Polynesian). The Ifugao live in small hamlets of 5 to 10 houses scattered among their rice terraces. They have no chiefs and councils. Bilateral kinship obligations provide most of the political control. Ifugao religion is based on an elaborate cosmology with more than a thousand deities of various classes.",
+            "highest_bt": "Asia",
+            "bt": "Southeast Asia",
+            "subsistence_type": "intensive agriculturalists",
+            "docs": 31,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Ifugao"
+        },
+        {
+            "id": "ff26",
+            "hsla": "hsla(65.27,95.38%,79.77%,0.790)",
+            "description": "The Igbo are located on both sides of the River Niger and occupy most of southeastern Nigeria.  Igbo languages are part of the Kwa Subgroup of the Niger-Congo language family. Igbo-speaking peoples can be divided into five geographically based subcultures: Northern Igbo, Southern Igbo, Western Igbo, Eastern Igbo, and Northeastern Igbo. Each of these five can be further divided into subgroups based on specific locations and names. The Igbo are mostly subsistence farmers. Palm products are the main cash crops. Trading, local crafts, and wage labor are also important in the Igbo economy. Women dominate rural retail-market trade. High literacy rates among the Igbo have helped them obtain jobs as civil servants and business entrepreneurs since Nigeria gained independence in 1960.",
+            "highest_bt": "Africa",
+            "bt": "Western Africa",
+            "subsistence_type": "horticulturalists",
+            "docs": 38,
+            "hasSummary": true,
+            "ocms": [],
+            "hl": {},
+            "term": "Igbo"
+        }
+    ],
+    "facet_buckets": {
+        "regions": {
+            "allIds": [
+                "Africa",
+                "Asia",
+                "Europe",
+                "Middle America and the Caribbean",
+                "Middle East",
+                "North America",
+                "Oceania",
+                "South America"
+            ],
+            "byId": {
+                "Africa": {
+                    "id": "Africa",
+                    "count": 71,
+                    "childName": "subregions",
+                    "subregions": [
+                        "Central Africa",
+                        "Eastern Africa",
+                        "Northern Africa",
+                        "Southern Africa",
+                        "Western Africa"
+                    ]
+                },
+                "Asia": {
+                    "id": "Asia",
+                    "count": 82,
+                    "childName": "subregions",
+                    "subregions": [
+                        "Caucasus",
+                        "Central Asia",
+                        "East Asia",
+                        "North Asia",
+                        "South Asia",
+                        "Southeast Asia"
+                    ]
+                },
+                "Europe": {
+                    "id": "Europe",
+                    "count": 17,
+                    "childName": "subregions",
+                    "subregions": [
+                        "British Isles",
+                        "Scandinavia",
+                        "Southeastern Europe",
+                        "Southern Europe"
+                    ]
+                },
+                "Middle America and the Caribbean": {
+                    "id": "Middle America and the Caribbean",
+                    "count": 21,
+                    "childName": "subregions",
+                    "subregions": [
+                        "Caribbean",
+                        "Central America",
+                        "Central Mexico",
+                        "Maya Area",
+                        "Northern Mexico"
+                    ]
+                },
+                "Middle East": {
+                    "id": "Middle East",
+                    "count": 12,
+                    "childName": "subregions",
+                    "subregions": [
+                        "Middle East"
+                    ]
+                },
+                "North America": {
+                    "id": "North America",
+                    "count": 81,
+                    "childName": "subregions",
+                    "subregions": [
+                        "Arctic and Subarctic",
+                        "Eastern Woodlands",
+                        "Northwest Coast and California",
+                        "Plains and Plateau",
+                        "Regional, Ethnic and Diaspora Cultures",
+                        "Southwest and Basin"
+                    ]
+                },
+                "Oceania": {
+                    "id": "Oceania",
+                    "count": 33,
+                    "childName": "subregions",
+                    "subregions": [
+                        "Australia",
+                        "Melanesia",
+                        "Micronesia",
+                        "Polynesia"
+                    ]
+                },
+                "South America": {
+                    "id": "South America",
+                    "count": 48,
+                    "childName": "subregions",
+                    "subregions": [
+                        "Amazon and Orinoco",
+                        "Central Andes",
+                        "Eastern South America",
+                        "Northwestern South America",
+                        "Southern South America"
+                    ]
+                }
+            }
+        },
+        "subregions": {
+            "allIds": [
+                "Amazon and Orinoco",
+                "Arctic and Subarctic",
+                "Australia",
+                "British Isles",
+                "Caribbean",
+                "Caucasus",
+                "Central Africa",
+                "Central America",
+                "Central Andes",
+                "Central Asia",
+                "Central Mexico",
+                "East Asia",
+                "Eastern Africa",
+                "Eastern Europe",
+                "Eastern South America",
+                "Eastern Woodlands",
+                "Maya Area",
+                "Melanesia",
+                "Micronesia",
+                "Middle East",
+                "North Asia",
+                "Northern Africa",
+                "Northern Mexico",
+                "Northwest Coast and California",
+                "Northwestern South America",
+                "Plains and Plateau",
+                "Polynesia",
+                "Regional, Ethnic and Diaspora Cultures",
+                "Scandinavia",
+                "South Asia",
+                "Southeast Asia",
+                "Southeastern Europe",
+                "Southern Africa",
+                "Southern Europe",
+                "Southern South America",
+                "Southwest and Basin",
+                "Western Africa"
+            ],
+            "byId": {
+                "Amazon and Orinoco": {
+                    "id": "Amazon and Orinoco",
+                    "count": 17,
+                    "parentName": "regions"
+                },
+                "Arctic and Subarctic": {
+                    "id": "Arctic and Subarctic",
+                    "count": 11,
+                    "parentName": "regions"
+                },
+                "Australia": {
+                    "id": "Australia",
+                    "count": 2,
+                    "parentName": "regions"
+                },
+                "British Isles": {
+                    "id": "British Isles",
+                    "count": 4,
+                    "parentName": "regions"
+                },
+                "Caribbean": {
+                    "id": "Caribbean",
+                    "count": 6,
+                    "parentName": "regions"
+                },
+                "Caucasus": {
+                    "id": "Caucasus",
+                    "count": 2,
+                    "parentName": "regions"
+                },
+                "Central Africa": {
+                    "id": "Central Africa",
+                    "count": 8,
+                    "parentName": "regions"
+                },
+                "Central America": {
+                    "id": "Central America",
+                    "count": 4,
+                    "parentName": "regions"
+                },
+                "Central Andes": {
+                    "id": "Central Andes",
+                    "count": 7,
+                    "parentName": "regions"
+                },
+                "Central Asia": {
+                    "id": "Central Asia",
+                    "count": 17,
+                    "parentName": "regions"
+                },
+                "Central Mexico": {
+                    "id": "Central Mexico",
+                    "count": 5,
+                    "parentName": "regions"
+                },
+                "East Asia": {
+                    "id": "East Asia",
+                    "count": 11,
+                    "parentName": "regions"
+                },
+                "Eastern Africa": {
+                    "id": "Eastern Africa",
+                    "count": 24,
+                    "parentName": "regions"
+                },
+                "Eastern Europe": {
+                    "id": "Eastern Europe",
+                    "count": 1,
+                    "parentName": "regions"
+                },
+                "Eastern South America": {
+                    "id": "Eastern South America",
+                    "count": 10,
+                    "parentName": "regions"
+                },
+                "Eastern Woodlands": {
+                    "id": "Eastern Woodlands",
+                    "count": 10,
+                    "parentName": "regions"
+                },
+                "Maya Area": {
+                    "id": "Maya Area",
+                    "count": 4,
+                    "parentName": "regions"
+                },
+                "Melanesia": {
+                    "id": "Melanesia",
+                    "count": 15,
+                    "parentName": "regions"
+                },
+                "Micronesia": {
+                    "id": "Micronesia",
+                    "count": 7,
+                    "parentName": "regions"
+                },
+                "Middle East": {
+                    "id": "Middle East",
+                    "count": 12,
+                    "parentName": "regions"
+                },
+                "North Asia": {
+                    "id": "North Asia",
+                    "count": 7,
+                    "parentName": "regions"
+                },
+                "Northern Africa": {
+                    "id": "Northern Africa",
+                    "count": 6,
+                    "parentName": "regions"
+                },
+                "Northern Mexico": {
+                    "id": "Northern Mexico",
+                    "count": 2,
+                    "parentName": "regions"
+                },
+                "Northwest Coast and California": {
+                    "id": "Northwest Coast and California",
+                    "count": 13,
+                    "parentName": "regions"
+                },
+                "Northwestern South America": {
+                    "id": "Northwestern South America",
+                    "count": 3,
+                    "parentName": "regions"
+                },
+                "Plains and Plateau": {
+                    "id": "Plains and Plateau",
+                    "count": 12,
+                    "parentName": "regions"
+                },
+                "Polynesia": {
+                    "id": "Polynesia",
+                    "count": 9,
+                    "parentName": "regions"
+                },
+                "Regional, Ethnic and Diaspora Cultures": {
+                    "id": "Regional, Ethnic and Diaspora Cultures",
+                    "count": 20,
+                    "parentName": "regions"
+                },
+                "Scandinavia": {
+                    "id": "Scandinavia",
+                    "count": 3,
+                    "parentName": "regions"
+                },
+                "South Asia": {
+                    "id": "South Asia",
+                    "count": 22,
+                    "parentName": "regions"
+                },
+                "Southeast Asia": {
+                    "id": "Southeast Asia",
+                    "count": 23,
+                    "parentName": "regions"
+                },
+                "Southeastern Europe": {
+                    "id": "Southeastern Europe",
+                    "count": 7,
+                    "parentName": "regions"
+                },
+                "Southern Africa": {
+                    "id": "Southern Africa",
+                    "count": 14,
+                    "parentName": "regions"
+                },
+                "Southern Europe": {
+                    "id": "Southern Europe",
+                    "count": 2,
+                    "parentName": "regions"
+                },
+                "Southern South America": {
+                    "id": "Southern South America",
+                    "count": 11,
+                    "parentName": "regions"
+                },
+                "Southwest and Basin": {
+                    "id": "Southwest and Basin",
+                    "count": 15,
+                    "parentName": "regions"
+                },
+                "Western Africa": {
+                    "id": "Western Africa",
+                    "count": 19,
+                    "parentName": "regions"
+                }
+            }
+        },
+        "subsistence_types": {
+            "byId": {
+                "intensive agriculturalists": {
+                    "id": "intensive agriculturalists",
+                    "count": 80
+                },
+                "horticulturalists": {
+                    "id": "horticulturalists",
+                    "count": 60
+                },
+                "hunter-gatherers": {
+                    "id": "hunter-gatherers",
+                    "count": 59
+                },
+                "other subsistence combinations": {
+                    "id": "other subsistence combinations",
+                    "count": 52
+                },
+                "primarily hunter-gatherers": {
+                    "id": "primarily hunter-gatherers",
+                    "count": 31
+                },
+                "commercial economy": {
+                    "id": "commercial economy",
+                    "count": 29
+                },
+                "agro-pastoralists": {
+                    "id": "agro-pastoralists",
+                    "count": 28
+                },
+                "pastoralists": {
+                    "id": "pastoralists",
+                    "count": 20
+                },
+                "not assigned": {
+                    "id": "not assigned",
+                    "count": 5
+                }
+            },
+            "allIds": [
+                "intensive agriculturalists",
+                "horticulturalists",
+                "hunter-gatherers",
+                "other subsistence combinations",
+                "primarily hunter-gatherers",
+                "commercial economy",
+                "agro-pastoralists",
+                "pastoralists",
+                "not assigned"
+            ]
+        },
+        "samples": {
+            "allIds": [
+                "EA",
+                "SCCS",
+                "PSF",
+                "SRS"
+            ],
+            "byId": {
+                "EA": {
+                    "id": "EA",
+                    "count": 285
+                },
+                "SCCS": {
+                    "id": "SCCS",
+                    "count": 186
+                },
+                "PSF": {
+                    "id": "PSF",
+                    "count": 60
+                },
+                "SRS": {
+                    "id": "SRS",
+                    "count": 28
+                }
+            }
+        },
+        "subSamples": {
+            "allIds": [
+                "EA",
+                "SCCS"
+            ],
+            "byId": {
+                "EA": {
+                    "id": "EA",
+                    "count": 285,
+                    "parentName": "samples"
+                },
+                "SCCS": {
+                    "id": "SCCS",
+                    "count": 186,
+                    "parentName": "samples"
+                }
+            }
+        },
+        "allIds": [
+            "regions",
+            "subsistence_types",
+            "samples"
+        ]
+    },
+    "overview": {
+        "docs": 0,
+        "cultures": 0
+    },
+    "spell": ""
+}

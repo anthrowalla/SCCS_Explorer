@@ -1,0 +1,1305 @@
+#! /bin/sh
+exec nawk '
+BEGIN {FS="	"}
+$1 != "" {group[$1] = $0 }
+END {
+	if (lookup != "") {
+		nl = split(lookup,glist,",")
+		for(i=1;i<=nl;i++) {
+			printf("%s\n",group[glist[i]]);
+		}
+	}
+}
+'	  lookup="$1"  <<EOF
+1	!Kung	1950	-20	21		xd1
+1	Herero	1900	-21	16		xd10
+1	Nabesna	1930	63	-141		xd1026
+1	Haida	1890	54	-132		xd1068
+1	Nomlaki	1850	39	-122		xd1107
+1	Tenino	1850	45	-121		xd1141
+1	Gros Ventre	1880	48.78	-108.98		xd1208
+1	Huron	1640	44	-78		xd1244
+1	Chiricahua	1880	31	-108		xd1259
+1	Amba	1950	1	30		xd127
+1	Tarahumara	1930	28	-107		xd1286
+1	Chinantec	1940	18	-96		xd1295
+1	Guna	1940	9	-78		xd1309
+1	Callinago	1650	15.41	-61.27		xd1326
+1	Warao	1950	9	-62		xd1335
+1	Munduruku	1950	-6	-58		xd1353
+1	Sirionó	1940	-16	-64		xd1362
+1	Inca	1530	-13	-72		xd1374
+1	Yahgan	1870	-55.02	-68.98		xd1383
+1	Wichí	1860	-24	-63		xd1388
+1	Bororo	1920	-16	-55		xd1397
+1	Carajá	1950	-12	-50		xd1407
+1	Fon	1890	7	2		xd186
+1	Bambara	1920	13	-7		xd244
+1	Katab	1930	10	8		xd298
+1	Ila	1920	-16	27		xd33
+1	Banda	1920	7	22		xd337
+1	Teso	1950	2	34		xd384
+1	Konso	1930	6	37		xd415
+1	Maguzawa	1940	12	10		xd458
+1	Regeibat	1950	22	-13		xd487
+1	Barabra	1920	23	33		xd507
+1	Gheg	1900	42	20		xd528
+1	New Englanders	1920	42	-73		xd536
+1	Dutch	1950	53	7		xd541
+1	Serbs	1950	44	20		xd546
+1	Kalmyk	1920	46	46		xd574
+1	Syrians	1950	36	36		xd586
+1	Sindhi	1950	25	68		xd596
+1	Kazakh	1910	48	70		xd609
+1	Nivkh	1920	53	142		xd617
+1	Koreans	1950	38.134147	126.960754		xd638
+1	Adi	1940	28	95		xd653
+1	Santal	1940	24	87		xd661
+1	Chenchu	1940	16	79		xd672
+1	Andamanese	1870	12	93		xd686
+1	Garo	1900	26	91		xd696
+1	Lamet	1940	20	101		xd716
+1	Atayal	1930	24	121		xd732
+1	Iban	1950	2	112		xd750
+1	Macassarese	1940	-5.31	119.69		xd759
+1	Bajuni	1950	-2	41		xd76
+1	Northern Aranda	1900	-24	134		xd772
+1	Mee	1950	-4	136		xd785
+1	Palauans	1940	7.45	134.54		xd824
+1	Siuai	1940	-6	155		xd841
+1	Mota	1890	-13.84	167.7		xd862
+1	American Samoans	1920	-13.68	-172.41		xd876
+1	Mangaians	1820	-21.93	-157.91		xd889
+2	Tareumiut	1880	71	-157		xd1036
+2	Twana	1850	48	-123		xd1079
+2	Tübalulabal	1850	39	-118		xd1118
+2	Southern Ute	1860	38	-109		xd1152
+2	Kiowa Apache	1870	36	-99		xd1219
+2	Ho Chunk	1850	44	-88		xd1236
+2	Seminole	1940	27	-81		xd1251
+2	Hano	1950	36	-111		xd1270
+2	Tohono O'odham	1930	31	-112		xd1287
+2	Aztec	1520	19	-99		xd1301
+2	Tzeltal	1940	17	-92		xd1318
+2	Cágaba	1940	11	-74		xd1327
+2	Pumé	1950	7	-68		xd1345
+2	Tapirapé	1930	-11	-52		xd1354
+2	Ticuna	1940	-3	-70		xd1366
+2	Aymara	1940	-16	-69		xd1375
+2	Kpe	1950	4.22	9.27		xd138
+2	Mapuche	1880	-39	-68		xd1384
+2	Terena	1850	-21	-58		xd1389
+2	Trumai	1930	-12	-53		xd1399
+2	Sherente	1850	-9	-48		xd1410
+2	Kissi	1950	9	-10		xd197
+2	Dorobo	1920	0	36		xd2
+2	Swazi	1880	-27	32		xd21
+2	Mossi (Yatenga)	1950	13	-2		xd255
+2	Jukun	1920	8	10		xd309
+2	Nyaro	1940	11	31		xd348
+2	Maasi	1900	-2	36		xd395
+2	Somali (Dolbahanta)	1950	8	48		xd426
+2	Pende	1920	-6	20		xd44
+2	Wolof	1950	15	-17		xd469
+2	Teda	1950	21	17		xd498
+2	Egyptians	1950	25	33		xd518
+2	Portuguese	1950	42	-7		xd529
+2	Boers	1850	-16	28		xd537
+2	Icelanders	1100	64	-20		xd542
+2	Hutsuls	1890	49	24		xd557
+2	Khevsur	1930	43	45		xd578
+2	Rwala	1920	33	37		xd588
+2	Yusufzai	1950	35	72		xd601
+2	Tu	1920	39	100		xd610
+2	Yakut	1900	65	125		xd628
+2	Lolo	1940	29	103		xd645
+2	Burusho	1930	37	75		xd654
+2	Bengali	1940	23	88		xd664
+2	Tamil	1880	11	79		xd678
+2	Merina	1900	-19	46		xd688
+2	Lhota	1920	27	94		xd707
+2	Mnong Gar	1940	12	107		xd724
+2	Sagada	1950	17	121		xd742
+2	Javanese	1950	-7	110		xd751
+2	Alorese	1940	-8.22	124.26		xd764
+2	Yolngu, Dhuwal	1930	-12.48	135.96		xd777
+2	Wantoat	1920	-6.15	146.53		xd796
+2	Trukese	1940	7.34	151.6		xd833
+2	Trobriands	1910	-8.43	151.09		xd852
+2	Seniang	1930	-16.51	167.47		xd868
+2	Nyoro	1950	2	32		xd87
+2	Tikopia	1930	-12.29	168.83		xd881
+2	Māori	1820	-38.41	176.31		xd891
+3	Copper Inuit	1920	69	-110		xd1022
+3	Kwakwaka'wakw	1890	51	-127.49		xd1090
+3	Northern Foothill Yokuts	1850	36	-120		xd1129
+3	Havasupai	1870	36	-112		xd1163
+3	Comanche	1870	33	-100		xd1222
+3	Omaha	1850	41	-96		xd1237
+3	Muscogee	1750	33	-84		xd1252
+3	Navajo	1930	37	-110		xd1279
+3	Huichol	1920	22	-105		xd1288
+3	Sierra Popoluca	1940	18	-95		xd1302
+3	Ch'orti'	1930	14	-89		xd1319
+3	Barí (Motilon)	1940	9	-72		xd1328
+3	Barama River Carib	1930	5	-59		xd1346
+3	Palikur	1920	3	-52		xd1355
+3	Shuar	1930	-3	-78		xd1367
+3	Chachi	1910	1	-79		xd1376
+3	Ona	1880	-54	-69		xd1385
+3	Abipón	1800	-29	-61		xd1390
+3	Bacairi	1940	-14	-55		xd1400
+3	Aweikoma	1910	-28	-50		xd1411
+3	Fang	1910	1	11		xd149
+3	Ashanti	1900	7	-2		xd208
+3	Lozi	1890	-15	23		xd26
+3	Dogon	1930	15	-3		xd266
+3	Nama	1840	-26	18		xd3
+3	Tiv	1920	7	9		xd320
+3	Azande	1920	5	27		xd359
+3	Nuer	1930	8	32		xd406
+3	Tigrinya	1950	14	39		xd437
+3	Songhai	1940	17	-1		xd480
+3	Siwans	1920	29	26		xd500
+3	Riffians	1920	35	-4		xd521
+3	Ancient Romans	100	42	12		xd530
+3	Tristan da Cunha	1930	-37.11	-12.27		xd538
+3	Irish	1930	53	-9		xd543
+3	Bemba	1900	-11	31		xd55
+3	Czechs	1940	50	16		xd567
+3	Kumyk	1900	42	48		xd579
+3	Hebrews	-800	32	35		xd589
+3	Hazara	1930	35	66		xd602
+3	Khalka	1940	46	97		xd611
+3	Chukchi	1900	66	177		xd631
+3	Manchu	1920	45	126		xd646
+3	Lepcha	1930	28	89		xd655
+3	Indo-Iranian	-800	30	75		xd665
+3	Madia	1938	19	81		xd679
+3	Tanala	1930	-22	47		xd689
+3	Burmese	1950	20	95		xd709
+3	Semang	1920	5	101		xd725
+3	Ifugao	1920	17	121		xd743
+3	Balinese	1950	-8.18	115.02		xd752
+3	Belu	1950	-9	126		xd765
+3	Tiwi	1920	-11.56	130.81		xd778
+3	Arapesh	1930	-4	144		xd807
+3	Majuro	1940	7.09	171.13		xd834
+3	Kurtatchi	1930	-5.6	154.91		xd855
+3	Bunlap	1950	-15.95	168.22		xd869
+3	Pukapukans	1930	-10.89	-165.84		xd882
+3	Marquesans	1900	-8.9	-140.08		xd892
+3	Chagga	1910	-3	37		xd98
+4	Kaska	1920	59	-128		xd1056
+4	Kikuyu	1930	-1	37		xd109
+4	Yurok	1850	41	-124		xd1101
+4	Atsugewi	1860	41	-121		xd1135
+4	Sanpoil	1870	48	-119		xd1174
+4	Crow	1870	45	-108		xd1223
+4	Myaamia	1720	40	-86		xd1238
+4	Penobscot	1900	45	-68		xd1253
+4	Zuni	1910	35	-109		xd1280
+4	Seri	1900	29	-112		xd1289
+4	Totonac	1940	20	-97		xd1303
+4	Emberá	1960	8	-78		xd1320
+4	Cariña	1950	9	-64		xd1329
+4	Guahibo	1950	5	-69		xd1347
+4	Guaica	1950	2	-65		xd1356
+4	Yagua	1940	-3	-72		xd1368
+4	U'wa	1950	7	-72		xd1377
+4	Tehuelche	1870	-46	-70		xd1386
+4	Kadiwéu	1940	-22	-57		xd1391
+4	Nambikwara	1940	-12	-59		xd1401
+4	Canela	1930	-7	-45		xd1412
+4	Nkundo	1930	0	20		xd160
+4	Yako	1930	6	8		xd219
+4	Tsonga	1920	-24	32		xd27
+4	Tallensi	1930	11	-1		xd277
+4	Mambila	1920	7	12		xd331
+4	Ingassana	1920	11	34		xd370
+4	Bergdama	1920	-22	16		xd4
+4	Lango	1920	2	33		xd409
+4	Iraqw	1950	-4	35		xd448
+4	Hasania	1920	14	32		xd481
+4	Mzab	1920	33	4		xd501
+4	Kabyle	1890	36	4		xd522
+4	French Basques	1930	43	-1		xd531
+4	Brazilians	1940	-23.68	-46.64		xd539
+4	Sami	1950	68	22		xd544
+4	Mari	1900	43	46		xd568
+4	Cherkess	1920	44	42		xd580
+4	Babylonians	-2000	32	45		xd590
+4	Kohistani	1950	35	73		xd603
+4	Dagur	1940	49	125		xd612
+4	Yurak-Samoyeds	1900	68	75		xd632
+4	Miao	1940	26	107		xd647
+4	Central Tibetans	1920	30	91		xd656
+4	Kuba	1910	-5	22		xd66
+4	Ho	1920	22	85		xd666
+4	Toda	1900	12	77		xd680
+4	Vedda	1900	8	81		xd690
+4	Maras	1930	22	93		xd710
+4	Annamese	1950	17	107		xd726
+4	Subanun	1950	8	123		xd744
+4	Toba Batak	1930	2	99		xd753
+4	Rotinese	1920	-10.71	123.18		xd766
+4	Diyari	1900	-28	138		xd779
+4	Wogeo	1930	-3.24	144.1		xd818
+4	Ifaluk	1940	7.25	144.46		xd835
+4	Lesu	1930	-3.06	151.66		xd856
+4	Lau	1920	-17.74	-179.31		xd870
+4	Ellice	1890	-7.48	178.68		xd883
+4	Manihikians	1850	-10.41	-160.98		xd893
+5	Naskapi	1890	58	-70		xd1063
+5	Eyak	1890	60.34	-144.85		xd1102
+5	Central Sierra Miwok	1850	38	-120		xd1136
+5	Hukundika	1870	42	-112		xd1185
+5	Mbugwe	1940	-4	36		xd120
+5	Cheyenne	1860	39	-104		xd1224
+5	Wichita	1860	34	-98		xd1239
+5	Cherokee	1750	36	-83		xd1254
+5	Maricopa	1850	33	-113		xd1281
+5	Chichimeca	1570	22	-100		xd1290
+5	Mazateco	1940	18	-97		xd1304
+5	Bribri	1950	9	-83		xd1321
+5	Paraujano	1950	11	-72		xd1330
+5	Wapishana	1900	3	-60		xd1348
+5	Sateré Mawé	1950	-4	-57		xd1357
+5	Cubeo	1940	1	-71		xd1369
+5	Páez	1900	3	-76		xd1378
+5	Alacaluf	1900	-52	-74		xd1387
+5	Choroti	1910	-22	-62		xd1392
+5	Kamayurá	1940	-12	-54		xd1402
+5	Aimoré	1880	-18	-42		xd1413
+5	Bamileke	1910	5	10		xd171
+5	Mende	1930	8	-11		xd230
+5	Mbundu	1930	-12	16		xd28
+5	Birifor	1930	10	-3		xd288
+5	Margi	1930	11	13		xd332
+5	Mamvu	1920	3	29		xd379
+5	Turkana	1920	4	35		xd410
+5	Bisharin	1930	20	35		xd453
+5	Buduma	1910	13	15		xd482
+5	Mbuti	1930	2	28		xd5
+5	Kel Antessar	1910	18	-3		xd502
+5	Shluh	1920	30	-9		xd523
+5	Neapolitans	1960	40.89	14.25		xd532
+5	French Canadians	1930	47	-72		xd540
+5	Walloons	1950	50	5		xd545
+5	Bulgarians	1940	43	24		xd569
+5	Turks	1950	38	30		xd581
+5	Mutair	1930	28	47		xd591
+5	Nuristani	1890	36	71		xd604
+5	Turkmen	1910	38	62		xd613
+5	Koryak	1900	61.99	164.24		xd633
+5	Japanese	1950	35	136		xd648
+5	Shina	1870	35	73		xd657
+5	Bhil	1900	22	74		xd667
+5	Kodavas	1930	12	76		xd681
+5	Nicobarese	1890	9.17	92.77		xd691
+5	Lamba	1920	-13	28		xd71
+5	Kachin	1940	26	97		xd711
+5	Khmer	1950	12	105		xd727
+5	Hanunoo	1950	13	121		xd745
+5	Kadazan-Dusun	1920	6	117		xd754
+5	Toradja	1910	-2	121		xd767
+5	Kariyarra	1910	-21	118		xd780
+5	Keraki	1930	-9	142		xd819
+5	Ponapeans	1910	6.88	158.22		xd836
+5	Dobuans	1920	-10	151		xd857
+5	Ajie	1860	-21.37	165.47		xd871
+5	Ontong Java	1920	-5.48	159.7		xd884
+5	Raroians	1900	-15.94	-142.31		xd894
+6	Nunivak	1930	60	-166		xd1064
+6	Tolowa	1870	42	-124		xd1103
+6	Kumeyaay	1850	32	-116		xd1137
+6	Washo	1850	39	-120		xd1196
+6	Mandan	1830	47	-101		xd1225
+6	Nyakyusa	1930	-9	34		xd123
+6	Pawnee	1867	42	-100		xd1240
+6	Delaware	1700	41	-75		xd1255
+6	Taos	1890	37	-106		xd1282
+6	Pima	1840	31	-111		xd1291
+6	Huave	1950	16.22	-95.02		xd1305
+6	Yucatec Maya	1520	18	-90		xd1322
+6	Wayuu	1940	12	-72		xd1331
+6	Saramaccan 	1920	4	-56		xd1349
+6	Shiriana	1960	4	-63		xd1358
+6	Witoto	1910	-1	-74		xd1370
+6	Muisca	1540	5	-72		xd1379
+6	Chamacoco	1890	-20	-59		xd1393
+6	Guató	1900	-19	-58		xd1403
+6	Tenetehara	1930	-3	-46		xd1414
+6	Luba	1930	-8	26		xd182
+6	Oyo Yoruba	1950	8	4		xd240
+6	Venda	1900	-23	30		xd29
+6	Futajalonke	1890	11	-13		xd294
+6	Gure	1920	10	8		xd333
+6	Shilluk	1900	10	32		xd380
+6	Luo	1940	-1	34		xd411
+6	Afar	1880	12	42		xd454
+6	Tera	1920	11	12		xd483
+6	Kababish	1910	17	31		xd503
+6	Ancient Egyptians	-1400	30	31		xd524
+6	Spaniards	1950	37	-6		xd533
+6	Byelorussians	1910	55	28		xd570
+6	Ossetians	1880	43	44		xd582
+6	Jordanians	1950	32	36		xd592
+6	Sandawe	1920	-5	36		xd6
+6	Basseri	1958	30	34		xd605
+6	Buryat	1900	52	107		xd614
+6	Yukaghir	1850	70	145		xd634
+6	Min Chinese	1920	24	115		xd649
+6	Sherpa	1950	28	87		xd658
+6	Kurukh	1940	23	85		xd668
+6	Kerala	1799	11	76		xd682
+6	Sinhalese	1950	7	80		xd692
+6	Purum	1930	25	94		xd712
+6	Ndembu	1930	-11	26		xd72
+6	Moken	1920	11.78	98.28		xd728
+6	Paiwan	1930	22.44	120.77		xd746
+6	Minangkabau	1920	-1	101		xd755
+6	Tanimbarese	1930	-8.19	130.96		xd768
+6	Wikmunkan	1920	-14	142		xd781
+6	Waropen	1930	-2.14	137.23		xd820
+6	Yapese	1910	9.55	138.13		xd837
+6	Ulawans	1900	-9.63	161.44		xd858
+6	Rotumans	1890	-12.5	177.07		xd872
+6	Tokelau	1900	-9.2	-171.85		xd885
+6	Hawaiians	1800	19.89	-155.83		xd895
+7	Attawapiskat Cree	1900	53	-83		xd1065
+7	Tsimshian	1880	54.64	-130.25		xd1104
+7	Yuki	1850	40	-123		xd1138
+7	Kutenai	1880	50	-117		xd1205
+7	Sarcee	1880	54	-110		xd1226
+7	Ganda	1880	1	32		xd124
+7	Fox	1830	45	-95		xd1241
+7	Natchez	1700	32	-91		xd1256
+7	Cochiti	1890	36	-106		xd1283
+7	Yaqui	1870	28	-110		xd1292
+7	Mixe	1930	17	-95		xd1306
+7	Garifuna	1940	16	-89		xd1323
+7	Yupa	1950	9	-72		xd1332
+7	Yabarana	1950	5	-66		xd1350
+7	Wai-wai	1950	1	-59		xd1359
+7	Camba	1950	-18	-63		xd1371
+7	Asháninka	1900	-8	-75		xd1380
+7	Guaraní	1900	-20	-63		xd1394
+7	Paresi	1910	-15	-58		xd1404
+7	Apinaye	1920	-6	-49		xd1415
+7	Baboa	1910	3	25		xd183
+7	Bete	1950	6	-7		xd241
+7	Bozo	1930	14	-5		xd295
+7	Nyaneka	1920	-15	14		xd30
+7	Mafa	1940	11	14		xd334
+7	Gbaya	1910	6	16		xd381
+7	Nandi	1910	0	35		xd412
+7	Amhara	1950	13	38		xd455
+7	Bolewa	1920	11	11		xd484
+7	Barabish	1950	20	-5		xd504
+7	Beraber	1910	33	-7		xd525
+7	Greeks	1950	39	23		xd534
+7	Ukrainians	1930	48	36		xd571
+7	Chechen	1900	43	46		xd583
+7	Lebanese	1950	34	36		xd593
+7	Moghol	1950	34	63		xd606
+7	Chahar	1930	41	115		xd615
+7	Ainu	1900	44	144		xd635
+7	Okinawans	1950	26.16	127.8		xd650
+7	Kachari	1840	27	90		xd659
+7	Pahari	1950	30	78		xd669
+7	Hill Bhuiya	1930	21	85		xd683
+7	Antandroy	1900	-25	46		xd693
+7	Naron	1910	-20	24		xd7
+7	Karen	1910	17.12	97.19		xd713
+7	Akha	1950	21	100		xd729
+7	Yao	1920	-13	36		xd73
+7	Tagbanua	1950	10	119		xd747
+7	Mentaweians	1920	-2.93	100.23		xd756
+7	Ili-Mandiri	1920	-8.33	122.85		xd769
+7	Murriny Patha	1940	-14	130		xd782
+7	Enga	1950	-6	144		xd821
+7	Gilbert Onotoa	1940	-1.47	175.06		xd838
+7	Lakalai	1950	-5.5	150.81		xd859
+7	Lifu	1910	-20.94	167.23		xd873
+7	Kapingamarangi	1910	1.09	154.8		xd886
+7	Mangarevans	1900	-23.12	-134.97		xd896
+8	Deg Xit'an	1880	62	-160		xd1066
+8	Haisla	1880	54	-129		xd1105
+8	Klamath	1860	43	-122		xd1139
+8	Chilcotin	1880	52	-122		xd1206
+8	Teton	1870	43	-103		xd1227
+8	Hasinai	1770	31	-95		xd1242
+8	Hehe	1910	-8	35		xd125
+8	Timucua	1560	27	-82		xd1257
+8	Jemez	1920	36	-107		xd1284
+8	Opata	1550	30	-110		xd1293
+8	Tarasco	1500	19	-101		xd1307
+8	Mam	1930	15	-92		xd1324
+8	Taíno	1520	19.94	-75.37		xd1333
+8	Piaroa	1950	5	-67		xd1351
+8	Sanema	1950	4	-66		xd1360
+8	Amahuaca	1950	-10	-72		xd1372
+8	Piro	1950	-12	-73		xd1381
+8	Toba	1964	-25	-60		xd1395
+8	Umotina	1940	-15	-57		xd1405
+8	Tupinambá	1600	-8	-35		xd1416
+8	Rundi	1910	-3	30		xd184
+8	Nupe	1930	9	6		xd242
+8	Coniagui	1910	13	-13		xd296
+8	Sotho	1860	-29	28		xd31
+8	Bafute	1910	6	12		xd335
+8	Dilling	1930	12	30		xd382
+8	Bari	1920	5	32		xd413
+8	Gurage	1940	8	38		xd456
+8	Bororo Fulani	1920	13	5		xd485
+8	Aulliminden	1890	8	2		xd505
+8	Shawiya	1910	36	7		xd526
+8	Spanish Basques	1934	43	-2		xd535
+8	Magyar	1940	47	20		xd572
+8	Georgians	1850	42	45		xd584
+8	Druze	1930	32.77	35.03		xd594
+8	Bakhtiari	1920	33	48		xd607
+8	Uzbek	1800	43	60		xd616
+8	Ket	1900	62	90		xd636
+8	Minchia	1930	26	100		xd651
+8	Magar	1950	28	84		xd660
+8	Kashmiri	1950	34	75		xd670
+8	Kol	1940	22	85		xd684
+8	Sakalava	1900	-21	43.93		xd694
+8	Khasi	1900	26	92		xd714
+8	Malays	1940	5	103		xd730
+8	Yombe	1930	-5	13		xd74
+8	Bontok	1900	17	121		xd748
+8	Anak Dalam	1900	-3	103		xd757
+8	Kei	1890	-5.58	133.07		xd770
+8	Tasmanians (northwestern)	1830	-42	146		xd783
+8	/Xam	1850	-30	23		xd8
+8	Purari	1910	-7	145		xd822
+8	Chamorro	1950	15.13	145.71		xd839
+8	Simboese	1910	-8	157		xd860
+8	Vanua Levu	1940	-17.81	178.32		xd874
+8	Futunans	1840	-14.31	-178.11		xd887
+8	Tahitians	1900	-17.71	-149.54		xd897
+9	Aleut	1830	53.86	-166.79		xd1067
+9	Nuxalk	1880	52	-127		xd1106
+9	Modoc	1860	42	-122		xd1140
+9	Lillooet	1860	50.02	-124.78		xd1207
+9	Arapaho	1860	40	-103		xd1228
+9	Menominee	1870	46	-88		xd1243
+9	Catawba	1920	35	-80		xd1258
+9	Gisu	1900	1	34		xd126
+9	Picuris	1920	36	-106		xd1285
+9	Tepehuán	1920	27	-107		xd1294
+9	Tlaxcalans	1960	19	-98		xd1308
+9	Miskito	1920	14.766	-84.089		xd1325
+9	Haitians	1930	18.41	-72.17		xd1334
+9	Curripaco	1950	5	-67		xd1352
+9	Yanomami	1965	2	-65		xd1361
+9	Shipibo-Conibo	1920	-9	-74		xd1373
+9	Uru	1930	-16	-69		xd1382
+9	Lengua	1890	-23	-59		xd1396
+9	Aweti	1940	-12	-54		xd1406
+9	Kayapo	1950	-8	-52		xd1417
+9	Fut	1950	6	10		xd185
+9	Baule	1900	8	-5		xd243
+9	Malinke	1930	11	-9		xd297
+9	Ndebele	1870	-20	28		xd32
+9	Anaguta	1920	10	9		xd336
+9	Masa	1910	10	16		xd383
+9	Kipsigis	1920	-1	36		xd414
+9	Goroa	1890	-4	36		xd457
+9	Hausa Kanawa	1940	12	9		xd486
+9	Tuareg Ahaggar	1920	23	6		xd506
+9	Tekna	1900	28	-11		xd527
+9	Lithuanians	1930	55	24		xd573
+9	Svan	1910	43	43		xd585
+9	Yemeni	1950	15	45		xd595
+9	Iranians	1950	36	52		xd608
+9	Nanai	1920	47	132		xd637
+9	Li	1930	19	109		xd652
+9	Gujarati	1136	20	77		xd671
+9	Baiga	1930	22	81		xd685
+9	Antaisaka	1930	-22.9	47.75		xd695
+9	Mogh	1880	20.49	92.64		xd715
+9	Thai	1940	15	100		xd731
+9	Ami	1930	22.7	121.05		xd749
+9	Ngoni	1940	-12	33		xd75
+9	Punan	1950	3	115		xd758
+9	Sumbanese	1930	-10	120		xd771
+9	Ngiyambaa	1910	-32	146		xd784
+9	Orokaiva	1920	-9	148		xd823
+9	Ulithians	1900	10.02	139.79		xd840
+9	Manus	1920	-2	147		xd861
+9	Santa Cruz Islanders	1930	-10.73	165.85		xd875
+9	Niueans	1840	-19.05	-169.86		xd888
+9	Easter Islanders	1860	-27.12	-109.36		xd898
+9	Hadza	1910	-3	35		xd9
+10	Chugach	1930	60.72	-146.49		xd1027
+10	Alkatcho	1865	53	-126		xd1069
+10	Pondo Xhosa	1936	-31	30		xd11
+10	Achumawi	1860	41	-121		xd1108
+10	Nlaka'pamux	1860	50	-122		xd1142
+10	Arikara	1860	46	-101		xd1209
+10	Iowa	1870	41	-95		xd1230
+10	Seneca	1750	43	-77		xd1245
+10	Isleta	1920	35	-107		xd1260
+10	Banyaruanda	1910	-2	30		xd128
+10	Zapotec	1940	17	-96		xd1296
+10	Lacandon	1900	16.9	-91		xd1310
+10	Lokono	1900	5.95	-56.98		xd1336
+10	Cocama	1670	1	-79		xd1363
+10	Kuikuru	1950	-13	-54		xd1398
+10	Cayua	1950	-26	-54		xd1408
+10	Igbo	1930	6	7		xd187
+10	Konkomba	1940	10	0		xd245
+10	Chawai	1920	10	9		xd299
+10	Otoro	1940	12	31		xd338
+10	Chewa	1920	-14	33		xd34
+10	Acholi	1920	3	32		xd385
+10	Somali (Esa)	1880	10	43		xd416
+10	Karekare	1920	12	11		xd459
+10	Asben	1900	18	8		xd488
+10	Zekara	1900	34	-2		xd508
+10	Romanians	1910	45	26		xd547
+10	Armenians	1900	40	45		xd575
+10	Madan	1950	31	47		xd587
+10	Marri	1950	30	69		xd597
+10	Ob Ostyak	1880	62	74		xd618
+10	Shantung	1930	37	118		xd639
+10	Bihari	1880	25	86		xd662
+10	Telugu	1950	18	79		xd673
+10	Betsileo		-22	47		xd687
+10	Chakma	1870	23	92		xd697
+10	Rade	1950	13	108		xd717
+10	Bunun	1930	24	121		xd733
+10	Tobelorese	1910	1	128		xd760
+10	Shambaa	1910	-5	38		xd77
+10	Walbiri	1930	-22	132		xd773
+10	Motu	1950	-9	147		xd786
+10	Nomoians	1940	6.89	152.74		xd825
+10	Usiai	1950	-2	147		xd842
+10	Tannese	1920	-19.6	169.44		xd863
+10	Rennell Islanders	1950	-11.74	160.42		xd877
+10	Tongarevans	1900	-9.02	-158.03		xd890
+11	Sivokakmeit	1920	63.34	-170.3		xd1028
+11	Nuu chah nulth	1880	49.16	-125.85		xd1070
+11	Yana	1860	41	-122		xd1109
+11	Shuswap	1850	51	-120		xd1143
+11	Xhosa Ngqika	1850	-32.89	27.91		xd12
+11	Assiniboine	1870	48	-106		xd1210
+11	Otoe	1870	40	-95		xd1231
+11	Yuchi	1750	35	-86		xd1246
+11	San Ildefonso	1900	36	-106		xd1261
+11	Songola	1900	-4	26		xd129
+11	Huastec		22	-99		xd1297
+11	Kaqchikel	1880	14	-91		xd1311
+11	Camaracoto	1930	6	-63		xd1337
+11	Chácobo	1960	-12	-67		xd1364
+11	Shavante	1958	-14	-52		xd1409
+11	Toma	1920	11	-9		xd188
+11	Lobi	1910	10	-4		xd246
+11	Basa	1950	8	8		xd300
+11	Mangbetu	1900	3	28		xd339
+11	Luvale	1930	-12	22		xd35
+11	Dinka	1900	9	29		xd386
+11	Arusi	1890	8	40		xd417
+11	Midobi	1900	16	27		xd460
+11	Azjer	1860	25	10		xd489
+11	Guanche	1500	27.99	-15.62		xd509
+11	Russians	1955	53	41		xd548
+11	Kurd	1940	32	44		xd576
+11	Ghilzai	1950	33	68		xd598
+11	Selkup	1900	59	90		xd619
+11	Uttar Pradesh	1945	26	83		xd663
+11	Koya	1960	19	78		xd674
+11	Aimol	1910	25	94		xd698
+11	Cham	1950	11	108		xd718
+11	Puyuma	1930	23	121		xd734
+11	Ambonese	1950	-3.71	128.18		xd761
+11	Gidjingali	1950	-12.29	134.32		xd774
+11	Bena	1930	-9	36		xd78
+11	Kakoli	1950	-6	144		xd787
+11	Kosraeans	1860	5.31	162.98		xd826
+11	Rossel Islanders	1920	-11.36	154.14		xd843
+11	Epi	1920	-16.61	168.17		xd864
+12	Nunamiut	1950	68	-152		xd1029
+12	Klahoose	1880	51	-125		xd1071
+12	Maidu	1850	40	-121		xd1110
+12	Bitterroot Salish	1860	46	-113		xd1144
+12	Blackfoot	1850	51	-112		xd1211
+12	Ponca	1850	43	-99		xd1232
+12	Choctaw	1760	33	-88		xd1247
+12	Santa Ana	1920	35	-107		xd1262
+12	Mixtec	1950	18	-98		xd1298
+12	Zulu	1830	-29	31		xd13
+12	Duala	1940	4	10		xd130
+12	Lenca	1948	14	-88		xd1312
+12	Macushi	1910	4	-59		xd1338
+12	Tucano	1950	0	-70		xd1365
+12	Akyem	1930	7	-1		xd189
+12	Nankanse	1910	10	-1		xd247
+12	Basakomo	1920	8	7		xd301
+12	Fali	1950	10	14		xd340
+12	Chokwe	1920	-10	21		xd36
+12	Lotuko	1920	4	33		xd387
+12	Gibe	1880	8	37		xd418
+12	Gimma	1920	13	32		xd461
+12	Ifora	1944	20	2		xd490
+12	Algerians	1870	31	2		xd510
+12	Bashkir	1899	54	56		xd549
+12	Abkhaz	1880	43	41		xd577
+12	Qashqui	1940	30	52		xd599
+12	Nganasan	1930	72	90		xd620
+12	Khond	1940	18	82		xd675
+12	Thado	1910	25	94		xd699
+12	Lawa	1960	18	98		xd719
+12	Sugbuanon	1950	10.2	123.65		xd735
+12	Sumbawanese	1951	-8.63	117.27		xd762
+12	Yir Yoront	1930	-15	142		xd775
+12	Kwoma	1930	-4	142		xd788
+12	Gusii	1940	-1	35		xd79
+12	Bikinians	1940	11.7	165.29		xd827
+12	Choiseulese	1900	-6.69	156.52		xd844
+12	Eromangans	1920	-18.85	169.16		xd865
+12	Tongans	1920	-19.74	-175.07		xd878
+13	Nunatsiarmiut	1880	65.24	-64.63		xd1030
+13	Squamish	1880	50	-123		xd1072
+13	Nisenan	1850	39	-121		xd1111
+13	Kalispel	1860	49	-117		xd1145
+13	Kainai	1850	51	-115		xd1212
+13	Shawnee	1820	37	-85		xd1233
+13	Abenaki		46	-70		xd1248
+13	Acoma	1920	35	-108		xd1263
+13	Otomí	1900	20	-99		xd1299
+13	Bashi	1920	-2	29		xd131
+13	K'iche'	1930	15	-91		xd1313
+13	Panare	1950	6	-66		xd1339
+13	Tswana	1880	-24	27		xd14
+13	Ebira	1920	8	7		xd190
+13	Kasena	1910	11	-1		xd248
+13	Dakakari	1930	12	5		xd302
+13	Laka	1920	8	16		xd341
+13	Tonga	1950	-12	34		xd37
+13	Pojulu	1930	4	31		xd388
+13	Macha	1950	9	37		xd419
+13	Habbaniya	1930	11	25		xd462
+13	Udalan Tuareg	1920	16	0		xd491
+13	Hamama	1930	30	9		xd511
+13	Besermyan	1894	58	52		xd550
+13	Punjabi	1950	32	73		xd600
+13	Itelmen	1710	54.98	161.79		xd621
+13	Ishigakians	1940	24.46	124.14		xd640
+13	Muria Gond	1941	20	81		xd676
+13	Angami	1910	26	94		xd700
+13	Muong	1940	21	105		xd720
+13	Badjau Tawi-Tawi	1960	5.09	119.97		xd736
+13	Kodi	1950	-9.66	119.07		xd763
+13	Anindilyagwa	1930	-13.99	136.6		xd776
+13	Kiwai	1920	-9	143		xd789
+13	Kiga	1930	-3	30		xd80
+13	Nauruans	1900	-0.53	166.92		xd828
+13	Aua	1900	-1.74	142.85		xd845
+13	Ranon	1920	-16.18	168.15		xd866
+13	Uveans	1830	-13.28	-176.17		xd879
+14	Inughuit (Northern Greenland)	1880	78	-70		xd1031
+14	Comox	1880	49.72	-124.97		xd1073
+14	Wintu	1860	41	-122		xd1112
+14	Coeur d’Alene	1860	48	-117		xd1146
+14	Bungi	1850	51	-100		xd1213
+14	Caddo		33	-93		xd1234
+14	Chickasaw		35	-85		xd1249
+14	Laguna	1920	35	-107		xd1264
+14	Tequistlatec	1960	16	-96		xd1300
+14	Ngäbe		8	-81		xd1314
+14	Ha	1950	-5	30		xd132
+14	Rucuyen	1890	3	-55		xd1340
+14	Lovedu	1930	-24	31		xd15
+14	Sherbro	1930	7.52	-12.69		xd191
+14	Baga	1950	10	-14		xd249
+14	Kamuku	1920	11	6		xd303
+14	Mbum	1920	7	14		xd342
+14	Bakongo	1900	-7	15		xd38
+14	Kakwa	1931	4	31		xd389
+14	Burji	1950	5	38		xd420
+14	Hemat	1910	11	20		xd463
+14	Daza	1880	17	18		xd492
+14	Hamyan	1870	35	2		xd512
+14	Chuvash	1908	57	53		xd551
+14	Ungazikmit	1880	64	-173		xd622
+14	Man		22	105		xd641
+14	Reddi	1940	18	82		xd677
+14	Ao	1920	27	94		xd701
+14	Senoi	1960	4	102		xd721
+14	Tao	1930	22.05	121.55		xd737
+14	Miriam	1900	-9.91	144.06		xd790
+14	Luguru	1930	-8	38		xd81
+14	Makin	1890	3.38	172.99		xd829
+14	Dahuni	1900	-10.41	149.91		xd846
+14	Mbau Fijians	1840	-17.81	178.32		xd867
+14	Upolu Samoans	1829	-13.94	-171.77		xd880
+15	Tlicho	1860	63	-117		xd1032
+15	Lummi	1880	48.84	-123.27		xd1074
+15	Coast Yuki	1860	39.34	-123.77		xd1113
+15	Sinkaitk	1880	49	-120		xd1147
+15	Hidatsa	1860	47	-101		xd1214
+15	Kickapoo	1870	43	-90		xd1235
+15	Chitimacha	1750	30	-90		xd1250
+15	Mescalero	1870	33	-103		xd1265
+15	Jakaltek	1920	14	-90		xd1315
+15	Hunde	1940	-2	28		xd133
+15	Taulípang	1910	4	-62		xd1341
+15	Pedi	1860	-25	30		xd16
+15	Kpelle	1920	7	-9		xd192
+15	Balanta	1930	12	-16		xd250
+15	Reshe	1920	11	5		xd304
+15	Mundang	1900	10	14		xd343
+15	Mbala	1900	-5	18		xd39
+15	Kuku	1900	4	32		xd390
+15	Darasa	1930	6	38		xd421
+15	Messiria Humr	1940	11	28		xd464
+15	Drawa	1920	31	-7		xd493
+15	Jebala	1910	35	-5		xd513
+15	Erzya Mordvins	1895	53	50		xd552
+15	Mansi	1880	63	62		xd623
+15	Miyakans	1950	24.79	125.32		xd642
+15	Chekiang	1936	31	120		xd643
+15	Rengma	1930	26	94		xd702
+15	Ancient Khmer	1292	13	104		xd722
+15	Manobo	1920	8	126		xd738
+15	Abelam	1930	-3.79	143.09		xd791
+15	Iwa	1900	-10	32		xd82
+15	Carolinians	1930	15.21	145.76		xd830
+15	Bakovi	1950	-5.42	150.05		xd847
+16	Délįne	1860	65	-119		xd1033
+16	Klallam	1860	48	-123		xd1075
+16	Huchnom	1860	39	-123		xd1114
+16	Wenatchi	1870	48	-121		xd1148
+16	Karankawa	1800	29	-96		xd1215
+16	Jicarilla	1870	36	-104		xd1266
+16	Tolupan		15	-87		xd1316
+16	Lulua	1910	-6	23		xd134
+16	Ye'kuana	1920	3	-65		xd1342
+16	Lenge	1930	-25	34		xd17
+16	Banyang	1910	6	9		xd193
+16	Banyun	1930	12	-16		xd251
+16	Angas	1900	9	9		xd305
+16	Namshi	1910	9	13		xd344
+16	Mondari	1930	6	31		xd391
+16	Mitsogho	1940	-1	12		xd40
+16	Sidama	1930	7	38		xd422
+16	Shuwa	1920	13	15		xd465
+16	Chaambra	1930	32	3		xd494
+16	Moroccans	1930	33	-8		xd514
+16	Estonians	1908	59	26		xd553
+16	Evenk	1890	55	112		xd624
+16	Cantonese	1940	23	113		xd644
+16	Sema	1910	26	95		xd703
+16	Negri Sembilan	1958	2.58	102.25		xd723
+16	Kalinga	1910	18	121		xd739
+16	Kutubu	1940	-6	143		xd792
+16	Ngonde	1920	-10	34		xd83
+16	Lamotrek	1960	7.46	146.38		xd831
+16	Bwaidoga	1950	-9.44	150.33		xd848
+17	DeneTha	1860	61	-120		xd1034
+17	Puyallup	1870	47	-122		xd1076
+17	Northern Pomo	1860	39	-123		xd1115
+17	Klikitat	1870	46	-122		xd1149
+17	Kiowa	1860	36	-99		xd1216
+17	Western Apache	1870	34	-110		xd1267
+17	Poqomam	1950	15	-91		xd1317
+17	Piapoco	1950	6	-68		xd1343
+17	Rega	1900	-3	28		xd135
+17	Ndau	1920	-20	34		xd18
+17	Boki	1900	6	9		xd194
+17	Biafada	1940	12	-15		xd252
+17	Birom	1930	10	9		xd306
+17	Gisiga	1930	10	14		xd345
+17	Alur	1890	2	31		xd392
+17	Suku	1910	-6	18		xd41
+17	Tsamai	1950	5	37		xd423
+17	Fur	1880	12	24		xd466
+17	Delim	1930	22	-15		xd495
+17	Nail	1920	35	5		xd515
+17	Gagauz	1894	45.44	29.32		xd554
+17	Negidal	1890	52	134		xd625
+17	Karbi	1900	26	94		xd704
+17	Bilaan	1910	6	125		xd740
+17	Siane	1940	-6	145		xd793
+17	Marshallese - Jaluit atoll	1900	6.28	169.49		xd832
+17	Safwa	1920	-8	33		xd84
+17	Kombe	1950	-4.67	149.53		xd849
+18	Quileute	1880	47.91	-124.59		xd1077
+18	Eastern Pomo	1860	39	-123		xd1116
+18	Wishram	1860	46	-121		xd1150
+18	Piegan	1850	49	-115		xd1217
+18	Hopi	1920	36	-111		xd1268
+18	Ndyuka	1960	5	-54		xd1344
+18	Songye	1900	-6	25		xd136
+18	Shona	1920	-19	31		xd19
+18	Ekoi	1900	6	8		xd195
+18	Bijogo	1930	11.1	-16.15		xd253
+18	Burmawa	1930	10	10		xd307
+18	Kotoko	1880	12	15		xd346
+18	Bodi	1950	5	35		xd393
+18	Sundi	1910	-5	14		xd42
+18	Arbore	1940	5	37		xd424
+18	Kanembu	1930	14	14		xd467
+18	Kunta	1910	19	-1		xd496
+18	Saadi	1920	30	28		xd516
+18	Ingrians	1927	59	29		xd555
+18	Ulch	1890	50	136		xd626
+18	Palaung	1920	23	97		xd705
+18	Bisayan	1950	10	123		xd741
+18	Kimam	1940	-7.52	138.46		xd794
+18	Bende	1910	-7	31		xd85
+18	Kwaio	1960	-9	161		xd850
+19	Dakelh	1880	54	-124		xd1035
+19	Lower Chinook	1850	45.99	-123.77		xd1078
+19	Southern Pomo	1860	38.55	-122.94		xd1117
+19	Umatilla	1860	46	-119		xd1151
+19	Plains Cree	1850	45	-94		xd1218
+19	Cocopa	1850	32	-115		xd1269
+19	Garanganze	1930	-11	28		xd137
+19	Efik	1950	5	8		xd196
+19	Ambo	1910	-17	16		xd20
+19	Diola	1930	12.88	-16.19		xd254
+19	Adara	1930	10	8		xd308
+19	Musgu	1910	11	15		xd347
+19	Didinga	1920	4	34		xd394
+19	Banna	1950	6	36		xd425
+19	Teke	1880	-3	15		xd43
+19	Kanuri	1870	12	13		xd468
+19	Trarza	1950	18	-15		xd497
+19	Sahel	1920	35	10.94		xd517
+19	Karelians	1874	64	33		xd556
+19	Orok	1890	54.01	142.71		xd627
+19	Chin	1940	22	94		xd706
+19	Marind-Amin	1910	-8	139		xd795
+19	Molima	1950	-10	151		xd851
+19	Fipa	1910	-8	31		xd86
+20	Kutchin	1880	66	-135		xd1037
+20	Tillamook	1870	44.75	-123.72		xd1080
+20	Wappo	1860	38.22	-122.56		xd1119
+20	Nez Perce	1850	45	-115		xd1153
+20	Santee	1850	45	-94		xd1220
+20	Kamia	1860	33	-115		xd1271
+20	Ekonda	1940	-2	18		xd139
+20	Ibibio	1910	5	8		xd198
+20	Ngumbi	1880	-15	15		xd22
+20	Papel	1930	12	-16		xd256
+20	Kagoro	1920	10	8		xd310
+20	Tupuri	1910	10	15		xd349
+20	Suri	1940	6	35		xd396
+20	Galab	1890	5	36		xd427
+20	Yaka	1920	-7	17		xd45
+20	Zerma	1920	13	3		xd470
+20	Zenaga	1910	18	-8		xd499
+20	Sanusi	1940	31	22		xd519
+20	Kazan tatar	1910	55	50		xd558
+20	Oroch	1890	51	138		xd629
+20	Kuki	1940	23	92		xd708
+20	Koita	1900	-9	147		xd797
+20	Kaoka	1920	-9.49	159.82		xd853
+20	Nyamwezi	1920	-5	33		xd88
+21	Caribou Inuit	1900	63	-96		xd1038
+21	Coos	1860	43	-124		xd1081
+21	Lake Miwok	1860	38.75	-123.2		xd1120
+21	Tagotoka	1870	43	-117		xd1154
+21	Coahuilteco	1760	29	-99		xd1221
+21	Mojave	1850	35	-114		xd1272
+21	Kela	1920	-3	23		xd140
+21	Ijaw	1920	4.37	6.58		xd199
+21	Kisama	1930	-10	14		xd23
+21	Bomvana	1925	-32.17	28.93		xd24
+21	Bassari	1910	12	-13		xd257
+21	Kurama	1920	10	9		xd311
+21	Bagirmi	1880	11	17		xd350
+21	Jie	1930	3	34		xd397
+21	Hamar	1950	5	36		xd428
+21	Bunda	1910	-5	19		xd46
+21	Djafun	1930	8	13		xd471
+21	Tunisians	1930	37	10		xd520
+21	Latvians	1881	57	24		xd559
+21	Udihe	1890	47	136		xd630
+21	Mailu	1900	-10	149		xd798
+21	Tangu	1930	-3.38	153.31		xd854
+21	Pimbwe	1930	-7	31		xd89
+22	Iglulik Inuit	1920	70	-82		xd1025
+22	Tlingit	1880	58.12	-133.92		xd1082
+22	Patwin	1850	39	-122		xd1121
+22	Wadadokado	1870	43	-119		xd1155
+22	Quechan	1860	33	-114		xd1273
+22	Kutsu	1900	-4	22		xd141
+22	Itsekiri	1940	6	5		xd200
+22	Chopi	1920	-24.76	34.47		xd25
+22	Serer	1920	14	-12		xd258
+22	Yergum	1900	9	10		xd312
+22	Sara	1890	9	18		xd351
+22	Labwor	1930	3	34		xd398
+22	Male	1950	6	37		xd429
+22	Dzing	1930	-4	20		xd47
+22	Liptako	1920	14	0		xd472
+22	Lithuanian Karaim	1895	55	23		xd560
+22	Mekeo	1900	-9	147		xd799
+22	Sukuma	1950	-3	34		xd90
+23	Labrador Inuit	1890	58	-65		xd1039
+23	Heiltsuk	1880	52	-128		xd1083
+23	Western Mono	1870	37	-119		xd1122
+23	Atsakudokwa	1870	42	-118		xd1156
+23	Kewyipaya	1870	34	-111		xd1274
+23	Lalia	1930	-1	23		xd142
+23	Afikpo	1950	6	8		xd201
+23	Kasonke	1910	13	-11		xd259
+23	Jibu	1920	8	11		xd313
+23	Bwaka	1920	3	19		xd352
+23	Plains Suk	1950	1	36		xd399
+23	Bako	1950	6	37		xd430
+23	Tukulor	1930	14.73	-14.32		xd473
+23	Lele	1950	-5	21		xd48
+23	Lithuanian Tatar	1905	55	24		xd561
+23	Muju	1950	-6	141		xd800
+23	Sangu	1910	-8	34		xd91
+24	Tasiilaq	1880	66	-37		xd1040
+24	Makah	1860	48.33	-124.62		xd1084
+24	Southern Valley Yokuts	1860	36	-120		xd1123
+24	Kidutokado	1870	42	-120		xd1157
+24	Lipan Apache	1880	30	-100		xd1275
+24	Mongo	1920	1	22		xd143
+24	Edo	1900	6	6		xd202
+24	Koranko	1910	9	-11		xd260
+24	Kentu	1920	7	10		xd314
+24	Mandja	1900	6	18		xd353
+24	Toposa	1930	5	34		xd400
+24	Dime	1950	6	36		xd431
+24	Wodaabe Fulani	1950	12	12		xd474
+24	Sakata	1910	-3	18		xd49
+24	Livs	1847	57	23		xd562
+24	Koiari	1870	-9	148		xd801
+24	Gogo	1910	-7	36		xd92
+25	Kalaallit (West Greenland)	1910	68.66	-51.22		xd1041
+25	Quinault	1860	47.42	-124.16		xd1085
+25	Wukchumni	1860	36	-119		xd1124
+25	Sawakudokwa	1870	41	-118		xd1158
+25	Sia	1920	36	-107		xd1276
+25	Tetela	1920	-4	25		xd144
+25	Isoko	1930	5	6		xd203
+25	Soninke	1900	15	10		xd261
+25	Tigon	1920	17	11		xd315
+25	Mbandja	1950	4	21		xd354
+25	Keyu	1920	0	36		xd401
+25	Shangama	1950	6	37		xd432
+25	Tazarawa Hausa	1930	14	8		xd475
+25	Songo	1930	-5	18		xd50
+25	Moldovans	1900	47	29		xd563
+25	Mafulu	1920	-8	147		xd802
+25	Rangi	1900	-5	36		xd93
+26	Dena'ina	1870	62	-144		xd1042
+26	Cowichan	1880	49.01	-122.73		xd1086
+26	Salinan	1770	36	-121		xd1125
+26	Santa Clara	1910	36	-106		xd1277
+26	Topoke	1910	0	24		xd145
+26	Kukuruku	1900	7	6		xd204
+26	Susu	1930	15	-13		xd262
+26	Ndoro	1920	7	11		xd316
+26	Ngbandi	1920	4	22		xd355
+26	Hill Suk	1910	1	36		xd402
+26	Ubamer	1950	6	37		xd433
+26	Zazzagawa Hausa	1950	11	8		xd476
+26	Yanzi	1920	-4	18		xd51
+26	Udmurt	1890	57	53		xd564
+26	Ngarawapum	1940	-6	146		xd803
+26	Turu	1910	-5	34		xd94
+26	Wadatkuht	1870	41	-120		xd992
+27	Tahltan	1870	58	-131		xd1043
+27	Stó:lō	1880	49	-122		xd1087
+27	Kawaiisu	1860	35	-118		xd1126
+27	Kuyuidokado	1860	40	-119		xd1160
+27	Kewa	1930	36	-105		xd1278
+27	Lokele	1910	1	25		xd146
+27	Eloyi	1950	8	8		xd205
+27	Diula	1910	9	-4		xd263
+27	Zuande	1920	7	11		xd317
+27	Abarambo	1890	4	27		xd356
+27	Sapei	1920	1	35		xd403
+27	Anfillo	1930	9	35		xd434
+27	Bachama	1920	10	12		xd477
+27	Luchazi	1930	-13	23		xd52
+27	Veps	1900	61	35		xd565
+27	Banaro	1910	-4.56	144.34		xd804
+27	Kwere	1880	-7	39		xd95
+28	Sekani	1880	56	-123		xd1044
+28	Alsea	1860	44	-124		xd1088
+28	Chumash	1800	34.44	-119.71		xd1127
+28	Toedokado	1870	40	-118		xd1161
+28	Ngala	1900	1	18		xd147
+28	Gbagyi	1910	10	10		xd206
+28	Nononke	1930	14	-4		xd264
+28	Chamba	1920	8	11		xd318
+28	Popoi	1910	2	26		xd357
+28	Tatoga	1940	-5	35		xd404
+28	Basketo	1950	6	37		xd435
+28	Dera	1920	10	12		xd478
+28	Luimbe	1930	-12	18		xd53
+28	Votes	1900	59	29		xd566
+28	Busama	1940	-6.69	147.26		xd805
+28	Zigula	1880	-5.84	38.79		xd96
+29	Beaver	1850	58	-117		xd1045
+29	Siuslaw	1860	44	-124		xd1089
+29	Tongva	1770	34	-118		xd1128
+29	Tunava (Deep Springs and Fish Lake)	1870	37	-118		xd1162
+29	Poto	1900	2	22		xd148
+29	Idoma	1950	7	8		xd207
+29	Samo	1910	13	-3		xd265
+29	Daka	1920	8	11		xd319
+29	Lendu	1920	2	30		xd358
+29	Samburu	1950	1	37		xd405
+29	Yem	1920	8	38		xd436
+29	Ngizim	1920	12	10		xd479
+29	Luwa	1930	-7	19		xd54
+29	Manam	1930	-4.08	145.03		xd806
+29	Hadimu	1930	-6.07	39.43		xd97
+30	Dene	1880	60	-105		xd1046
+30	Takelma	1860	42	-123		xd1091
+30	Serrano	1870	34	-117		xd1130
+30	Eastern Mono	1870	37	-118		xd1164
+30	Bira	1920	1	29		xd150
+30	Igala	1920	7	7		xd209
+30	Bobo	1910	13	-4		xd267
+30	Longuda	1920	10	12		xd321
+30	Lese	1920	2	29		xd360
+30	Karamojong	1950	2	34		xd407
+30	Kafa	1890	7	36		xd438
+30	Plateau Tonga	1940	-18	28		xd56
+30	Mimika	1950	-4	135		xd808
+30	Digo	1890	-4	39		xd99
+31	Duruma	1910	-4	39		xd100
+31	Eastern Cree	1850	51	-85		xd1047
+31	Tututni	1870	42	-124		xd1092
+31	Cahuilla (Desert)	1870	33	-116		xd1131
+31	Koso	1850	36	-118		xd1165
+31	Budu	1920	2	28		xd151
+31	Koro	1960	18	8		xd210
+31	Minianka	1910	12	-6		xd268
+31	Mumuye	1910	9	12		xd322
+31	Logo	1920	3	30		xd361
+31	Pari	1920	5	33		xd408
+31	Beta Israel	1860	12	37		xd439
+31	Buye	1910	-7	28		xd57
+31	Fore	1950	-6	145		xd809
+32	Giriama	1900	-3	40		xd101
+32	Montagnais	1880	48	-72		xd1048
+32	Shasta	1860	41	-122		xd1093
+32	Cupeño	1870	33	-117		xd1132
+32	Tümpisa Shoshone (Saline and Panamint)	1850	36	-117		xd1166
+32	Kumu	1920	-1	27		xd152
+32	Egba	1920	7	3		xd211
+32	Senufo	1900	10	-6		xd269
+32	Vere	1920	9	13		xd323
+32	Lugbara	1920	3	32		xd362
+32	Nara	1860	16	38		xd440
+32	Kaonde	1920	-13	26		xd58
+32	Sio	1964	-6	147		xd810
+33	Pokomo	1900	-1	40		xd102
+33	Northern Saulteaux	1870	52	-98		xd1049
+33	Chimariko	1860	41	-123		xd1094
+33	Luiseño	1860	33	-117		xd1133
+33	Beatty	1870	37	-116		xd1167
+33	Ndaka Babali	1920	1	27		xd153
+33	Ekiti	1950	8	5		xd212
+33	Dyan	1920	11	-3		xd270
+33	Yungur	1920	10	12		xd324
+33	Madi	1940	4	32		xd363
+33	Kunama	1860	15	37		xd441
+33	Lala	1940	-15	31		xd59
+33	Soromadja	1950	-2	138		xd811
+34	Kamba	1910	-2	38		xd103
+34	Pekangekum	1940	52	-94		xd1050
+34	Karuk	1860	42	-123		xd1095
+34	Kiliwa	1880	31	-115		xd1134
+34	Lida Shoshoni	1870	37	-117		xd1168
+34	Plains Bira	1920	1	30		xd154
+34	Ife	1930	7	5		xd213
+34	Dorosie	1930	11	-4		xd271
+34	Bata	1920	10	13		xd325
+34	Moru	1880	5	30		xd364
+34	Ababda	1920	24	34		xd442
+34	Luapula	1940	-10	29		xd60
+34	Bgu	1960	-2.34	139.6		xd812
+35	Meru	1940	0	35		xd104
+35	Nipigon	1800	50	-88		xd1051
+35	Hupa	1860	41	-123		xd1096
+35	Mahaguaduka	1870	39	-117		xd1169
+35	Rumbi	1900	0	28		xd155
+35	Adangme	1940	6	0		xd214
+35	Kulango	1910	7	-3		xd272
+35	Bura	1920	10	12		xd326
+35	Bongo	1870	7	29		xd365
+35	Amarar	1930	20	36		xd443
+35	Shila	1900	-10	28		xd61
+35	Iatmul	1930	-4	143		xd813
+36	Pare	1890	-4	38		xd105
+36	Minnesota Ojibwa	1860	49	-96		xd1052
+36	Wiyot	1860	39.81	-123.55		xd1097
+36	Wiyambituka	1870	39	-117		xd1170
+36	Bombesa	1920	1	23		xd156
+36	Ewe	1900	7	1		xd215
+36	Lowiili	1950	11	-3		xd273
+36	Gude	1920	10	13		xd327
+36	Jur	1920	8	28		xd366
+36	Beni-Amer	1860	18	38		xd444
+36	Tumbuka	1920	-12	34		xd62
+36	Samarokena	1950	-3	140		xd814
+37	Rainy River Ojibwe	1880	49	-92		xd1053
+37	Teita	1940	-4	39		xd106
+37	Lassik	1860	40	-123		xd1098
+37	Railroad Valley Shoshoni	1870	39	-116		xd1171
+37	Budja	1930	3	23		xd157
+37	Buem	1900	7.22	0.46		xd216
+37	Awuna	1910	11	-2		xd274
+37	Hwana	1920	10	13		xd328
+37	Koalib	1940	12	31		xd367
+37	Blin	1850	16	36		xd445
+37	Kunda	1950	-15	32		xd63
+37	Star Mountain	1960	-5	141		xd815
+38	Katikitegon	1800	46	-92		xd1054
+38	Kara	1910	-2	33		xd107
+38	Mattole-Bear River	1860	40.35	-123.47		xd1099
+38	Ely Shoshoni	1870	39	-115		xd1172
+38	Ndoko	1920	2	21		xd158
+38	Abron	1900	7.53	-2.15		xd217
+38	Builsa	1910	11	-2		xd275
+38	Kapsiki	1930	11	14		xd329
+38	Korongo	1930	10	30		xd368
+38	Tigre	1860	17	39		xd446
+38	Nyanja	1910	-16	36		xd64
+38	Dani	1960	-4	139		xd816
+39	Eastern Ojibwa	1870	46	-85		xd1055
+39	Sonjo	1950	-3	36		xd108
+39	Sinkyone	1860	39.73	-123.6		xd1100
+39	Ngombe	1920	2	20		xd159
+39	Anyi	1900	7	-4		xd218
+39	Dagara	1910	11	-3		xd276
+39	Podokwo	1950	11	14		xd330
+39	Mesakin	1940	11	30		xd369
+39	Jimma	1930	8	37		xd447
+39	Nyasa	1920	-13	35		xd65
+39	Elema	1920	-7.82	145.31		xd817
+39	Spring Valley Shoshoni	1870	40	-115		xd995
+40	Ottawa	1650	46	-82		xd1057
+40	Tiriki	1950	0	35		xd110
+40	Tubaduka	1870	40	-113		xd1175
+40	Dzem	1910	3	14		xd161
+40	Assini	1890	5.27	-3.58		xd220
+40	Isala	1910	10	-2		xd278
+40	Moro	1940	11	30		xd371
+40	Baditu	1950	6	38		xd449
+40	Sena	1900	-18	35		xd67
+41	Mi'kmaq	1700	47	-65		xd1058
+41	Vugusu	1930	1	35		xd111
+41	Wadaduka	1870	41	-116		xd1176
+41	Kota	1940	1	14		xd162
+41	Attie	1890	6	-4		xd221
+41	Kusasi	1920	11	0		xd279
+41	Tira	1930	11	30		xd372
+41	Dorse	1950	6	38		xd450
+41	Makonde	1900	-11	40		xd68
+42	Potawatomi	1760	44	-85		xd1059
+42	Haya	1900	-1	32		xd112
+42	Elko Shoshoni	1870	41	-116		xd1177
+42	Ngumba	1900	3	11		xd163
+42	Fante	1900	6	-1		xd222
+42	Nunuma	1910	12	-3		xd280
+42	Tullishi	1940	12	29		xd373
+42	Shako	1950	7	36		xd451
+42	Makua	1900	-15	39		xd69
+43	Netsilik	1920	69	-96		xd1060
+43	Kerewe	1900	-3	33		xd113
+43	White Knife Shoshoni	1860	41	-117		xd1178
+43	Sanga	1900	2	16		xd164
+43	Ga	1930	6	0		xd223
+43	Vagala	1920	8	-2		xd281
+43	Nyimang	1930	12	29		xd374
+43	Hadendowa	1930	18	36		xd452
+43	Mambwe	1910	9	32		xd70
+44	Nunavimmiut	1910	62	-76		xd1061
+44	Konjo	1920	-1	30		xd114
+44	Yahanduka	1850	42	-115		xd1179
+44	Bubi	1920	3.54	8.72		xd165
+44	Alagya	1900	5.22	-4.42		xd224
+44	Dagomba	1910	9	0		xd282
+44	Anuak	1920	8	34		xd375
+45	Mistissini Cree	1900	51.75	-72.66		xd1062
+45	Nyankole	1920	0	31		xd115
+45	Bohogue	1860	43	-112		xd1180
+45	Kundu	1900	10	9		xd166
+45	Avikam	1900	5.15	-5.25		xd225
+45	Gurma	1930	12	2		xd283
+45	Meban	1930	10	34		xd376
+46	Soga	1950	1	33		xd116
+46	Agaiduka	1860	44	-112		xd1182
+46	Mpongwe	1870	-2	10		xd167
+46	Bakwe	1900	5	-7		xd226
+46	Manprusi	1920	10	-1		xd284
+46	Koma	1930	9	35		xd377
+47	Sumbwa	1900	-4	32		xd117
+47	Tukudika	1850	44	-111		xd1181
+47	Puku	1900	2	10		xd168
+47	Krahn	1940	6	-8		xd227
+47	Mossi (Ouagadougou)	1900	12	-2		xd285
+47	Mao	1939	9	35		xd378
+48	Toro	1950	1	31		xd118
+48	Gosiute	1860	40	-114		xd1183
+48	Bafia	1930	5	11		xd169
+48	Kru	1850	5	-9		xd228
+48	Basari	1890	9	1		xd286
+49	Antarianunts	1860	37	-110		xd1184
+49	Zinza	1950	-3	31		xd119
+49	Bali Nyonga	1900	6	10		xd170
+49	Sapo	1940	6	-9		xd229
+49	Kabre	1930	10	2		xd287
+50	Panguitch	1860	38	-112		xd1186
+50	Kaguru	1900	-6	37		xd121
+50	Bamum	1920	6	11		xd172
+50	Dan	1920	8	-8		xd231
+50	Moba	1910	11	1		xd289
+51	Moapa	1860	36	-115		xd1187
+51	Ngulu	1930	-6	38		xd122
+51	Banen	1940	5	11		xd173
+51	Gagu	1920	7	-6		xd232
+51	Somba	1940	11	1		xd290
+52	Shivwits	1860	36	-117		xd1188
+52	Fungom	1950	7	10		xd174
+52	Guro	1920	7	-6		xd233
+52	Tem	1950	11	1		xd291
+53	Southern Paiute (Kaibab)	1860	36	-113		xd1189
+53	Koko	1920	4	11		xd175
+53	Tura	1950	8	-7		xd234
+53	Bisa	1960	12	0		xd292
+54	Chemehuevi	1860	35	-115		xd1190
+54	Kom	1950	6	10		xd176
+54	Gbande	1930	8	-10		xd235
+54	Yalunka	1910	10	-12		xd293
+55	Southern Paiute (Las Vegas)	1860	36	-115		xd1189
+55	Ndob	1950	6	10		xd177
+55	Gola	1950	7	-11		xd236
+56	San Juan	1860	36	-111		xd1192
+56	Nsaw	1950	6	11		xd178
+56	Ngere	1930	7	-8		xd237
+57	Pahvant	1860	39	-113		xd1193
+57	Nsungli	1930	6	11		xd179
+57	Temne	1910	8.46	-12.64		xd238
+58	Uintah Ute	1860	40	-112		xd1194
+58	Tikar	1910	6	12		xd180
+58	Vai	1900	6.89	-11.2		xd239
+59	Moanunts	1860	39	-112		xd1195
+59	Widikum	1950	6	10		xd181
+60	Moache	1860	37	-105		xd1197
+61	Taviwatsiu	1860	40	-105		xd1198
+62	Uncompahgre Ute	1860	39	-107		xd1199
+63	Bannock	1860	43	-112		xd1200
+64	Wind River Eastern Shoshone	1860	43	-109		xd1201
+65	Hualapai	1870	36	-114		xd1202
+66	Yavapai	1870	35	-112		xd1203
+67	Tolkepaya	1870	34	-114		xd1204
+EOF

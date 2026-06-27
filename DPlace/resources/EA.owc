@@ -1,0 +1,1291 @@
+1	!Kung		xd1		juho1239		
+1	Herero		xd10		here1253		
+1	Nabesna		xd1026		uppe1437		
+1	Haida		xd1068		nort2938		
+1	Nomlaki		xd1107		noml1242	Changed 15Nov2016 to differentiate Nomlaki from Wintu	
+1	Tenino		xd1141		teni1238		
+1	Gros Ventre		xd1208		gros1243		
+1	Huron		xd1244		wyan1247		
+1	Chiricahua		xd1259		mesc1238		
+1	Amba		xd127		amba1263		
+1	Tarahumara		xd1286		cent2131		
+1	Chinantec		xd1295		ojit1237	Note 8Feb2018: Updated based on comment by HH: "The references described Ojitlán Chinantec [chj] and Palantla Chinantec [cpa] rather than Chiltepec [csa]"; KK: indeed, subcase is specified as "Ojitlán"	
+1	Guna		xd1309		sanb1242	Note 22July2021: Glottocode changed by KK to sanb1242 from bord1248	
+1	Callinago		xd1326		isla1278	Note 8Feb2018: Changed to crb from car as focus is reported in White SCCS pinpointing sheet as "Dominica Island" (See also note from HH: Most of the refs refer to Island Carib [crb] not Galibi Carib on the mainland.)	
+1	Warao		xd1335		wara1303		
+1	Munduruku		xd1353		mund1330		
+1	Sirionó		xd1362		siri1273		
+1	Inca		xd1374		cusc1236		
+1	Yahgan		xd1383		yama1264		
+1	Wichí		xd1388		wich1264	Note 8Feb2018: Changed based on note from HH: Pelleschi is Wichí Lhamtés Güisnay [mzh]	
+1	Bororo		xd1397		boro1282		
+1	Carajá		xd1407		kara1500		
+1	Fon		xd186		fonn1241		
+1	Bambara		xd244		bamb1269		
+1	Katab		xd298		kata1265		
+1	Ila		xd33		ilaa1246		
+1	Banda		xd337		west2458		
+1	Teso		xd384		teso1249		
+1	Konso		xd415		kons1243		
+1	Maguzawa		xd458		kano1249		
+1	Regeibat		xd487		hass1238		
+1	Barabra		xd507		kenu1236		
+1	Gheg		xd528		gheg1238		
+1	New Englanders		xd536		stan1293	Note, should probably be matched to a dialect other than 'standard english'	
+1	Dutch		xd541		dutc1256		
+1	Serbs		xd546		serb1264		
+1	Kalmyk		xd574		kalm1243	Note 8Feb2018: Note that some of the references that are almost certainly associated with this case (focus is "Baga Dorbed") were originally listed after Ag14 "Baga" (aberle1953; krader1963; vladimirtsov1948)	
+1	Syrians		xd586		nort3142	Note, previously matched to a dialect of nort3139 (nort3140); corrected to [nort3142][ayp] on 5Sept2018. Note, this change may not be incorporated to Bouckaert/Atkinson global tree because of timing of correction.	
+1	Sindhi		xd596		sind1272		
+1	Kazakh		xd609		kaza1248		
+1	Nivkh		xd617		gily1242		
+1	Koreans		xd638		kore1280		
+1	Adi		xd653		bori1243		
+1	Santal		xd661		sant1410		
+1	Chenchu		xd672		chen1255		
+1	Andamanese		xd686		akab1249	Changed to abj from apq on 8 April 2017 based on comments from H. Hammarström: Man (1885) worked most with (and whose variety he spoke best) Bojingya or Aka-Bea [abj]	
+1	Garo		xd696		garo1247		
+1	Lamet		xd716		lame1256		
+1	Atayal		xd732		atay1247		
+1	Iban		xd750		iban1264		
+1	Macassarese		xd759		maka1311		
+1	Bajuni		xd76		baju1245		
+1	Northern Aranda		xd772		east2379	Note 8Feb2018: Not changed, despite note from HH: "Why is Strehlow not associated rather with Western Arrarnta [are]". According to White SCCS Pinpointing sheets, focus is "The Arunta Mbainda of Alice Springs: [...] closely studied by Spencer and Gillen in 1896, restudied in 1901, and visited by Spencer in 1926 for some follow-up reconstruction work with several informants." [So, Strehlow was perhaps used for supporting materials?]	
+1	Mee		xd785		ekar1243		
+1	Palauans		xd824		pala1344		
+1	Siuai		xd841		siwa1245		
+1	Mota		xd862		mota1237		
+1	American Samoans		xd876		samo1305		
+1	Mangaians		xd889		raro1241		
+2	Tareumiut		xd1036		nort2944		
+2	Twana		xd1079		twan1247		
+2	Tübalulabal		xd1118		tuba1278		
+2	Southern Ute		xd1152		utee1244		
+2	Kiowa Apache		xd1219		kiow1264		
+2	Ho Chunk		xd1236		hoch1243		
+2	Seminole		xd1251		mika1239		
+2	Hano		xd1270		ariz1237	Note 8Feb2018: Glottocode updated based on note from HH: Hopi Tewa now has its own language-level glottocode Arizona Tewa	
+2	Tohono O'odham		xd1287		toho1246		
+2	Aztec		xd1301		clas1250		
+2	Tzeltal		xd1318		tzel1254		
+2	Cágaba		xd1327		cogu1240		
+2	Pumé		xd1345		pume1238		
+2	Tapirapé		xd1354		tapi1254		
+2	Ticuna		xd1366		ticu1245		
+2	Aymara		xd1375		cent2142		
+2	Kpe		xd138		mokp1239		
+2	Mapuche		xd1384		mapu1245		
+2	Terena		xd1389		tere1279		
+2	Trumai		xd1399		trum1247		
+2	Sherente		xd1410		xere1240		
+2	Kissi		xd197		nort2765		
+2	Dorobo		xd2		okie1245		
+2	Swazi		xd21		swat1243		
+2	Mossi (Yatenga)		xd255		moss1236	I think this should be the "Ouahigouya" dialect of Mossi (mos), though there is no such dialect in Glottolog.	
+2	Jukun		xd309		juku1254		
+2	Nyaro		xd348		kooo1244		
+2	Maasi		xd395		masa1300		
+2	Somali (Dolbahanta)		xd426		nort3051		
+2	Pende		xd44		phen1239		
+2	Wolof		xd469		nucl1347		
+2	Teda		xd498		teda1241		
+2	Egyptians		xd518		egyp1253		
+2	Portuguese		xd529		gali1257		
+2	Boers		xd537		afri1274		
+2	Icelanders		xd542		icel1247		
+2	Hutsuls		xd557		sout2604		
+2	Khevsur		xd578		xevs1238		
+2	Rwala		xd588		east2690	Changed from ars to avl on 8 April 2017 based on comment from H. Hammarström: The sources pertain to edouin tribes of the Sinai (like the Rwala) they are covered in the Eastern Egyptian Bedawi Arabic entry in Ethnologue [avl]. April 2019: Note that HRAF summary suggests a link to najd1235 (ars) is more appropriate, however najd1235 is spoken further East than the territory described by the same HRAF summary (which reports Rwala Bedouin as grazing their livestock along the Jordan-Saudia Arabia border, North to Damascus (or even Homs), South to the Nafud desert, east (sometimes) to Karbala, Iraq).	
+2	Yusufzai		xd601		yusu1238		
+2	Tu		xd610		tuuu1240		
+2	Yakut		xd628		yaku1245		
+2	Lolo		xd645		sich1238		
+2	Burusho		xd654		buru1296		
+2	Bengali		xd664		beng1280		
+2	Tamil		xd678		tami1289		
+2	Merina		xd688		meri1243		
+2	Lhota		xd707		loth1237		
+2	Mnong Gar		xd724		east2333		
+2	Sagada		xd742		nort2877		
+2	Javanese		xd751		java1254	Note, previously linked to language iso "jas" (New Caledonian Javanese); on 3Mar2016 Hannah Haynie checked refs/coordinates and concluded "jav" was a better match; it was temporarily switched back to [jas/newc1244] on 8Aug2018 but that was a mistake, should be [jav]/[java1254] (updated note: 5Sept2018 kk)	
+2	Alorese		xd764		abui1241	Changed from aol to abz on 8 April 2017 based on comment from H. Hammarström: Sources are DuBois and Nicolspeyer. They both worked with Abui (abz) speakers.	
+2	Yolngu, Dhuwal		xd777		dhuw1249		
+2	Wantoat		xd796		want1252		
+2	Trukese		xd833		chuu1238		
+2	Trobriands		xd852		kili1267		
+2	Seniang		xd868		sout2857		
+2	Nyoro		xd87		nyor1246		
+2	Tikopia		xd881		tiko1237		
+2	Māori		xd891		maor1246		
+3	Copper Inuit		xd1022		copp1244		
+3	Kwakwaka'wakw		xd1090		kwak1269		
+3	Northern Foothill Yokuts		xd1129		nort2937		
+3	Havasupai		xd1163		hava1249		
+3	Comanche		xd1222		coma1245		
+3	Omaha		xd1237		omah1248		
+3	Muscogee		xd1252		cree1270		
+3	Navajo		xd1279		nava1243		
+3	Huichol		xd1288		huic1243		
+3	Sierra Popoluca		xd1302		high1276		
+3	Ch'orti'		xd1319		chor1273		
+3	Barí (Motilon)		xd1328		yukp1241	Note 8Feb2018: Changed after note by HH:"The Motilon described by Reichel-Dolmatoff is Yukpa [yup] (a Cariban lg) not the Chibchan Bari [mot]"; KK: indeed, the focus is on the "Iroka", who are described as a "Yukpa subtribe" by Ruddle (1974:29, in Halbmayer 2013). References for case are Holder and Reichel-Dolmatoff, and both seem to have attempted to contact the Bari in 1946 (according to Beckerman and Lizarralde 2013), but may have been unsuccsessful. In any case, both anthropologists, and certainly R-D, worked with the Iroka [Yukpa]. Note from Beckerman and Lizarralde (2013): "the forest-dwelling Bari (and their traditional and ongoing enemies, the Carib-speaking Yukpa) constituted a recognized obstacle to colonization of the forested land remaining to [the small-scale colonists]". Both Yukpa and Bari seem to have been known as "Motilones" (e.g., see http://www.native-languages.org/definitions/motilone.htm).	
+3	Barama River Carib		xd1346		mura1272	Note 24Sept2018 - KK has high confidence in this dialect assignment (mura1272). The Barama carib location is in Guyana; there is an Etnologue point for Carib here (7.42,-60.17 approx.). This URL gives the relative location of Carib dialects: https://www.mona.uwi.edu/dllp/jlu/ciel/pages/kalihna.htm.	
+3	Palikur		xd1355		pali1279		
+3	Shuar		xd1367		shua1257		
+3	Chachi		xd1376		chac1249		
+3	Ona		xd1385		onaa1245		
+3	Abipón		xd1390		abip1241		
+3	Bacairi		xd1400		baka1277		
+3	Aweikoma		xd1411		xokl1240		
+3	Fang		xd149		fang1246		
+3	Ashanti		xd208		asan1239		
+3	Lozi		xd26		lozi1239		
+3	Dogon		xd266		bank1259		
+3	Nama		xd3		nama1265		
+3	Tiv		xd320		tivv1240		
+3	Azande		xd359		zand1248		
+3	Nuer		xd406		nuer1246		
+3	Tigrinya		xd437		tigr1271		
+3	Songhai		xd480		koyr1242	Changed to koyr1242 from zarm1239 on 3Oct2018. Reason: The SCCS focus is on the "Bamba, or central division" Songhai. The Bamba dialect of Koyraboro Senni Songhai appears to dominate in the Bamba area. ("The major dialectal differences [in Koyraboro Senni Songhai] involve the Bamba area in the west versus the mainstream dialect (from the Gao area to the border). [...] Bamba [dialect] is represented by 66 pages of texts [in Heath's "Texts in Koroboro Senni Songhay of Gao, Mali"] , enough to bring out the grammatical particularities of this variety.") (Note previous D-PLACE changes include a change on 8Feb2018 from Humburi Senni Songhay (humb1243) to Zarma-Kaado-Dendi (zarm1239). This change was incorrect, and is superceded by the change to koyr1242). Note, this change may not be incorporated to Bouckaert/Atkinson global tree because of timing of correction.	
+3	Siwans		xd500		siwi1239		
+3	Riffians		xd521		tari1263		
+3	Ancient Romans		xd530		lati1261		
+3	Tristan da Cunha		xd538		stan1293	Note, should probably be matched to a dialect other than 'standard english'	
+3	Irish		xd543		iris1253		
+3	Bemba		xd55		town1238		
+3	Czechs		xd567		czec1258		
+3	Kumyk		xd579		kumy1244		
+3	Hebrews		xd589		anci1244	Changed from hebr [hbr] to anci1244 [hbo] in Nov 2018 based on date of cultural observations	
+3	Hazara		xd602		haza1239		
+3	Khalka		xd611		halh1238		
+3	Chukchi		xd631		chuk1273		
+3	Manchu		xd646		manc1252		
+3	Lepcha		xd655		lepc1244		
+3	Indo-Iranian		xd665		sans1269		
+3	Madia		xd679		mari1414	Note 8Feb2018: Changed based on note by HH: Unclear why this is attributed to Dandami Maria rather than Maria [mrr]. Focus according to White SCCS pinpointing sheets: "Hill Maria Gond of Antagarh and northern Kutru Districts, Bastar State."	
+3	Tanala		xd689		tana1285		
+3	Burmese		xd709		nucl1310		
+3	Semang		xd725		kens1248		
+3	Ifugao		xd743		tuwa1243	Changed to ifk from ifb on 8 April 2017 based on comment from H. Hammarström: Barton is source, and while he doesn't say specifically which group his observations pertain to, he was working using Kiangan as his base, which would make it Ifugao-Tuwali [ifk]	
+3	Balinese		xd752		bali1278	Note, previously linked to language iso "mhp" (Malay, Balinese). Hannah Haynie checked refs/coordinates and concluded "ban" (Bali, glottocode bali1278) was a better match (3 Mar 2016)	
+3	Belu		xd765		tetu1245		
+3	Tiwi		xd778		tiwi1244		
+3	Arapesh		xd807		buki1249	Note 8Feb2018: Changed based on note from HH: Why is Mead's Arapesh associated with Bumbita rather than Bukiyip [ape]?	
+3	Majuro		xd834		rata1243		
+3	Kurtatchi		xd855		tinp1237		
+3	Bunlap		xd869		saaa1241		
+3	Pukapukans		xd882		puka1242		
+3	Marquesans		xd892		nort2845		
+3	Chagga		xd98		moch1256		
+4	Kaska		xd1056		kask1239		
+4	Kikuyu		xd109		kiku1240		
+4	Yurok		xd1101		yuro1248		
+4	Atsugewi		xd1135		atsu1245		
+4	Sanpoil		xd1174		sanp1257		
+4	Crow		xd1223		crow1244		
+4	Myaamia		xd1238		miam1252		
+4	Penobscot		xd1253		peno1243		
+4	Zuni		xd1280		zuni1245		
+4	Seri		xd1289		seri1257		
+4	Totonac		xd1303		papa1238	Note 8Feb2018: Glottocode changed based on comment by HH: The Kelly ref describes Tajin which is Totonac-Papantla [top]. Indeed, Kelly and Palerm focus on Tajin Totonac, while Krickeberg appears to be a more general survey of the Totonac, including the main dialect groups, one of which is [top].	
+4	Emberá		xd1320		nort2972	Note 8Feb2018: Note: this case was flagged by HH as combining ethnographic data for Wounaan [noa] and Northern Embera [emp]. KK has left language as [emp] (Northern Embera) for now, based on facts that Faron, who worked with Embera, is the author of 2 of the 4 ethnographic references for the case, and that at least one of the others (Reichel-Dolmatoff, 1960) is known to have combined information on the two groups, assuming they were essentially the same (Velásquez Runk 2004) [Excerpt from Velásquez Runk (2004), who has worked extensively with Embera and especially Wounaan communities in Panama: "Much literature on Emberá and Wounaan, both in Panama and Colombia, have combined information on both groups [...]. In Colombia, Emberá* have historically been called Chocó Indians whereas Wounaan have been differentiated as Noanama or more recently Waunana Indians: it is only in Panama that both groups are called Chocó". [...] "Emberá bed’ea (the Emberá language) and Wounmeu are linguistically related, sharing about thirty-five (Binder pers. comm.) to fifty percent (Loewen 1960a) cognate roots, and belong to what linguists now acknowledge to be a separate linguistic group [e.g., Chocoan] (Aguirre Licht), Binder, pers. comm.; Mortensen, pers. comm.), but are mutually unintelligible. *Emberá have a number of subgroups also, at least nine according to Loewen (1960) and six according to Mortensen’s current linguistic work (pers.comm.). There has been a small group of Emberá Catio in Panama (Binder, pers. comm.) but the remainder of Panama’s Emberá is Northern Emberá (Mortensen pers. comm.)." 	
+4	Cariña		xd1329		taba1267	Note 24Sept2018 - dialect Tabajari assigned (language does not change). KK is confident in this assignment; there is an Etnologue point for Carib here (9,-64 approx.). This URL gives the relative location of Carib dialects: https://www.mona.uwi.edu/dllp/jlu/ciel/pages/kalihna.htm. Note, this change may not be incorporated to Bouckaert/Atkinson global tree because of timing of correction.	
+4	Guahibo		xd1347		guah1255		
+4	Guaica		xd1356		yano1262		
+4	Yagua		xd1368		yagu1244		
+4	U'wa		xd1377		cent2150		
+4	Tehuelche		xd1386		tehu1242		
+4	Kadiwéu		xd1391		kadi1248		
+4	Nambikwara		xd1401		sout2994		
+4	Canela		xd1412		cane1242		
+4	Nkundo		xd160		nkun1238		
+4	Yako		xd219		loka1252		
+4	Tsonga		xd27		tson1249		
+4	Tallensi		xd277		taln1239		
+4	Mambila		xd331		came1252		
+4	Ingassana		xd370		gaam1241		
+4	Bergdama		xd4		dama1270		
+4	Lango		xd409		lang1324		
+4	Iraqw		xd448		iraq1241		
+4	Hasania		xd481		khar1296		
+4	Mzab		xd501		tumz1238		
+4	Kabyle		xd522		kaby1243		
+4	French Basques		xd531		labo1236		
+4	Brazilians		xd539		braz1246		
+4	Sami		xd544		nort2671	25Sept2018 - glotto id changed from nort2671 to lule1254 on 25Sept2018 as previous change was only applied to ISO code. 8April2017 - Changed from smj to sme based on comment from H. Hammarström: Haglund worked with Karesuando Saami, which is Northern Sami [sme]. Note, this change may not be incorporated to Bouckaert/Atkinson global tree because of timing of correction.	
+4	Mari		xd568		east2328		
+4	Cherkess		xd580		kaba1278		
+4	Babylonians		xd590		akka1240	Changed from tmr to akk on 8 April 2017 based on comment from H. Hammarström: several [of the sources] deal with Babylonia in Hammurabi's time. The language spoken by this culture was Akkadian [akk].	
+4	Kohistani		xd603		indu1241		
+4	Dagur		xd612		daur1238		
+4	Yurak-Samoyeds		xd632		nene1249		
+4	Miao		xd647		horn1235	Changed from hea to hrm on 8 April 2017 based on comment by H. Hammarström: Based on where Ruey worked, language should be cqd or hrm (they are intelligible, which is why glottolog only has one entry for them).	
+4	Central Tibetans		xd656		dbus1238	12 Nov 2018 Assigned specific dialect to differentiate it from eHRAF society "Western Tibetans". From wikipedia: "Central Tibetan, also known as Dbus, Ü or Ü-Tsang, is the most widely spoken Tibetic language and the basis of Standard Tibetan. There are many mutually intelligible Central Tibetan dialects besides that of Lhasa, with particular diversity along the border and in Nepal."	
+4	Kuba		xd66		bush1247		
+4	Ho		xd666		hooo1248		
+4	Toda		xd680		toda1252		
+4	Vedda		xd690		vedd1240		
+4	Maras		xd710		mara1382		
+4	Annamese		xd726		viet1252		
+4	Subanun		xd744		cent2089		
+4	Toba Batak		xd753		bata1289		
+4	Rotinese		xd766		term1237		
+4	Diyari		xd779		dier1241		
+4	Wogeo		xd818		woge1237		
+4	Ifaluk		xd835		nucl1479		
+4	Lesu		xd856		nots1237		
+4	Lau		xd870		laua1243		
+4	Ellice		xd883		tuva1244		
+4	Manihikians		xd893		raka1237		
+5	Naskapi		xd1063		nask1242		
+5	Eyak		xd1102		eyak1241		
+5	Central Sierra Miwok		xd1136		cent2140		
+5	Hukundika		xd1185		nort2955		
+5	Mbugwe		xd120		mbug1242		
+5	Cheyenne		xd1224		chey1247		
+5	Wichita		xd1239		wich1260		
+5	Cherokee		xd1254		cher1273		
+5	Maricopa		xd1281		mari1440		
+5	Chichimeca		xd1290		chic1272		
+5	Mazateco		xd1304		huau1238		
+5	Bribri		xd1321		brib1243		
+5	Paraujano		xd1330		para1316		
+5	Wapishana		xd1348		wapi1253		
+5	Sateré Mawé		xd1357		sate1243		
+5	Cubeo		xd1369		cube1242		
+5	Páez		xd1378		paez1247		
+5	Alacaluf		xd1387		qawa1238		
+5	Choroti		xd1392		iyow1239		
+5	Kamayurá		xd1402		kama1373		
+5	Aimoré		xd1413		kren1239		
+5	Bamileke		xd171		fefe1239		
+5	Mende		xd230		mend1266		
+5	Mbundu		xd28		umbu1257		
+5	Birifor		xd288		sout2790		
+5	Margi		xd332		marg1265		
+5	Mamvu		xd379		mamv1243		
+5	Turkana		xd410		turk1308		
+5	Bisharin		xd453		bish1251		
+5	Buduma		xd482		budu1265		
+5	Mbuti		xd5		bila1255	Note 8Feb2018: Changed. Focus is "Epulu net-hunters, Ituri forest". From White pinpointing sheets: "The Pygmies and Pygmoid peoples of the Congo have been pushed into smaller and smaller areas of the tropical forest since the invasions of Bantu and Sudanic tribes in the 16-17th centuries, and most of the groups have adopted the languages of invading tribes with whom they allied themselves. Mbuti pygmies have adopted the languages of the Bira to the south of them, the Lese to the east, the Mangbetu and Azande to the northwest, and the Mamvu-Mangutu to the north. The [...] Epulu group studied by Turnbull situated to the north of the Ituri and Epulu Rivers, and the majority of the other groups to the south of the Ituri River [...] are net-hunters, and speak a language largely influenced by the Forest Bira." Note, though, that Ember concordance lists the language as Lese.	
+5	Kel Antessar		xd502		timb1263		
+5	Shluh		xd523		susi1238		
+5	Neapolitans		xd532		neap1235		
+5	French Canadians		xd540		queb1247	stan1290 replaced with queb1247 in Oct 2017 because it is a better match	
+5	Walloons		xd545		wall1255		
+5	Bulgarians		xd569		bulg1262		
+5	Turks		xd581		nucl1301		
+5	Mutair		xd591		sout3119		
+5	Nuristani		xd604		kamv1242	Changed to Kamviri (xvi) from pbu based on village in which one of two main sources spent most of his time (Kamdesh)	
+5	Turkmen		xd613		turk1304		
+5	Koryak		xd633		kory1246		
+5	Japanese		xd648		nucl1643		
+5	Shina		xd657		shin1264		
+5	Bhil		xd667		bhil1251		
+5	Kodavas		xd681		koda1255		
+5	Nicobarese		xd691		carn1240		
+5	Lamba		xd71		lamb1271		
+5	Kachin		xd711		kach1280		
+5	Khmer		xd727		cent1989	Note, previously matched to a dialect of cent1989 (sout2688); rematched to [cent1989] after "Ancient Khmer" linked to a different language (so no longer sharing tip of cent1989 with "Cambodians" (5Sept2018). Note, this change may not be incorporated to Bouckaert/Atkinson global tree because of timing of correction.	
+5	Hanunoo		xd745		hanu1241		
+5	Kadazan-Dusun		xd754		cent2100		
+5	Toradja		xd767		pamo1252	Changed to pamo1252 (pmf, Pamona) from tora1261 (sda, Sa'dan) on 3Oct2018. Reason: the SCCS focus is on the Bare'e subgroup, which is the focus of (Adriani and Kruijt, 1912). Harald Hammarstrom notes that this group speaks Pamona [pmf], not Sa'dan [sda]. Note, this change may not be incorporated to Bouckaert/Atkinson global tree because of timing of correction.	
+5	Kariyarra		xd780		kari1304		
+5	Keraki		xd819		namb1293		
+5	Ponapeans		xd836		pohn1238		
+5	Dobuans		xd857		dobu1241		
+5	Ajie		xd871		ajie1238		
+5	Ontong Java		xd884		onto1237		
+5	Raroians		xd894		tuam1242		
+6	Nunivak		xd1064		kusk1241		
+6	Tolowa		xd1103		tolo1259		
+6	Kumeyaay		xd1137		kumi1248	Note, previously tipa1240 but changed by non-KK DPLACE editor in early 2016 (before 8April2016)	
+6	Washo		xd1196		wash1253		
+6	Mandan		xd1225		mand1446		
+6	Nyakyusa		xd123		nyak1261		
+6	Pawnee		xd1240		pawn1254		
+6	Delaware		xd1255		unam1242	Note 8Feb2018: Changed based on note from HH: Pidgin Delaware was not the mother tongue of the Lenape. The mother tongue was Unami [unm].	
+6	Taos		xd1282		taos1236		
+6	Pima		xd1291		akim1239		
+6	Huave		xd1305		sanm1287		
+6	Yucatec Maya		xd1322		yuca1254		
+6	Wayuu		xd1331		wayu1243		
+6	Saramaccan 		xd1349		sara1340		
+6	Shiriana		xd1358		nina1238		
+6	Witoto		xd1370		muru1274		
+6	Muisca		xd1379		chib1270		
+6	Chamacoco		xd1393		cham1315		
+6	Guató		xd1403		guat1253		
+6	Tenetehara		xd1414		temb1276		
+6	Luba		xd182		luba1250		
+6	Oyo Yoruba		xd240		oyoo1238	2Aug2021 Dialect match updated by KK	
+6	Venda		xd29		vend1245		
+6	Futajalonke		xd294		pula1262		
+6	Gure		xd333		gbir1241		
+6	Shilluk		xd380		shil1265		
+6	Luo		xd411		luok1236		
+6	Afar		xd454		afar1241		
+6	Tera		xd483		tera1251		
+6	Kababish		xd503		nort3133		
+6	Ancient Egyptians		xd524		egyp1246		
+6	Spaniards		xd533		stan1288		
+6	Byelorussians		xd570		bela1254		
+6	Ossetians		xd582		digo1242		
+6	Jordanians		xd592		sout3123		
+6	Sandawe		xd6		sand1273		
+6	Basseri		xd605		bass1257		
+6	Buryat		xd614		russ1264		
+6	Yukaghir		xd634		nort2745		
+6	Min Chinese		xd649		chao1239	7Nov2018-changed to Chaoshan dialect (from Min Nan Chinese language) based on consultation of primary source, and with the addition of dialects of Min Nan Chinese via new eHRAF societies	
+6	Sherpa		xd658		sher1255		
+6	Kurukh		xd668		kuru1302		
+6	Kerala		xd682		mala1464	reclassified another society from [mal] to [xuj] on 26 May 2016; as a result, matched this society to the glottolog language [mala1464] (which we are more certain of), replacing match to dialect [cent1998] (less certain)	
+6	Sinhalese		xd692		sinh1246		
+6	Purum		xd712		puru1266		
+6	Ndembu		xd72		lund1266		
+6	Moken		xd728		moke1242		
+6	Paiwan		xd746		paiw1248		
+6	Minangkabau		xd755		mina1268		
+6	Tanimbarese		xd768		sela1259		
+6	Wikmunkan		xd781		wikm1247		
+6	Waropen		xd820		waro1242		
+6	Yapese		xd837		yape1248		
+6	Ulawans		xd858		saaa1240		
+6	Rotumans		xd872		rotu1241		
+6	Tokelau		xd885		toke1240		
+6	Hawaiians		xd895		hawa1245		
+7	Attawapiskat Cree		xd1065		swam1239		
+7	Tsimshian		xd1104		nucl1649		
+7	Yuki		xd1138		yuki1243		
+7	Kutenai		xd1205		kute1249		
+7	Sarcee		xd1226		sars1236		
+7	Ganda		xd124		gand1255		
+7	Fox		xd1241		mesk1242		
+7	Natchez		xd1256		natc1249		
+7	Cochiti		xd1283		coch1273		
+7	Yaqui		xd1292		yaqu1251		
+7	Mixe		xd1306		isth1238		
+7	Garifuna		xd1323		gari1256		
+7	Yupa		xd1332		yukp1241		
+7	Yabarana		xd1350		yaba1248		
+7	Wai-wai		xd1359		waiw1244		
+7	Camba		xd1371		chiq1248	Note, previously xba and kamb1287 (Camba). ISO code retired, considered a duplicate of [cax] Chiquitano. Chiquitano glottocode is chiq1248	
+7	Asháninka		xd1380		ajyi1238	Note 8Feb2018: Glottocode changed to ajyi1238 based on note from HH: "The Campa described by Craig is Shira Mountain Campa = Ajyíninka" [all other references appear to describe the "Campa" generally].	
+7	Guaraní		xd1394		east2555		
+7	Paresi		xd1404		pare1272		
+7	Apinaye		xd1415		apin1244		
+7	Baboa		xd183		bwaa1238	Note 8Feb2018: Changed based on note from HH: These refs refer to Bwa [bww] not Kwa' [bko] (a completely different lg in Cameroon).	
+7	Bete		xd241		dalo1238	Note 8Feb2018: Changed based on note from HH: Bete of Hallouin and Paulme is Bété-Daloa [bev]	
+7	Bozo		xd295		tiey1235		
+7	Nyaneka		xd30		nyan1305		
+7	Mafa		xd334		mafa1239		
+7	Gbaya		xd381		nort2775		
+7	Nandi		xd412		nand1266		
+7	Amhara		xd455		amha1245		
+7	Bolewa		xd484		nucl1695		
+7	Barabish		xd504		hass1238		
+7	Beraber		xd525		cent2194		
+7	Greeks		xd534		mode1248		
+7	Ukrainians		xd571		east2270		
+7	Chechen		xd583		chec1245		
+7	Lebanese		xd593		nort3139	Note, previously matched to a dialect of nort3139 (nort3141); rematched to [nort3139] after "Syrians" linked to a different language (so no longer sharing tip of nort3139 with "Lebanese" (5Sept2018). Note, this change may not be incorporated to Bouckaert/Atkinson global tree because of timing of correction.	
+7	Moghol		xd606		mogh1245		
+7	Chahar		xd615		peri1253		
+7	Ainu		xd635		ainu1240		
+7	Okinawans		xd650		cent2126		
+7	Kachari		xd659		kach1279		
+7	Pahari		xd669		maha1287		
+7	Hill Bhuiya		xd683		oriy1255	Note, previously nucl1284 but changed by non-KK DPLACE editor in early 2016 (before 8April2016)	
+7	Antandroy		xd693		tand1256		
+7	Naron		xd7		naro1249		
+7	Karen		xd713		pwow1235		
+7	Akha		xd729		akha1245		
+7	Yao		xd73		yaoo1241		
+7	Tagbanua		xd747		tagb1258		
+7	Mentaweians		xd756		ment1249		
+7	Ili-Mandiri		xd769		lama1277		
+7	Murriny Patha		xd782		murr1258		
+7	Enga		xd821		enga1252		
+7	Gilbert Onotoa		xd838		nuii1237		
+7	Lakalai		xd859		naka1262		
+7	Lifu		xd873		dehu1237		
+7	Kapingamarangi		xd886		kapi1249		
+7	Mangarevans		xd896		mang1401		
+8	Deg Xit'an		xd1066		dege1248		
+8	Haisla		xd1105		hais1244		
+8	Klamath		xd1139		klam1254		
+8	Chilcotin		xd1206		chil1280		
+8	Teton		xd1227		lako1247		
+8	Hasinai		xd1242		cadd1256		
+8	Hehe		xd125		hehe1240		
+8	Timucua		xd1257		timu1245		
+8	Jemez		xd1284		jeme1245		
+8	Opata		xd1293		opat1246		
+8	Tarasco		xd1307		pure1242		
+8	Mam		xd1324		mamm1241		
+8	Taíno		xd1333		tain1254		
+8	Piaroa		xd1351		piar1243		
+8	Sanema		xd1360		sanu1240		
+8	Amahuaca		xd1372		amah1246		
+8	Piro		xd1381		yine1238		
+8	Toba		xd1395		toba1269		
+8	Umotina		xd1405		umot1240		
+8	Tupinambá		xd1416		tupi1273		
+8	Rundi		xd184		rund1242		
+8	Nupe		xd242		nupe1254		
+8	Coniagui		xd296		wame1240		
+8	Sotho		xd31		sout2807		
+8	Bafute		xd335		vute1244		
+8	Dilling		xd382		dill1242		
+8	Bari		xd413		ligo1238		
+8	Gurage		xd456		seba1251		
+8	Bororo Fulani		xd485		boro1274		
+8	Aulliminden		xd505		ioul1238		
+8	Shawiya		xd526		tach1249		
+8	Spanish Basques		xd535		west1508		
+8	Magyar		xd572		hung1274		
+8	Georgians		xd584		imer1248		
+8	Druze		xd594		sunn1238		
+8	Bakhtiari		xd607		bakh1245		
+8	Uzbek		xd616		nort2690		
+8	Ket		xd636		kett1243		
+8	Minchia		xd651		cent2004		
+8	Magar		xd660		west2418	Note 8Feb2018: Changed to [mrd] based on comment by HH: "Banyan Hill is close to latitude 84 and so is clearly Western Magar [mrd] on Ethnologue's division."	
+8	Kashmiri		xd670		kash1277		
+8	Kol		xd684		mund1320		
+8	Sakalava		xd694		saka1291		
+8	Khasi		xd714		khas1269		
+8	Malays		xd730		mala1479		
+8	Yombe		xd74		yomb1244		
+8	Bontok		xd748		cent2292		
+8	Anak Dalam		xd757		kubu1239		
+8	Kei		xd770		keii1239		
+8	Tasmanians (northwestern)		xd783		port1278	Note, previously tasm1247, but languages difficult to assign with certainty, so chose another western tasmanian language not considered a "bookkeeping" language by glottolog	
+8	/Xam		xd8		xamm1241		
+8	Purari		xd822		pura1257		
+8	Chamorro		xd839		cham1312		
+8	Simboese		xd860		simb1256		
+8	Vanua Levu		xd874		nort2843		
+8	Futunans		xd887		east2447		
+8	Tahitians		xd897		tahi1242		
+9	Aleut		xd1067		east2533		
+9	Nuxalk		xd1106		bell1243		
+9	Modoc		xd1140		klam1254		
+9	Lillooet		xd1207		lill1248		
+9	Arapaho		xd1228		arap1274		
+9	Menominee		xd1243		meno1252		
+9	Catawba		xd1258		cata1286		
+9	Gisu		xd126		masa1299		
+9	Picuris		xd1285		picu1248	Note 8Feb2018: Glottocode updated based on note from HH: Picuris Northern Tiwa [picu1248] now has its own separate language-level glottocode.; Note, previously picu1240 but changed by non-KK DPLACE editor in early 2016 (before 8April2016)	
+9	Tepehuán		xd1294		nort2959		
+9	Tlaxcalans		xd1308		cent2132		
+9	Miskito		xd1325		misk1235		
+9	Haitians		xd1334		hait1244		
+9	Curripaco		xd1352		curr1243		
+9	Yanomami		xd1361		yano1261		
+9	Shipibo-Conibo		xd1373		ship1254		
+9	Uru		xd1382		uruu1244		
+9	Lengua		xd1396		nort2971		
+9	Aweti		xd1406		awet1244		
+9	Kayapo		xd1417		kaya1330	Note 8Feb2018: Changed based on note from HH: Unclear why this is not simply Kayapó [txu]?!	
+9	Fut		xd185		bafu1246		
+9	Baule		xd243		baou1238		
+9	Malinke		xd297		kita1249	Note 8Feb2018: Glottocode changed to kita1249 [mwk], which is hte focus of Sidibe's work, and also has "Central Malinke" listed as an alternative language name. Another reference for this society is focused (according to HH's notes on the closely related [mnk], but whether it also touches on mwk, and/or might have been used for context/depth, should be verified.	
+9	Ndebele		xd32		nort2795		
+9	Anaguta		xd336		igut1238		
+9	Masa		xd383		masa1322		
+9	Kipsigis		xd414		kips1239		
+9	Goroa		xd457		goro1270		
+9	Hausa Kanawa		xd486		kano1249		
+9	Tuareg Ahaggar		xd506		hogg1238		
+9	Tekna		xd527		hass1238		
+9	Lithuanians		xd573		lith1251		
+9	Svan		xd585		svan1243		
+9	Yemeni		xd595		sana1295		
+9	Iranians		xd608		tehr1242		
+9	Nanai		xd637		nana1257		
+9	Li		xd652		hlai1239		
+9	Gujarati		xd671		guja1252		
+9	Baiga		xd685		chha1249		
+9	Antaisaka		xd695		tesa1236		
+9	Mogh		xd715		rakh1245		
+9	Thai		xd731		thai1261		
+9	Ami		xd749		amis1246		
+9	Ngoni		xd75		ngon1269		
+9	Punan		xd758		puna1275	Note, previously this xd_id was associated with language iso sge (Segai); Hannah Haynie reviewed references and coordinates and concluded should be matched to language iso "pna", glottolog language puna1275 (3 Mar 2016)	
+9	Sumbanese		xd771		kamb1299		
+9	Ngiyambaa		xd784		wang1291		
+9	Orokaiva		xd823		orok1269		
+9	Ulithians		xd840		ulit1238		
+9	Manus		xd861		tita1241		
+9	Santa Cruz Islanders		xd875		natu1246		
+9	Niueans		xd888		niue1239		
+9	Easter Islanders		xd898		rapa1244		
+9	Hadza		xd9		hadz1240		
+10	Chugach		xd1027		chug1254	3Oct2018 Assigned to dialect chug1254 (language does not change) to help differentiate this society from the closely related Koniag, also now mapped to language paci1278.	
+10	Alkatcho		xd1069		sout2958		
+10	Pondo Xhosa		xd11		mpon1252		
+10	Achumawi		xd1108		achu1247		
+10	Nlaka'pamux		xd1142		thom1243		
+10	Arikara		xd1209		arik1262		
+10	Iowa		xd1230		iowa1246		
+10	Seneca		xd1245		sene1264		
+10	Isleta		xd1260		sout2961		
+10	Banyaruanda		xd128		kiny1244		
+10	Zapotec		xd1296		yala1267	Note 8Feb2018: HH notes that Parsons ref (1 of 3 references) describes Mitla Zapotec [zaw]. KK: Not changed, as EA focus is "mountain village of Yalagag"; perhaps Parsons ref is used for context/complementary information.	
+10	Lacandon		xd1310		laca1243		
+10	Lokono		xd1336		araw1276		
+10	Cocama		xd1363		coca1259		
+10	Kuikuru		xd1398		kuik1246		
+10	Cayua		xd1408		mbya1239		
+10	Igbo		xd187		nucl1417		
+10	Konkomba		xd245		konk1269		
+10	Chawai		xd299		atsa1241		
+10	Otoro		xd338		otor1240		
+10	Chewa		xd34		chew1246		
+10	Acholi		xd385		dhop1238		
+10	Somali (Esa)		xd416		nort3051		
+10	Karekare		xd459		kare1348		
+10	Asben		xd488		taya1257	Note 8Feb2018: Glottocode changed to [thz] (Tayart Tamajeq) based on note from HH. At least 3 of the references refer to the Air Tuareg (=[thz], and the society name itself is "Asben", which some googling suggests was a synonym for Air/Tuareg Kingdom (p. 125 of Robinson and Smith 1979). However, at least one reference refers to the "Kel Tadele" in its title; Wikipedia lists the Kel Tadele as a group "to the west of Aïr [i.e., thz] in the Tamesna plain". Thus, the user may wish to investigate whether cultural descriptions combine the practices of more than one Touareg language group.	
+10	Zekara		xd508		tari1263	Changed 2Aug2021: After additional research, this cultural data appears to a group speaking tari1263, even though one of the references refers to Beni Snous (previously changed on 8Feb2018 based on note from HH: Beni Snous = Western Algerian Berber [cnu] chen1266).	
+10	Romanians		xd547		baya1255	Note, previously baya1254 but changed by non-KK DPLACE editor in early 2016 (before 8April2016)	
+10	Armenians		xd575		nucl1235		
+10	Madan		xd587		meso1252		
+10	Marri		xd597		east2304		
+10	Ob Ostyak		xd618		khan1273		
+10	Shantung		xd639		mand1415		
+10	Bihari		xd662		mait1250		
+10	Telugu		xd673		telu1262		
+10	Betsileo		xd687		bets1235		
+10	Chakma		xd697		chak1266		
+10	Rade		xd717		rade1240		
+10	Bunun		xd733		bunu1267		
+10	Tobelorese		xd760		tobe1252		
+10	Shambaa		xd77		sham1280		
+10	Walbiri		xd773		warl1254		
+10	Motu		xd786		motu1246		
+10	Nomoians		xd825		mort1237		
+10	Usiai		xd842		lele1270		
+10	Tannese		xd863		sout2869		
+10	Rennell Islanders		xd877		renn1242		
+10	Tongarevans		xd890		penr1237		
+11	Sivokakmeit		xd1028		cent2128	4Oct2018 - Note that while EA society Na11 has always been linked to xd1028, Binford society B379 was originally linked to xd1020 (and, thus, linked to the dialect poin1245 and language nort2943. The update to Glottolog 3.3.2 forced re-mapping of xd1028 from dialect aiwa1238 (which no longer exists) to language cent2128 (always the language-level match for this xd_id).	
+11	Nuu chah nulth		xd1070		nuuc1236		
+11	Yana		xd1109		yana1271		
+11	Shuswap		xd1143		shus1248		
+11	Xhosa Ngqika		xd12		xesi1238		
+11	Assiniboine		xd1210		assi1247		
+11	Otoe		xd1231		otoo1241		
+11	Yuchi		xd1246		yuch1247		
+11	San Ildefonso		xd1261		sani1273	Note 8Feb2018: Not changed, as focus is the pueblo of San Ildefonso, despite comment from HH: "Hopi Tewa now has its own language-level glottocode Arizona Tewa ariz1237". However, ariz1237 now linked to another society in EA.	
+11	Songola		xd129		song1300		
+11	Huastec		xd1297		huas1242		
+11	Kaqchikel		xd1311		kaqc1270		
+11	Camaracoto		xd1337		cama1252		
+11	Chácobo		xd1364		chac1251		
+11	Shavante		xd1409		xava1240		
+11	Toma		xd188		toma1245		
+11	Lobi		xd246		lobi1245		
+11	Basa		xd300		basa1282		
+11	Mangbetu		xd339		nucl1420		
+11	Luvale		xd35		luva1239		
+11	Dinka		xd386		sout2832	Note 8Feb2018: Glottocode left as sout2832, as most of the refs seem to refer to [dik]. Users should be aware that ethnographies relating to different Dinka languages are all listed as sources here, hopefully those not focused on the target group help provide context etc.	
+11	Arusi		xd417		bora1271		
+11	Midobi		xd460		mido1240		
+11	Azjer		xd489		ghat1242		
+11	Guanche		xd509		guan1277		
+11	Russians		xd548		russ1263		
+11	Kurd		xd576		cent1972		
+11	Ghilzai		xd598		ghil1238		
+11	Selkup		xd619		selk1253		
+11	Uttar Pradesh		xd663		bhoj1244		
+11	Koya		xd674		koya1251		
+11	Aimol		xd698		aimo1244		
+11	Cham		xd718		east2563		
+11	Puyuma		xd734		puyu1239		
+11	Ambonese		xd761		ambo1250		
+11	Gidjingali		xd774		gunn1248		
+11	Bena		xd78		bena1262		
+11	Kakoli		xd787		umbu1258		
+11	Kosraeans		xd826		kosr1238		
+11	Rossel Islanders		xd843		yele1255		
+11	Epi		xd864		lame1260		
+12	Nunamiut		xd1029		nort2944	1Oct2018 - mapped to a new dialect (nort2944) of the same language (nort2943). HH: Belongs to language North Alaskan Inupiatun [nort2943] and more specifically to the North Slope Inupiatun [nort2944] dialect. Note that the subdialect to which it was previously mapped (Anaktuvuk Pass, anak1241) does not exist in Glottolog version 3.3.2. Note, this change may not be incorporated to Bouckaert/Atkinson global tree because of timing of correction.	
+12	Klahoose		xd1071		slia1241		
+12	Maidu		xd1110		nort2952		
+12	Bitterroot Salish		xd1144		kali1309		
+12	Blackfoot		xd1211		pieg1239		
+12	Ponca		xd1232		ponc1241		
+12	Choctaw		xd1247		choc1276		
+12	Santa Ana		xd1262		sant1426		
+12	Mixtec		xd1298		juxt1235	Note 8Feb2018: Changed based on note from HH: The ref describes Juxtlahuaca Mixtec [vmc] unclear why NW Oaxaca Mixtec [mxa] is assigned.	
+12	Zulu		xd13		zulu1248		
+12	Duala		xd130		dual1243		
+12	Lenca		xd1312		lenc1242	Note, previously lenc1244, but glottocode is considered a "bookkeeping" code (because extinct?), so chose Lencan-Honduras instead (note that point is in Honduras)	
+12	Macushi		xd1338		macu1259	Note 8Feb2018: Note, HH notes that ethnographic references most relevant to Makushi [Sc12] are listed under "Taulipang" [Sc15] (Soares Diniz & Ule are on Macushi [mbc] rather than Pemon [aoc]). However, other aspects of case description (name, alternate names) line up with [mbc]. For that reason, I will leave as [mbc], but user should ensure that cultural traits of interest are properly assigned to Macushi vs. Pemon. See Halbmayer, E. 2013. "Contemporary Carib-speaking Amerindians. A bibliography of social anthropological and linguistic resources for discussion". For succinct overview and reference lists.	
+12	Tucano		xd1365		tuca1252		
+12	Akyem		xd189		akye1239		
+12	Nankanse		xd247		nank1249		
+12	Basakomo		xd301		basa1282		
+12	Fali		xd340		sout2782	Note 8Feb2018: Changed based on note from HH: Fali of Malzy is Fali from Tingelin = South Fali [fal]	
+12	Chokwe		xd36		chok1245		
+12	Lotuko		xd387		otuh1238		
+12	Gibe		xd418		west2721	Note 8Feb2018: Changed after note from HH: "Haven't checked the details of the refs but very difficult to see how Gibe (= a region) best matches with Koorete rather than Oromo or Kaffa". KK: indeed, an alt_name for this group is "Oromo of Gibe Region".	
+12	Gimma		xd461		nort3133		
+12	Ifora		xd490		tadh1242		
+12	Algerians		xd510		algi1247		
+12	Bashkir		xd549		bash1264		
+12	Abkhaz		xd577		abkh1244		
+12	Qashqui		xd599		qash1240		
+12	Nganasan		xd620		ngan1291		
+12	Khond		xd675		kuii1252		
+12	Thado		xd699		thad1238		
+12	Lawa		xd719		west2396		
+12	Sugbuanon		xd735		cebu1242		
+12	Sumbawanese		xd762		sumb1241		
+12	Yir Yoront		xd775		jirj1239	Note, previously yiy and yiry1245, however both codes have been retired	
+12	Kwoma		xd788		kwom1262		
+12	Gusii		xd79		gusi1247		
+12	Bikinians		xd827		rali1241		
+12	Choiseulese		xd844		vagh1249		
+12	Eromangans		xd865		siee1239		
+12	Tongans		xd878		tong1325		
+13	Nunatsiarmiut		xd1030		baff1240		
+13	Squamish		xd1072		squa1248		
+13	Nisenan		xd1111		nise1244		
+13	Kalispel		xd1145		kali1309		
+13	Kainai		xd1212		bloo1239		
+13	Shawnee		xd1233		shaw1249		
+13	Abenaki		xd1248		peno1243		
+13	Acoma		xd1263		acom1246		
+13	Otomí		xd1299		mezq1235		
+13	Bashi		xd131		shii1238		
+13	K'iche'		xd1313		kich1262		
+13	Panare		xd1339		enap1235		
+13	Tswana		xd14		tswa1253		
+13	Ebira		xd190		ebir1243		
+13	Kasena		xd248		kase1253		
+13	Dakakari		xd302		clel1238		
+13	Laka		xd341		laka1254	Note 8Feb2018: Changed based on note from HH: Lakka of Tessmann refers to the Sara language Laka [lap] in Tchad/CAR, not Nigeria!	
+13	Tonga		xd37		tong1321		
+13	Pojulu		xd388		poju1239		
+13	Macha		xd419		west2721		
+13	Habbaniya		xd462		nort3133		
+13	Udalan Tuareg		xd491		timb1263		
+13	Hamama		xd511		sout3114		
+13	Besermyan		xd550		nort2676		
+13	Punjabi		xd600		west2386	Note 8Feb2018: Changed based on note by HH: "References look more like Western Panjabi [pnb] in Pakistan". Focus does indeed seem to be in Western Pakistan. Note that there is an unclear note in the White SCCS pinpointing sheet for this society: "Representative of West Punjabi (not in the Ethnographic Atlas) [sic]; Focus: Village of Mohla, Punjabi of southern Rawalpindi and northern Lahore Divisions, 32°30N and 74°E, about 1952 [...] The village of Mohla, studied by Eglar, is the most fully described, and represents the less developed form of agriculture, lacking irrigation. Coders should be careful in inferring from other village studies, since each village is highly distinctive in terms of caste composition and economic position. Honigmann's village, in the desert of southwest Rawalpindi, was founded very recently by East Punjabi are close [sic]; this village utilizes newly constructed irrigation works. The village surveys by Dass and Ghulam Yasim have not been evaluated."	
+13	Itelmen		xd621		itel1242		
+13	Ishigakians		xd640		yaey1239		
+13	Muria Gond		xd676		west2408	Note 8Feb2018: Changed based on note by HH: "Elwin's book concerns Muria of Kondagaon and Narayanpur Tahsil = Muria-Western [mut]". Also, White SCCS pinpointing sheets for Hill Maria provide this detail on the location of the Muria Gond: "the north-eastern plateau of Bastar, Kondagaon Tahsil."	
+13	Angami		xd700		anga1288		
+13	Muong		xd720		muon1246		
+13	Badjau Tawi-Tawi		xd736		sout2918		
+13	Kodi		xd763		kodi1247		
+13	Anindilyagwa		xd776		anin1240		
+13	Kiwai		xd789		sout2949		
+13	Kiga		xd80		chig1238		
+13	Nauruans		xd828		naur1243		
+13	Aua		xd845		wuvu1239		
+13	Ranon		xd866		nort2839		
+13	Uveans		xd879		wall1257		
+14	Inughuit (Northern Greenland)		xd1031		pola1254	Note 8Feb2018: Glottocode changed to [ike] based on note from HH: "The Polar Eskimo do not speak a language intelligible to Kalaalisut and had until recent times no contact or knowledge of the Kalaalisut further south. The language is intelligible to North Baffin Inuktitut so Glottolog counts Polar Eskimo as Eastern Canadian Inuktitut [ike]. Furthermore, Oswalt 1963 is listed as a reference to Polar Eskimo but concerns a completely different people in Alaska who speak Yupik-Central [esu]."	
+14	Comox		xd1073		isla1276		
+14	Wintu		xd1112		nucl1651	Changed 15Nov2016 to differentiate Nomlaki from Wintu	
+14	Coeur d’Alene		xd1146		coeu1236		
+14	Bungi		xd1213		west1510		
+14	Caddo		xd1234		cadd1256		
+14	Chickasaw		xd1249		chic1270		
+14	Laguna		xd1264		acom1246		
+14	Tequistlatec		xd1300		high1242		
+14	Ngäbe		xd1314		ngab1239		
+14	Ha		xd132		haaa1252		
+14	Rucuyen		xd1340		waya1269		
+14	Lovedu		xd15		lobe1242		
+14	Sherbro		xd191		sher1258		
+14	Baga		xd249		mbul1258	Note 8Feb2018: Glottocode changed to mbul1258 [mbv] based on note from HH: Paulme deals with Baga Sitemou = Baga Sitemu[bsp] and Baga Foré = Mbulungish [mbv] rather than Baga Koga. KK: In fact, these two languages are not sisters. However, a third reference refers to Nalu (nalu1240/[naj]) which IS a sister to mbv. THerefore, mbv was selected over bsp. [ALSO note that some references appear to refer to "Baga Dörbed" (Kalmyk), a Mongol people, and need to be re-assigned to society "Kalmyk" (aberle1953; krader1963; vladimirtsov1948). 	
+14	Kamuku		xd303		cind1241		
+14	Mbum		xd342		mbum1254		
+14	Bakongo		xd38		sans1272		
+14	Kakwa		xd389		kakw1240		
+14	Burji		xd420		burj1242		
+14	Hemat		xd463		bath1248		
+14	Daza		xd492		daza1242		
+14	Hamyan		xd512		oran1236		
+14	Chuvash		xd551		chuv1255		
+14	Ungazikmit		xd622		cent2128	9May2019 - longitude updated to place society in western rather than eastern hemisphere. 1Oct2018 - the update to Glottolog 3.3.2 forced re-mapping from dialect chap1266 (which no longer exists) to language (cent2128) (always the language-level match for this society). Note, this change may not be incorporated to Bouckaert/Atkinson global tree because of timing of correction.	
+14	Man		xd641		kimm1245		
+14	Reddi		xd677		mukh1238		
+14	Ao		xd701		aona1235		
+14	Senoi		xd721		sema1266		
+14	Tao		xd737		yami1254		
+14	Miriam		xd790		meri1244		
+14	Luguru		xd81		lugu1238		
+14	Makin		xd829		bana1287		
+14	Dahuni		xd846		suau1242		
+14	Mbau Fijians		xd867		bauu1243		
+14	Upolu Samoans		xd880		samo1305		
+15	Tlicho		xd1032		dogr1252		
+15	Lummi		xd1074		lumm1243		
+15	Coast Yuki		xd1113		yuki1243		
+15	Sinkaitk		xd1147		sout2963		
+15	Hidatsa		xd1214		hida1246		
+15	Kickapoo		xd1235		kick1244		
+15	Chitimacha		xd1250		chit1248		
+15	Mescalero		xd1265		mesc1238		
+15	Jakaltek		xd1315		popt1235		
+15	Hunde		xd133		hund1239		
+15	Taulípang		xd1341		taul1252	Note 8Feb2018: Note, HH notes that ethnographic references most relevant to Makushi [Sc12] are listed here; it is possible that the more general references currently listed under Sc12 are most appropriate to Taulipang [Sc15] (Farabee 1922 & Kirchoff 1943). However, other aspects of case description (name, alternate names) line up with [aoc]. For that reason, I will leave as [aoc] but user should ensure that cultural traits of interest are properly assigned to Macushi vs. Pemon. See Halbmayer, E. 2013. "Contemporary Carib-speaking Amerindians. A bibliography of social anthropological and linguistic resources for discussion". For succinct overview and reference lists.	
+15	Pedi		xd16		tswe1238		
+15	Kpelle		xd192		libe1247		
+15	Balanta		xd250		bala1301		
+15	Reshe		xd304		resh1242		
+15	Mundang		xd343		mund1325		
+15	Mbala		xd39		mbal1257		
+15	Kuku		xd390		kuku1285		
+15	Darasa		xd421		gede1246		
+15	Messiria Humr		xd464		tama1331	Note 8Feb2018: Changed based on note from HH: This may/may not be the intended attribution. Messiria are switching towards Sudanese Arabic but their ancestral language is Tama [tma].	
+15	Drawa		xd493		susi1238		
+15	Jebala		xd513		jebl1238		
+15	Erzya Mordvins		xd552		erzy1239		
+15	Mansi		xd623		mans1258		
+15	Miyakans		xd642		miya1259		
+15	Chekiang		xd643		wuch1236		
+15	Rengma		xd702		sout2732		
+15	Ancient Khmer		xd722		oldk1249	Changed to [oldk1249][qok] by kk on 5Sept2018. Note, this change may not be incorporated to Bouckaert/Atkinson global tree because of timing of correction.	
+15	Manobo		xd738		agus1235	Note 8Feb2018: Changed based on note from HH: Why W Bukidnon Manobo rather than e.g. Agusan Manobo [msm]?	
+15	Abelam		xd791		ambu1247		
+15	Iwa		xd82		nyam1275		
+15	Carolinians		xd830		caro1242		
+15	Bakovi		xd847		bola1250		
+16	Délįne		xd1033		nort2942		
+16	Klallam		xd1075		clal1241		
+16	Huchnom		xd1114		yuki1243		
+16	Wenatchi		xd1148		wena1241		
+16	Karankawa		xd1215		kara1289		
+16	Jicarilla		xd1266		jica1244		
+16	Tolupan		xd1316		toll1241		
+16	Lulua		xd134		luba1249		
+16	Ye'kuana		xd1342		maqu1238		
+16	Lenge		xd17		leng1257		
+16	Banyang		xd193		keny1279		
+16	Banyun		xd251		bain1259		
+16	Angas		xd305		ngas1240		
+16	Namshi		xd344		doya1240		
+16	Mondari		xd391		mand1425		
+16	Mitsogho		xd40		tsog1243		
+16	Sidama		xd422		sida1246		
+16	Shuwa		xd465		char1283		
+16	Chaambra		xd494		algi1247		
+16	Moroccans		xd514		sout3117		
+16	Estonians		xd553		esto1258		
+16	Evenk		xd624		even1259		
+16	Cantonese		xd644		yuec1235		
+16	Sema		xd703		sumi1235		
+16	Negri Sembilan		xd723		nege1240		
+16	Kalinga		xd739		lubu1243		
+16	Kutubu		xd792		foii1241		
+16	Ngonde		xd83		ngon1268		
+16	Lamotrek		xd831		lamo1243		
+16	Bwaidoga		xd848		bwai1242		
+17	DeneTha		xd1034		sout2959		
+17	Puyallup		xd1076		sout2965		
+17	Northern Pomo		xd1115		nort2966		
+17	Klikitat		xd1149		nucl1237		
+17	Kiowa		xd1216		kiow1266		
+17	Western Apache		xd1267		west2615		
+17	Poqomam		xd1317		poqo1253		
+17	Piapoco		xd1343		piap1246		
+17	Rega		xd135		lega1249		
+17	Ndau		xd18		ndau1241		
+17	Boki		xd194		boky1238		
+17	Biafada		xd252		biaf1240		
+17	Birom		xd306		bero1242		
+17	Gisiga		xd345		sout3051		
+17	Alur		xd392		alur1250		
+17	Suku		xd41		suku1259		
+17	Tsamai		xd423		tsam1247		
+17	Fur		xd466		furr1244		
+17	Delim		xd495		hass1238		
+17	Nail		xd515		cons1245		
+17	Gagauz		xd554		gaga1249		
+17	Negidal		xd625		negi1245		
+17	Karbi		xd704		karb1241		
+17	Bilaan		xd740		koro1310		
+17	Siane		xd793		sian1257		
+17	Marshallese - Jaluit atoll		xd832		rali1241	12 Nov 2018 - dialect assigment corrected (should have been Ralik, rali1241, not Ratak, rata1243).	
+17	Safwa		xd84		safw1238		
+17	Kombe		xd849		mudu1242		
+18	Quileute		xd1077		quil1240		
+18	Eastern Pomo		xd1116		east2545		
+18	Wishram		xd1150		wasc1239		
+18	Piegan		xd1217		pieg1239		
+18	Hopi		xd1268		hopi1249		
+18	Ndyuka		xd1344		ndyu1242		
+18	Songye		xd136		song1303		
+18	Shona		xd19		shon1251	Note 8Feb2018: Note: HH notes that one of the cited ethnographic references (Prost 1956) refers to a completely different West African linguistic group. The assignment of Shona here appears to be correct. Focus is on "Zezuru", which is listed as a dialect of "Shona" (zezu1238 <- shon1251).	
+18	Ekoi		xd195		ejag1239		
+18	Bijogo		xd253		bidy1244		
+18	Burmawa		xd307		bogh1241		
+18	Kotoko		xd346		lagw1237		
+18	Bodi		xd393		meen1242		
+18	Sundi		xd42		koon1244	Note 8Feb2018: Changed based on note from HH: Hutereau's Kimanyanga refers to Koongo [kng]	
+18	Arbore		xd424		arbo1245		
+18	Kanembu		xd467		kane1243		
+18	Kunta		xd496		hass1238		
+18	Saadi		xd516		said1239		
+18	Ingrians		xd555		ingr1248		
+18	Ulch		xd626		ulch1241		
+18	Palaung		xd705		shwe1236	Note 8Feb2018: HH notes that it is unusual that an ethnography by Lowis be associated with [pll] rather than Rumai [rbb]. However, EA focus is “Katurr subtribe,” and this group was the focus of Milne's work. They are described as living “in or near Namhsan”. Her dictionary deals mainly with the dialect of Namhsan >> Shwe Palaung >> [pll]. Thus, I have left the language as [pll], assuming Lowis' work was used for context. However, users should be aware that this case may combine data for groups speaking different Palaung languages.	
+18	Bisayan		xd741		akla1241		
+18	Kimam		xd794		kima1246		
+18	Bende		xd85		bend1258		
+18	Kwaio		xd850		kwai1243		
+19	Dakelh		xd1035		carr1249		
+19	Lower Chinook		xd1078		chin1286		
+19	Southern Pomo		xd1117		sout2984		
+19	Umatilla		xd1151		umat1237		
+19	Plains Cree		xd1218		plai1258		
+19	Cocopa		xd1269		coco1261		
+19	Garanganze		xd137		sang1331		
+19	Efik		xd196		efik1245		
+19	Ambo		xd20		ndon1254		
+19	Diola		xd254		ejam1238	Note 8Feb2018: Changed based on note from HH: Cunha Taborde deals with Jola-Felupe [eja] rather than Diola-Fonyi	
+19	Adara		xd308		kada1284		
+19	Musgu		xd347		musg1254		
+19	Didinga		xd394		didi1258		
+19	Banna		xd425		hame1242		
+19	Teke		xd43		teke1278	Note, previously nzu and teke1279, but glottocode teke1279 is considered "bookkeeping", and SIL says nzu and ebo are said to be neighbouring dialects. Therefore, switched to ebo.	
+19	Kanuri		xd468		cent2050	Note 8Feb2018: Changed based on note from HH: Cohen's works refer to the Kanuri of Bornu = Central Kanuri [knc]	
+19	Trarza		xd497		hass1238		
+19	Sahel		xd517		sahi1245		
+19	Karelians		xd556		livv1243		
+19	Orok		xd627		orok1265		
+19	Chin		xd706		asho1236	Note 8Feb2018: Changed based on note from HH: Bernot's Khyang is "Khyang of Gongru village rattachent au groupe des Chin du Sud etudies par Houghton" = Asho Chin [csh]	
+19	Marind-Amin		xd795		nucl1622		
+19	Molima		xd851		moli1248		
+19	Fipa		xd86		fipa1238		
+20	Kutchin		xd1037		gwic1235		
+20	Tillamook		xd1080		till1254		
+20	Wappo		xd1119		wapp1239		
+20	Nez Perce		xd1153		nezp1238		
+20	Santee		xd1220		dako1258		
+20	Kamia		xd1271		kumi1248	Note, previously kimi1238 but changed by non-KK DPLACE editor in early 2016 (before 8April2016)	
+20	Ekonda		xd139		ekon1238		
+20	Ibibio		xd198		ibib1240		
+20	Ngumbi		xd22		nkhu1238		
+20	Papel		xd256		pape1239		
+20	Kagoro		xd310		kago1246		
+20	Tupuri		xd349		tupu1244		
+20	Suri		xd396		suri1267		
+20	Galab		xd427		daas1238		
+20	Yaka		xd45		yaka1269		
+20	Zerma		xd470		zarm1239		
+20	Zenaga		xd499		zena1248		
+20	Sanusi		xd519		liby1240		
+20	Kazan tatar		xd558		midd1325		
+20	Oroch		xd629		oroc1248		
+20	Kuki		xd708		lush1249		
+20	Koita		xd797		koit1244		
+20	Kaoka		xd853		long1395		
+20	Nyamwezi		xd88		nyam1276		
+21	Caribou Inuit		xd1038		cari1277		
+21	Coos		xd1081		coos1249		
+21	Lake Miwok		xd1120		lake1258		
+21	Tagotoka		xd1154		nort1551		
+21	Coahuilteco		xd1221		coah1252		
+21	Mojave		xd1272		moha1256		
+21	Kela		xd140		yela1238	Note, previously kela1254 but changed by non-KK DPLACE editor in early 2016 (before 8April2016); earlier KK note: ISO recognized by SIL, but considered bookkeeping by Glottolog	
+21	Ijaw		xd199		kala1381		
+21	Kisama		xd23		sama1300		
+21	Bomvana		xd24		bomv1238		
+21	Bassari		xd257		bass1258		
+21	Kurama		xd311		kura1249		
+21	Bagirmi		xd350		bagi1246		
+21	Jie		xd397		jiee1239		
+21	Hamar		xd428		hame1242		
+21	Bunda		xd46		mpuo1241		
+21	Djafun		xd471		adam1253		
+21	Tunisians		xd520		tuni1260		
+21	Latvians		xd559		latv1249		
+21	Udihe		xd630		udih1248		
+21	Mailu		xd798		mail1248		
+21	Tangu		xd854		tang1348		
+21	Pimbwe		xd89		pimb1238		
+22	Iglulik Inuit		xd1025		west2618		
+22	Tlingit		xd1082		tlin1245	9May2019 - preferred name changed to distinguish from eHRAF culture West Tibetans. Note northern and southern tlingit considered distinct dialects of tli by some, but no codes available in Glottolog.	
+22	Patwin		xd1121		patw1250		
+22	Wadadokado		xd1155		nort1551		
+22	Quechan		xd1273		quec1382		
+22	Kutsu		xd141		kusu1252		
+22	Itsekiri		xd200		isek1239		
+22	Chopi		xd25		copi1238		
+22	Serer		xd258		sere1260		
+22	Yergum		xd312		taro1263		
+22	Sara		xd351		sarr1246		
+22	Labwor		xd398		labw1238		
+22	Male		xd429		male1284		
+22	Dzing		xd47		ding1239		
+22	Liptako		xd472		west2454		
+22	Lithuanian Karaim		xd560		kara1464		
+22	Mekeo		xd799		meke1243		
+22	Sukuma		xd90		suku1261		
+23	Labrador Inuit		xd1039		labr1244		
+23	Heiltsuk		xd1083		bell1263		
+23	Western Mono		xd1122		mono1275		
+23	Atsakudokwa		xd1156		nort1551		
+23	Kewyipaya		xd1274		yava1252		
+23	Lalia		xd142		ngan1302	Note, previously lali1242 but changed by non-KK DPLACE editor in early 2016 (before 8April2016); earlier KK note: ISO recognized by SIL, but considered bookkeeping by Glottolog; could POTENTIALLY be linked to nxd - ngan1302, as a few online sources suggest that Lalia people speak "Longando" (Ngando, nxd), which wikipedia reports is a sister(?) langage of Lalia (lal).	
+23	Afikpo		xd201		afik1238		
+23	Kasonke		xd259		xaas1235		
+23	Jibu		xd313		jibu1239		
+23	Bwaka		xd352		ngba1284		
+23	Plains Suk		xd399		east2420		
+23	Bako		xd430		aari1239		
+23	Tukulor		xd473		pula1263		
+23	Lele		xd48		lele1265		
+23	Lithuanian Tatar		xd561		west2405		
+23	Muju		xd800		sout2940		
+23	Sangu		xd91		sang1330		
+24	Tasiilaq		xd1040		tunu1234	Note 8Feb2018: Changed based on note from HH: East Greenlandic is Tunumiisiut [tunu1234] in Glottolog.	
+24	Makah		xd1084		maka1318		
+24	Southern Valley Yokuts		xd1123		vall1251		
+24	Kidutokado		xd1157		nort1551		
+24	Lipan Apache		xd1275		lipa1241		
+24	Mongo		xd143		long1393	Note, dialect should be that spoken in Opala territory.	
+24	Edo		xd202		bini1246		
+24	Koranko		xd260		kura1250		
+24	Kentu		xd314		etky1238		
+24	Mandja		xd353		manz1243		
+24	Toposa		xd400		topo1242		
+24	Dime		xd431		dime1235		
+24	Wodaabe Fulani		xd474		boro1274		
+24	Sakata		xd49		saka1287		
+24	Livs		xd562		livv1244		
+24	Koiari		xd801		gras1249		
+24	Gogo		xd92		gogo1263		
+25	Kalaallit (West Greenland)		xd1041		kala1399	Note 8Feb2018: Glottocode updated from west2617 to kala1399	
+25	Quinault		xd1085		quin1251		
+25	Wukchumni		xd1124		tule1245		
+25	Sawakudokwa		xd1158		nort1551		
+25	Sia		xd1276		ziaa1251		
+25	Tetela		xd144		tete1250		
+25	Isoko		xd203		isok1239		
+25	Soninke		xd261		soni1259		
+25	Tigon		xd315		tigo1236		
+25	Mbandja		xd354		mban1263		
+25	Keyu		xd401		keiy1238		
+25	Shangama		xd432		aari1239		
+25	Tazarawa Hausa		xd475		arew1238	Note 22Jul2021 - language match changed by KK to dialect arew1238 (from haus1257). The Tazarawa Hausa are a northern group of Hausa, and this dialect seems a good match.	
+25	Songo		xd50		song1299		
+25	Moldovans		xd563		mold1248	Note, previously mold1247 but changed by non-KK DPLACE editor in early 2016 (before 8April2016)	
+25	Mafulu		xd802		fuyu1242		
+25	Rangi		xd93		lang1320		
+26	Dena'ina		xd1042		tana1289		
+26	Cowichan		xd1086		cowi1241		
+26	Salinan		xd1125		sali1253		
+26	Santa Clara		xd1277		sant1421		
+26	Topoke		xd145		poke1238		
+26	Kukuruku		xd204		yekh1238		
+26	Susu		xd262		susu1250		
+26	Ndoro		xd316		ndoo1241		
+26	Ngbandi		xd355		nort2774		
+26	Hill Suk		xd402		west2492		
+26	Ubamer		xd433		aari1239		
+26	Zazzagawa Hausa		xd476		haus1257	Note 22Jul2021 - matched to language haus1257, replacing previous match to dialect araw1280 (this match was deemed inaccurate - according to Wikipedia, araw1280 is a northern dialect, when instead the best match would be a southern dialect. No southern dialect was found in Glottolog, hence the language-level match.) Suggestion: Glottolog should add a southern dialect. According to wikipedia page for Hausa Language,  "Zazzaganci in Zazzau is the major Southern dialect"; according to SCCS pinpointing sheets, Zazzagawa Hausa are those in the Zaria (also known as the 'Zazzau Emirate') region.	
+26	Yanzi		xd51		yans1239		
+26	Udmurt		xd564		sout2681		
+26	Ngarawapum		xd803		adze1240		
+26	Turu		xd94		nyat1246		
+26	Wadatkuht		xd992		sout2967		
+27	Tahltan		xd1043		tahl1239		
+27	Stó:lō		xd1087		chil1281		
+27	Kawaiisu		xd1126		kawa1283		
+27	Kuyuidokado		xd1160		sout2967		
+27	Kewa		xd1278		sant1425		
+27	Lokele		xd146		kele1255		
+27	Eloyi		xd205		eloy1241		
+27	Diula		xd263		dyul1238		
+27	Zuande		xd317		bita1251		
+27	Abarambo		xd356		bara1361		
+27	Sapei		xd403		kups1238		
+27	Anfillo		xd434		anfi1235		
+27	Bachama		xd477		baca1246		
+27	Luchazi		xd52		luch1239		
+27	Veps		xd565		veps1250		
+27	Banaro		xd804		bana1292		
+27	Kwere		xd95		kwer1261		
+28	Sekani		xd1044		seka1250		
+28	Alsea		xd1088		alse1251		
+28	Chumash		xd1127		cruz1243		
+28	Toedokado		xd1161		sout2967		
+28	Ngala		xd147		ling1263		
+28	Gbagyi		xd206		gbar1246		
+28	Nononke		xd264		jena1242		
+28	Chamba		xd318		samb1305		
+28	Popoi		xd357		popo1291		
+28	Tatoga		xd404		dato1239		
+28	Basketo		xd435		bask1236		
+28	Dera		xd478		dera1248		
+28	Luimbe		xd53		luim1238		
+28	Votes		xd566		voti1245		
+28	Busama		xd805		buga1250		
+28	Zigula		xd96		zigu1242		
+29	Beaver		xd1045		beav1236		
+29	Siuslaw		xd1089		sius1254		
+29	Tongva		xd1128		tong1329		
+29	Tunava (Deep Springs and Fish Lake)		xd1162		mono1275		
+29	Poto		xd148		luse1252		
+29	Idoma		xd207		idom1241		
+29	Samo		xd265		sout2844		
+29	Daka		xd319		samb1311		
+29	Lendu		xd358		lend1245		
+29	Samburu		xd405		samb1315		
+29	Yem		xd436		toba1264		
+29	Ngizim		xd479		ngiz1242		
+29	Luwa		xd54		sond1250		
+29	Manam		xd806		mana1295		
+29	Hadimu		xd97		pemb1239		
+30	Dene		xd1046		chip1261		
+30	Takelma		xd1091		take1257		
+30	Serrano		xd1130		serr1255		
+30	Eastern Mono		xd1164		mono1275		
+30	Bira		xd150		bila1255		
+30	Igala		xd209		igal1242		
+30	Bobo		xd267		nort2819		
+30	Longuda		xd321		long1389		
+30	Lese		xd360		lese1243		
+30	Karamojong		xd407		nucl1430		
+30	Kafa		xd438		kafa1242		
+30	Plateau Tonga		xd56		tong1318		
+30	Mimika		xd808		kamo1255		
+30	Digo		xd99		digo1243		
+31	Duruma		xd100		duru1249		
+31	Eastern Cree		xd1047		sout2978		
+31	Tututni		xd1092		tutu1242		
+31	Cahuilla (Desert)		xd1131		cahu1264	Note, three Cahuilla Dialects (Mountain, Pass, Desert) are recognized by some, but Glottolog does not list any dialects	
+31	Koso		xd1165		pana1305		
+31	Budu		xd151		budu1250		
+31	Koro		xd210		ashe1269		
+31	Minianka		xd268		mama1271		
+31	Mumuye		xd322		nucl1240		
+31	Logo		xd361		logo1259		
+31	Pari		xd408		pari1256		
+31	Beta Israel		xd439		qima1242		
+31	Buye		xd57		buyu1239		
+31	Fore		xd809		fore1270		
+32	Giriama		xd101		giry1241		
+32	Montagnais		xd1048		mont1268	Note 8Feb2018: Not changed, despite comment from HH: "Naskapi [nsk] is a different lg from Montagnais [moe]". KK: Decided to leave, after looking into ethnographic materials: Foci are Lake St. John Band and Mistassini band [see KK notes for geographical extent of their territories]. Speck and Heye (1921): "[the] Pikwagami ("Flat lake," Lake St John), are an interior Montagnais culture intermediate between that of the coast and that of the eastern Naskapi and Mistassini. Therefore, Montagnais [moe] is more appropriate choice. 	
+32	Shasta		xd1093		shas1239		
+32	Cupeño		xd1132		cupe1243		
+32	Tümpisa Shoshone (Saline and Panamint)		xd1166		pana1305		
+32	Kumu		xd152		komo1260		
+32	Egba		xd211		egba1238		
+32	Senufo		xd269		ceba1235		
+32	Vere		xd323		momj1237		
+32	Lugbara		xd362		lugb1240		
+32	Nara		xd440		nara1262		
+32	Kaonde		xd58		kaon1241		
+32	Sio		xd810		sioo1240		
+33	Pokomo		xd102		poko1261		
+33	Northern Saulteaux		xd1049		alba1270		
+33	Chimariko		xd1094		chim1301		
+33	Luiseño		xd1133		luis1253		
+33	Beatty		xd1167		pana1305		
+33	Ndaka Babali		xd153		bali1274		
+33	Ekiti		xd212		ekit1244		
+33	Dyan		xd270		dyan1251		
+33	Yungur		xd324		bena1260	Note 8Feb2018: HH: Yungur usually refers to Bena [yun] rather than its sister Voro [vor].	
+33	Madi		xd363		madi1260		
+33	Kunama		xd441		kuna1268		
+33	Lala		xd59		lala1264		
+33	Soromadja		xd811		nucl1595		
+34	Kamba		xd103		kamb1297		
+34	Pekangekum		xd1050		lacs1238		
+34	Karuk		xd1095		karo1304		
+34	Kiliwa		xd1134		kili1268		
+34	Lida Shoshoni		xd1168		west2622		
+34	Plains Bira		xd154		bera1259		
+34	Ife		xd213		ifee1241		
+34	Dorosie		xd271		dogo1295		
+34	Bata		xd325		bata1314		
+34	Moru		xd364		moru1253		
+34	Ababda		xd442		abab1239		
+34	Luapula		xd60		luun1238		
+34	Bgu		xd812		bong1287		
+35	Meru		xd104		meru1245	12Nov2018 - changed back to Meru meru1245 [mer], after looking at Murdock's primary sources in more detail. While the latter two refs do focus on the "Kikuyu" in general terms, within the Kikuyu they clearly differentiated the Kikuyu and Meru. (Previous note, based on comment from HH: "8Feb2018 - Note possible mix, refs appear to refer to both kik and mer; kik assigned because majority of references refer to kik. [HH: "The latter two refs deal with Kikuyu [kik] which is a different lg from Meru [mer]".]	
+35	Nipigon		xd1051		cent2136		
+35	Hupa		xd1096		hupa1239		
+35	Mahaguaduka		xd1169		west2622		
+35	Rumbi		xd155		lomb1254		
+35	Adangme		xd214		adan1247		
+35	Kulango		xd272		boun1243		
+35	Bura		xd326		bura1292		
+35	Bongo		xd365		bong1285		
+35	Amarar		xd443		amar1281		
+35	Shila		xd61		luba1250	Note 8Feb2018: Changed based on note from HH: References indicate Bashila i.e. Luba-Katanga [lub] rather than Taabwa	
+35	Iatmul		xd813		iatm1242		
+36	Pare		xd105		asut1235		
+36	Minnesota Ojibwa		xd1052		redl1238		
+36	Wiyot		xd1097		wiyo1248		
+36	Wiyambituka		xd1170		west2622		
+36	Bombesa		xd156		mbes1238		
+36	Ewe		xd215		aguu1242		
+36	Lowiili		xd273		sout2790	Note 8Feb2018: Changed based on note from HH: LoWiili or Goody is Birifor-Southern [biv]	
+36	Gude		xd327		gude1246		
+36	Jur		xd366		luwo1239	Changed again on 09Nov2018: Further reading suggests this Luo speaking group from South Sudan should actually be matched to language luwo1239 "Dhe Luo", not to luok1236. See Tucker (1931) “The tribal confusion around Wau [Sudan]” (Sudan Notes and Records 14(1): 49-60 for further disambiguation. Note 8Feb2018: Changed based on note from HH: Crazzolara and Santandrea (and probably the others) is about the Nilotic Luo [luo] which is a completely different language than SBB Jur Modo [bex]	
+36	Beni-Amer		xd444		mans1267		
+36	Tumbuka		xd62		tumb1250		
+36	Samarokena		xd814		sama1240		
+37	Rainy River Ojibwe		xd1053		rain1239		
+37	Teita		xd106		tait1250		
+37	Lassik		xd1098		wail1244	Note, Nongatl, Sinkyone and Lassik considered distinct dialects of wlk by some, but glottolog does not provide dialect identifiers	
+37	Railroad Valley Shoshoni		xd1171		west2622		
+37	Budja		xd157		budz1238		
+37	Buem		xd216		siwu1238	Note 8Feb2018: HH notes that "Buem" may not be an appropriate name for the group ("HH: Buem (the name) usually refers to Lelemi [lef], I don't know the refs but if they refer to Siwu, it's not clear why the name Buem is used as the name for this society."). Indeed, focus is "Akpafu", which is a Siwu speaking group. KK suggests considering renaming group to "Mawu" -- see next: From Wikipedia (appears to be reliable, based on additional reading by KK): "The speakers of Siwu call themselves the "Mawu". Siwu is spoken in a total of eight villages scattered about in the mountains north of Hohoe. [The land is divided into] Akpafu (West) [akpa1243] and Lolobi (East) [lolo1260], corresponding to a dialectal division. [...] Within the Ghana-Togo Mountain Languages, the closest relatives of Siwu are Lεlεmi (Buem), Sεlε (Santrokofi), and Sεkpεlε (Likpe); with Siwu, these languages form a group that has been called the Buem group (Heine 1969). (https://en.wikipedia.org/wiki/Siwu_language)."	
+37	Awuna		xd274		angl1262		
+37	Hwana		xd328		hwan1240		
+37	Koalib		xd367		koal1240		
+37	Blin		xd445		bili1260		
+37	Kunda		xd63		kund1255		
+37	Star Mountain		xd815		ngal1298		
+38	Katikitegon		xd1054		uppe1274		
+38	Kara		xd107		kara1481		
+38	Mattole-Bear River		xd1099		matt1238		
+38	Ely Shoshoni		xd1172		west2622		
+38	Ndoko		xd158		doko1244		
+38	Abron		xd217		abro1238		
+38	Builsa		xd275		buli1254		
+38	Kapsiki		xd329		psik1239		
+38	Korongo		xd368		kron1241		
+38	Tigre		xd446		mans1267		
+38	Nyanja		xd64		nucl1395		
+38	Dani		xd816		midg1235		
+39	Eastern Ojibwa		xd1055		east2542		
+39	Sonjo		xd108		temi1247		
+39	Sinkyone		xd1100		wail1244	Note, Nongatl, Sinkyone and Lassik considered distinct dialects of wlk by some, but glottolog does not provide dialect identifiers	
+39	Ngombe		xd159		binj1250		
+39	Anyi		xd218		anyi1245		
+39	Dagara		xd276		sout2789		
+39	Podokwo		xd330		park1239		
+39	Mesakin		xd369		ngil1242		
+39	Jimma		xd447		west2721	Change 15Dec2017: fuga1235 replaced with west2721 [gaz] based on comment by HH: Lewis (1965) refers to ethnographic data from the Jimma kingdom I guess it should be attributed to Mec'a Galla = Western Oromo [gaz]. Maybe there are facts in there about Giangero also but it merely mentions the Fuga without giving any data on them.	
+39	Nyasa		xd65		mwer1247	Note 8Feb2018: Glottocode changed to mwer1247 based on note from HH questioning the previous match (to Mande). mwer1247s is a sister to Chewa, which was the other possible match. KK logic: The EA tells us only that the alternate names for the group are Wanyassa and Anyassa. The Johnson reference describes the Nyasa of Lake Nyasa (Lake Malawi in Tanzania). Carol Ember's concordance tells us the group is in Tanzania [note that the Concordance also selects Mande/mand1423 as a match, but not for a clear reason]. The uzh.ch EA site quotes Tew (1950:31) [the other ethnographic reference for this case]: "Nyasa, on the east littoral of Lake Nyasa, extending as far north as the Matengo mountains (and including a settlement of freed Nyasa slaves at Masasi in Tanganyika), and southwards until they mingle with Yao settlements on the upper Msinje and Luchulingo rivers." From Wikipedia: "The people who are called Nyanja [in Malawi] – when the term is used as an ethnic designation to identify those who speak Nyanja or related languages called Nyanja – are known as Nyasa or Wanyasa in neighbouring Tanzania. The Chewa are the largest ethnic group among the people who speak these related languages." KK summary: Thus, Chewa looks to be a defensible match, but glottolog provides a sister language to Chewa for Tanzania: "Mwera (Nyasa)" [mwer1247], which was selected.	
+39	Elema		xd817		orok1267		
+39	Spring Valley Shoshoni		xd995		west2622		
+40	Ottawa		xd1057		otta1242		
+40	Tiriki		xd110		idak1243		
+40	Tubaduka		xd1175		west2622		
+40	Dzem		xd161		njye1238		
+40	Assini		xd220		abur1243		
+40	Isala		xd278		tumu1242		
+40	Moro		xd371		moro1285		
+40	Baditu		xd449		koor1239		
+40	Sena		xd67		nucl1396		
+41	Mi'kmaq		xd1058		mikm1235		
+41	Vugusu		xd111		buku1249		
+41	Wadaduka		xd1176		west2622		
+41	Kota		xd162		ndas1238	Note 8Feb2018: Changed based on note from HH: The Kota ("Kota Sud") described by Andersson matches better with Ndasa [nda].	
+41	Attie		xd221		atti1239		
+41	Kusasi		xd279		kusa1250		
+41	Tira		xd372		tira1254		
+41	Dorse		xd450		dorz1235		
+41	Makonde		xd68		mako1251		
+42	Potawatomi		xd1059		pota1247		
+42	Haya		xd112		haya1250	Note 8Feb2018: HH notes that the Weiss ethnography (1 of 5 references) refers to Wahima and Wanjambo, which are Kinyarwanda [kin] and Nyambo [now] respectively -- "close to, but not the same lg as Haya [hay]". However, given that Haya appears to be the focus of the other ethnographies, I will leave the language match as [hay]. Users may wish to look into individual data points in detail, to ensure they refer to the focal group.	
+42	Elko Shoshoni		xd1177		west2622		
+42	Ngumba		xd163		kwas1243		
+42	Fante		xd222		fant1241		
+42	Nunuma		xd280		sout2795		
+42	Tullishi		xd373		tuli1249		
+42	Shako		xd451		shek1245		
+42	Makua		xd69		makh1264		
+43	Netsilik		xd1060		nets1241		
+43	Kerewe		xd113		kere1283		
+43	White Knife Shoshoni		xd1178		west2622		
+43	Sanga		xd164		bomw1238		
+43	Ga		xd223		gaaa1244		
+43	Vagala		xd281		vagl1239		
+43	Nyimang		xd374		amas1236		
+43	Hadendowa		xd452		hade1248		
+43	Mambwe		xd70		mamb1296		
+44	Nunavimmiut		xd1061		queb1248		
+44	Konjo		xd114		konz1239		
+44	Yahanduka		xd1179		west2622		
+44	Bubi		xd165		bube1242		
+44	Alagya		xd224		alla1248		
+44	Dagomba		xd282		dagb1246		
+44	Anuak		xd375		anua1242		
+45	Mistissini Cree		xd1062		sout2978		
+45	Nyankole		xd115		nyan1307		
+45	Bohogue		xd1180		nort2955		
+45	Kundu		xd166		orok1266		
+45	Avikam		xd225		avik1243		
+45	Gurma		xd283		gour1243		
+45	Meban		xd376		maba1273		
+46	Soga		xd116		soga1242		
+46	Agaiduka		xd1182		nort2955		
+46	Mpongwe		xd167		myen1241		
+46	Bakwe		xd226		bakw1243		
+46	Manprusi		xd284		mamp1244		
+46	Koma		xd377		komo1258		
+47	Sumbwa		xd117		sumb1240		
+47	Tukudika		xd1181		nort2955		
+47	Puku		xd168		bata1285		
+47	Krahn		xd227		west2488		
+47	Mossi (Ouagadougou)		xd285		moss1236		
+47	Mao		xd378		hozo1236		
+48	Toro		xd118		toor1238		
+48	Gosiute		xd1183		gosi1242		
+48	Bafia		xd169		bafi1243		
+48	Kru		xd228		klao1243		
+48	Basari		xd286		ntch1242		
+49	Antarianunts		xd1184		utee1244		
+49	Zinza		xd119		zinz1238		
+49	Bali Nyonga		xd170		mung1266		
+49	Sapo		xd229		sapo1251		
+49	Kabre		xd287		kabi1261		
+50	Panguitch		xd1186		utee1244		
+50	Kaguru		xd121		kagu1239		
+50	Bamum		xd172		bamu1253		
+50	Dan		xd231		dann1241		
+50	Moba		xd289		moba1244		
+51	Moapa		xd1187		sout2969		
+51	Ngulu		xd122		ngul1246		
+51	Banen		xd173		tune1261		
+51	Gagu		xd232		gagu1242		
+51	Somba		xd290		dita1238		
+52	Shivwits		xd1188		sout2969		
+52	Fungom		xd174		mmen1238		
+52	Guro		xd233		guro1248		
+52	Tem		xd291		temm1241		
+53	Southern Paiute (Kaibab)		xd1189		sout2969		
+53	Koko		xd175		bako1249		
+53	Tura		xd234		tour1242		
+53	Bisa		xd292		biss1248		
+54	Chemehuevi		xd1190		chem1251		
+54	Kom		xd176		komc1235		
+54	Gbande		xd235		band1352		
+54	Yalunka		xd293		yalu1240		
+55	Southern Paiute (Las Vegas)		xd1189		sout2969		
+55	Ndob		xd177		band1349		
+55	Gola		xd236		gola1255		
+56	San Juan		xd1192		sout2969		
+56	Nsaw		xd178		lamn1239		
+56	Ngere		xd237		dann1241		
+57	Pahvant		xd1193		utee1244		
+57	Nsungli		xd179		limb1268		
+57	Temne		xd238		timn1235		
+58	Uintah Ute		xd1194		utee1244		
+58	Tikar		xd180		tige1238		
+58	Vai		xd239		vaii1241		
+59	Moanunts		xd1195		utee1244		
+59	Widikum		xd181		meta1238		
+60	Moache		xd1197		utee1244		
+61	Taviwatsiu		xd1198		utee1244		
+62	Uncompahgre Ute		xd1199		utee1244		
+63	Bannock		xd1200		bann1248		
+64	Wind River Eastern Shoshone		xd1201		nort2955		
+65	Hualapai		xd1202		wala1270		
+66	Yavapai		xd1203		yava1252		
+67	Tolkepaya		xd1204		yava1252		

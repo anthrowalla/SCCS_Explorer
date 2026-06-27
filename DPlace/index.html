@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Standard Cross-Cultural Sample</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Standard Cross-Cultural Sample</h1>
+            <p class="subtitle">Cross-tabulate variables from SCCS</p>
+        </header>
+
+        <main>
+            <section id="dataset-panel" class="panel">
+                <h2>Select Dataset</h2>
+                <div class="radio-group">
+                    <div class="radio-option">
+                        <input type="radio" id="dataset-sccs" name="dataset" value="sccs" checked>
+                        <label for="dataset-sccs">SCCS sample</label>
+                    </div>
+                    <div class="radio-option">
+                        <input type="radio" id="dataset-ea-vars" name="dataset" value="ea_vars">
+                        <label for="dataset-ea-vars">SCCS sample with EA variables</label>
+                    </div>
+                    <div class="radio-option">
+                        <input type="radio" id="dataset-ea" name="dataset" value="ea">
+                        <label for="dataset-ea">EA sample</label>
+                    </div>
+                </div>
+            </section>
+
+            <section id="selection-panel" class="panel">
+                <h2>Select Variables to Crosstabulate</h2>
+                <form id="crosstab-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="row-var" class="row-var-label">Row Variable:</label>
+                            <input type="text" id="row-var" readonly placeholder="Click to select..."
+                                   class="var-picker-input" data-slot="row" data-var-num="">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="col-var">Column Variable:</label>
+                            <input type="text" id="col-var" readonly placeholder="Click to select..."
+                                   class="var-picker-input" data-slot="col" data-var-num="">
+                        </div>
+                    </div>
+
+                    <div class="options">
+                        <div class="checkbox-group">
+                            <input type="checkbox" id="colour" name="colour" value="1" checked>
+                            <label for="colour">Colour code cells by frequency</label>
+                        </div>
+                        <div class="checkbox-group">
+                            <input type="checkbox" id="expected" name="expected" value="1">
+                            <label for="expected">Include expected values and chi-square analysis</label>
+                            <span class="alpha-input" id="alpha-input-group">
+                                <label for="alpha-level">significant at <=</label>
+                                <input type="number" id="alpha-level" name="alpha-level" value="0.05" step="0.001" min="0.001" max="0.5">
+                            </span>
+                        </div>
+                        <div class="checkbox-group">
+                            <input type="checkbox" id="missing" name="missing" value="1">
+                            <label for="missing">Include missing values (.)</label>
+                        </div>
+                        <div class="checkbox-group">
+                            <input type="checkbox" id="merge" name="merge" value="1">
+                            <label for="merge">Enable category merging</label>
+                        </div>
+                        <div class="checkbox-group">
+                            <input type="checkbox" id="info-metrics" name="info-metrics" value="1">
+                            <label for="info-metrics">Show Information Metrics</label>
+                        </div>
+                        <div class="checkbox-group indent-group" id="info-options-group" style="display: none;">
+                            <div class="checkbox-group">
+                                <input type="checkbox" id="info-show-joint" name="info-show-joint" value="1">
+                                <label for="info-show-joint">H(R,C)</label>
+                            </div>
+                            <div class="checkbox-group">
+                                <input type="checkbox" id="info-show-rc" name="info-show-rc" value="1">
+                                <label for="info-show-rc">H(R;C)</label>
+                            </div>
+                            <div class="checkbox-group">
+                                <input type="checkbox" id="info-show-cr" name="info-show-cr" value="1">
+                                <label for="info-show-cr">H(C;R)</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-actions">
+                        <button type="submit" class="btn-primary">Generate Crosstabulation</button>
+                        <button type="button" id="btn-browse-vars" class="btn-secondary">Browse Variables</button>
+                    </div>
+                </form>
+
+                <div id="variable-info" class="info-panel hidden">
+                    <h3>Selected Variables</h3>
+                    <div id="var-descriptions"></div>
+                </div>
+            </section>
+
+            <section id="results-panel" class="panel hidden">
+                <div class="results-header">
+                    <h2>Crosstabulation Results</h2>
+                    <div class="header-controls">
+                        <div class="checkbox-group">
+                            <input type="checkbox" id="summarize-labels" name="summarize-labels" value="1">
+                            <label for="summarize-labels">Summarize value labels</label>
+                        </div>
+                        <button id="btn-new-search" class="btn-secondary">New Search</button>
+                    </div>
+                </div>
+
+                <div id="column-var-display" class="column-var-box"></div>
+
+                <div id="crosstab-container">
+                    <!-- Main crosstab table will be inserted here -->
+                </div>
+
+                <div id="statistics-container" class="hidden">
+                    <!-- Statistical analysis tables will be inserted here -->
+                </div>
+
+                <div id="chi-square-summary" class="hidden">
+                    <!-- Chi-square summary will be inserted here -->
+                </div>
+
+                <div id="info-metrics-container" class="hidden">
+                    <!-- Information metrics will be inserted here -->
+                </div>
+            </section>
+
+            <section id="cell-detail-panel" class="panel hidden">
+                <div class="detail-header">
+                    <h2>Cell Detail</h2>
+                    <button id="btn-close-detail" class="btn-secondary">Close</button>
+                </div>
+                <div id="cell-detail-content">
+                    <!-- Society list for selected cell will be inserted here -->
+                </div>
+            </section>
+
+            <section id="browse-panel" class="panel hidden">
+                <div class="browse-header">
+                    <h2>Browse Variables</h2>
+                    <button id="btn-close-browse" class="btn-secondary">Close</button>
+                </div>
+                <div id="variable-list">
+                    <!-- Variable list will be inserted here -->
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Please cite the following papers if you use this data:</p>
+            <p>The Standard Cross Cultural Sample. G. P. Murdock and Douglas R. White, 1969. Standard cross-cultural sample. <em>Ethnology</em>, 8(4), pp.329&ndash;369. Individual variable citations are available when selecting variables.</p>
+            <p>Kirby, K.R., Gray, R. D., Greenhill, S. J., Jordan, F. M., Gomes-Ng, S., Bibiko, H-J, et al. (2016). D-PLACE: A Global Database of Cultural, Linguistic and Environmental Diversity. <em>PLoS ONE</em>, 11(7): e0158391. doi:10.1371/journal.pone.0158391.</p>
+        </footer>
+    </div>
+
+    <!-- Cell Detail Modal -->
+    <div id="cellModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modalTitle">Cell Detail</h2>
+                <button class="close-btn" id="btn-close-modal">×</button>
+            </div>
+            <div id="modalBody"></div>
+        </div>
+    </div>
+
+    <script type="module" src="app.js"></script>
+</body>
+</html>

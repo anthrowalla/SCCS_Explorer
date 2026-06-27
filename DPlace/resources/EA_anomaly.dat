@@ -1,0 +1,16 @@
+EA Data Conversion Anomaly Report
+==================================================
+
+Summary
+------------------------------
+  Total NA (missing) values:   31124
+  Total coded values:           90230
+  Decimal-valued entries:       0
+
+Continuous Variables with Decimal Values
+--------------------------------------------------
+
+Notes
+------------------------------
+  - NA values are represented as '.' in EA.data
+  - Decimal values are preserved as-is in the data matrix

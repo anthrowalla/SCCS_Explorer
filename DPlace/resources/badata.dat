@@ -1,0 +1,36 @@
+SCCS Data Conversion Anomaly Report
+==================================================
+
+Summary
+------------------------------
+  Total NA (missing) values:   151599
+  Total coded values:           177850
+  Decimal-valued entries:       262
+  Sub-variables found:          8
+  Empty codes:                  0
+  Truly bad/metadata entries:   0
+
+Continuous Variables with Decimal Values
+--------------------------------------------------
+  SCCS1689: 6 sample values: 11.55, 10.76, 11.46, 10.74, 10.2, 9.59
+  SCCS1805: 6 sample values: 4.5, 3.5, 3.5, 3.5, 3.5, 3.5
+  SCCS2000: 6 sample values: 17.8, 16.7, 18.5, 16.5, 12.5, 11.5
+  SCCS801: 6 sample values: 0.021, 0.115, 0.015, 0.008, 0.012, 0.047
+
+Sub-Variables (appended after parent)
+--------------------------------------------------
+  SCCS1805.1
+  SCCS1805.2
+  SCCS1805.3
+  SCCS1805.4
+  SCCS1805.5
+  SCCS1805.6
+  SCCS1805.7
+  SCCS1805.8
+
+Notes
+------------------------------
+  - No truly corrupted or metadata entries found in data.csv
+  - Decimal values are preserved as-is in the data matrix
+  - Sub-variables (SCCS1805.1-8) are appended after their parent
+  - NA values are represented as '.' in SCCS.data
