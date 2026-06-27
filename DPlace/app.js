@@ -31,13 +31,39 @@ class EthnoAtlasApp {
         this.selectedRowVar = null;
         this.selectedColVar = null;
 
-        // Configuration - paths relative to the HTML file
-        this.config = {
-            dataFile: 'resources/SCCS.data',
-            labelFile: 'resources/SCCS.lbl',
-            owcInfoFile: 'resources/owc_info.json',
-            varInfoFile: 'resources/SCCS.varinfo'
+        // Dataset configuration
+        this.datasetConfigs = {
+            sccs: {
+                name: 'SCCS sample',
+                dataFile: 'resources/SCCS.data',
+                labelFile: 'resources/SCCS.lbl',
+                societyFile: 'resources/SCCS.glbl',
+                varInfoFile: 'resources/SCCS.varinfo',
+                owcFile: 'resources/owc_info_unified.json'
+            },
+            ea_vars: {
+                name: 'SCCS sample with EA variables',
+                dataFile: 'resources/EthnoAtlas.data',
+                labelFile: 'resources/EthnoAtlas.lbl',
+                societyFile: 'resources/EthnoAtlas.glbl',
+                varInfoFile: null,  // Main branch doesn't have varinfo
+                owcFile: 'resources/owc_info_unified.json'
+            },
+            ea: {
+                name: 'EA sample',
+                dataFile: 'resources/EA.data',
+                labelFile: 'resources/EA.lbl',
+                societyFile: 'resources/EA.glbl',
+                varInfoFile: 'resources/EA.varinfo',
+                owcFile: 'resources/owc_info_unified.json'
+            }
         };
+
+        // Current dataset (from localStorage or default to 'sccs')
+        this.currentDataset = localStorage.getItem('selectedDataset') || 'sccs';
+
+        // Configuration - paths relative to the HTML file
+        this.config = this.datasetConfigs[this.currentDataset];
 
         this.init();
     }
@@ -57,19 +83,29 @@ class EthnoAtlasApp {
             console.log('  ', this.config.varInfoFile);
 
             // Load all data
-            const [dataResult, labelsResult, owcResult, varInfoResult] = await Promise.allSettled([
+            const loadPromises = [
                 this.dataParser.loadData(this.config.dataFile),
                 this.labelParser.loadLabels(this.config.labelFile),
-                this.owlLookup.loadOwcInfo(this.config.owcInfoFile),
-                this.labelParser.loadVarInfo(this.config.varInfoFile)
-            ]);
+            ];
+            if (this.config.owcFile) {
+                loadPromises.push(this.owlLookup.loadOwcInfo(this.config.owcFile));
+            } else {
+                loadPromises.push(Promise.resolve(null));
+            }
+            if (this.config.varInfoFile) {
+                loadPromises.push(this.labelParser.loadVarInfo(this.config.varInfoFile));
+            } else {
+                loadPromises.push(Promise.resolve(null));
+            }
+
+            const [dataResult, labelsResult, owcResult, varInfoResult] = await Promise.allSettled(loadPromises);
 
             // Check for errors
             const errors = [];
-            if (dataResult.status === 'rejected') errors.push(`Data file: ${dataResult.reason.message}`);
-            if (labelsResult.status === 'rejected') errors.push(`Label file: ${labelsResult.reason.message}`);
-            if (owcResult.status === 'rejected') errors.push(`OWC info file: ${owcResult.reason.message}`);
-            if (varInfoResult.status === 'rejected') errors.push(`VarInfo file: ${varInfoResult.reason.message}`);
+            if (dataResult.status === 'rejected') errors.push(`Data file: ${dataResult.reason?.message || dataResult.reason}`);
+            if (labelsResult.status === 'rejected') errors.push(`Label file: ${labelsResult.reason?.message || labelsResult.reason}`);
+            if (this.config.owcFile && owcResult.status === 'rejected') errors.push(`OWC info file: ${owcResult.reason?.message || owcResult.reason}`);
+            if (this.config.varInfoFile && varInfoResult.status === 'rejected') errors.push(`VarInfo file: ${varInfoResult.reason?.message || varInfoResult.reason}`);
 
             if (errors.length > 0) {
                 throw new Error('Failed to load data files:\n' + errors.join('\n'));
@@ -77,6 +113,9 @@ class EthnoAtlasApp {
 
             // Initialize crosstab engine
             this.crosstabEngine = new CrosstabEngine(this.dataParser, this.labelParser);
+
+            // Set current dataset for OWC lookup
+            this.owlLookup.setCurrentDataset(this.currentDataset);
 
             // Initialize variable picker
             this.picker = new VariablePicker(this.labelParser, this.dataParser, (slot, varNum) => {
@@ -135,10 +174,18 @@ class EthnoAtlasApp {
         const errorMessage = error.message || 'Unknown error';
         const container = document.querySelector('main');
 
+        // Build file list based on current dataset
+        let fileList = '';
+        if (this.config.dataFile) fileList += `<li>${this.config.dataFile}</li>`;
+        if (this.config.labelFile) fileList += `<li>${this.config.labelFile}</li>`;
+        if (this.config.societyFile) fileList += `<li>${this.config.societyFile}</li>`;
+        if (this.config.varInfoFile) fileList += `<li>${this.config.varInfoFile}</li>`;
+        if (this.config.owcFile) fileList += `<li>${this.config.owcFile}</li>`;
+
         container.innerHTML = `
             <div class="panel" style="background-color: #fee; border: 2px solid #c00;">
                 <h2 style="color: #c00;">Error Loading Data Files</h2>
-                <p><strong>The application could not load the required data files.</strong></p>
+                <p><strong>The application could not load the required data files for <em>${this.config.name}</em>.</strong></p>
                 <p style="font-family: monospace; background: #fff; padding: 10px; margin: 10px 0;">${errorMessage}</p>
 
                 <h3>Possible Solutions:</h3>
@@ -150,11 +197,13 @@ class EthnoAtlasApp {
                         </ul>
                     </li>
                     <li><strong>Check file locations</strong> - The data files should be in resources/:
+                        <ul>${fileList}</ul>
+                    </li>
+                    <li><strong>Try a different dataset</strong> - Switch to another dataset using the radio buttons above.
                         <ul>
-                            <li>resources/SCCS.data</li>
-                            <li>resources/SCCS.lbl</li>
-                            <li>resources/SCCS.glbl</li>
-                            <li>resources/SCCS.varinfo</li>
+                            <li>SCCS sample has ~1781 variables for 186 societies</li>
+                            <li>SCCS sample with EA variables has 86 variables</li>
+                            <li>EA sample has 94 variables for 1291 societies</li>
                         </ul>
                     </li>
                 </ol>
@@ -271,6 +320,134 @@ class EthnoAtlasApp {
                 localStorage.setItem('summarizeLabels', this.summarizeLabels);
                 this.updateValueLabels();
             });
+        }
+
+        // Dataset radio buttons
+        const datasetRadios = document.querySelectorAll('input[name="dataset"]');
+        datasetRadios.forEach(radio => {
+            // Set initial state based on currentDataset
+            if (radio.value === this.currentDataset) {
+                radio.checked = true;
+            }
+            // Add change listener
+            radio.addEventListener('change', async (e) => {
+                if (e.target.checked) {
+                    await this.switchDataset(e.target.value);
+                }
+            });
+        });
+    }
+
+    async switchDataset(datasetId) {
+        if (datasetId === this.currentDataset) {
+            return; // Already on this dataset
+        }
+
+        console.log(`Switching to dataset: ${datasetId}`);
+
+        // Store previous dataset in case of error
+        const previousDataset = this.currentDataset;
+        const previousConfig = this.config;
+
+        try {
+            // Update config temporarily
+            this.config = this.datasetConfigs[datasetId];
+
+            // Clear selections
+            this.selectedRowVar = null;
+            this.selectedColVar = null;
+            this.rowMergeMap = {};
+            this.colMergeMap = {};
+            this.currentCrosstab = null;
+            this.currentStats = null;
+            this.currentInfoMetrics = null;
+            this.mergeEnabled = false;
+            this.hasMerged = false;
+
+            // Hide results panel and show selection panel
+            document.getElementById('results-panel').classList.add('hidden');
+            document.getElementById('selection-panel').classList.remove('hidden');
+            document.getElementById('dataset-panel').classList.remove('hidden');
+            document.getElementById('cellModal').classList.remove('active');
+
+            // Clear variable info
+            document.getElementById('variable-info').classList.add('hidden');
+            document.getElementById('var-descriptions').innerHTML = '';
+
+            // Clear picker inputs
+            document.querySelectorAll('.var-picker-input').forEach(input => {
+                input.value = '';
+                input.dataset.varNum = '';
+            });
+
+            // Show loading message
+            this.showLoading('Loading dataset files...');
+
+            // Reload data
+            const loadPromises = [
+                this.dataParser.loadData(this.config.dataFile),
+                this.labelParser.loadLabels(this.config.labelFile),
+            ];
+            if (this.config.owcFile) {
+                loadPromises.push(this.owlLookup.loadOwcInfo(this.config.owcFile));
+            } else {
+                loadPromises.push(Promise.resolve(null));
+            }
+            if (this.config.varInfoFile) {
+                loadPromises.push(this.labelParser.loadVarInfo(this.config.varInfoFile));
+            } else {
+                loadPromises.push(Promise.resolve(null));
+            }
+
+            const [dataResult, labelsResult, owcResult, varInfoResult] = await Promise.allSettled(loadPromises);
+
+            // Check for errors
+            const errors = [];
+            if (dataResult.status === 'rejected') errors.push(`Data file: ${dataResult.reason?.message || dataResult.reason}`);
+            if (labelsResult.status === 'rejected') errors.push(`Label file: ${labelsResult.reason?.message || labelsResult.reason}`);
+            if (this.config.owcFile && owcResult.status === 'rejected') errors.push(`OWC info file: ${owcResult.reason?.message || owcResult.reason}`);
+            if (this.config.varInfoFile && varInfoResult.status === 'rejected') errors.push(`VarInfo file: ${varInfoResult.reason?.message || varInfoResult.reason}`);
+
+            if (errors.length > 0) {
+                throw new Error('Failed to load data files:\n' + errors.join('\n'));
+            }
+
+            // Success! Update current dataset and save to localStorage
+            this.currentDataset = datasetId;
+            localStorage.setItem('selectedDataset', datasetId);
+
+            // Recreate crosstab engine with new data
+            this.crosstabEngine = new CrosstabEngine(this.dataParser, this.labelParser);
+
+            // Set current dataset for OWC lookup
+            this.owlLookup.setCurrentDataset(datasetId);
+
+            // Recreate variable picker with new data
+            this.picker = new VariablePicker(this.labelParser, this.dataParser, (slot, varNum) => {
+                this.onVariableSelected(slot, varNum);
+            });
+
+            this.hideLoading();
+            console.log(`Switched to ${this.config.name}`);
+            console.log(`Loaded ${this.dataParser.getCaseCount()} societies with ${this.dataParser.getVariableCount()} variables`);
+            console.log(`Categories: ${this.labelParser.getCategories().join(', ')}`);
+
+        } catch (error) {
+            this.hideLoading();
+            console.error('Error switching dataset:', error);
+            // Revert to previous dataset
+            this.config = previousConfig;
+            this.currentDataset = previousDataset;
+            localStorage.setItem('selectedDataset', previousDataset);
+
+            // Update radio button to previous selection
+            const previousRadio = document.querySelector(`input[value="${previousDataset}"]`);
+            if (previousRadio) {
+                previousRadio.checked = true;
+            }
+
+            // Show error
+            alert(`Error loading ${this.datasetConfigs[datasetId].name}: ${error.message}\n\nReverted to ${this.datasetConfigs[previousDataset].name}.`);
         }
     }
 
@@ -1309,29 +1486,103 @@ class EthnoAtlasApp {
             html += '<p>No societies in this cell.</p>';
         } else {
             for (const caseId of caseIds) {
-                const society = this.owlLookup.getSociety(caseId);
+                const society = this.owlLookup.getSocietyByCaseId(caseId);
+                const crossRefs = this.owlLookup.getCrossDatasetRefs(society.soc_id);
+
                 // Get first sentence of description
                 let firstSentence = '';
-                let fullDesc = society.description || '';
+                let fullDesc = society.hraf_summary || '';
                 if (fullDesc) {
                     const match = fullDesc.match(/^.*?[.!?](?:\s|$)/);
                     firstSentence = match ? match[0] : fullDesc;
                 }
 
+                // Build cross-references HTML as direct D-Place links
+                let crossRefsHtml = '';
+                if (crossRefs.length > 0) {
+                    crossRefsHtml = '<div class="society-crossrefs">';
+                    crossRefsHtml += '<strong>See also:</strong> ';
+                    crossRefsHtml += crossRefs.map(ref => {
+                        // Build D-Place URL for the cross-referenced society
+                        let dplaceUrl = '';
+                        if (ref.dataset === 'SCCS' && ref.case_id) {
+                            dplaceUrl = `https://d-place.org/society/SCCS${ref.case_id}`;
+                        } else if (ref.dataset === 'EA' && ref.soc_id) {
+                            dplaceUrl = `https://d-place.org/society/${ref.soc_id}`;
+                        }
+
+                        if (dplaceUrl) {
+                            return `<a href="${dplaceUrl}" target="_blank" class="crossref-link">${ref.dataset} ${ref.pref_name}</a>`;
+                        }
+                        return `${ref.dataset} ${ref.pref_name}`;
+                    }).join(', ');
+                    crossRefsHtml += '</div>';
+                }
+
+                // Build society info
+                let infoHtml = '';
+                if (society.focal_year) {
+                    infoHtml += `Year: ${society.focal_year}`;
+                }
+                if (society.latitude && society.longitude) {
+                    infoHtml += (infoHtml ? ' | ' : '') + `Location: ${society.latitude}, ${society.longitude}`;
+                }
+
+                // Build buttons in correct order based on dataset
+                let buttonsHtml = '<div class="society-buttons">';
+
+                // For EA sample, the society comes from EA dataset
+                // For SCCS sample, it comes from SCCS dataset
+                const isEaDataset = society.dataset === 'EA';
+
+                if (isEaDataset) {
+                    // EA sample order: D-Place EA Info → eHRAF Info (if available) → D-Place SCCS Info (if cross-ref exists)
+                    buttonsHtml += `<button class="btn-info dplace-btn" data-url="https://d-place.org/society/${society.soc_id}" title="Opens in new tab">D-Place EA Info</button>`;
+
+                    if (society.group_id) {
+                        buttonsHtml += `<button class="btn-info ehraf-btn" data-owc-id="${society.group_id}" title="Opens in new tab">eHRAF Info</button>`;
+                    }
+
+                    // Check if there's an SCCS cross-reference
+                    const sccsRef = crossRefs.find(ref => ref.dataset === 'SCCS');
+                    if (sccsRef && sccsRef.case_id) {
+                        buttonsHtml += `<button class="btn-info dplace-btn" data-url="https://d-place.org/society/SCCS${sccsRef.case_id}" title="Opens in new tab">D-Place SCCS Info</button>`;
+                    }
+                } else {
+                    // SCCS sample order: eHRAF Info (if available) → D-Place SCCS Info
+                    if (society.group_id) {
+                        buttonsHtml += `<button class="btn-info ehraf-btn" data-owc-id="${society.group_id}" title="Opens in new tab">eHRAF Info</button>`;
+                    }
+
+                    if (society.case_id) {
+                        buttonsHtml += `<button class="btn-info dplace-btn" data-url="https://d-place.org/society/SCCS${society.case_id}" title="Opens in new tab">D-Place SCCS Info</button>`;
+                    }
+                }
+
+                buttonsHtml += '</div>';
+
+                // Build society name with proper formatting
+                let societyNameHtml = '';
+                if (isEaDataset) {
+                    // For EA: use society ID (e.g., Aa1) and preferred name with alternatives
+                    const altNames = society.alt_names && society.alt_names.length > 0
+                        ? ` (${society.alt_names.slice(0, 3).join(', ')})`
+                        : '';
+                    societyNameHtml = `${society.soc_id}. ${society.pref_name}${altNames}`;
+                } else {
+                    // For SCCS: use case number and name
+                    societyNameHtml = `${caseId}. ${society.pref_name}${society.hraf_name ? ` (${society.hraf_name})` : ''}`;
+                }
+
                 html += `
                     <div class="society-item" data-case-id="${caseId}">
-                        <div class="society-name">${caseId}. ${society.name} (eHRAF: ${society.term})${society.highest_bt ? ' / ' + society.highest_bt : ''}${society.bt ? ' / ' + society.bt : ''}</div>
-                        <div class="society-info">
-                            ${society.year ? `Year: ${society.year}` : ''}
-                            ${society.subsistence_type ? ` | Subsistence: ${society.subsistence_type}` : ''}
-                        </div>
-                        <div class="society-description" data-full-desc="${encodeURIComponent(fullDesc)}">
+                        <div class="society-name">${societyNameHtml}</div>
+                        ${infoHtml ? `<div class="society-info">${infoHtml}</div>` : ''}
+                        ${crossRefsHtml}
+                        ${fullDesc ? `<div class="society-description" data-full-desc="${encodeURIComponent(fullDesc)}">
                             Description: ${firstSentence}<span class="desc-toggle">[More]</span>
-                        </div>
-                        <div class="society-buttons">
-                            <button class="btn-info ehraf-btn" data-owc-id="${society.id}" title="Opens in new tab">eHRAF Info</button>
-                            <button class="btn-info sccs-btn" data-sccs-group="${society.sccs_group}" title="Opens in new tab">D-Place SCCS Info</button>
-                        </div>
+                        </div>` : ''}
+                        ${buttonsHtml}
                     </div>
                 `;
             }
@@ -1370,11 +1621,11 @@ class EthnoAtlasApp {
             });
         });
 
-        // Add click handlers for D-Place SCCS Info buttons
-        body.querySelectorAll('.sccs-btn').forEach(btn => {
+        // Add click handlers for D-Place Info buttons
+        body.querySelectorAll('.dplace-btn').forEach(btn => {
             btn.addEventListener('click', (e) => {
-                const sccsGroup = e.target.dataset.sccsGroup;
-                window.open(`https://d-place.org/society/SCCS${sccsGroup}`, '_blank');
+                const url = e.target.dataset.url;
+                window.open(url, '_blank');
             });
         });
     }
@@ -1384,9 +1635,9 @@ class EthnoAtlasApp {
     }
 
     showPanel(panelId) {
-        // Hide all panels except selection panel
+        // Hide all panels except selection panel and dataset panel
         document.querySelectorAll('.panel').forEach(panel => {
-            if (panel.id !== 'selection-panel') {
+            if (panel.id !== 'selection-panel' && panel.id !== 'dataset-panel') {
                 panel.classList.add('hidden');
             }
         });

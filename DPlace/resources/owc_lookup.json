@@ -1,0 +1,8864 @@
+{
+  "SCCS1": {
+    "group_id": "fx13",
+    "hraf_name": "Khoi",
+    "pref_name": "Nama",
+    "dataset": "SCCS"
+  },
+  "Aa3": {
+    "group_id": "fx13",
+    "hraf_name": "Khoi",
+    "pref_name": "Nama",
+    "dataset": "EA"
+  },
+  "SCCS2": {
+    "group_id": "fx10",
+    "hraf_name": "San",
+    "pref_name": "!Kung",
+    "dataset": "SCCS"
+  },
+  "Aa1": {
+    "group_id": "fx10",
+    "hraf_name": "San",
+    "pref_name": "!Kung",
+    "dataset": "EA"
+  },
+  "SCCS3": {
+    "group_id": "ft06",
+    "hraf_name": "Tsonga",
+    "pref_name": "Tsonga",
+    "dataset": "SCCS"
+  },
+  "Ab4": {
+    "group_id": "ft06",
+    "hraf_name": "Tsonga",
+    "pref_name": "Tsonga",
+    "dataset": "EA"
+  },
+  "SCCS4": {
+    "group_id": "fq09",
+    "hraf_name": "Lozi",
+    "pref_name": "Lozi",
+    "dataset": "SCCS"
+  },
+  "Ab3": {
+    "group_id": "fq09",
+    "hraf_name": "Lozi",
+    "pref_name": "Lozi",
+    "dataset": "EA"
+  },
+  "SCCS5": {
+    "group_id": "fp13",
+    "hraf_name": "Ovimbundu",
+    "pref_name": "Mbundu",
+    "dataset": "SCCS"
+  },
+  "Ab5": {
+    "group_id": "fp13",
+    "hraf_name": "Ovimbundu",
+    "pref_name": "Mbundu",
+    "dataset": "EA"
+  },
+  "SCCS6": {
+    "group_id": "fo46",
+    "hraf_name": "Suku",
+    "pref_name": "Suku",
+    "dataset": "SCCS"
+  },
+  "Ac17": {
+    "group_id": "fo46",
+    "hraf_name": "Suku",
+    "pref_name": "Suku",
+    "dataset": "EA"
+  },
+  "SCCS7": {
+    "group_id": "fq05",
+    "hraf_name": "Bemba",
+    "pref_name": "Bemba",
+    "dataset": "SCCS"
+  },
+  "Ac3": {
+    "group_id": "fq05",
+    "hraf_name": "Bemba",
+    "pref_name": "Bemba",
+    "dataset": "EA"
+  },
+  "SCCS8": {
+    "group_id": "fn17",
+    "hraf_name": "Nyakyusa and Ngonde",
+    "pref_name": "Nyakyusa",
+    "dataset": "SCCS"
+  },
+  "Ad6": {
+    "group_id": "fn17",
+    "hraf_name": "Nyakyusa and Ngonde",
+    "pref_name": "Nyakyusa",
+    "dataset": "EA"
+  },
+  "Ad16": {
+    "group_id": "fn17",
+    "hraf_name": "Nyakyusa and Ngonde",
+    "pref_name": "Ngonde",
+    "dataset": "EA"
+  },
+  "SCCS9": {
+    "group_id": "fn11",
+    "hraf_name": "Hadza",
+    "pref_name": "Hadza",
+    "dataset": "SCCS"
+  },
+  "SCCS10": {
+    "group_id": "fn32",
+    "hraf_name": "Luguru",
+    "pref_name": "Luguru",
+    "dataset": "SCCS"
+  },
+  "SCCS11": {
+    "group_id": "fl10",
+    "hraf_name": "Gikuyu",
+    "pref_name": "Kikuyu",
+    "dataset": "SCCS"
+  },
+  "Ad4": {
+    "group_id": "fl10",
+    "hraf_name": "Gikuyu",
+    "pref_name": "Kikuyu",
+    "dataset": "EA"
+  },
+  "SCCS12": {
+    "group_id": "fk07",
+    "hraf_name": "Ganda",
+    "pref_name": "Ganda",
+    "dataset": "SCCS"
+  },
+  "Ad7": {
+    "group_id": "fk07",
+    "hraf_name": "Ganda",
+    "pref_name": "Ganda",
+    "dataset": "EA"
+  },
+  "SCCS13": {
+    "group_id": "fo04",
+    "hraf_name": "Mbuti",
+    "pref_name": "Mbuti",
+    "dataset": "SCCS"
+  },
+  "Aa5": {
+    "group_id": "fo04",
+    "hraf_name": "Mbuti",
+    "pref_name": "Mbuti",
+    "dataset": "EA"
+  },
+  "SCCS14": {
+    "group_id": "fo32",
+    "hraf_name": "Mongo",
+    "pref_name": "Nkundo",
+    "dataset": "SCCS"
+  },
+  "Ae4": {
+    "group_id": "fo32",
+    "hraf_name": "Mongo",
+    "pref_name": "Nkundo",
+    "dataset": "EA"
+  },
+  "SCCS15": {
+    "group_id": "fh26",
+    "hraf_name": "Banen",
+    "pref_name": "Banen",
+    "dataset": "SCCS"
+  },
+  "SCCS16": {
+    "group_id": "ff57",
+    "hraf_name": "Tiv",
+    "pref_name": "Tiv",
+    "dataset": "SCCS"
+  },
+  "Ah3": {
+    "group_id": "ff57",
+    "hraf_name": "Tiv",
+    "pref_name": "Tiv",
+    "dataset": "EA"
+  },
+  "SCCS17": {
+    "group_id": "ff26",
+    "hraf_name": "Igbo",
+    "pref_name": "Igbo",
+    "dataset": "SCCS"
+  },
+  "Af10": {
+    "group_id": "ff26",
+    "hraf_name": "Igbo",
+    "pref_name": "Igbo",
+    "dataset": "EA"
+  },
+  "Af23": {
+    "group_id": "ff26",
+    "hraf_name": "Igbo",
+    "pref_name": "Afikpo",
+    "dataset": "EA"
+  },
+  "SCCS18": {
+    "group_id": "fa18",
+    "hraf_name": "Fon",
+    "pref_name": "Fon",
+    "dataset": "SCCS"
+  },
+  "Af1": {
+    "group_id": "fa18",
+    "hraf_name": "Fon",
+    "pref_name": "Fon",
+    "dataset": "EA"
+  },
+  "SCCS19": {
+    "group_id": "fe12",
+    "hraf_name": "Akan",
+    "pref_name": "Ashanti",
+    "dataset": "SCCS"
+  },
+  "Af12": {
+    "group_id": "fe12",
+    "hraf_name": "Akan",
+    "pref_name": "Akyem",
+    "dataset": "EA"
+  },
+  "Af3": {
+    "group_id": "fe12",
+    "hraf_name": "Akan",
+    "pref_name": "Ashanti",
+    "dataset": "EA"
+  },
+  "Af42": {
+    "group_id": "fe12",
+    "hraf_name": "Akan",
+    "pref_name": "Fante",
+    "dataset": "EA"
+  },
+  "SCCS20": {
+    "group_id": "fc07",
+    "hraf_name": "Mende",
+    "pref_name": "Mende",
+    "dataset": "SCCS"
+  },
+  "Af5": {
+    "group_id": "fc07",
+    "hraf_name": "Mende",
+    "pref_name": "Mende",
+    "dataset": "EA"
+  },
+  "SCCS21": {
+    "group_id": "ms30",
+    "hraf_name": "Wolof",
+    "pref_name": "Wolof",
+    "dataset": "SCCS"
+  },
+  "Cb2": {
+    "group_id": "ms30",
+    "hraf_name": "Wolof",
+    "pref_name": "Wolof",
+    "dataset": "EA"
+  },
+  "SCCS22": {
+    "group_id": "fa08",
+    "hraf_name": "Bambara",
+    "pref_name": "Bambara",
+    "dataset": "SCCS"
+  },
+  "Ag1": {
+    "group_id": "fa08",
+    "hraf_name": "Bambara",
+    "pref_name": "Bambara",
+    "dataset": "EA"
+  },
+  "SCCS23": {
+    "group_id": "fe11",
+    "hraf_name": "Tallensi",
+    "pref_name": "Tallensi",
+    "dataset": "SCCS"
+  },
+  "Ag4": {
+    "group_id": "fe11",
+    "hraf_name": "Tallensi",
+    "pref_name": "Tallensi",
+    "dataset": "EA"
+  },
+  "SCCS24": {
+    "group_id": "ms20",
+    "hraf_name": "Songhai",
+    "pref_name": "Songhai",
+    "dataset": "SCCS"
+  },
+  "Cb3": {
+    "group_id": "ms20",
+    "hraf_name": "Songhai",
+    "pref_name": "Songhai",
+    "dataset": "EA"
+  },
+  "SCCS25": {
+    "group_id": "ms11",
+    "hraf_name": "Fulani",
+    "pref_name": "Wodaabe Fulani",
+    "dataset": "SCCS"
+  },
+  "SCCS26": {
+    "group_id": "ms12",
+    "hraf_name": "Hausa",
+    "pref_name": "Zazzagawa Hausa",
+    "dataset": "SCCS"
+  },
+  "Cb1": {
+    "group_id": "ms12",
+    "hraf_name": "Hausa",
+    "pref_name": "Maguzawa",
+    "dataset": "EA"
+  },
+  "Cb26": {
+    "group_id": "ms12",
+    "hraf_name": "Hausa",
+    "pref_name": "Zazzagawa Hausa",
+    "dataset": "EA"
+  },
+  "Cb9": {
+    "group_id": "ms12",
+    "hraf_name": "Hausa",
+    "pref_name": "Hausa Kanawa",
+    "dataset": "EA"
+  },
+  "SCCS27": {
+    "group_id": "fi21",
+    "hraf_name": "Masa",
+    "pref_name": "Masa",
+    "dataset": "SCCS"
+  },
+  "SCCS28": {
+    "group_id": "fo07",
+    "hraf_name": "Azande",
+    "pref_name": "Azande",
+    "dataset": "SCCS"
+  },
+  "Ai3": {
+    "group_id": "fo07",
+    "hraf_name": "Azande",
+    "pref_name": "Azande",
+    "dataset": "EA"
+  },
+  "SCCS29": {
+    "group_id": "mq08",
+    "hraf_name": "Fur",
+    "pref_name": "Fur",
+    "dataset": "SCCS"
+  },
+  "SCCS30": {
+    "group_id": "fj21",
+    "hraf_name": "Nuba",
+    "pref_name": "Otoro",
+    "dataset": "SCCS"
+  },
+  "SCCS31": {
+    "group_id": "fj23",
+    "hraf_name": "Shilluk",
+    "pref_name": "Shilluk",
+    "dataset": "SCCS"
+  },
+  "Ai6": {
+    "group_id": "fj23",
+    "hraf_name": "Shilluk",
+    "pref_name": "Shilluk",
+    "dataset": "EA"
+  },
+  "SCCS32": {
+    "group_id": "mp19",
+    "hraf_name": "Mao",
+    "pref_name": "Mao",
+    "dataset": "SCCS"
+  },
+  "SCCS33": {
+    "group_id": "mp14",
+    "hraf_name": "Kaffa",
+    "pref_name": "Kafa",
+    "dataset": "SCCS"
+  },
+  "Ca30": {
+    "group_id": "mp14",
+    "hraf_name": "Kaffa",
+    "pref_name": "Kafa",
+    "dataset": "EA"
+  },
+  "SCCS34": {
+    "group_id": "fl12",
+    "hraf_name": "Maasai",
+    "pref_name": "Maasi",
+    "dataset": "SCCS"
+  },
+  "Aj2": {
+    "group_id": "fl12",
+    "hraf_name": "Maasai",
+    "pref_name": "Maasi",
+    "dataset": "EA"
+  },
+  "SCCS35": {
+    "group_id": "mp17",
+    "hraf_name": "Konso",
+    "pref_name": "Konso",
+    "dataset": "SCCS"
+  },
+  "Ca1": {
+    "group_id": "mp17",
+    "hraf_name": "Konso",
+    "pref_name": "Konso",
+    "dataset": "EA"
+  },
+  "SCCS36": {
+    "group_id": "mo04",
+    "hraf_name": "Somali",
+    "pref_name": "Somali (Dolbahanta)",
+    "dataset": "SCCS"
+  },
+  "Ca10": {
+    "group_id": "mo04",
+    "hraf_name": "Somali",
+    "pref_name": "Somali (Esa)",
+    "dataset": "EA"
+  },
+  "Ca2": {
+    "group_id": "mo04",
+    "hraf_name": "Somali",
+    "pref_name": "Somali (Dolbahanta)",
+    "dataset": "EA"
+  },
+  "SCCS37": {
+    "group_id": "mp05",
+    "hraf_name": "Amhara",
+    "pref_name": "Amhara",
+    "dataset": "SCCS"
+  },
+  "Ca7": {
+    "group_id": "mp05",
+    "hraf_name": "Amhara",
+    "pref_name": "Amhara",
+    "dataset": "EA"
+  },
+  "SCCS38": {
+    "group_id": "mn06",
+    "hraf_name": "Bilen",
+    "pref_name": "Blin",
+    "dataset": "SCCS"
+  },
+  "SCCS39": {
+    "group_id": "mr08",
+    "hraf_name": "Nubians",
+    "pref_name": "Barabra",
+    "dataset": "SCCS"
+  },
+  "SCCS40": {
+    "group_id": "ms22",
+    "hraf_name": "Teda",
+    "pref_name": "Teda",
+    "dataset": "SCCS"
+  },
+  "Cc2": {
+    "group_id": "ms22",
+    "hraf_name": "Teda",
+    "pref_name": "Teda",
+    "dataset": "EA"
+  },
+  "SCCS41": {
+    "group_id": "ms25",
+    "hraf_name": "Tuareg",
+    "pref_name": "Tuareg Ahaggar",
+    "dataset": "SCCS"
+  },
+  "Cc9": {
+    "group_id": "ms25",
+    "hraf_name": "Tuareg",
+    "pref_name": "Tuareg Ahaggar",
+    "dataset": "EA"
+  },
+  "SCCS42": {
+    "group_id": "mx03",
+    "hraf_name": "Berbers of Morocco",
+    "pref_name": "Riffians",
+    "dataset": "SCCS"
+  },
+  "Cd3": {
+    "group_id": "mx03",
+    "hraf_name": "Berbers of Morocco",
+    "pref_name": "Riffians",
+    "dataset": "EA"
+  },
+  "SCCS43": {
+    "group_id": "mr13",
+    "hraf_name": "Fellahin",
+    "pref_name": "Egyptians",
+    "dataset": "SCCS"
+  },
+  "Cd2": {
+    "group_id": "mr13",
+    "hraf_name": "Fellahin",
+    "pref_name": "Egyptians",
+    "dataset": "EA"
+  },
+  "SCCS44": {
+    "group_id": "mf07",
+    "hraf_name": "Israelites",
+    "pref_name": "Hebrews",
+    "dataset": "SCCS"
+  },
+  "SCCS45": {
+    "group_id": "mh07",
+    "hraf_name": "Babylonians",
+    "pref_name": "Babylonians",
+    "dataset": "SCCS"
+  },
+  "SCCS46": {
+    "group_id": "md04",
+    "hraf_name": "Rwala Bedouin",
+    "pref_name": "Rwala",
+    "dataset": "SCCS"
+  },
+  "Cj2": {
+    "group_id": "md04",
+    "hraf_name": "Rwala Bedouin",
+    "pref_name": "Rwala",
+    "dataset": "EA"
+  },
+  "SCCS47": {
+    "group_id": "mb01",
+    "hraf_name": "Turks",
+    "pref_name": "Turks",
+    "dataset": "SCCS"
+  },
+  "Ci5": {
+    "group_id": "mb01",
+    "hraf_name": "Turks",
+    "pref_name": "Turks",
+    "dataset": "EA"
+  },
+  "SCCS48": {
+    "group_id": "eg01",
+    "hraf_name": "Albanians",
+    "pref_name": "Gheg",
+    "dataset": "SCCS"
+  },
+  "Ce1": {
+    "group_id": "eg01",
+    "hraf_name": "Albanians",
+    "pref_name": "Gheg",
+    "dataset": "EA"
+  },
+  "SCCS49": {
+    "group_id": "ei09",
+    "hraf_name": "Imperial Romans",
+    "pref_name": "Ancient Romans",
+    "dataset": "SCCS"
+  },
+  "Ce3": {
+    "group_id": "ei09",
+    "hraf_name": "Imperial Romans",
+    "pref_name": "Ancient Romans",
+    "dataset": "EA"
+  },
+  "SCCS50": {
+    "group_id": "ex08",
+    "hraf_name": "Basques",
+    "pref_name": "Spanish Basques",
+    "dataset": "SCCS"
+  },
+  "Ce4": {
+    "group_id": "ex08",
+    "hraf_name": "Basques",
+    "pref_name": "French Basques",
+    "dataset": "EA"
+  },
+  "Ce8": {
+    "group_id": "ex08",
+    "hraf_name": "Basques",
+    "pref_name": "Spanish Basques",
+    "dataset": "EA"
+  },
+  "SCCS51": {
+    "group_id": "er06",
+    "hraf_name": "Rural Irish",
+    "pref_name": "Irish",
+    "dataset": "SCCS"
+  },
+  "Cg3": {
+    "group_id": "er06",
+    "hraf_name": "Rural Irish",
+    "pref_name": "Irish",
+    "dataset": "EA"
+  },
+  "SCCS52": {
+    "group_id": "ep04",
+    "hraf_name": "Saami",
+    "pref_name": "Sami",
+    "dataset": "SCCS"
+  },
+  "Cg4": {
+    "group_id": "ep04",
+    "hraf_name": "Saami",
+    "pref_name": "Sami",
+    "dataset": "EA"
+  },
+  "SCCS53": {
+    "group_id": "ru04",
+    "hraf_name": "Samoyed",
+    "pref_name": "Yurak-Samoyeds",
+    "dataset": "SCCS"
+  },
+  "ec12": {
+    "group_id": "ru04",
+    "hraf_name": "Samoyed",
+    "pref_name": "Nganasan",
+    "dataset": "EA"
+  },
+  "Ec4": {
+    "group_id": "ru04",
+    "hraf_name": "Samoyed",
+    "pref_name": "Yurak-Samoyeds",
+    "dataset": "EA"
+  },
+  "SCCS54": {
+    "group_id": "rf10",
+    "hraf_name": "Russians",
+    "pref_name": "Russians",
+    "dataset": "SCCS"
+  },
+  "SCCS55": {
+    "group_id": "ri03",
+    "hraf_name": "Abkhazians",
+    "pref_name": "Abkhaz",
+    "dataset": "SCCS"
+  },
+  "Ci12": {
+    "group_id": "ri03",
+    "hraf_name": "Abkhazians",
+    "pref_name": "Abkhaz",
+    "dataset": "EA"
+  },
+  "SCCS56": {
+    "group_id": "rj01",
+    "hraf_name": "Armenia",
+    "pref_name": "Armenians",
+    "dataset": "SCCS"
+  },
+  "SCCS57": {
+    "group_id": "ma11",
+    "hraf_name": "Kurds",
+    "pref_name": "Kurd",
+    "dataset": "SCCS"
+  },
+  "Ci11": {
+    "group_id": "ma11",
+    "hraf_name": "Kurds",
+    "pref_name": "Kurd",
+    "dataset": "EA"
+  },
+  "SCCS58": {
+    "group_id": "ma10",
+    "hraf_name": "Basseri",
+    "pref_name": "Basseri",
+    "dataset": "SCCS"
+  },
+  "Ea6": {
+    "group_id": "ma10",
+    "hraf_name": "Basseri",
+    "pref_name": "Basseri",
+    "dataset": "EA"
+  },
+  "SCCS59": {
+    "group_id": "at03",
+    "hraf_name": "West Punjabi",
+    "pref_name": "Punjabi",
+    "dataset": "SCCS"
+  },
+  "SCCS60": {
+    "group_id": "aw32",
+    "hraf_name": "Gond",
+    "pref_name": "Madia",
+    "dataset": "SCCS"
+  },
+  "Eg13": {
+    "group_id": "aw32",
+    "hraf_name": "Gond",
+    "pref_name": "Muria Gond",
+    "dataset": "EA"
+  },
+  "Eg3": {
+    "group_id": "aw32",
+    "hraf_name": "Gond",
+    "pref_name": "Madia",
+    "dataset": "EA"
+  },
+  "SCCS61": {
+    "group_id": "aw60",
+    "hraf_name": "Toda",
+    "pref_name": "Toda",
+    "dataset": "SCCS"
+  },
+  "Eg4": {
+    "group_id": "aw60",
+    "hraf_name": "Toda",
+    "pref_name": "Toda",
+    "dataset": "EA"
+  },
+  "SCCS62": {
+    "group_id": "aw42",
+    "hraf_name": "Santal",
+    "pref_name": "Santal",
+    "dataset": "SCCS"
+  },
+  "Ef1": {
+    "group_id": "aw42",
+    "hraf_name": "Santal",
+    "pref_name": "Santal",
+    "dataset": "EA"
+  },
+  "SCCS63": {
+    "group_id": "aw19",
+    "hraf_name": "Uttar Pradesh",
+    "pref_name": "Uttar Pradesh",
+    "dataset": "SCCS"
+  },
+  "Ef11": {
+    "group_id": "aw19",
+    "hraf_name": "Uttar Pradesh",
+    "pref_name": "Uttar Pradesh",
+    "dataset": "EA"
+  },
+  "SCCS64": {
+    "group_id": "av07",
+    "hraf_name": "Burusho",
+    "pref_name": "Burusho",
+    "dataset": "SCCS"
+  },
+  "Ee2": {
+    "group_id": "av07",
+    "hraf_name": "Burusho",
+    "pref_name": "Burusho",
+    "dataset": "EA"
+  },
+  "SCCS65": {
+    "group_id": "rq02",
+    "hraf_name": "Kazakh",
+    "pref_name": "Kazakh",
+    "dataset": "SCCS"
+  },
+  "Eb1": {
+    "group_id": "rq02",
+    "hraf_name": "Kazakh",
+    "pref_name": "Kazakh",
+    "dataset": "EA"
+  },
+  "SCCS66": {
+    "group_id": "ah01",
+    "hraf_name": "Mongolia",
+    "pref_name": "Khalka",
+    "dataset": "SCCS"
+  },
+  "Eb3": {
+    "group_id": "ah01",
+    "hraf_name": "Mongolia",
+    "pref_name": "Khalka",
+    "dataset": "EA"
+  },
+  "SCCS67": {
+    "group_id": "ae04",
+    "hraf_name": "Yi",
+    "pref_name": "Lolo",
+    "dataset": "SCCS"
+  },
+  "Ed2": {
+    "group_id": "ae04",
+    "hraf_name": "Yi",
+    "pref_name": "Lolo",
+    "dataset": "EA"
+  },
+  "SCCS68": {
+    "group_id": "ak05",
+    "hraf_name": "Lepcha",
+    "pref_name": "Lepcha",
+    "dataset": "SCCS"
+  },
+  "Ee3": {
+    "group_id": "ak05",
+    "hraf_name": "Lepcha",
+    "pref_name": "Lepcha",
+    "dataset": "EA"
+  },
+  "SCCS69": {
+    "group_id": "ar05",
+    "hraf_name": "Garo",
+    "pref_name": "Garo",
+    "dataset": "SCCS"
+  },
+  "Ei1": {
+    "group_id": "ar05",
+    "hraf_name": "Garo",
+    "pref_name": "Garo",
+    "dataset": "EA"
+  },
+  "SCCS70": {
+    "group_id": "ar20",
+    "hraf_name": "Mara",
+    "pref_name": "Maras",
+    "dataset": "SCCS"
+  },
+  "SCCS71": {
+    "group_id": "ap04",
+    "hraf_name": "Burmans",
+    "pref_name": "Burmese",
+    "dataset": "SCCS"
+  },
+  "Ei3": {
+    "group_id": "ap04",
+    "hraf_name": "Burmans",
+    "pref_name": "Burmese",
+    "dataset": "EA"
+  },
+  "SCCS72": {
+    "group_id": "am28",
+    "hraf_name": "Rmeet",
+    "pref_name": "Lamet",
+    "dataset": "SCCS"
+  },
+  "SCCS73": {
+    "group_id": "am11",
+    "hraf_name": "Vietnamese",
+    "pref_name": "Annamese",
+    "dataset": "SCCS"
+  },
+  "Ej4": {
+    "group_id": "am11",
+    "hraf_name": "Vietnamese",
+    "pref_name": "Annamese",
+    "dataset": "EA"
+  },
+  "SCCS74": {
+    "group_id": "am35",
+    "hraf_name": "Rhade",
+    "pref_name": "Rade",
+    "dataset": "SCCS"
+  },
+  "SCCS75": {
+    "group_id": "am04",
+    "hraf_name": "Cambodians",
+    "pref_name": "Ancient Khmer",
+    "dataset": "SCCS"
+  },
+  "Ej5": {
+    "group_id": "am04",
+    "hraf_name": "Cambodians",
+    "pref_name": "Khmer",
+    "dataset": "EA"
+  },
+  "SCCS76": {
+    "group_id": "ao07",
+    "hraf_name": "Central Thai",
+    "pref_name": "Thai",
+    "dataset": "SCCS"
+  },
+  "SCCS77": {
+    "group_id": "an07",
+    "hraf_name": "Semang",
+    "pref_name": "Semang",
+    "dataset": "SCCS"
+  },
+  "Ej3": {
+    "group_id": "an07",
+    "hraf_name": "Semang",
+    "pref_name": "Semang",
+    "dataset": "EA"
+  },
+  "SCCS78": {
+    "group_id": "az07",
+    "hraf_name": "Nicobarese",
+    "pref_name": "Nicobarese",
+    "dataset": "SCCS"
+  },
+  "Eh5": {
+    "group_id": "az07",
+    "hraf_name": "Nicobarese",
+    "pref_name": "Nicobarese",
+    "dataset": "EA"
+  },
+  "SCCS79": {
+    "group_id": "az02",
+    "hraf_name": "Andamans",
+    "pref_name": "Andamanese",
+    "dataset": "SCCS"
+  },
+  "Eh1": {
+    "group_id": "az02",
+    "hraf_name": "Andamans",
+    "pref_name": "Andamanese",
+    "dataset": "EA"
+  },
+  "SCCS80": {
+    "group_id": "ax05",
+    "hraf_name": "Vedda",
+    "pref_name": "Vedda",
+    "dataset": "SCCS"
+  },
+  "Eh4": {
+    "group_id": "ax05",
+    "hraf_name": "Vedda",
+    "pref_name": "Vedda",
+    "dataset": "EA"
+  },
+  "SCCS81": {
+    "group_id": "fy08",
+    "hraf_name": "Tanala",
+    "pref_name": "Tanala",
+    "dataset": "SCCS"
+  },
+  "Eh3": {
+    "group_id": "fy08",
+    "hraf_name": "Tanala",
+    "pref_name": "Tanala",
+    "dataset": "EA"
+  },
+  "SCCS82": {
+    "group_id": "an05",
+    "hraf_name": "Malays",
+    "pref_name": "Negri Sembilan",
+    "dataset": "SCCS"
+  },
+  "Ej8": {
+    "group_id": "an05",
+    "hraf_name": "Malays",
+    "pref_name": "Malays",
+    "dataset": "EA"
+  },
+  "SCCS83": {
+    "group_id": "oe05",
+    "hraf_name": "Javanese",
+    "pref_name": "Javanese",
+    "dataset": "SCCS"
+  },
+  "Ib2": {
+    "group_id": "oe05",
+    "hraf_name": "Javanese",
+    "pref_name": "Javanese",
+    "dataset": "EA"
+  },
+  "SCCS84": {
+    "group_id": "of07",
+    "hraf_name": "Balinese",
+    "pref_name": "Balinese",
+    "dataset": "SCCS"
+  },
+  "Ib3": {
+    "group_id": "of07",
+    "hraf_name": "Balinese",
+    "pref_name": "Balinese",
+    "dataset": "EA"
+  },
+  "SCCS85": {
+    "group_id": "oc06",
+    "hraf_name": "Iban",
+    "pref_name": "Iban",
+    "dataset": "SCCS"
+  },
+  "Ib1": {
+    "group_id": "oc06",
+    "hraf_name": "Iban",
+    "pref_name": "Iban",
+    "dataset": "EA"
+  },
+  "SCCS86": {
+    "group_id": "oa08",
+    "hraf_name": "Sama-Bajau",
+    "pref_name": "Badjau Tawi-Tawi",
+    "dataset": "SCCS"
+  },
+  "SCCS87": {
+    "group_id": "og11",
+    "hraf_name": "Eastern Toraja",
+    "pref_name": "Toradja",
+    "dataset": "SCCS"
+  },
+  "Ic5": {
+    "group_id": "og11",
+    "hraf_name": "Eastern Toraja",
+    "pref_name": "Toradja",
+    "dataset": "EA"
+  },
+  "SCCS88": {
+    "group_id": "oh18",
+    "hraf_name": "Tobelo",
+    "pref_name": "Tobelorese",
+    "dataset": "SCCS"
+  },
+  "SCCS89": {
+    "group_id": "of05",
+    "hraf_name": "Alorese",
+    "pref_name": "Alorese",
+    "dataset": "SCCS"
+  },
+  "Ic2": {
+    "group_id": "of05",
+    "hraf_name": "Alorese",
+    "pref_name": "Alorese",
+    "dataset": "EA"
+  },
+  "SCCS90": {
+    "group_id": "oi20",
+    "hraf_name": "Tiwi",
+    "pref_name": "Tiwi",
+    "dataset": "SCCS"
+  },
+  "Id3": {
+    "group_id": "oi20",
+    "hraf_name": "Tiwi",
+    "pref_name": "Tiwi",
+    "dataset": "EA"
+  },
+  "SCCS91": {
+    "group_id": "oi08",
+    "hraf_name": "Aranda",
+    "pref_name": "Northern Aranda",
+    "dataset": "SCCS"
+  },
+  "Id1": {
+    "group_id": "oi08",
+    "hraf_name": "Aranda",
+    "pref_name": "Northern Aranda",
+    "dataset": "EA"
+  },
+  "SCCS92": {
+    "group_id": "oj23",
+    "hraf_name": "Orokaiva",
+    "pref_name": "Orokaiva",
+    "dataset": "SCCS"
+  },
+  "Ie9": {
+    "group_id": "oj23",
+    "hraf_name": "Orokaiva",
+    "pref_name": "Orokaiva",
+    "dataset": "EA"
+  },
+  "SCCS93": {
+    "group_id": "oj82",
+    "hraf_name": "Kimam",
+    "pref_name": "Kimam",
+    "dataset": "SCCS"
+  },
+  "SCCS94": {
+    "group_id": "oj29",
+    "hraf_name": "Kapauku",
+    "pref_name": "Mee",
+    "dataset": "SCCS"
+  },
+  "Ie1": {
+    "group_id": "oj29",
+    "hraf_name": "Kapauku",
+    "pref_name": "Mee",
+    "dataset": "EA"
+  },
+  "SCCS95": {
+    "group_id": "oj13",
+    "hraf_name": "Kwoma",
+    "pref_name": "Kwoma",
+    "dataset": "SCCS"
+  },
+  "Ie12": {
+    "group_id": "oj13",
+    "hraf_name": "Kwoma",
+    "pref_name": "Kwoma",
+    "dataset": "EA"
+  },
+  "SCCS96": {
+    "group_id": "om06",
+    "hraf_name": "Manus",
+    "pref_name": "Manus",
+    "dataset": "SCCS"
+  },
+  "Ig9": {
+    "group_id": "om06",
+    "hraf_name": "Manus",
+    "pref_name": "Manus",
+    "dataset": "EA"
+  },
+  "SCCS97": {
+    "group_id": "om24",
+    "hraf_name": "Lesu",
+    "pref_name": "Lesu",
+    "dataset": "SCCS"
+  },
+  "Ig4": {
+    "group_id": "om24",
+    "hraf_name": "Lesu",
+    "pref_name": "Lesu",
+    "dataset": "EA"
+  },
+  "SCCS98": {
+    "group_id": "ol06",
+    "hraf_name": "Trobriands",
+    "pref_name": "Trobriands",
+    "dataset": "SCCS"
+  },
+  "Ig2": {
+    "group_id": "ol06",
+    "hraf_name": "Trobriands",
+    "pref_name": "Trobriands",
+    "dataset": "EA"
+  },
+  "SCCS99": {
+    "group_id": "on19",
+    "hraf_name": "Siwai",
+    "pref_name": "Siuai",
+    "dataset": "SCCS"
+  },
+  "Ig1": {
+    "group_id": "on19",
+    "hraf_name": "Siwai",
+    "pref_name": "Siuai",
+    "dataset": "EA"
+  },
+  "SCCS100": {
+    "group_id": "ot11",
+    "hraf_name": "Tikopia",
+    "pref_name": "Tikopia",
+    "dataset": "SCCS"
+  },
+  "Ii2": {
+    "group_id": "ot11",
+    "hraf_name": "Tikopia",
+    "pref_name": "Tikopia",
+    "dataset": "EA"
+  },
+  "SCCS101": {
+    "group_id": "oo17",
+    "hraf_name": "Sa",
+    "pref_name": "Bunlap",
+    "dataset": "SCCS"
+  },
+  "SCCS102": {
+    "group_id": "oq12",
+    "hraf_name": "Bau Fijians",
+    "pref_name": "Mbau Fijians",
+    "dataset": "SCCS"
+  },
+  "SCCS103": {
+    "group_id": "op04",
+    "hraf_name": "Kanak",
+    "pref_name": "Ajie",
+    "dataset": "SCCS"
+  },
+  "SCCS104": {
+    "group_id": "oz04",
+    "hraf_name": "Maori",
+    "pref_name": "Māori",
+    "dataset": "SCCS"
+  },
+  "Ij2": {
+    "group_id": "oz04",
+    "hraf_name": "Maori",
+    "pref_name": "Māori",
+    "dataset": "EA"
+  },
+  "SCCS105": {
+    "group_id": "ox06",
+    "hraf_name": "Marquesas",
+    "pref_name": "Marquesans",
+    "dataset": "SCCS"
+  },
+  "Ij3": {
+    "group_id": "ox06",
+    "hraf_name": "Marquesas",
+    "pref_name": "Marquesans",
+    "dataset": "EA"
+  },
+  "SCCS106": {
+    "group_id": "ou08",
+    "hraf_name": "Samoans",
+    "pref_name": "Upolu Samoans",
+    "dataset": "SCCS"
+  },
+  "Ii14": {
+    "group_id": "ou08",
+    "hraf_name": "Samoans",
+    "pref_name": "Upolu Samoans",
+    "dataset": "EA"
+  },
+  "SCCS107": {
+    "group_id": "or06",
+    "hraf_name": "Kiribati",
+    "pref_name": "Makin",
+    "dataset": "SCCS"
+  },
+  "SCCS108": {
+    "group_id": "or11",
+    "hraf_name": "Marshallese",
+    "pref_name": "Marshallese - Jaluit Atoll",
+    "dataset": "SCCS"
+  },
+  "If12": {
+    "group_id": "or11",
+    "hraf_name": "Marshallese",
+    "pref_name": "Bikinians",
+    "dataset": "EA"
+  },
+  "If17": {
+    "group_id": "or11",
+    "hraf_name": "Marshallese",
+    "pref_name": "Marshallese - Jaluit atoll",
+    "dataset": "EA"
+  },
+  "If3": {
+    "group_id": "or11",
+    "hraf_name": "Marshallese",
+    "pref_name": "Majuro",
+    "dataset": "EA"
+  },
+  "SCCS109": {
+    "group_id": "or19",
+    "hraf_name": "Chuuk",
+    "pref_name": "Trukese",
+    "dataset": "SCCS"
+  },
+  "If2": {
+    "group_id": "or19",
+    "hraf_name": "Chuuk",
+    "pref_name": "Trukese",
+    "dataset": "EA"
+  },
+  "SCCS110": {
+    "group_id": "or22",
+    "hraf_name": "Yapese",
+    "pref_name": "Yapese",
+    "dataset": "SCCS"
+  },
+  "If6": {
+    "group_id": "or22",
+    "hraf_name": "Yapese",
+    "pref_name": "Yapese",
+    "dataset": "EA"
+  },
+  "SCCS111": {
+    "group_id": "or15",
+    "hraf_name": "Belau",
+    "pref_name": "Palauans",
+    "dataset": "SCCS"
+  },
+  "If1": {
+    "group_id": "or15",
+    "hraf_name": "Belau",
+    "pref_name": "Palauans",
+    "dataset": "EA"
+  },
+  "SCCS112": {
+    "group_id": "oa19",
+    "hraf_name": "Ifugao",
+    "pref_name": "Ifugao",
+    "dataset": "SCCS"
+  },
+  "Ia3": {
+    "group_id": "oa19",
+    "hraf_name": "Ifugao",
+    "pref_name": "Ifugao",
+    "dataset": "EA"
+  },
+  "SCCS113": {
+    "group_id": "ad08",
+    "hraf_name": "Atayal",
+    "pref_name": "Atayal",
+    "dataset": "SCCS"
+  },
+  "SCCS114": {
+    "group_id": "ae15",
+    "hraf_name": "Han Chinese",
+    "pref_name": "Chekiang",
+    "dataset": "SCCS"
+  },
+  "SCCS115": {
+    "group_id": "ag04",
+    "hraf_name": "Manchu",
+    "pref_name": "Manchu",
+    "dataset": "SCCS"
+  },
+  "SCCS116": {
+    "group_id": "aa01",
+    "hraf_name": "Korea",
+    "pref_name": "Koreans",
+    "dataset": "SCCS"
+  },
+  "Ed1": {
+    "group_id": "aa01",
+    "hraf_name": "Korea",
+    "pref_name": "Koreans",
+    "dataset": "EA"
+  },
+  "SCCS117": {
+    "group_id": "ab43",
+    "hraf_name": "Okayama",
+    "pref_name": "Japanese",
+    "dataset": "SCCS"
+  },
+  "Ed5": {
+    "group_id": "ab43",
+    "hraf_name": "Okayama",
+    "pref_name": "Japanese",
+    "dataset": "EA"
+  },
+  "SCCS118": {
+    "group_id": "ab06",
+    "hraf_name": "Ainu",
+    "pref_name": "Ainu",
+    "dataset": "SCCS"
+  },
+  "Ec7": {
+    "group_id": "ab06",
+    "hraf_name": "Ainu",
+    "pref_name": "Ainu",
+    "dataset": "EA"
+  },
+  "SCCS119": {
+    "group_id": "rx02",
+    "hraf_name": "Nivkh",
+    "pref_name": "Nivkh",
+    "dataset": "SCCS"
+  },
+  "Ec1": {
+    "group_id": "rx02",
+    "hraf_name": "Nivkh",
+    "pref_name": "Nivkh",
+    "dataset": "EA"
+  },
+  "SCCS120": {
+    "group_id": "rv03",
+    "hraf_name": "Yukaghir",
+    "pref_name": "Yukaghir",
+    "dataset": "SCCS"
+  },
+  "SCCS121": {
+    "group_id": "ry02",
+    "hraf_name": "Chukchee",
+    "pref_name": "Chukchi",
+    "dataset": "SCCS"
+  },
+  "Ec3": {
+    "group_id": "ry02",
+    "hraf_name": "Chukchee",
+    "pref_name": "Chukchi",
+    "dataset": "EA"
+  },
+  "SCCS122": {
+    "group_id": "na08",
+    "hraf_name": "Ingalik",
+    "pref_name": "Deg Xit'an",
+    "dataset": "SCCS"
+  },
+  "Na8": {
+    "group_id": "na08",
+    "hraf_name": "Ingalik",
+    "pref_name": "Deg Xit'an",
+    "dataset": "EA"
+  },
+  "SCCS123": {
+    "group_id": "na06",
+    "hraf_name": "Aleut",
+    "pref_name": "Aleut",
+    "dataset": "SCCS"
+  },
+  "Na9": {
+    "group_id": "na06",
+    "hraf_name": "Aleut",
+    "pref_name": "Aleut",
+    "dataset": "EA"
+  },
+  "SCCS124": {
+    "group_id": "nd08",
+    "hraf_name": "Copper Inuit",
+    "pref_name": "Copper Inuit",
+    "dataset": "SCCS"
+  },
+  "Na3": {
+    "group_id": "nd08",
+    "hraf_name": "Copper Inuit",
+    "pref_name": "Copper Inuit",
+    "dataset": "EA"
+  },
+  "SCCS125": {
+    "group_id": "nh06",
+    "hraf_name": "Innu",
+    "pref_name": "Montagnais",
+    "dataset": "SCCS"
+  },
+  "Na32": {
+    "group_id": "nh06",
+    "hraf_name": "Innu",
+    "pref_name": "Montagnais",
+    "dataset": "EA"
+  },
+  "Na5": {
+    "group_id": "nh06",
+    "hraf_name": "Innu",
+    "pref_name": "Naskapi",
+    "dataset": "EA"
+  },
+  "SCCS126": {
+    "group_id": "nj05",
+    "hraf_name": "Mi'kmaq",
+    "pref_name": "Mi'kmaq",
+    "dataset": "SCCS"
+  },
+  "Na41": {
+    "group_id": "nj05",
+    "hraf_name": "Mi'kmaq",
+    "pref_name": "Mi'kmaq",
+    "dataset": "EA"
+  },
+  "SCCS127": {
+    "group_id": "ng06",
+    "hraf_name": "Ojibwa",
+    "pref_name": "Northern Saulteaux",
+    "dataset": "SCCS"
+  },
+  "Na33": {
+    "group_id": "ng06",
+    "hraf_name": "Ojibwa",
+    "pref_name": "Northern Saulteaux",
+    "dataset": "EA"
+  },
+  "Na34": {
+    "group_id": "ng06",
+    "hraf_name": "Ojibwa",
+    "pref_name": "Pekangekum",
+    "dataset": "EA"
+  },
+  "Na35": {
+    "group_id": "ng06",
+    "hraf_name": "Ojibwa",
+    "pref_name": "Nipigon",
+    "dataset": "EA"
+  },
+  "Na36": {
+    "group_id": "ng06",
+    "hraf_name": "Ojibwa",
+    "pref_name": "Minnesota Ojibwa",
+    "dataset": "EA"
+  },
+  "Na37": {
+    "group_id": "ng06",
+    "hraf_name": "Ojibwa",
+    "pref_name": "Rainy River Ojibwe",
+    "dataset": "EA"
+  },
+  "Na39": {
+    "group_id": "ng06",
+    "hraf_name": "Ojibwa",
+    "pref_name": "Eastern Ojibwa",
+    "dataset": "EA"
+  },
+  "Ne14": {
+    "group_id": "ng06",
+    "hraf_name": "Ojibwa",
+    "pref_name": "Bungi",
+    "dataset": "EA"
+  },
+  "SCCS128": {
+    "group_id": "nd14",
+    "hraf_name": "Slavey",
+    "pref_name": "DeneTha",
+    "dataset": "SCCS"
+  },
+  "SCCS129": {
+    "group_id": "nd12",
+    "hraf_name": "Kaska",
+    "pref_name": "Kaska",
+    "dataset": "SCCS"
+  },
+  "Na4": {
+    "group_id": "nd12",
+    "hraf_name": "Kaska",
+    "pref_name": "Kaska",
+    "dataset": "EA"
+  },
+  "SCCS130": {
+    "group_id": "na07",
+    "hraf_name": "Eyak",
+    "pref_name": "Eyak",
+    "dataset": "SCCS"
+  },
+  "SCCS131": {
+    "group_id": "ne09",
+    "hraf_name": "Haida",
+    "pref_name": "Haida",
+    "dataset": "SCCS"
+  },
+  "SCCS132": {
+    "group_id": "ne06",
+    "hraf_name": "Nuxalk",
+    "pref_name": "Nuxalk",
+    "dataset": "SCCS"
+  },
+  "Nb9": {
+    "group_id": "ne06",
+    "hraf_name": "Nuxalk",
+    "pref_name": "Nuxalk",
+    "dataset": "EA"
+  },
+  "SCCS133": {
+    "group_id": "nr26",
+    "hraf_name": "Southern Coast Salish",
+    "pref_name": "Twana",
+    "dataset": "SCCS"
+  },
+  "SCCS134": {
+    "group_id": "ns31",
+    "hraf_name": "Yurok",
+    "pref_name": "Yurok",
+    "dataset": "SCCS"
+  },
+  "Nb4": {
+    "group_id": "ns31",
+    "hraf_name": "Yurok",
+    "pref_name": "Yurok",
+    "dataset": "EA"
+  },
+  "SCCS135": {
+    "group_id": "ns18",
+    "hraf_name": "Pomo",
+    "pref_name": "Eastern Pomo",
+    "dataset": "SCCS"
+  },
+  "Nc17": {
+    "group_id": "ns18",
+    "hraf_name": "Pomo",
+    "pref_name": "Northern Pomo",
+    "dataset": "EA"
+  },
+  "Nc18": {
+    "group_id": "ns18",
+    "hraf_name": "Pomo",
+    "pref_name": "Eastern Pomo",
+    "dataset": "EA"
+  },
+  "Nc19": {
+    "group_id": "ns18",
+    "hraf_name": "Pomo",
+    "pref_name": "Southern Pomo",
+    "dataset": "EA"
+  },
+  "SCCS136": {
+    "group_id": "ns29",
+    "hraf_name": "Yokuts",
+    "pref_name": "Southern Valley Yokuts",
+    "dataset": "SCCS"
+  },
+  "Nc24": {
+    "group_id": "ns29",
+    "hraf_name": "Yokuts",
+    "pref_name": "Southern Valley Yokuts",
+    "dataset": "EA"
+  },
+  "Nc25": {
+    "group_id": "ns29",
+    "hraf_name": "Yokuts",
+    "pref_name": "Wukchumni",
+    "dataset": "EA"
+  },
+  "Nc3": {
+    "group_id": "ns29",
+    "hraf_name": "Yokuts",
+    "pref_name": "Northern Foothill Yokuts",
+    "dataset": "EA"
+  },
+  "SCCS137": {
+    "group_id": "nr13",
+    "hraf_name": "Northern Paiute",
+    "pref_name": "Wadadokado",
+    "dataset": "SCCS"
+  },
+  "Nd22": {
+    "group_id": "nr13",
+    "hraf_name": "Northern Paiute",
+    "pref_name": "Wadadokado",
+    "dataset": "EA"
+  },
+  "Nd24": {
+    "group_id": "nr13",
+    "hraf_name": "Northern Paiute",
+    "pref_name": "Kidutokado",
+    "dataset": "EA"
+  },
+  "Nd27": {
+    "group_id": "nr13",
+    "hraf_name": "Northern Paiute",
+    "pref_name": "Kuyuidokado",
+    "dataset": "EA"
+  },
+  "Nd26": {
+    "group_id": "nr13",
+    "hraf_name": "Northern Paiute",
+    "pref_name": "Wadatkuht",
+    "dataset": "EA"
+  },
+  "SCCS138": {
+    "group_id": "nr10",
+    "hraf_name": "Klamath",
+    "pref_name": "Klamath",
+    "dataset": "SCCS"
+  },
+  "Nc8": {
+    "group_id": "nr10",
+    "hraf_name": "Klamath",
+    "pref_name": "Klamath",
+    "dataset": "EA"
+  },
+  "SCCS139": {
+    "group_id": "nf08",
+    "hraf_name": "Kutenai",
+    "pref_name": "Kutenai",
+    "dataset": "SCCS"
+  },
+  "SCCS140": {
+    "group_id": "nq13",
+    "hraf_name": "Gros Ventre",
+    "pref_name": "Gros Ventre",
+    "dataset": "SCCS"
+  },
+  "Ne1": {
+    "group_id": "nq13",
+    "hraf_name": "Gros Ventre",
+    "pref_name": "Gros Ventre",
+    "dataset": "EA"
+  },
+  "SCCS141": {
+    "group_id": "nq14",
+    "hraf_name": "Hidatsa",
+    "pref_name": "Hidatsa",
+    "dataset": "SCCS"
+  },
+  "SCCS142": {
+    "group_id": "nq18",
+    "hraf_name": "Pawnee",
+    "pref_name": "Pawnee",
+    "dataset": "SCCS"
+  },
+  "Nf6": {
+    "group_id": "nq18",
+    "hraf_name": "Pawnee",
+    "pref_name": "Pawnee",
+    "dataset": "EA"
+  },
+  "SCCS143": {
+    "group_id": "nq21",
+    "hraf_name": "Omaha",
+    "pref_name": "Omaha",
+    "dataset": "SCCS"
+  },
+  "Nf3": {
+    "group_id": "nq21",
+    "hraf_name": "Omaha",
+    "pref_name": "Omaha",
+    "dataset": "EA"
+  },
+  "SCCS144": {
+    "group_id": "ng05",
+    "hraf_name": "Huron/Wendat",
+    "pref_name": "Huron",
+    "dataset": "SCCS"
+  },
+  "SCCS145": {
+    "group_id": "nn11",
+    "hraf_name": "Creek",
+    "pref_name": "Muscogee",
+    "dataset": "SCCS"
+  },
+  "Ng3": {
+    "group_id": "nn11",
+    "hraf_name": "Creek",
+    "pref_name": "Muscogee",
+    "dataset": "EA"
+  },
+  "SCCS146": {
+    "group_id": "no08",
+    "hraf_name": "Natchez",
+    "pref_name": "Natchez",
+    "dataset": "SCCS"
+  },
+  "SCCS147": {
+    "group_id": "no06",
+    "hraf_name": "Comanche",
+    "pref_name": "Comanche",
+    "dataset": "SCCS"
+  },
+  "Ne3": {
+    "group_id": "no06",
+    "hraf_name": "Comanche",
+    "pref_name": "Comanche",
+    "dataset": "EA"
+  },
+  "SCCS148": {
+    "group_id": "nt08",
+    "hraf_name": "Chiricahua Apache",
+    "pref_name": "Chiricahua",
+    "dataset": "SCCS"
+  },
+  "Nh1": {
+    "group_id": "nt08",
+    "hraf_name": "Chiricahua Apache",
+    "pref_name": "Chiricahua",
+    "dataset": "EA"
+  },
+  "SCCS149": {
+    "group_id": "nt23",
+    "hraf_name": "Zuni",
+    "pref_name": "Zuni",
+    "dataset": "SCCS"
+  },
+  "Nh4": {
+    "group_id": "nt23",
+    "hraf_name": "Zuni",
+    "pref_name": "Zuni",
+    "dataset": "EA"
+  },
+  "SCCS150": {
+    "group_id": "nt14",
+    "hraf_name": "Havasupai",
+    "pref_name": "Havasupai",
+    "dataset": "SCCS"
+  },
+  "Nd3": {
+    "group_id": "nt14",
+    "hraf_name": "Havasupai",
+    "pref_name": "Havasupai",
+    "dataset": "EA"
+  },
+  "SCCS151": {
+    "group_id": "nu79",
+    "hraf_name": "O'odham",
+    "pref_name": "Tohono O'odham",
+    "dataset": "SCCS"
+  },
+  "Ni2": {
+    "group_id": "nu79",
+    "hraf_name": "O'odham",
+    "pref_name": "Tohono O'odham",
+    "dataset": "EA"
+  },
+  "SCCS152": {
+    "group_id": "nu19",
+    "hraf_name": "Huichol",
+    "pref_name": "Huichol",
+    "dataset": "SCCS"
+  },
+  "Ni3": {
+    "group_id": "nu19",
+    "hraf_name": "Huichol",
+    "pref_name": "Huichol",
+    "dataset": "EA"
+  },
+  "SCCS153": {
+    "group_id": "nu07",
+    "hraf_name": "Aztecs",
+    "pref_name": "Aztec",
+    "dataset": "SCCS"
+  },
+  "Nj2": {
+    "group_id": "nu07",
+    "hraf_name": "Aztecs",
+    "pref_name": "Aztec",
+    "dataset": "EA"
+  },
+  "SCCS154": {
+    "group_id": "nu30",
+    "hraf_name": "Popoluca",
+    "pref_name": "Sierra Popoluca",
+    "dataset": "SCCS"
+  },
+  "SCCS155": {
+    "group_id": "nw10",
+    "hraf_name": "Quiché Maya",
+    "pref_name": "K'iche'",
+    "dataset": "SCCS"
+  },
+  "SCCS156": {
+    "group_id": "sa15",
+    "hraf_name": "Miskito",
+    "pref_name": "Miskito",
+    "dataset": "SCCS"
+  },
+  "Sa9": {
+    "group_id": "sa15",
+    "hraf_name": "Miskito",
+    "pref_name": "Miskito",
+    "dataset": "EA"
+  },
+  "SCCS157": {
+    "group_id": "sa19",
+    "hraf_name": "Talamancans",
+    "pref_name": "Bribri",
+    "dataset": "SCCS"
+  },
+  "Sa5": {
+    "group_id": "sa19",
+    "hraf_name": "Talamancans",
+    "pref_name": "Bribri",
+    "dataset": "EA"
+  },
+  "SCCS158": {
+    "group_id": "sb05",
+    "hraf_name": "Kuna",
+    "pref_name": "Guna",
+    "dataset": "SCCS"
+  },
+  "Sa1": {
+    "group_id": "sb05",
+    "hraf_name": "Kuna",
+    "pref_name": "Guna",
+    "dataset": "EA"
+  },
+  "SCCS159": {
+    "group_id": "sc13",
+    "hraf_name": "Goajiro",
+    "pref_name": "Wayuu",
+    "dataset": "SCCS"
+  },
+  "Sb6": {
+    "group_id": "sc13",
+    "hraf_name": "Goajiro",
+    "pref_name": "Wayuu",
+    "dataset": "EA"
+  },
+  "SCCS160": {
+    "group_id": "sv03",
+    "hraf_name": "Haitians",
+    "pref_name": "Haitians",
+    "dataset": "SCCS"
+  },
+  "Sb9": {
+    "group_id": "sv03",
+    "hraf_name": "Haitians",
+    "pref_name": "Haitians",
+    "dataset": "EA"
+  },
+  "SCCS161": {
+    "group_id": "st13",
+    "hraf_name": "Kalinago",
+    "pref_name": "Callinago",
+    "dataset": "SCCS"
+  },
+  "Sb1": {
+    "group_id": "st13",
+    "hraf_name": "Kalinago",
+    "pref_name": "Callinago",
+    "dataset": "EA"
+  },
+  "SCCS162": {
+    "group_id": "ss18",
+    "hraf_name": "Warao",
+    "pref_name": "Warao",
+    "dataset": "SCCS"
+  },
+  "Sc1": {
+    "group_id": "ss18",
+    "hraf_name": "Warao",
+    "pref_name": "Warao",
+    "dataset": "EA"
+  },
+  "SCCS163": {
+    "group_id": "sq18",
+    "hraf_name": "Yanoama",
+    "pref_name": "Yanomami",
+    "dataset": "SCCS"
+  },
+  "Sd4": {
+    "group_id": "sq18",
+    "hraf_name": "Yanoama",
+    "pref_name": "Guaica",
+    "dataset": "EA"
+  },
+  "Sd6": {
+    "group_id": "sq18",
+    "hraf_name": "Yanoama",
+    "pref_name": "Shiriana",
+    "dataset": "EA"
+  },
+  "Sd8": {
+    "group_id": "sq18",
+    "hraf_name": "Yanoama",
+    "pref_name": "Sanema",
+    "dataset": "EA"
+  },
+  "Sd9": {
+    "group_id": "sq18",
+    "hraf_name": "Yanoama",
+    "pref_name": "Yanomami",
+    "dataset": "EA"
+  },
+  "SCCS164": {
+    "group_id": "sr09",
+    "hraf_name": "Barama River Carib",
+    "pref_name": "Barama River Carib",
+    "dataset": "SCCS"
+  },
+  "Sc3": {
+    "group_id": "sr09",
+    "hraf_name": "Barama River Carib",
+    "pref_name": "Barama River Carib",
+    "dataset": "EA"
+  },
+  "SCCS165": {
+    "group_id": "sr15",
+    "hraf_name": "Saramaka",
+    "pref_name": "Saramaccan",
+    "dataset": "SCCS"
+  },
+  "Sc6": {
+    "group_id": "sr15",
+    "hraf_name": "Saramaka",
+    "pref_name": "Saramaccan ",
+    "dataset": "EA"
+  },
+  "SCCS166": {
+    "group_id": "sq13",
+    "hraf_name": "Mundurucu",
+    "pref_name": "Munduruku",
+    "dataset": "SCCS"
+  },
+  "Sd1": {
+    "group_id": "sq13",
+    "hraf_name": "Mundurucu",
+    "pref_name": "Munduruku",
+    "dataset": "EA"
+  },
+  "SCCS167": {
+    "group_id": "sq19",
+    "hraf_name": "Tukano",
+    "pref_name": "Cubeo",
+    "dataset": "SCCS"
+  },
+  "Se12": {
+    "group_id": "sq19",
+    "hraf_name": "Tukano",
+    "pref_name": "Tucano",
+    "dataset": "EA"
+  },
+  "Se5": {
+    "group_id": "sq19",
+    "hraf_name": "Tukano",
+    "pref_name": "Cubeo",
+    "dataset": "EA"
+  },
+  "SCCS168": {
+    "group_id": "sd06",
+    "hraf_name": "Chachi",
+    "pref_name": "Chachi",
+    "dataset": "SCCS"
+  },
+  "Sf3": {
+    "group_id": "sd06",
+    "hraf_name": "Chachi",
+    "pref_name": "Chachi",
+    "dataset": "EA"
+  },
+  "SCCS169": {
+    "group_id": "sd09",
+    "hraf_name": "Jivaro",
+    "pref_name": "Shuar",
+    "dataset": "SCCS"
+  },
+  "Se3": {
+    "group_id": "sd09",
+    "hraf_name": "Jivaro",
+    "pref_name": "Shuar",
+    "dataset": "EA"
+  },
+  "SCCS170": {
+    "group_id": "se06",
+    "hraf_name": "Amahuaca",
+    "pref_name": "Amahuaca",
+    "dataset": "SCCS"
+  },
+  "SCCS171": {
+    "group_id": "se13",
+    "hraf_name": "Inka",
+    "pref_name": "Inca",
+    "dataset": "SCCS"
+  },
+  "Sf1": {
+    "group_id": "se13",
+    "hraf_name": "Inka",
+    "pref_name": "Inca",
+    "dataset": "EA"
+  },
+  "SCCS172": {
+    "group_id": "sf05",
+    "hraf_name": "Aymara",
+    "pref_name": "Aymara",
+    "dataset": "SCCS"
+  },
+  "Sf2": {
+    "group_id": "sf05",
+    "hraf_name": "Aymara",
+    "pref_name": "Aymara",
+    "dataset": "EA"
+  },
+  "SCCS173": {
+    "group_id": "sf21",
+    "hraf_name": "Sirionó",
+    "pref_name": "Sirionó",
+    "dataset": "SCCS"
+  },
+  "Se1": {
+    "group_id": "sf21",
+    "hraf_name": "Sirionó",
+    "pref_name": "Sirionó",
+    "dataset": "EA"
+  },
+  "SCCS174": {
+    "group_id": "sp17",
+    "hraf_name": "Nambicuara",
+    "pref_name": "Nambikwara",
+    "dataset": "SCCS"
+  },
+  "Si4": {
+    "group_id": "sp17",
+    "hraf_name": "Nambicuara",
+    "pref_name": "Nambikwara",
+    "dataset": "EA"
+  },
+  "SCCS175": {
+    "group_id": "sp23",
+    "hraf_name": "Trumai",
+    "pref_name": "Trumai",
+    "dataset": "SCCS"
+  },
+  "Si2": {
+    "group_id": "sp23",
+    "hraf_name": "Trumai",
+    "pref_name": "Trumai",
+    "dataset": "EA"
+  },
+  "SCCS176": {
+    "group_id": "so08",
+    "hraf_name": "Canela",
+    "pref_name": "Canela",
+    "dataset": "SCCS"
+  },
+  "Sj4": {
+    "group_id": "so08",
+    "hraf_name": "Canela",
+    "pref_name": "Canela",
+    "dataset": "EA"
+  },
+  "SCCS177": {
+    "group_id": "so09",
+    "hraf_name": "Tupinamba",
+    "pref_name": "Tupinambá",
+    "dataset": "SCCS"
+  },
+  "Sj8": {
+    "group_id": "so09",
+    "hraf_name": "Tupinamba",
+    "pref_name": "Tupinambá",
+    "dataset": "EA"
+  },
+  "SCCS178": {
+    "group_id": "sn02",
+    "hraf_name": "Botocudo",
+    "pref_name": "Aimoré",
+    "dataset": "SCCS"
+  },
+  "SCCS179": {
+    "group_id": "sp26",
+    "hraf_name": "Xavante",
+    "pref_name": "Shavante",
+    "dataset": "SCCS"
+  },
+  "SCCS180": {
+    "group_id": "sm03",
+    "hraf_name": "Xokleng",
+    "pref_name": "Aweikoma",
+    "dataset": "SCCS"
+  },
+  "Sj3": {
+    "group_id": "sm03",
+    "hraf_name": "Xokleng",
+    "pref_name": "Aweikoma",
+    "dataset": "EA"
+  },
+  "SCCS181": {
+    "group_id": "sm04",
+    "hraf_name": "Guaraní",
+    "pref_name": "Cayua",
+    "dataset": "SCCS"
+  },
+  "Sj10": {
+    "group_id": "sm04",
+    "hraf_name": "Guaraní",
+    "pref_name": "Cayua",
+    "dataset": "EA"
+  },
+  "SCCS182": {
+    "group_id": "sk15",
+    "hraf_name": "Enxet and Enlhet",
+    "pref_name": "Lengua",
+    "dataset": "SCCS"
+  },
+  "SCCS183": {
+    "group_id": "si04",
+    "hraf_name": "Abipón",
+    "pref_name": "Abipón",
+    "dataset": "SCCS"
+  },
+  "Sh3": {
+    "group_id": "si04",
+    "hraf_name": "Abipón",
+    "pref_name": "Abipón",
+    "dataset": "EA"
+  },
+  "SCCS184": {
+    "group_id": "sg04",
+    "hraf_name": "Mapuche",
+    "pref_name": "Mapuche",
+    "dataset": "SCCS"
+  },
+  "Sg2": {
+    "group_id": "sg04",
+    "hraf_name": "Mapuche",
+    "pref_name": "Mapuche",
+    "dataset": "EA"
+  },
+  "SCCS185": {
+    "group_id": "sh05",
+    "hraf_name": "Tehuelche",
+    "pref_name": "Tehuelche",
+    "dataset": "SCCS"
+  },
+  "Sg4": {
+    "group_id": "sh05",
+    "hraf_name": "Tehuelche",
+    "pref_name": "Tehuelche",
+    "dataset": "EA"
+  },
+  "SCCS186": {
+    "group_id": "sh06",
+    "hraf_name": "Yahgan",
+    "pref_name": "Yahgan",
+    "dataset": "SCCS"
+  },
+  "Sg1": {
+    "group_id": "sh06",
+    "hraf_name": "Yahgan",
+    "pref_name": "Yahgan",
+    "dataset": "EA"
+  },
+  "Ab1": {
+    "group_id": "ea-Ab1",
+    "hraf_name": "",
+    "pref_name": "Herero",
+    "dataset": "EA"
+  },
+  "Ad31": {
+    "group_id": "ea-Ad31",
+    "hraf_name": "",
+    "pref_name": "Duruma",
+    "dataset": "EA"
+  },
+  "Ad32": {
+    "group_id": "ea-Ad32",
+    "hraf_name": "",
+    "pref_name": "Giriama",
+    "dataset": "EA"
+  },
+  "Ad33": {
+    "group_id": "ea-Ad33",
+    "hraf_name": "",
+    "pref_name": "Pokomo",
+    "dataset": "EA"
+  },
+  "Na22": {
+    "group_id": "ea-Na22",
+    "hraf_name": "",
+    "pref_name": "Iglulik Inuit",
+    "dataset": "EA"
+  },
+  "Na1": {
+    "group_id": "ea-Na1",
+    "hraf_name": "",
+    "pref_name": "Nabesna",
+    "dataset": "EA"
+  },
+  "Na10": {
+    "group_id": "ea-Na10",
+    "hraf_name": "",
+    "pref_name": "Chugach",
+    "dataset": "EA"
+  },
+  "Na11": {
+    "group_id": "ea-Na11",
+    "hraf_name": "",
+    "pref_name": "Sivokakmeit",
+    "dataset": "EA"
+  },
+  "Na12": {
+    "group_id": "ea-Na12",
+    "hraf_name": "",
+    "pref_name": "Nunamiut",
+    "dataset": "EA"
+  },
+  "Ad34": {
+    "group_id": "ea-Ad34",
+    "hraf_name": "",
+    "pref_name": "Kamba",
+    "dataset": "EA"
+  },
+  "Na13": {
+    "group_id": "ea-Na13",
+    "hraf_name": "",
+    "pref_name": "Nunatsiarmiut",
+    "dataset": "EA"
+  },
+  "Na14": {
+    "group_id": "ea-Na14",
+    "hraf_name": "",
+    "pref_name": "Inughuit (Northern Greenland)",
+    "dataset": "EA"
+  },
+  "Na15": {
+    "group_id": "ea-Na15",
+    "hraf_name": "",
+    "pref_name": "Tlicho",
+    "dataset": "EA"
+  },
+  "Na16": {
+    "group_id": "ea-Na16",
+    "hraf_name": "",
+    "pref_name": "Délįne",
+    "dataset": "EA"
+  },
+  "Na17": {
+    "group_id": "ea-Na17",
+    "hraf_name": "",
+    "pref_name": "DeneTha",
+    "dataset": "EA"
+  },
+  "Na19": {
+    "group_id": "ea-Na19",
+    "hraf_name": "",
+    "pref_name": "Dakelh",
+    "dataset": "EA"
+  },
+  "Na2": {
+    "group_id": "ea-Na2",
+    "hraf_name": "",
+    "pref_name": "Tareumiut",
+    "dataset": "EA"
+  },
+  "Na20": {
+    "group_id": "ea-Na20",
+    "hraf_name": "",
+    "pref_name": "Kutchin",
+    "dataset": "EA"
+  },
+  "Na21": {
+    "group_id": "ea-Na21",
+    "hraf_name": "",
+    "pref_name": "Caribou Inuit",
+    "dataset": "EA"
+  },
+  "Na23": {
+    "group_id": "ea-Na23",
+    "hraf_name": "",
+    "pref_name": "Labrador Inuit",
+    "dataset": "EA"
+  },
+  "Ad35": {
+    "group_id": "ea-Ad35",
+    "hraf_name": "",
+    "pref_name": "Meru",
+    "dataset": "EA"
+  },
+  "Na24": {
+    "group_id": "ea-Na24",
+    "hraf_name": "",
+    "pref_name": "Tasiilaq",
+    "dataset": "EA"
+  },
+  "Na25": {
+    "group_id": "ea-Na25",
+    "hraf_name": "",
+    "pref_name": "Kalaallit (West Greenland)",
+    "dataset": "EA"
+  },
+  "Na26": {
+    "group_id": "ea-Na26",
+    "hraf_name": "",
+    "pref_name": "Dena'ina",
+    "dataset": "EA"
+  },
+  "Na27": {
+    "group_id": "ea-Na27",
+    "hraf_name": "",
+    "pref_name": "Tahltan",
+    "dataset": "EA"
+  },
+  "Na28": {
+    "group_id": "ea-Na28",
+    "hraf_name": "",
+    "pref_name": "Sekani",
+    "dataset": "EA"
+  },
+  "Na29": {
+    "group_id": "ea-Na29",
+    "hraf_name": "",
+    "pref_name": "Beaver",
+    "dataset": "EA"
+  },
+  "Na30": {
+    "group_id": "ea-Na30",
+    "hraf_name": "",
+    "pref_name": "Dene",
+    "dataset": "EA"
+  },
+  "Na31": {
+    "group_id": "ea-Na31",
+    "hraf_name": "",
+    "pref_name": "Eastern Cree",
+    "dataset": "EA"
+  },
+  "Ad36": {
+    "group_id": "ea-Ad36",
+    "hraf_name": "",
+    "pref_name": "Pare",
+    "dataset": "EA"
+  },
+  "Na38": {
+    "group_id": "ea-Na38",
+    "hraf_name": "",
+    "pref_name": "Katikitegon",
+    "dataset": "EA"
+  },
+  "Na40": {
+    "group_id": "ea-Na40",
+    "hraf_name": "",
+    "pref_name": "Ottawa",
+    "dataset": "EA"
+  },
+  "Na42": {
+    "group_id": "ea-Na42",
+    "hraf_name": "",
+    "pref_name": "Potawatomi",
+    "dataset": "EA"
+  },
+  "Ad37": {
+    "group_id": "ea-Ad37",
+    "hraf_name": "",
+    "pref_name": "Teita",
+    "dataset": "EA"
+  },
+  "Na43": {
+    "group_id": "ea-Na43",
+    "hraf_name": "",
+    "pref_name": "Netsilik",
+    "dataset": "EA"
+  },
+  "Na44": {
+    "group_id": "ea-Na44",
+    "hraf_name": "",
+    "pref_name": "Nunavimmiut",
+    "dataset": "EA"
+  },
+  "Na45": {
+    "group_id": "ea-Na45",
+    "hraf_name": "",
+    "pref_name": "Mistissini Cree",
+    "dataset": "EA"
+  },
+  "Na6": {
+    "group_id": "ea-Na6",
+    "hraf_name": "",
+    "pref_name": "Nunivak",
+    "dataset": "EA"
+  },
+  "Na7": {
+    "group_id": "ea-Na7",
+    "hraf_name": "",
+    "pref_name": "Attawapiskat Cree",
+    "dataset": "EA"
+  },
+  "Nb1": {
+    "group_id": "ea-Nb1",
+    "hraf_name": "",
+    "pref_name": "Haida",
+    "dataset": "EA"
+  },
+  "Nb10": {
+    "group_id": "ea-Nb10",
+    "hraf_name": "",
+    "pref_name": "Alkatcho",
+    "dataset": "EA"
+  },
+  "Ad38": {
+    "group_id": "ea-Ad38",
+    "hraf_name": "",
+    "pref_name": "Kara",
+    "dataset": "EA"
+  },
+  "Nb11": {
+    "group_id": "ea-Nb11",
+    "hraf_name": "",
+    "pref_name": "Nuu chah nulth",
+    "dataset": "EA"
+  },
+  "Nb12": {
+    "group_id": "ea-Nb12",
+    "hraf_name": "",
+    "pref_name": "Klahoose",
+    "dataset": "EA"
+  },
+  "Nb13": {
+    "group_id": "ea-Nb13",
+    "hraf_name": "",
+    "pref_name": "Squamish",
+    "dataset": "EA"
+  },
+  "Nb14": {
+    "group_id": "ea-Nb14",
+    "hraf_name": "",
+    "pref_name": "Comox",
+    "dataset": "EA"
+  },
+  "Nb15": {
+    "group_id": "ea-Nb15",
+    "hraf_name": "",
+    "pref_name": "Lummi",
+    "dataset": "EA"
+  },
+  "Nb16": {
+    "group_id": "ea-Nb16",
+    "hraf_name": "",
+    "pref_name": "Klallam",
+    "dataset": "EA"
+  },
+  "Nb17": {
+    "group_id": "ea-Nb17",
+    "hraf_name": "",
+    "pref_name": "Puyallup",
+    "dataset": "EA"
+  },
+  "Nb18": {
+    "group_id": "ea-Nb18",
+    "hraf_name": "",
+    "pref_name": "Quileute",
+    "dataset": "EA"
+  },
+  "Nb19": {
+    "group_id": "ea-Nb19",
+    "hraf_name": "",
+    "pref_name": "Lower Chinook",
+    "dataset": "EA"
+  },
+  "Nb2": {
+    "group_id": "ea-Nb2",
+    "hraf_name": "",
+    "pref_name": "Twana",
+    "dataset": "EA"
+  },
+  "Ad39": {
+    "group_id": "ea-Ad39",
+    "hraf_name": "",
+    "pref_name": "Sonjo",
+    "dataset": "EA"
+  },
+  "Nb20": {
+    "group_id": "ea-Nb20",
+    "hraf_name": "",
+    "pref_name": "Tillamook",
+    "dataset": "EA"
+  },
+  "Nb21": {
+    "group_id": "ea-Nb21",
+    "hraf_name": "",
+    "pref_name": "Coos",
+    "dataset": "EA"
+  },
+  "Nb22": {
+    "group_id": "ea-Nb22",
+    "hraf_name": "",
+    "pref_name": "Tlingit",
+    "dataset": "EA"
+  },
+  "Nb23": {
+    "group_id": "ea-Nb23",
+    "hraf_name": "",
+    "pref_name": "Heiltsuk",
+    "dataset": "EA"
+  },
+  "Nb24": {
+    "group_id": "ea-Nb24",
+    "hraf_name": "",
+    "pref_name": "Makah",
+    "dataset": "EA"
+  },
+  "Nb25": {
+    "group_id": "ea-Nb25",
+    "hraf_name": "",
+    "pref_name": "Quinault",
+    "dataset": "EA"
+  },
+  "Nb26": {
+    "group_id": "ea-Nb26",
+    "hraf_name": "",
+    "pref_name": "Cowichan",
+    "dataset": "EA"
+  },
+  "Nb27": {
+    "group_id": "ea-Nb27",
+    "hraf_name": "",
+    "pref_name": "Stó:lō",
+    "dataset": "EA"
+  },
+  "Nb28": {
+    "group_id": "ea-Nb28",
+    "hraf_name": "",
+    "pref_name": "Alsea",
+    "dataset": "EA"
+  },
+  "Nb29": {
+    "group_id": "ea-Nb29",
+    "hraf_name": "",
+    "pref_name": "Siuslaw",
+    "dataset": "EA"
+  },
+  "Nb3": {
+    "group_id": "ea-Nb3",
+    "hraf_name": "",
+    "pref_name": "Kwakwaka'wakw",
+    "dataset": "EA"
+  },
+  "Nb30": {
+    "group_id": "ea-Nb30",
+    "hraf_name": "",
+    "pref_name": "Takelma",
+    "dataset": "EA"
+  },
+  "Nb31": {
+    "group_id": "ea-Nb31",
+    "hraf_name": "",
+    "pref_name": "Tututni",
+    "dataset": "EA"
+  },
+  "Nb32": {
+    "group_id": "ea-Nb32",
+    "hraf_name": "",
+    "pref_name": "Shasta",
+    "dataset": "EA"
+  },
+  "Nb33": {
+    "group_id": "ea-Nb33",
+    "hraf_name": "",
+    "pref_name": "Chimariko",
+    "dataset": "EA"
+  },
+  "Nb34": {
+    "group_id": "ea-Nb34",
+    "hraf_name": "",
+    "pref_name": "Karuk",
+    "dataset": "EA"
+  },
+  "Nb35": {
+    "group_id": "ea-Nb35",
+    "hraf_name": "",
+    "pref_name": "Hupa",
+    "dataset": "EA"
+  },
+  "Nb36": {
+    "group_id": "ea-Nb36",
+    "hraf_name": "",
+    "pref_name": "Wiyot",
+    "dataset": "EA"
+  },
+  "Nb37": {
+    "group_id": "ea-Nb37",
+    "hraf_name": "",
+    "pref_name": "Lassik",
+    "dataset": "EA"
+  },
+  "Nb38": {
+    "group_id": "ea-Nb38",
+    "hraf_name": "",
+    "pref_name": "Mattole-Bear River",
+    "dataset": "EA"
+  },
+  "Ab10": {
+    "group_id": "ea-Ab10",
+    "hraf_name": "",
+    "pref_name": "Pondo Xhosa",
+    "dataset": "EA"
+  },
+  "Ad40": {
+    "group_id": "ea-Ad40",
+    "hraf_name": "",
+    "pref_name": "Tiriki",
+    "dataset": "EA"
+  },
+  "Nb39": {
+    "group_id": "ea-Nb39",
+    "hraf_name": "",
+    "pref_name": "Sinkyone",
+    "dataset": "EA"
+  },
+  "Nb5": {
+    "group_id": "ea-Nb5",
+    "hraf_name": "",
+    "pref_name": "Eyak",
+    "dataset": "EA"
+  },
+  "Nb6": {
+    "group_id": "ea-Nb6",
+    "hraf_name": "",
+    "pref_name": "Tolowa",
+    "dataset": "EA"
+  },
+  "Nb7": {
+    "group_id": "ea-Nb7",
+    "hraf_name": "",
+    "pref_name": "Tsimshian",
+    "dataset": "EA"
+  },
+  "Nb8": {
+    "group_id": "ea-Nb8",
+    "hraf_name": "",
+    "pref_name": "Haisla",
+    "dataset": "EA"
+  },
+  "Nc1": {
+    "group_id": "ea-Nc1",
+    "hraf_name": "",
+    "pref_name": "Nomlaki",
+    "dataset": "EA"
+  },
+  "Nc10": {
+    "group_id": "ea-Nc10",
+    "hraf_name": "",
+    "pref_name": "Achumawi",
+    "dataset": "EA"
+  },
+  "Nc11": {
+    "group_id": "ea-Nc11",
+    "hraf_name": "",
+    "pref_name": "Yana",
+    "dataset": "EA"
+  },
+  "Ad41": {
+    "group_id": "ea-Ad41",
+    "hraf_name": "",
+    "pref_name": "Vugusu",
+    "dataset": "EA"
+  },
+  "Nc12": {
+    "group_id": "ea-Nc12",
+    "hraf_name": "",
+    "pref_name": "Maidu",
+    "dataset": "EA"
+  },
+  "Nc13": {
+    "group_id": "ea-Nc13",
+    "hraf_name": "",
+    "pref_name": "Nisenan",
+    "dataset": "EA"
+  },
+  "Nc14": {
+    "group_id": "ea-Nc14",
+    "hraf_name": "",
+    "pref_name": "Wintu",
+    "dataset": "EA"
+  },
+  "Nc15": {
+    "group_id": "ea-Nc15",
+    "hraf_name": "",
+    "pref_name": "Coast Yuki",
+    "dataset": "EA"
+  },
+  "Nc16": {
+    "group_id": "ea-Nc16",
+    "hraf_name": "",
+    "pref_name": "Huchnom",
+    "dataset": "EA"
+  },
+  "Nc2": {
+    "group_id": "ea-Nc2",
+    "hraf_name": "",
+    "pref_name": "Tübalulabal",
+    "dataset": "EA"
+  },
+  "Nc20": {
+    "group_id": "ea-Nc20",
+    "hraf_name": "",
+    "pref_name": "Wappo",
+    "dataset": "EA"
+  },
+  "Ad42": {
+    "group_id": "ea-Ad42",
+    "hraf_name": "",
+    "pref_name": "Haya",
+    "dataset": "EA"
+  },
+  "Nc21": {
+    "group_id": "ea-Nc21",
+    "hraf_name": "",
+    "pref_name": "Lake Miwok",
+    "dataset": "EA"
+  },
+  "Nc22": {
+    "group_id": "ea-Nc22",
+    "hraf_name": "",
+    "pref_name": "Patwin",
+    "dataset": "EA"
+  },
+  "Nc23": {
+    "group_id": "ea-Nc23",
+    "hraf_name": "",
+    "pref_name": "Western Mono",
+    "dataset": "EA"
+  },
+  "Nc26": {
+    "group_id": "ea-Nc26",
+    "hraf_name": "",
+    "pref_name": "Salinan",
+    "dataset": "EA"
+  },
+  "Nc27": {
+    "group_id": "ea-Nc27",
+    "hraf_name": "",
+    "pref_name": "Kawaiisu",
+    "dataset": "EA"
+  },
+  "Nc28": {
+    "group_id": "ea-Nc28",
+    "hraf_name": "",
+    "pref_name": "Chumash",
+    "dataset": "EA"
+  },
+  "Nc29": {
+    "group_id": "ea-Nc29",
+    "hraf_name": "",
+    "pref_name": "Tongva",
+    "dataset": "EA"
+  },
+  "Ad43": {
+    "group_id": "ea-Ad43",
+    "hraf_name": "",
+    "pref_name": "Kerewe",
+    "dataset": "EA"
+  },
+  "Nc30": {
+    "group_id": "ea-Nc30",
+    "hraf_name": "",
+    "pref_name": "Serrano",
+    "dataset": "EA"
+  },
+  "Nc31": {
+    "group_id": "ea-Nc31",
+    "hraf_name": "",
+    "pref_name": "Cahuilla (Desert)",
+    "dataset": "EA"
+  },
+  "Nc32": {
+    "group_id": "ea-Nc32",
+    "hraf_name": "",
+    "pref_name": "Cupeño",
+    "dataset": "EA"
+  },
+  "Nc33": {
+    "group_id": "ea-Nc33",
+    "hraf_name": "",
+    "pref_name": "Luiseño",
+    "dataset": "EA"
+  },
+  "Nc34": {
+    "group_id": "ea-Nc34",
+    "hraf_name": "",
+    "pref_name": "Kiliwa",
+    "dataset": "EA"
+  },
+  "Nc4": {
+    "group_id": "ea-Nc4",
+    "hraf_name": "",
+    "pref_name": "Atsugewi",
+    "dataset": "EA"
+  },
+  "Nc5": {
+    "group_id": "ea-Nc5",
+    "hraf_name": "",
+    "pref_name": "Central Sierra Miwok",
+    "dataset": "EA"
+  },
+  "Nc6": {
+    "group_id": "ea-Nc6",
+    "hraf_name": "",
+    "pref_name": "Kumeyaay",
+    "dataset": "EA"
+  },
+  "Nc7": {
+    "group_id": "ea-Nc7",
+    "hraf_name": "",
+    "pref_name": "Yuki",
+    "dataset": "EA"
+  },
+  "Ad44": {
+    "group_id": "ea-Ad44",
+    "hraf_name": "",
+    "pref_name": "Konjo",
+    "dataset": "EA"
+  },
+  "Nc9": {
+    "group_id": "ea-Nc9",
+    "hraf_name": "",
+    "pref_name": "Modoc",
+    "dataset": "EA"
+  },
+  "Nd1": {
+    "group_id": "ea-Nd1",
+    "hraf_name": "",
+    "pref_name": "Tenino",
+    "dataset": "EA"
+  },
+  "Nd10": {
+    "group_id": "ea-Nd10",
+    "hraf_name": "",
+    "pref_name": "Nlaka'pamux",
+    "dataset": "EA"
+  },
+  "Nd11": {
+    "group_id": "ea-Nd11",
+    "hraf_name": "",
+    "pref_name": "Shuswap",
+    "dataset": "EA"
+  },
+  "Nd12": {
+    "group_id": "ea-Nd12",
+    "hraf_name": "",
+    "pref_name": "Bitterroot Salish",
+    "dataset": "EA"
+  },
+  "Nd13": {
+    "group_id": "ea-Nd13",
+    "hraf_name": "",
+    "pref_name": "Kalispel",
+    "dataset": "EA"
+  },
+  "Nd14": {
+    "group_id": "ea-Nd14",
+    "hraf_name": "",
+    "pref_name": "Coeur d’Alene",
+    "dataset": "EA"
+  },
+  "Nd15": {
+    "group_id": "ea-Nd15",
+    "hraf_name": "",
+    "pref_name": "Sinkaitk",
+    "dataset": "EA"
+  },
+  "Nd16": {
+    "group_id": "ea-Nd16",
+    "hraf_name": "",
+    "pref_name": "Wenatchi",
+    "dataset": "EA"
+  },
+  "Nd17": {
+    "group_id": "ea-Nd17",
+    "hraf_name": "",
+    "pref_name": "Klikitat",
+    "dataset": "EA"
+  },
+  "Ad45": {
+    "group_id": "ea-Ad45",
+    "hraf_name": "",
+    "pref_name": "Nyankole",
+    "dataset": "EA"
+  },
+  "Nd18": {
+    "group_id": "ea-Nd18",
+    "hraf_name": "",
+    "pref_name": "Wishram",
+    "dataset": "EA"
+  },
+  "Nd19": {
+    "group_id": "ea-Nd19",
+    "hraf_name": "",
+    "pref_name": "Umatilla",
+    "dataset": "EA"
+  },
+  "Nd2": {
+    "group_id": "ea-Nd2",
+    "hraf_name": "",
+    "pref_name": "Southern Ute",
+    "dataset": "EA"
+  },
+  "Nd20": {
+    "group_id": "ea-Nd20",
+    "hraf_name": "",
+    "pref_name": "Nez Perce",
+    "dataset": "EA"
+  },
+  "Nd21": {
+    "group_id": "ea-Nd21",
+    "hraf_name": "",
+    "pref_name": "Tagotoka",
+    "dataset": "EA"
+  },
+  "Nd23": {
+    "group_id": "ea-Nd23",
+    "hraf_name": "",
+    "pref_name": "Atsakudokwa",
+    "dataset": "EA"
+  },
+  "Nd25": {
+    "group_id": "ea-Nd25",
+    "hraf_name": "",
+    "pref_name": "Sawakudokwa",
+    "dataset": "EA"
+  },
+  "Ad46": {
+    "group_id": "ea-Ad46",
+    "hraf_name": "",
+    "pref_name": "Soga",
+    "dataset": "EA"
+  },
+  "Nd28": {
+    "group_id": "ea-Nd28",
+    "hraf_name": "",
+    "pref_name": "Toedokado",
+    "dataset": "EA"
+  },
+  "Nd29": {
+    "group_id": "ea-Nd29",
+    "hraf_name": "",
+    "pref_name": "Tunava (Deep Springs and Fish Lake)",
+    "dataset": "EA"
+  },
+  "Nd30": {
+    "group_id": "ea-Nd30",
+    "hraf_name": "",
+    "pref_name": "Eastern Mono",
+    "dataset": "EA"
+  },
+  "Nd31": {
+    "group_id": "ea-Nd31",
+    "hraf_name": "",
+    "pref_name": "Koso",
+    "dataset": "EA"
+  },
+  "Nd32": {
+    "group_id": "ea-Nd32",
+    "hraf_name": "",
+    "pref_name": "Tümpisa Shoshone (Saline and Panamint)",
+    "dataset": "EA"
+  },
+  "Nd33": {
+    "group_id": "ea-Nd33",
+    "hraf_name": "",
+    "pref_name": "Beatty",
+    "dataset": "EA"
+  },
+  "Nd34": {
+    "group_id": "ea-Nd34",
+    "hraf_name": "",
+    "pref_name": "Lida Shoshoni",
+    "dataset": "EA"
+  },
+  "Nd35": {
+    "group_id": "ea-Nd35",
+    "hraf_name": "",
+    "pref_name": "Mahaguaduka",
+    "dataset": "EA"
+  },
+  "Ad47": {
+    "group_id": "ea-Ad47",
+    "hraf_name": "",
+    "pref_name": "Sumbwa",
+    "dataset": "EA"
+  },
+  "Nd36": {
+    "group_id": "ea-Nd36",
+    "hraf_name": "",
+    "pref_name": "Wiyambituka",
+    "dataset": "EA"
+  },
+  "Nd37": {
+    "group_id": "ea-Nd37",
+    "hraf_name": "",
+    "pref_name": "Railroad Valley Shoshoni",
+    "dataset": "EA"
+  },
+  "Nd38": {
+    "group_id": "ea-Nd38",
+    "hraf_name": "",
+    "pref_name": "Ely Shoshoni",
+    "dataset": "EA"
+  },
+  "Nd4": {
+    "group_id": "ea-Nd4",
+    "hraf_name": "",
+    "pref_name": "Sanpoil",
+    "dataset": "EA"
+  },
+  "Nd40": {
+    "group_id": "ea-Nd40",
+    "hraf_name": "",
+    "pref_name": "Tubaduka",
+    "dataset": "EA"
+  },
+  "Nd41": {
+    "group_id": "ea-Nd41",
+    "hraf_name": "",
+    "pref_name": "Wadaduka",
+    "dataset": "EA"
+  },
+  "Nd42": {
+    "group_id": "ea-Nd42",
+    "hraf_name": "",
+    "pref_name": "Elko Shoshoni",
+    "dataset": "EA"
+  },
+  "Nd43": {
+    "group_id": "ea-Nd43",
+    "hraf_name": "",
+    "pref_name": "White Knife Shoshoni",
+    "dataset": "EA"
+  },
+  "Nd44": {
+    "group_id": "ea-Nd44",
+    "hraf_name": "",
+    "pref_name": "Yahanduka",
+    "dataset": "EA"
+  },
+  "Ad48": {
+    "group_id": "ea-Ad48",
+    "hraf_name": "",
+    "pref_name": "Toro",
+    "dataset": "EA"
+  },
+  "Nd45": {
+    "group_id": "ea-Nd45",
+    "hraf_name": "",
+    "pref_name": "Bohogue",
+    "dataset": "EA"
+  },
+  "Nd47": {
+    "group_id": "ea-Nd47",
+    "hraf_name": "",
+    "pref_name": "Tukudika",
+    "dataset": "EA"
+  },
+  "Nd46": {
+    "group_id": "ea-Nd46",
+    "hraf_name": "",
+    "pref_name": "Agaiduka",
+    "dataset": "EA"
+  },
+  "Nd48": {
+    "group_id": "ea-Nd48",
+    "hraf_name": "",
+    "pref_name": "Gosiute",
+    "dataset": "EA"
+  },
+  "Nd49": {
+    "group_id": "ea-Nd49",
+    "hraf_name": "",
+    "pref_name": "Antarianunts",
+    "dataset": "EA"
+  },
+  "Nd5": {
+    "group_id": "ea-Nd5",
+    "hraf_name": "",
+    "pref_name": "Hukundika",
+    "dataset": "EA"
+  },
+  "Nd50": {
+    "group_id": "ea-Nd50",
+    "hraf_name": "",
+    "pref_name": "Panguitch",
+    "dataset": "EA"
+  },
+  "Nd51": {
+    "group_id": "ea-Nd51",
+    "hraf_name": "",
+    "pref_name": "Moapa",
+    "dataset": "EA"
+  },
+  "Nd52": {
+    "group_id": "ea-Nd52",
+    "hraf_name": "",
+    "pref_name": "Shivwits",
+    "dataset": "EA"
+  },
+  "Nd53": {
+    "group_id": "ea-Nd53",
+    "hraf_name": "",
+    "pref_name": "Southern Paiute (Kaibab)",
+    "dataset": "EA"
+  },
+  "Nd55": {
+    "group_id": "ea-Nd55",
+    "hraf_name": "",
+    "pref_name": "Southern Paiute (Las Vegas)",
+    "dataset": "EA"
+  },
+  "Ad49": {
+    "group_id": "ea-Ad49",
+    "hraf_name": "",
+    "pref_name": "Zinza",
+    "dataset": "EA"
+  },
+  "Nd54": {
+    "group_id": "ea-Nd54",
+    "hraf_name": "",
+    "pref_name": "Chemehuevi",
+    "dataset": "EA"
+  },
+  "Nd56": {
+    "group_id": "ea-Nd56",
+    "hraf_name": "",
+    "pref_name": "San Juan",
+    "dataset": "EA"
+  },
+  "Nd57": {
+    "group_id": "ea-Nd57",
+    "hraf_name": "",
+    "pref_name": "Pahvant",
+    "dataset": "EA"
+  },
+  "Nd58": {
+    "group_id": "ea-Nd58",
+    "hraf_name": "",
+    "pref_name": "Uintah Ute",
+    "dataset": "EA"
+  },
+  "Nd59": {
+    "group_id": "ea-Nd59",
+    "hraf_name": "",
+    "pref_name": "Moanunts",
+    "dataset": "EA"
+  },
+  "Nd6": {
+    "group_id": "ea-Nd6",
+    "hraf_name": "",
+    "pref_name": "Washo",
+    "dataset": "EA"
+  },
+  "Nd60": {
+    "group_id": "ea-Nd60",
+    "hraf_name": "",
+    "pref_name": "Moache",
+    "dataset": "EA"
+  },
+  "Nd61": {
+    "group_id": "ea-Nd61",
+    "hraf_name": "",
+    "pref_name": "Taviwatsiu",
+    "dataset": "EA"
+  },
+  "Nd62": {
+    "group_id": "ea-Nd62",
+    "hraf_name": "",
+    "pref_name": "Uncompahgre Ute",
+    "dataset": "EA"
+  },
+  "Ab11": {
+    "group_id": "ea-Ab11",
+    "hraf_name": "",
+    "pref_name": "Xhosa Ngqika",
+    "dataset": "EA"
+  },
+  "Ad5": {
+    "group_id": "ea-Ad5",
+    "hraf_name": "",
+    "pref_name": "Mbugwe",
+    "dataset": "EA"
+  },
+  "Nd63": {
+    "group_id": "ea-Nd63",
+    "hraf_name": "",
+    "pref_name": "Bannock",
+    "dataset": "EA"
+  },
+  "Nd64": {
+    "group_id": "ea-Nd64",
+    "hraf_name": "",
+    "pref_name": "Wind River Eastern Shoshone",
+    "dataset": "EA"
+  },
+  "Nd65": {
+    "group_id": "ea-Nd65",
+    "hraf_name": "",
+    "pref_name": "Hualapai",
+    "dataset": "EA"
+  },
+  "Nd66": {
+    "group_id": "ea-Nd66",
+    "hraf_name": "",
+    "pref_name": "Yavapai",
+    "dataset": "EA"
+  },
+  "Nd67": {
+    "group_id": "ea-Nd67",
+    "hraf_name": "",
+    "pref_name": "Tolkepaya",
+    "dataset": "EA"
+  },
+  "Nd7": {
+    "group_id": "ea-Nd7",
+    "hraf_name": "",
+    "pref_name": "Kutenai",
+    "dataset": "EA"
+  },
+  "Nd8": {
+    "group_id": "ea-Nd8",
+    "hraf_name": "",
+    "pref_name": "Chilcotin",
+    "dataset": "EA"
+  },
+  "Nd9": {
+    "group_id": "ea-Nd9",
+    "hraf_name": "",
+    "pref_name": "Lillooet",
+    "dataset": "EA"
+  },
+  "Ne10": {
+    "group_id": "ea-Ne10",
+    "hraf_name": "",
+    "pref_name": "Arikara",
+    "dataset": "EA"
+  },
+  "Ad50": {
+    "group_id": "ea-Ad50",
+    "hraf_name": "",
+    "pref_name": "Kaguru",
+    "dataset": "EA"
+  },
+  "Ne11": {
+    "group_id": "ea-Ne11",
+    "hraf_name": "",
+    "pref_name": "Assiniboine",
+    "dataset": "EA"
+  },
+  "Ne12": {
+    "group_id": "ea-Ne12",
+    "hraf_name": "",
+    "pref_name": "Blackfoot",
+    "dataset": "EA"
+  },
+  "Ne13": {
+    "group_id": "ea-Ne13",
+    "hraf_name": "",
+    "pref_name": "Kainai",
+    "dataset": "EA"
+  },
+  "Ne15": {
+    "group_id": "ea-Ne15",
+    "hraf_name": "",
+    "pref_name": "Hidatsa",
+    "dataset": "EA"
+  },
+  "Ne16": {
+    "group_id": "ea-Ne16",
+    "hraf_name": "",
+    "pref_name": "Karankawa",
+    "dataset": "EA"
+  },
+  "Ne17": {
+    "group_id": "ea-Ne17",
+    "hraf_name": "",
+    "pref_name": "Kiowa",
+    "dataset": "EA"
+  },
+  "Ne18": {
+    "group_id": "ea-Ne18",
+    "hraf_name": "",
+    "pref_name": "Piegan",
+    "dataset": "EA"
+  },
+  "Ne19": {
+    "group_id": "ea-Ne19",
+    "hraf_name": "",
+    "pref_name": "Plains Cree",
+    "dataset": "EA"
+  },
+  "Ne2": {
+    "group_id": "ea-Ne2",
+    "hraf_name": "",
+    "pref_name": "Kiowa Apache",
+    "dataset": "EA"
+  },
+  "Ad51": {
+    "group_id": "ea-Ad51",
+    "hraf_name": "",
+    "pref_name": "Ngulu",
+    "dataset": "EA"
+  },
+  "Ne20": {
+    "group_id": "ea-Ne20",
+    "hraf_name": "",
+    "pref_name": "Santee",
+    "dataset": "EA"
+  },
+  "Ne21": {
+    "group_id": "ea-Ne21",
+    "hraf_name": "",
+    "pref_name": "Coahuilteco",
+    "dataset": "EA"
+  },
+  "Ne4": {
+    "group_id": "ea-Ne4",
+    "hraf_name": "",
+    "pref_name": "Crow",
+    "dataset": "EA"
+  },
+  "Ne5": {
+    "group_id": "ea-Ne5",
+    "hraf_name": "",
+    "pref_name": "Cheyenne",
+    "dataset": "EA"
+  },
+  "Ne6": {
+    "group_id": "ea-Ne6",
+    "hraf_name": "",
+    "pref_name": "Mandan",
+    "dataset": "EA"
+  },
+  "Ne7": {
+    "group_id": "ea-Ne7",
+    "hraf_name": "",
+    "pref_name": "Sarcee",
+    "dataset": "EA"
+  },
+  "Ne8": {
+    "group_id": "ea-Ne8",
+    "hraf_name": "",
+    "pref_name": "Teton",
+    "dataset": "EA"
+  },
+  "Ne9": {
+    "group_id": "ea-Ne9",
+    "hraf_name": "",
+    "pref_name": "Arapaho",
+    "dataset": "EA"
+  },
+  "Nf10": {
+    "group_id": "ea-Nf10",
+    "hraf_name": "",
+    "pref_name": "Iowa",
+    "dataset": "EA"
+  },
+  "Nf11": {
+    "group_id": "ea-Nf11",
+    "hraf_name": "",
+    "pref_name": "Otoe",
+    "dataset": "EA"
+  },
+  "Nf12": {
+    "group_id": "ea-Nf12",
+    "hraf_name": "",
+    "pref_name": "Ponca",
+    "dataset": "EA"
+  },
+  "Nf13": {
+    "group_id": "ea-Nf13",
+    "hraf_name": "",
+    "pref_name": "Shawnee",
+    "dataset": "EA"
+  },
+  "Nf14": {
+    "group_id": "ea-Nf14",
+    "hraf_name": "",
+    "pref_name": "Caddo",
+    "dataset": "EA"
+  },
+  "Nf15": {
+    "group_id": "ea-Nf15",
+    "hraf_name": "",
+    "pref_name": "Kickapoo",
+    "dataset": "EA"
+  },
+  "Nf2": {
+    "group_id": "ea-Nf2",
+    "hraf_name": "",
+    "pref_name": "Ho Chunk",
+    "dataset": "EA"
+  },
+  "Nf4": {
+    "group_id": "ea-Nf4",
+    "hraf_name": "",
+    "pref_name": "Myaamia",
+    "dataset": "EA"
+  },
+  "Nf5": {
+    "group_id": "ea-Nf5",
+    "hraf_name": "",
+    "pref_name": "Wichita",
+    "dataset": "EA"
+  },
+  "Nf7": {
+    "group_id": "ea-Nf7",
+    "hraf_name": "",
+    "pref_name": "Fox",
+    "dataset": "EA"
+  },
+  "Nf8": {
+    "group_id": "ea-Nf8",
+    "hraf_name": "",
+    "pref_name": "Hasinai",
+    "dataset": "EA"
+  },
+  "Nf9": {
+    "group_id": "ea-Nf9",
+    "hraf_name": "",
+    "pref_name": "Menominee",
+    "dataset": "EA"
+  },
+  "Ng1": {
+    "group_id": "ea-Ng1",
+    "hraf_name": "",
+    "pref_name": "Huron",
+    "dataset": "EA"
+  },
+  "Ng10": {
+    "group_id": "ea-Ng10",
+    "hraf_name": "",
+    "pref_name": "Seneca",
+    "dataset": "EA"
+  },
+  "Ng11": {
+    "group_id": "ea-Ng11",
+    "hraf_name": "",
+    "pref_name": "Yuchi",
+    "dataset": "EA"
+  },
+  "Ng12": {
+    "group_id": "ea-Ng12",
+    "hraf_name": "",
+    "pref_name": "Choctaw",
+    "dataset": "EA"
+  },
+  "Ng13": {
+    "group_id": "ea-Ng13",
+    "hraf_name": "",
+    "pref_name": "Abenaki",
+    "dataset": "EA"
+  },
+  "Ng14": {
+    "group_id": "ea-Ng14",
+    "hraf_name": "",
+    "pref_name": "Chickasaw",
+    "dataset": "EA"
+  },
+  "Ad8": {
+    "group_id": "ea-Ad8",
+    "hraf_name": "",
+    "pref_name": "Hehe",
+    "dataset": "EA"
+  },
+  "Ng15": {
+    "group_id": "ea-Ng15",
+    "hraf_name": "",
+    "pref_name": "Chitimacha",
+    "dataset": "EA"
+  },
+  "Ng2": {
+    "group_id": "ea-Ng2",
+    "hraf_name": "",
+    "pref_name": "Seminole",
+    "dataset": "EA"
+  },
+  "Ng4": {
+    "group_id": "ea-Ng4",
+    "hraf_name": "",
+    "pref_name": "Penobscot",
+    "dataset": "EA"
+  },
+  "Ng5": {
+    "group_id": "ea-Ng5",
+    "hraf_name": "",
+    "pref_name": "Cherokee",
+    "dataset": "EA"
+  },
+  "Ng6": {
+    "group_id": "ea-Ng6",
+    "hraf_name": "",
+    "pref_name": "Delaware",
+    "dataset": "EA"
+  },
+  "Ng7": {
+    "group_id": "ea-Ng7",
+    "hraf_name": "",
+    "pref_name": "Natchez",
+    "dataset": "EA"
+  },
+  "Ng8": {
+    "group_id": "ea-Ng8",
+    "hraf_name": "",
+    "pref_name": "Timucua",
+    "dataset": "EA"
+  },
+  "Ng9": {
+    "group_id": "ea-Ng9",
+    "hraf_name": "",
+    "pref_name": "Catawba",
+    "dataset": "EA"
+  },
+  "Ad9": {
+    "group_id": "ea-Ad9",
+    "hraf_name": "",
+    "pref_name": "Gisu",
+    "dataset": "EA"
+  },
+  "Nh10": {
+    "group_id": "ea-Nh10",
+    "hraf_name": "",
+    "pref_name": "Isleta",
+    "dataset": "EA"
+  },
+  "Nh11": {
+    "group_id": "ea-Nh11",
+    "hraf_name": "",
+    "pref_name": "San Ildefonso",
+    "dataset": "EA"
+  },
+  "Nh12": {
+    "group_id": "ea-Nh12",
+    "hraf_name": "",
+    "pref_name": "Santa Ana",
+    "dataset": "EA"
+  },
+  "Nh13": {
+    "group_id": "ea-Nh13",
+    "hraf_name": "",
+    "pref_name": "Acoma",
+    "dataset": "EA"
+  },
+  "Nh14": {
+    "group_id": "ea-Nh14",
+    "hraf_name": "",
+    "pref_name": "Laguna",
+    "dataset": "EA"
+  },
+  "Nh15": {
+    "group_id": "ea-Nh15",
+    "hraf_name": "",
+    "pref_name": "Mescalero",
+    "dataset": "EA"
+  },
+  "Nh16": {
+    "group_id": "ea-Nh16",
+    "hraf_name": "",
+    "pref_name": "Jicarilla",
+    "dataset": "EA"
+  },
+  "Nh17": {
+    "group_id": "ea-Nh17",
+    "hraf_name": "",
+    "pref_name": "Western Apache",
+    "dataset": "EA"
+  },
+  "Nh18": {
+    "group_id": "ea-Nh18",
+    "hraf_name": "",
+    "pref_name": "Hopi",
+    "dataset": "EA"
+  },
+  "Nh19": {
+    "group_id": "ea-Nh19",
+    "hraf_name": "",
+    "pref_name": "Cocopa",
+    "dataset": "EA"
+  },
+  "Ae1": {
+    "group_id": "ea-Ae1",
+    "hraf_name": "",
+    "pref_name": "Amba",
+    "dataset": "EA"
+  },
+  "Nh2": {
+    "group_id": "ea-Nh2",
+    "hraf_name": "",
+    "pref_name": "Hano",
+    "dataset": "EA"
+  },
+  "Nh20": {
+    "group_id": "ea-Nh20",
+    "hraf_name": "",
+    "pref_name": "Kamia",
+    "dataset": "EA"
+  },
+  "Nh21": {
+    "group_id": "ea-Nh21",
+    "hraf_name": "",
+    "pref_name": "Mojave",
+    "dataset": "EA"
+  },
+  "Nh22": {
+    "group_id": "ea-Nh22",
+    "hraf_name": "",
+    "pref_name": "Quechan",
+    "dataset": "EA"
+  },
+  "Nh23": {
+    "group_id": "ea-Nh23",
+    "hraf_name": "",
+    "pref_name": "Kewyipaya",
+    "dataset": "EA"
+  },
+  "Nh24": {
+    "group_id": "ea-Nh24",
+    "hraf_name": "",
+    "pref_name": "Lipan Apache",
+    "dataset": "EA"
+  },
+  "Nh25": {
+    "group_id": "ea-Nh25",
+    "hraf_name": "",
+    "pref_name": "Sia",
+    "dataset": "EA"
+  },
+  "Nh26": {
+    "group_id": "ea-Nh26",
+    "hraf_name": "",
+    "pref_name": "Santa Clara",
+    "dataset": "EA"
+  },
+  "Nh27": {
+    "group_id": "ea-Nh27",
+    "hraf_name": "",
+    "pref_name": "Kewa",
+    "dataset": "EA"
+  },
+  "Nh3": {
+    "group_id": "ea-Nh3",
+    "hraf_name": "",
+    "pref_name": "Navajo",
+    "dataset": "EA"
+  },
+  "Ae10": {
+    "group_id": "ea-Ae10",
+    "hraf_name": "",
+    "pref_name": "Banyaruanda",
+    "dataset": "EA"
+  },
+  "Nh5": {
+    "group_id": "ea-Nh5",
+    "hraf_name": "",
+    "pref_name": "Maricopa",
+    "dataset": "EA"
+  },
+  "Nh6": {
+    "group_id": "ea-Nh6",
+    "hraf_name": "",
+    "pref_name": "Taos",
+    "dataset": "EA"
+  },
+  "Nh7": {
+    "group_id": "ea-Nh7",
+    "hraf_name": "",
+    "pref_name": "Cochiti",
+    "dataset": "EA"
+  },
+  "Nh8": {
+    "group_id": "ea-Nh8",
+    "hraf_name": "",
+    "pref_name": "Jemez",
+    "dataset": "EA"
+  },
+  "Nh9": {
+    "group_id": "ea-Nh9",
+    "hraf_name": "",
+    "pref_name": "Picuris",
+    "dataset": "EA"
+  },
+  "Ni1": {
+    "group_id": "ea-Ni1",
+    "hraf_name": "",
+    "pref_name": "Tarahumara",
+    "dataset": "EA"
+  },
+  "Ni4": {
+    "group_id": "ea-Ni4",
+    "hraf_name": "",
+    "pref_name": "Seri",
+    "dataset": "EA"
+  },
+  "Ae11": {
+    "group_id": "ea-Ae11",
+    "hraf_name": "",
+    "pref_name": "Songola",
+    "dataset": "EA"
+  },
+  "Ni5": {
+    "group_id": "ea-Ni5",
+    "hraf_name": "",
+    "pref_name": "Chichimeca",
+    "dataset": "EA"
+  },
+  "Ni6": {
+    "group_id": "ea-Ni6",
+    "hraf_name": "",
+    "pref_name": "Pima",
+    "dataset": "EA"
+  },
+  "Ni7": {
+    "group_id": "ea-Ni7",
+    "hraf_name": "",
+    "pref_name": "Yaqui",
+    "dataset": "EA"
+  },
+  "Ni8": {
+    "group_id": "ea-Ni8",
+    "hraf_name": "",
+    "pref_name": "Opata",
+    "dataset": "EA"
+  },
+  "Ni9": {
+    "group_id": "ea-Ni9",
+    "hraf_name": "",
+    "pref_name": "Tepehuán",
+    "dataset": "EA"
+  },
+  "Nj1": {
+    "group_id": "ea-Nj1",
+    "hraf_name": "",
+    "pref_name": "Chinantec",
+    "dataset": "EA"
+  },
+  "Nj10": {
+    "group_id": "ea-Nj10",
+    "hraf_name": "",
+    "pref_name": "Zapotec",
+    "dataset": "EA"
+  },
+  "Nj11": {
+    "group_id": "ea-Nj11",
+    "hraf_name": "",
+    "pref_name": "Huastec",
+    "dataset": "EA"
+  },
+  "Nj12": {
+    "group_id": "ea-Nj12",
+    "hraf_name": "",
+    "pref_name": "Mixtec",
+    "dataset": "EA"
+  },
+  "Nj13": {
+    "group_id": "ea-Nj13",
+    "hraf_name": "",
+    "pref_name": "Otomí",
+    "dataset": "EA"
+  },
+  "Ab12": {
+    "group_id": "ea-Ab12",
+    "hraf_name": "",
+    "pref_name": "Zulu",
+    "dataset": "EA"
+  },
+  "Ae12": {
+    "group_id": "ea-Ae12",
+    "hraf_name": "",
+    "pref_name": "Duala",
+    "dataset": "EA"
+  },
+  "Nj14": {
+    "group_id": "ea-Nj14",
+    "hraf_name": "",
+    "pref_name": "Tequistlatec",
+    "dataset": "EA"
+  },
+  "Nj3": {
+    "group_id": "ea-Nj3",
+    "hraf_name": "",
+    "pref_name": "Sierra Popoluca",
+    "dataset": "EA"
+  },
+  "Nj4": {
+    "group_id": "ea-Nj4",
+    "hraf_name": "",
+    "pref_name": "Totonac",
+    "dataset": "EA"
+  },
+  "Nj5": {
+    "group_id": "ea-Nj5",
+    "hraf_name": "",
+    "pref_name": "Mazateco",
+    "dataset": "EA"
+  },
+  "Nj6": {
+    "group_id": "ea-Nj6",
+    "hraf_name": "",
+    "pref_name": "Huave",
+    "dataset": "EA"
+  },
+  "Nj7": {
+    "group_id": "ea-Nj7",
+    "hraf_name": "",
+    "pref_name": "Mixe",
+    "dataset": "EA"
+  },
+  "Nj8": {
+    "group_id": "ea-Nj8",
+    "hraf_name": "",
+    "pref_name": "Tarasco",
+    "dataset": "EA"
+  },
+  "Nj9": {
+    "group_id": "ea-Nj9",
+    "hraf_name": "",
+    "pref_name": "Tlaxcalans",
+    "dataset": "EA"
+  },
+  "Ae13": {
+    "group_id": "ea-Ae13",
+    "hraf_name": "",
+    "pref_name": "Bashi",
+    "dataset": "EA"
+  },
+  "Sa10": {
+    "group_id": "ea-Sa10",
+    "hraf_name": "",
+    "pref_name": "Lacandon",
+    "dataset": "EA"
+  },
+  "Sa11": {
+    "group_id": "ea-Sa11",
+    "hraf_name": "",
+    "pref_name": "Kaqchikel",
+    "dataset": "EA"
+  },
+  "Sa12": {
+    "group_id": "ea-Sa12",
+    "hraf_name": "",
+    "pref_name": "Lenca",
+    "dataset": "EA"
+  },
+  "Sa13": {
+    "group_id": "ea-Sa13",
+    "hraf_name": "",
+    "pref_name": "K'iche'",
+    "dataset": "EA"
+  },
+  "Sa14": {
+    "group_id": "ea-Sa14",
+    "hraf_name": "",
+    "pref_name": "Ngäbe",
+    "dataset": "EA"
+  },
+  "Sa15": {
+    "group_id": "ea-Sa15",
+    "hraf_name": "",
+    "pref_name": "Jakaltek",
+    "dataset": "EA"
+  },
+  "Sa16": {
+    "group_id": "ea-Sa16",
+    "hraf_name": "",
+    "pref_name": "Tolupan",
+    "dataset": "EA"
+  },
+  "Sa17": {
+    "group_id": "ea-Sa17",
+    "hraf_name": "",
+    "pref_name": "Poqomam",
+    "dataset": "EA"
+  },
+  "Sa2": {
+    "group_id": "ea-Sa2",
+    "hraf_name": "",
+    "pref_name": "Tzeltal",
+    "dataset": "EA"
+  },
+  "Sa3": {
+    "group_id": "ea-Sa3",
+    "hraf_name": "",
+    "pref_name": "Ch'orti'",
+    "dataset": "EA"
+  },
+  "Ae14": {
+    "group_id": "ea-Ae14",
+    "hraf_name": "",
+    "pref_name": "Ha",
+    "dataset": "EA"
+  },
+  "Sa4": {
+    "group_id": "ea-Sa4",
+    "hraf_name": "",
+    "pref_name": "Emberá",
+    "dataset": "EA"
+  },
+  "Sa6": {
+    "group_id": "ea-Sa6",
+    "hraf_name": "",
+    "pref_name": "Yucatec Maya",
+    "dataset": "EA"
+  },
+  "Sa7": {
+    "group_id": "ea-Sa7",
+    "hraf_name": "",
+    "pref_name": "Garifuna",
+    "dataset": "EA"
+  },
+  "Sa8": {
+    "group_id": "ea-Sa8",
+    "hraf_name": "",
+    "pref_name": "Mam",
+    "dataset": "EA"
+  },
+  "Sb2": {
+    "group_id": "ea-Sb2",
+    "hraf_name": "",
+    "pref_name": "Cágaba",
+    "dataset": "EA"
+  },
+  "Sb3": {
+    "group_id": "ea-Sb3",
+    "hraf_name": "",
+    "pref_name": "Barí (Motilon)",
+    "dataset": "EA"
+  },
+  "Sb4": {
+    "group_id": "ea-Sb4",
+    "hraf_name": "",
+    "pref_name": "Cariña",
+    "dataset": "EA"
+  },
+  "Ae15": {
+    "group_id": "ea-Ae15",
+    "hraf_name": "",
+    "pref_name": "Hunde",
+    "dataset": "EA"
+  },
+  "Sb5": {
+    "group_id": "ea-Sb5",
+    "hraf_name": "",
+    "pref_name": "Paraujano",
+    "dataset": "EA"
+  },
+  "Sb7": {
+    "group_id": "ea-Sb7",
+    "hraf_name": "",
+    "pref_name": "Yupa",
+    "dataset": "EA"
+  },
+  "Sb8": {
+    "group_id": "ea-Sb8",
+    "hraf_name": "",
+    "pref_name": "Taíno",
+    "dataset": "EA"
+  },
+  "Sc10": {
+    "group_id": "ea-Sc10",
+    "hraf_name": "",
+    "pref_name": "Lokono",
+    "dataset": "EA"
+  },
+  "Sc11": {
+    "group_id": "ea-Sc11",
+    "hraf_name": "",
+    "pref_name": "Camaracoto",
+    "dataset": "EA"
+  },
+  "Sc12": {
+    "group_id": "ea-Sc12",
+    "hraf_name": "",
+    "pref_name": "Macushi",
+    "dataset": "EA"
+  },
+  "Sc13": {
+    "group_id": "ea-Sc13",
+    "hraf_name": "",
+    "pref_name": "Panare",
+    "dataset": "EA"
+  },
+  "Ae16": {
+    "group_id": "ea-Ae16",
+    "hraf_name": "",
+    "pref_name": "Lulua",
+    "dataset": "EA"
+  },
+  "Sc14": {
+    "group_id": "ea-Sc14",
+    "hraf_name": "",
+    "pref_name": "Rucuyen",
+    "dataset": "EA"
+  },
+  "Sc15": {
+    "group_id": "ea-Sc15",
+    "hraf_name": "",
+    "pref_name": "Taulípang",
+    "dataset": "EA"
+  },
+  "Sc16": {
+    "group_id": "ea-Sc16",
+    "hraf_name": "",
+    "pref_name": "Ye'kuana",
+    "dataset": "EA"
+  },
+  "Sc17": {
+    "group_id": "ea-Sc17",
+    "hraf_name": "",
+    "pref_name": "Piapoco",
+    "dataset": "EA"
+  },
+  "Sc18": {
+    "group_id": "ea-Sc18",
+    "hraf_name": "",
+    "pref_name": "Ndyuka",
+    "dataset": "EA"
+  },
+  "Sc2": {
+    "group_id": "ea-Sc2",
+    "hraf_name": "",
+    "pref_name": "Pumé",
+    "dataset": "EA"
+  },
+  "Sc4": {
+    "group_id": "ea-Sc4",
+    "hraf_name": "",
+    "pref_name": "Guahibo",
+    "dataset": "EA"
+  },
+  "Sc5": {
+    "group_id": "ea-Sc5",
+    "hraf_name": "",
+    "pref_name": "Wapishana",
+    "dataset": "EA"
+  },
+  "Ae17": {
+    "group_id": "ea-Ae17",
+    "hraf_name": "",
+    "pref_name": "Rega",
+    "dataset": "EA"
+  },
+  "Sc7": {
+    "group_id": "ea-Sc7",
+    "hraf_name": "",
+    "pref_name": "Yabarana",
+    "dataset": "EA"
+  },
+  "Sc8": {
+    "group_id": "ea-Sc8",
+    "hraf_name": "",
+    "pref_name": "Piaroa",
+    "dataset": "EA"
+  },
+  "Sc9": {
+    "group_id": "ea-Sc9",
+    "hraf_name": "",
+    "pref_name": "Curripaco",
+    "dataset": "EA"
+  },
+  "Sd2": {
+    "group_id": "ea-Sd2",
+    "hraf_name": "",
+    "pref_name": "Tapirapé",
+    "dataset": "EA"
+  },
+  "Sd3": {
+    "group_id": "ea-Sd3",
+    "hraf_name": "",
+    "pref_name": "Palikur",
+    "dataset": "EA"
+  },
+  "Sd5": {
+    "group_id": "ea-Sd5",
+    "hraf_name": "",
+    "pref_name": "Sateré Mawé",
+    "dataset": "EA"
+  },
+  "Sd7": {
+    "group_id": "ea-Sd7",
+    "hraf_name": "",
+    "pref_name": "Wai-wai",
+    "dataset": "EA"
+  },
+  "Ae18": {
+    "group_id": "ea-Ae18",
+    "hraf_name": "",
+    "pref_name": "Songye",
+    "dataset": "EA"
+  },
+  "Se10": {
+    "group_id": "ea-Se10",
+    "hraf_name": "",
+    "pref_name": "Cocama",
+    "dataset": "EA"
+  },
+  "Se11": {
+    "group_id": "ea-Se11",
+    "hraf_name": "",
+    "pref_name": "Chácobo",
+    "dataset": "EA"
+  },
+  "Se2": {
+    "group_id": "ea-Se2",
+    "hraf_name": "",
+    "pref_name": "Ticuna",
+    "dataset": "EA"
+  },
+  "Se4": {
+    "group_id": "ea-Se4",
+    "hraf_name": "",
+    "pref_name": "Yagua",
+    "dataset": "EA"
+  },
+  "Ae19": {
+    "group_id": "ea-Ae19",
+    "hraf_name": "",
+    "pref_name": "Garanganze",
+    "dataset": "EA"
+  },
+  "Se6": {
+    "group_id": "ea-Se6",
+    "hraf_name": "",
+    "pref_name": "Witoto",
+    "dataset": "EA"
+  },
+  "Se7": {
+    "group_id": "ea-Se7",
+    "hraf_name": "",
+    "pref_name": "Camba",
+    "dataset": "EA"
+  },
+  "Se8": {
+    "group_id": "ea-Se8",
+    "hraf_name": "",
+    "pref_name": "Amahuaca",
+    "dataset": "EA"
+  },
+  "Se9": {
+    "group_id": "ea-Se9",
+    "hraf_name": "",
+    "pref_name": "Shipibo-Conibo",
+    "dataset": "EA"
+  },
+  "Sf4": {
+    "group_id": "ea-Sf4",
+    "hraf_name": "",
+    "pref_name": "U'wa",
+    "dataset": "EA"
+  },
+  "Sf5": {
+    "group_id": "ea-Sf5",
+    "hraf_name": "",
+    "pref_name": "Páez",
+    "dataset": "EA"
+  },
+  "Sf6": {
+    "group_id": "ea-Sf6",
+    "hraf_name": "",
+    "pref_name": "Muisca",
+    "dataset": "EA"
+  },
+  "Ae2": {
+    "group_id": "ea-Ae2",
+    "hraf_name": "",
+    "pref_name": "Kpe",
+    "dataset": "EA"
+  },
+  "Sf7": {
+    "group_id": "ea-Sf7",
+    "hraf_name": "",
+    "pref_name": "Asháninka",
+    "dataset": "EA"
+  },
+  "Sf8": {
+    "group_id": "ea-Sf8",
+    "hraf_name": "",
+    "pref_name": "Piro",
+    "dataset": "EA"
+  },
+  "Sf9": {
+    "group_id": "ea-Sf9",
+    "hraf_name": "",
+    "pref_name": "Uru",
+    "dataset": "EA"
+  },
+  "Sg3": {
+    "group_id": "ea-Sg3",
+    "hraf_name": "",
+    "pref_name": "Ona",
+    "dataset": "EA"
+  },
+  "Sg5": {
+    "group_id": "ea-Sg5",
+    "hraf_name": "",
+    "pref_name": "Alacaluf",
+    "dataset": "EA"
+  },
+  "Sh1": {
+    "group_id": "ea-Sh1",
+    "hraf_name": "",
+    "pref_name": "Wichí",
+    "dataset": "EA"
+  },
+  "Sh2": {
+    "group_id": "ea-Sh2",
+    "hraf_name": "",
+    "pref_name": "Terena",
+    "dataset": "EA"
+  },
+  "Ae20": {
+    "group_id": "ea-Ae20",
+    "hraf_name": "",
+    "pref_name": "Ekonda",
+    "dataset": "EA"
+  },
+  "Sh4": {
+    "group_id": "ea-Sh4",
+    "hraf_name": "",
+    "pref_name": "Kadiwéu",
+    "dataset": "EA"
+  },
+  "Sh5": {
+    "group_id": "ea-Sh5",
+    "hraf_name": "",
+    "pref_name": "Choroti",
+    "dataset": "EA"
+  },
+  "Sh6": {
+    "group_id": "ea-Sh6",
+    "hraf_name": "",
+    "pref_name": "Chamacoco",
+    "dataset": "EA"
+  },
+  "Sh7": {
+    "group_id": "ea-Sh7",
+    "hraf_name": "",
+    "pref_name": "Guaraní",
+    "dataset": "EA"
+  },
+  "Sh8": {
+    "group_id": "ea-Sh8",
+    "hraf_name": "",
+    "pref_name": "Toba",
+    "dataset": "EA"
+  },
+  "Sh9": {
+    "group_id": "ea-Sh9",
+    "hraf_name": "",
+    "pref_name": "Lengua",
+    "dataset": "EA"
+  },
+  "Si1": {
+    "group_id": "ea-Si1",
+    "hraf_name": "",
+    "pref_name": "Bororo",
+    "dataset": "EA"
+  },
+  "Si10": {
+    "group_id": "ea-Si10",
+    "hraf_name": "",
+    "pref_name": "Kuikuru",
+    "dataset": "EA"
+  },
+  "Ab13": {
+    "group_id": "ea-Ab13",
+    "hraf_name": "",
+    "pref_name": "Tswana",
+    "dataset": "EA"
+  },
+  "Ae21": {
+    "group_id": "ea-Ae21",
+    "hraf_name": "",
+    "pref_name": "Kela",
+    "dataset": "EA"
+  },
+  "Si3": {
+    "group_id": "ea-Si3",
+    "hraf_name": "",
+    "pref_name": "Bacairi",
+    "dataset": "EA"
+  },
+  "Si5": {
+    "group_id": "ea-Si5",
+    "hraf_name": "",
+    "pref_name": "Kamayurá",
+    "dataset": "EA"
+  },
+  "Si6": {
+    "group_id": "ea-Si6",
+    "hraf_name": "",
+    "pref_name": "Guató",
+    "dataset": "EA"
+  },
+  "Si7": {
+    "group_id": "ea-Si7",
+    "hraf_name": "",
+    "pref_name": "Paresi",
+    "dataset": "EA"
+  },
+  "Si8": {
+    "group_id": "ea-Si8",
+    "hraf_name": "",
+    "pref_name": "Umotina",
+    "dataset": "EA"
+  },
+  "Si9": {
+    "group_id": "ea-Si9",
+    "hraf_name": "",
+    "pref_name": "Aweti",
+    "dataset": "EA"
+  },
+  "Sj1": {
+    "group_id": "ea-Sj1",
+    "hraf_name": "",
+    "pref_name": "Carajá",
+    "dataset": "EA"
+  },
+  "Sj11": {
+    "group_id": "ea-Sj11",
+    "hraf_name": "",
+    "pref_name": "Shavante",
+    "dataset": "EA"
+  },
+  "Ae22": {
+    "group_id": "ea-Ae22",
+    "hraf_name": "",
+    "pref_name": "Kutsu",
+    "dataset": "EA"
+  },
+  "Sj2": {
+    "group_id": "ea-Sj2",
+    "hraf_name": "",
+    "pref_name": "Sherente",
+    "dataset": "EA"
+  },
+  "Sj5": {
+    "group_id": "ea-Sj5",
+    "hraf_name": "",
+    "pref_name": "Aimoré",
+    "dataset": "EA"
+  },
+  "Sj6": {
+    "group_id": "ea-Sj6",
+    "hraf_name": "",
+    "pref_name": "Tenetehara",
+    "dataset": "EA"
+  },
+  "Sj7": {
+    "group_id": "ea-Sj7",
+    "hraf_name": "",
+    "pref_name": "Apinaye",
+    "dataset": "EA"
+  },
+  "Sj9": {
+    "group_id": "ea-Sj9",
+    "hraf_name": "",
+    "pref_name": "Kayapo",
+    "dataset": "EA"
+  },
+  "Ae23": {
+    "group_id": "ea-Ae23",
+    "hraf_name": "",
+    "pref_name": "Lalia",
+    "dataset": "EA"
+  },
+  "Ae24": {
+    "group_id": "ea-Ae24",
+    "hraf_name": "",
+    "pref_name": "Mongo",
+    "dataset": "EA"
+  },
+  "Ae25": {
+    "group_id": "ea-Ae25",
+    "hraf_name": "",
+    "pref_name": "Tetela",
+    "dataset": "EA"
+  },
+  "Ae26": {
+    "group_id": "ea-Ae26",
+    "hraf_name": "",
+    "pref_name": "Topoke",
+    "dataset": "EA"
+  },
+  "Ae27": {
+    "group_id": "ea-Ae27",
+    "hraf_name": "",
+    "pref_name": "Lokele",
+    "dataset": "EA"
+  },
+  "Ae28": {
+    "group_id": "ea-Ae28",
+    "hraf_name": "",
+    "pref_name": "Ngala",
+    "dataset": "EA"
+  },
+  "Ae29": {
+    "group_id": "ea-Ae29",
+    "hraf_name": "",
+    "pref_name": "Poto",
+    "dataset": "EA"
+  },
+  "Ae3": {
+    "group_id": "ea-Ae3",
+    "hraf_name": "",
+    "pref_name": "Fang",
+    "dataset": "EA"
+  },
+  "Ab14": {
+    "group_id": "ea-Ab14",
+    "hraf_name": "",
+    "pref_name": "Lovedu",
+    "dataset": "EA"
+  },
+  "Ae30": {
+    "group_id": "ea-Ae30",
+    "hraf_name": "",
+    "pref_name": "Bira",
+    "dataset": "EA"
+  },
+  "Ae31": {
+    "group_id": "ea-Ae31",
+    "hraf_name": "",
+    "pref_name": "Budu",
+    "dataset": "EA"
+  },
+  "Ae32": {
+    "group_id": "ea-Ae32",
+    "hraf_name": "",
+    "pref_name": "Kumu",
+    "dataset": "EA"
+  },
+  "Ae33": {
+    "group_id": "ea-Ae33",
+    "hraf_name": "",
+    "pref_name": "Ndaka Babali",
+    "dataset": "EA"
+  },
+  "Ae34": {
+    "group_id": "ea-Ae34",
+    "hraf_name": "",
+    "pref_name": "Plains Bira",
+    "dataset": "EA"
+  },
+  "Ae35": {
+    "group_id": "ea-Ae35",
+    "hraf_name": "",
+    "pref_name": "Rumbi",
+    "dataset": "EA"
+  },
+  "Ae36": {
+    "group_id": "ea-Ae36",
+    "hraf_name": "",
+    "pref_name": "Bombesa",
+    "dataset": "EA"
+  },
+  "Ae37": {
+    "group_id": "ea-Ae37",
+    "hraf_name": "",
+    "pref_name": "Budja",
+    "dataset": "EA"
+  },
+  "Ae38": {
+    "group_id": "ea-Ae38",
+    "hraf_name": "",
+    "pref_name": "Ndoko",
+    "dataset": "EA"
+  },
+  "Ae39": {
+    "group_id": "ea-Ae39",
+    "hraf_name": "",
+    "pref_name": "Ngombe",
+    "dataset": "EA"
+  },
+  "Ab15": {
+    "group_id": "ea-Ab15",
+    "hraf_name": "",
+    "pref_name": "Pedi",
+    "dataset": "EA"
+  },
+  "Ae40": {
+    "group_id": "ea-Ae40",
+    "hraf_name": "",
+    "pref_name": "Dzem",
+    "dataset": "EA"
+  },
+  "Ae41": {
+    "group_id": "ea-Ae41",
+    "hraf_name": "",
+    "pref_name": "Kota",
+    "dataset": "EA"
+  },
+  "Ae42": {
+    "group_id": "ea-Ae42",
+    "hraf_name": "",
+    "pref_name": "Ngumba",
+    "dataset": "EA"
+  },
+  "Ae43": {
+    "group_id": "ea-Ae43",
+    "hraf_name": "",
+    "pref_name": "Sanga",
+    "dataset": "EA"
+  },
+  "Ae44": {
+    "group_id": "ea-Ae44",
+    "hraf_name": "",
+    "pref_name": "Bubi",
+    "dataset": "EA"
+  },
+  "Ae45": {
+    "group_id": "ea-Ae45",
+    "hraf_name": "",
+    "pref_name": "Kundu",
+    "dataset": "EA"
+  },
+  "Ae46": {
+    "group_id": "ea-Ae46",
+    "hraf_name": "",
+    "pref_name": "Mpongwe",
+    "dataset": "EA"
+  },
+  "Ae47": {
+    "group_id": "ea-Ae47",
+    "hraf_name": "",
+    "pref_name": "Puku",
+    "dataset": "EA"
+  },
+  "Ae48": {
+    "group_id": "ea-Ae48",
+    "hraf_name": "",
+    "pref_name": "Bafia",
+    "dataset": "EA"
+  },
+  "Ab16": {
+    "group_id": "ea-Ab16",
+    "hraf_name": "",
+    "pref_name": "Lenge",
+    "dataset": "EA"
+  },
+  "Ae49": {
+    "group_id": "ea-Ae49",
+    "hraf_name": "",
+    "pref_name": "Bali Nyonga",
+    "dataset": "EA"
+  },
+  "Ae5": {
+    "group_id": "ea-Ae5",
+    "hraf_name": "",
+    "pref_name": "Bamileke",
+    "dataset": "EA"
+  },
+  "Ae50": {
+    "group_id": "ea-Ae50",
+    "hraf_name": "",
+    "pref_name": "Bamum",
+    "dataset": "EA"
+  },
+  "Ae51": {
+    "group_id": "ea-Ae51",
+    "hraf_name": "",
+    "pref_name": "Banen",
+    "dataset": "EA"
+  },
+  "Ae52": {
+    "group_id": "ea-Ae52",
+    "hraf_name": "",
+    "pref_name": "Fungom",
+    "dataset": "EA"
+  },
+  "Ae53": {
+    "group_id": "ea-Ae53",
+    "hraf_name": "",
+    "pref_name": "Koko",
+    "dataset": "EA"
+  },
+  "Ae54": {
+    "group_id": "ea-Ae54",
+    "hraf_name": "",
+    "pref_name": "Kom",
+    "dataset": "EA"
+  },
+  "Ae55": {
+    "group_id": "ea-Ae55",
+    "hraf_name": "",
+    "pref_name": "Ndob",
+    "dataset": "EA"
+  },
+  "Ae56": {
+    "group_id": "ea-Ae56",
+    "hraf_name": "",
+    "pref_name": "Nsaw",
+    "dataset": "EA"
+  },
+  "Ae57": {
+    "group_id": "ea-Ae57",
+    "hraf_name": "",
+    "pref_name": "Nsungli",
+    "dataset": "EA"
+  },
+  "Ab17": {
+    "group_id": "ea-Ab17",
+    "hraf_name": "",
+    "pref_name": "Ndau",
+    "dataset": "EA"
+  },
+  "Ae58": {
+    "group_id": "ea-Ae58",
+    "hraf_name": "",
+    "pref_name": "Tikar",
+    "dataset": "EA"
+  },
+  "Ae59": {
+    "group_id": "ea-Ae59",
+    "hraf_name": "",
+    "pref_name": "Widikum",
+    "dataset": "EA"
+  },
+  "Ae6": {
+    "group_id": "ea-Ae6",
+    "hraf_name": "",
+    "pref_name": "Luba",
+    "dataset": "EA"
+  },
+  "Ae7": {
+    "group_id": "ea-Ae7",
+    "hraf_name": "",
+    "pref_name": "Baboa",
+    "dataset": "EA"
+  },
+  "Ae8": {
+    "group_id": "ea-Ae8",
+    "hraf_name": "",
+    "pref_name": "Rundi",
+    "dataset": "EA"
+  },
+  "Ae9": {
+    "group_id": "ea-Ae9",
+    "hraf_name": "",
+    "pref_name": "Fut",
+    "dataset": "EA"
+  },
+  "Af11": {
+    "group_id": "ea-Af11",
+    "hraf_name": "",
+    "pref_name": "Toma",
+    "dataset": "EA"
+  },
+  "Ab18": {
+    "group_id": "ea-Ab18",
+    "hraf_name": "",
+    "pref_name": "Shona",
+    "dataset": "EA"
+  },
+  "Af13": {
+    "group_id": "ea-Af13",
+    "hraf_name": "",
+    "pref_name": "Ebira",
+    "dataset": "EA"
+  },
+  "Af14": {
+    "group_id": "ea-Af14",
+    "hraf_name": "",
+    "pref_name": "Sherbro",
+    "dataset": "EA"
+  },
+  "Af15": {
+    "group_id": "ea-Af15",
+    "hraf_name": "",
+    "pref_name": "Kpelle",
+    "dataset": "EA"
+  },
+  "Af16": {
+    "group_id": "ea-Af16",
+    "hraf_name": "",
+    "pref_name": "Banyang",
+    "dataset": "EA"
+  },
+  "Af17": {
+    "group_id": "ea-Af17",
+    "hraf_name": "",
+    "pref_name": "Boki",
+    "dataset": "EA"
+  },
+  "Af18": {
+    "group_id": "ea-Af18",
+    "hraf_name": "",
+    "pref_name": "Ekoi",
+    "dataset": "EA"
+  },
+  "Af19": {
+    "group_id": "ea-Af19",
+    "hraf_name": "",
+    "pref_name": "Efik",
+    "dataset": "EA"
+  },
+  "Af2": {
+    "group_id": "ea-Af2",
+    "hraf_name": "",
+    "pref_name": "Kissi",
+    "dataset": "EA"
+  },
+  "Af20": {
+    "group_id": "ea-Af20",
+    "hraf_name": "",
+    "pref_name": "Ibibio",
+    "dataset": "EA"
+  },
+  "Af21": {
+    "group_id": "ea-Af21",
+    "hraf_name": "",
+    "pref_name": "Ijaw",
+    "dataset": "EA"
+  },
+  "Aa2": {
+    "group_id": "ea-Aa2",
+    "hraf_name": "",
+    "pref_name": "Dorobo",
+    "dataset": "EA"
+  },
+  "Ab19": {
+    "group_id": "ea-Ab19",
+    "hraf_name": "",
+    "pref_name": "Ambo",
+    "dataset": "EA"
+  },
+  "Af22": {
+    "group_id": "ea-Af22",
+    "hraf_name": "",
+    "pref_name": "Itsekiri",
+    "dataset": "EA"
+  },
+  "Af24": {
+    "group_id": "ea-Af24",
+    "hraf_name": "",
+    "pref_name": "Edo",
+    "dataset": "EA"
+  },
+  "Af25": {
+    "group_id": "ea-Af25",
+    "hraf_name": "",
+    "pref_name": "Isoko",
+    "dataset": "EA"
+  },
+  "Af26": {
+    "group_id": "ea-Af26",
+    "hraf_name": "",
+    "pref_name": "Kukuruku",
+    "dataset": "EA"
+  },
+  "Af27": {
+    "group_id": "ea-Af27",
+    "hraf_name": "",
+    "pref_name": "Eloyi",
+    "dataset": "EA"
+  },
+  "Af28": {
+    "group_id": "ea-Af28",
+    "hraf_name": "",
+    "pref_name": "Gbagyi",
+    "dataset": "EA"
+  },
+  "Af29": {
+    "group_id": "ea-Af29",
+    "hraf_name": "",
+    "pref_name": "Idoma",
+    "dataset": "EA"
+  },
+  "Af30": {
+    "group_id": "ea-Af30",
+    "hraf_name": "",
+    "pref_name": "Igala",
+    "dataset": "EA"
+  },
+  "Ab2": {
+    "group_id": "ea-Ab2",
+    "hraf_name": "",
+    "pref_name": "Swazi",
+    "dataset": "EA"
+  },
+  "Af31": {
+    "group_id": "ea-Af31",
+    "hraf_name": "",
+    "pref_name": "Koro",
+    "dataset": "EA"
+  },
+  "Af32": {
+    "group_id": "ea-Af32",
+    "hraf_name": "",
+    "pref_name": "Egba",
+    "dataset": "EA"
+  },
+  "Af33": {
+    "group_id": "ea-Af33",
+    "hraf_name": "",
+    "pref_name": "Ekiti",
+    "dataset": "EA"
+  },
+  "Af34": {
+    "group_id": "ea-Af34",
+    "hraf_name": "",
+    "pref_name": "Ife",
+    "dataset": "EA"
+  },
+  "Af35": {
+    "group_id": "ea-Af35",
+    "hraf_name": "",
+    "pref_name": "Adangme",
+    "dataset": "EA"
+  },
+  "Af36": {
+    "group_id": "ea-Af36",
+    "hraf_name": "",
+    "pref_name": "Ewe",
+    "dataset": "EA"
+  },
+  "Af37": {
+    "group_id": "ea-Af37",
+    "hraf_name": "",
+    "pref_name": "Buem",
+    "dataset": "EA"
+  },
+  "Af38": {
+    "group_id": "ea-Af38",
+    "hraf_name": "",
+    "pref_name": "Abron",
+    "dataset": "EA"
+  },
+  "Af39": {
+    "group_id": "ea-Af39",
+    "hraf_name": "",
+    "pref_name": "Anyi",
+    "dataset": "EA"
+  },
+  "Af4": {
+    "group_id": "ea-Af4",
+    "hraf_name": "",
+    "pref_name": "Yako",
+    "dataset": "EA"
+  },
+  "Ab20": {
+    "group_id": "ea-Ab20",
+    "hraf_name": "",
+    "pref_name": "Ngumbi",
+    "dataset": "EA"
+  },
+  "Af40": {
+    "group_id": "ea-Af40",
+    "hraf_name": "",
+    "pref_name": "Assini",
+    "dataset": "EA"
+  },
+  "Af41": {
+    "group_id": "ea-Af41",
+    "hraf_name": "",
+    "pref_name": "Attie",
+    "dataset": "EA"
+  },
+  "Af43": {
+    "group_id": "ea-Af43",
+    "hraf_name": "",
+    "pref_name": "Ga",
+    "dataset": "EA"
+  },
+  "Af44": {
+    "group_id": "ea-Af44",
+    "hraf_name": "",
+    "pref_name": "Alagya",
+    "dataset": "EA"
+  },
+  "Af45": {
+    "group_id": "ea-Af45",
+    "hraf_name": "",
+    "pref_name": "Avikam",
+    "dataset": "EA"
+  },
+  "Af46": {
+    "group_id": "ea-Af46",
+    "hraf_name": "",
+    "pref_name": "Bakwe",
+    "dataset": "EA"
+  },
+  "Af47": {
+    "group_id": "ea-Af47",
+    "hraf_name": "",
+    "pref_name": "Krahn",
+    "dataset": "EA"
+  },
+  "Af48": {
+    "group_id": "ea-Af48",
+    "hraf_name": "",
+    "pref_name": "Kru",
+    "dataset": "EA"
+  },
+  "Af49": {
+    "group_id": "ea-Af49",
+    "hraf_name": "",
+    "pref_name": "Sapo",
+    "dataset": "EA"
+  },
+  "Ab21a": {
+    "group_id": "ea-Ab21a",
+    "hraf_name": "",
+    "pref_name": "Kisama",
+    "dataset": "EA"
+  },
+  "Af50": {
+    "group_id": "ea-Af50",
+    "hraf_name": "",
+    "pref_name": "Dan",
+    "dataset": "EA"
+  },
+  "Af51": {
+    "group_id": "ea-Af51",
+    "hraf_name": "",
+    "pref_name": "Gagu",
+    "dataset": "EA"
+  },
+  "Af52": {
+    "group_id": "ea-Af52",
+    "hraf_name": "",
+    "pref_name": "Guro",
+    "dataset": "EA"
+  },
+  "Af53": {
+    "group_id": "ea-Af53",
+    "hraf_name": "",
+    "pref_name": "Tura",
+    "dataset": "EA"
+  },
+  "Af54": {
+    "group_id": "ea-Af54",
+    "hraf_name": "",
+    "pref_name": "Gbande",
+    "dataset": "EA"
+  },
+  "Af55": {
+    "group_id": "ea-Af55",
+    "hraf_name": "",
+    "pref_name": "Gola",
+    "dataset": "EA"
+  },
+  "Af56": {
+    "group_id": "ea-Af56",
+    "hraf_name": "",
+    "pref_name": "Ngere",
+    "dataset": "EA"
+  },
+  "Af57": {
+    "group_id": "ea-Af57",
+    "hraf_name": "",
+    "pref_name": "Temne",
+    "dataset": "EA"
+  },
+  "Af58": {
+    "group_id": "ea-Af58",
+    "hraf_name": "",
+    "pref_name": "Vai",
+    "dataset": "EA"
+  },
+  "Ab21b": {
+    "group_id": "ea-Ab21b",
+    "hraf_name": "",
+    "pref_name": "Bomvana",
+    "dataset": "EA"
+  },
+  "Af6": {
+    "group_id": "ea-Af6",
+    "hraf_name": "",
+    "pref_name": "Oyo Yoruba",
+    "dataset": "EA"
+  },
+  "Af7": {
+    "group_id": "ea-Af7",
+    "hraf_name": "",
+    "pref_name": "Bete",
+    "dataset": "EA"
+  },
+  "Af8": {
+    "group_id": "ea-Af8",
+    "hraf_name": "",
+    "pref_name": "Nupe",
+    "dataset": "EA"
+  },
+  "Af9": {
+    "group_id": "ea-Af9",
+    "hraf_name": "",
+    "pref_name": "Baule",
+    "dataset": "EA"
+  },
+  "Ag10": {
+    "group_id": "ea-Ag10",
+    "hraf_name": "",
+    "pref_name": "Konkomba",
+    "dataset": "EA"
+  },
+  "Ag11": {
+    "group_id": "ea-Ag11",
+    "hraf_name": "",
+    "pref_name": "Lobi",
+    "dataset": "EA"
+  },
+  "Ag12": {
+    "group_id": "ea-Ag12",
+    "hraf_name": "",
+    "pref_name": "Nankanse",
+    "dataset": "EA"
+  },
+  "Ag13": {
+    "group_id": "ea-Ag13",
+    "hraf_name": "",
+    "pref_name": "Kasena",
+    "dataset": "EA"
+  },
+  "Ag14": {
+    "group_id": "ea-Ag14",
+    "hraf_name": "",
+    "pref_name": "Baga",
+    "dataset": "EA"
+  },
+  "Ab22": {
+    "group_id": "ea-Ab22",
+    "hraf_name": "",
+    "pref_name": "Chopi",
+    "dataset": "EA"
+  },
+  "Ag15": {
+    "group_id": "ea-Ag15",
+    "hraf_name": "",
+    "pref_name": "Balanta",
+    "dataset": "EA"
+  },
+  "Ag16": {
+    "group_id": "ea-Ag16",
+    "hraf_name": "",
+    "pref_name": "Banyun",
+    "dataset": "EA"
+  },
+  "Ag17": {
+    "group_id": "ea-Ag17",
+    "hraf_name": "",
+    "pref_name": "Biafada",
+    "dataset": "EA"
+  },
+  "Ag18": {
+    "group_id": "ea-Ag18",
+    "hraf_name": "",
+    "pref_name": "Bijogo",
+    "dataset": "EA"
+  },
+  "Ag19": {
+    "group_id": "ea-Ag19",
+    "hraf_name": "",
+    "pref_name": "Diola",
+    "dataset": "EA"
+  },
+  "Ag2": {
+    "group_id": "ea-Ag2",
+    "hraf_name": "",
+    "pref_name": "Mossi (Yatenga)",
+    "dataset": "EA"
+  },
+  "Ag20": {
+    "group_id": "ea-Ag20",
+    "hraf_name": "",
+    "pref_name": "Papel",
+    "dataset": "EA"
+  },
+  "Ag21": {
+    "group_id": "ea-Ag21",
+    "hraf_name": "",
+    "pref_name": "Bassari",
+    "dataset": "EA"
+  },
+  "Ag22": {
+    "group_id": "ea-Ag22",
+    "hraf_name": "",
+    "pref_name": "Serer",
+    "dataset": "EA"
+  },
+  "Ag23": {
+    "group_id": "ea-Ag23",
+    "hraf_name": "",
+    "pref_name": "Kasonke",
+    "dataset": "EA"
+  },
+  "Ag24": {
+    "group_id": "ea-Ag24",
+    "hraf_name": "",
+    "pref_name": "Koranko",
+    "dataset": "EA"
+  },
+  "Ag25": {
+    "group_id": "ea-Ag25",
+    "hraf_name": "",
+    "pref_name": "Soninke",
+    "dataset": "EA"
+  },
+  "Ag26": {
+    "group_id": "ea-Ag26",
+    "hraf_name": "",
+    "pref_name": "Susu",
+    "dataset": "EA"
+  },
+  "Ag27": {
+    "group_id": "ea-Ag27",
+    "hraf_name": "",
+    "pref_name": "Diula",
+    "dataset": "EA"
+  },
+  "Ag28": {
+    "group_id": "ea-Ag28",
+    "hraf_name": "",
+    "pref_name": "Nononke",
+    "dataset": "EA"
+  },
+  "Ag29": {
+    "group_id": "ea-Ag29",
+    "hraf_name": "",
+    "pref_name": "Samo",
+    "dataset": "EA"
+  },
+  "Ag3": {
+    "group_id": "ea-Ag3",
+    "hraf_name": "",
+    "pref_name": "Dogon",
+    "dataset": "EA"
+  },
+  "Ag30": {
+    "group_id": "ea-Ag30",
+    "hraf_name": "",
+    "pref_name": "Bobo",
+    "dataset": "EA"
+  },
+  "Ag31": {
+    "group_id": "ea-Ag31",
+    "hraf_name": "",
+    "pref_name": "Minianka",
+    "dataset": "EA"
+  },
+  "Ag32": {
+    "group_id": "ea-Ag32",
+    "hraf_name": "",
+    "pref_name": "Senufo",
+    "dataset": "EA"
+  },
+  "Ag33": {
+    "group_id": "ea-Ag33",
+    "hraf_name": "",
+    "pref_name": "Dyan",
+    "dataset": "EA"
+  },
+  "Ag34": {
+    "group_id": "ea-Ag34",
+    "hraf_name": "",
+    "pref_name": "Dorosie",
+    "dataset": "EA"
+  },
+  "Ag35": {
+    "group_id": "ea-Ag35",
+    "hraf_name": "",
+    "pref_name": "Kulango",
+    "dataset": "EA"
+  },
+  "Ag36": {
+    "group_id": "ea-Ag36",
+    "hraf_name": "",
+    "pref_name": "Lowiili",
+    "dataset": "EA"
+  },
+  "Ag37": {
+    "group_id": "ea-Ag37",
+    "hraf_name": "",
+    "pref_name": "Awuna",
+    "dataset": "EA"
+  },
+  "Ag38": {
+    "group_id": "ea-Ag38",
+    "hraf_name": "",
+    "pref_name": "Builsa",
+    "dataset": "EA"
+  },
+  "Ag39": {
+    "group_id": "ea-Ag39",
+    "hraf_name": "",
+    "pref_name": "Dagara",
+    "dataset": "EA"
+  },
+  "Ag40": {
+    "group_id": "ea-Ag40",
+    "hraf_name": "",
+    "pref_name": "Isala",
+    "dataset": "EA"
+  },
+  "Ag41": {
+    "group_id": "ea-Ag41",
+    "hraf_name": "",
+    "pref_name": "Kusasi",
+    "dataset": "EA"
+  },
+  "Ag42": {
+    "group_id": "ea-Ag42",
+    "hraf_name": "",
+    "pref_name": "Nunuma",
+    "dataset": "EA"
+  },
+  "Ag43": {
+    "group_id": "ea-Ag43",
+    "hraf_name": "",
+    "pref_name": "Vagala",
+    "dataset": "EA"
+  },
+  "Ag44": {
+    "group_id": "ea-Ag44",
+    "hraf_name": "",
+    "pref_name": "Dagomba",
+    "dataset": "EA"
+  },
+  "Ag45": {
+    "group_id": "ea-Ag45",
+    "hraf_name": "",
+    "pref_name": "Gurma",
+    "dataset": "EA"
+  },
+  "Ag46": {
+    "group_id": "ea-Ag46",
+    "hraf_name": "",
+    "pref_name": "Manprusi",
+    "dataset": "EA"
+  },
+  "Ag47": {
+    "group_id": "ea-Ag47",
+    "hraf_name": "",
+    "pref_name": "Mossi (Ouagadougou)",
+    "dataset": "EA"
+  },
+  "Ag48": {
+    "group_id": "ea-Ag48",
+    "hraf_name": "",
+    "pref_name": "Basari",
+    "dataset": "EA"
+  },
+  "Ag49": {
+    "group_id": "ea-Ag49",
+    "hraf_name": "",
+    "pref_name": "Kabre",
+    "dataset": "EA"
+  },
+  "Ag5": {
+    "group_id": "ea-Ag5",
+    "hraf_name": "",
+    "pref_name": "Birifor",
+    "dataset": "EA"
+  },
+  "Ag50": {
+    "group_id": "ea-Ag50",
+    "hraf_name": "",
+    "pref_name": "Moba",
+    "dataset": "EA"
+  },
+  "Ab6": {
+    "group_id": "ea-Ab6",
+    "hraf_name": "",
+    "pref_name": "Venda",
+    "dataset": "EA"
+  },
+  "Ag51": {
+    "group_id": "ea-Ag51",
+    "hraf_name": "",
+    "pref_name": "Somba",
+    "dataset": "EA"
+  },
+  "Ag52": {
+    "group_id": "ea-Ag52",
+    "hraf_name": "",
+    "pref_name": "Tem",
+    "dataset": "EA"
+  },
+  "Ag53": {
+    "group_id": "ea-Ag53",
+    "hraf_name": "",
+    "pref_name": "Bisa",
+    "dataset": "EA"
+  },
+  "Ag54": {
+    "group_id": "ea-Ag54",
+    "hraf_name": "",
+    "pref_name": "Yalunka",
+    "dataset": "EA"
+  },
+  "Ag6": {
+    "group_id": "ea-Ag6",
+    "hraf_name": "",
+    "pref_name": "Futajalonke",
+    "dataset": "EA"
+  },
+  "Ag7": {
+    "group_id": "ea-Ag7",
+    "hraf_name": "",
+    "pref_name": "Bozo",
+    "dataset": "EA"
+  },
+  "Ag8": {
+    "group_id": "ea-Ag8",
+    "hraf_name": "",
+    "pref_name": "Coniagui",
+    "dataset": "EA"
+  },
+  "Ag9": {
+    "group_id": "ea-Ag9",
+    "hraf_name": "",
+    "pref_name": "Malinke",
+    "dataset": "EA"
+  },
+  "Ah1": {
+    "group_id": "ea-Ah1",
+    "hraf_name": "",
+    "pref_name": "Katab",
+    "dataset": "EA"
+  },
+  "Ah10": {
+    "group_id": "ea-Ah10",
+    "hraf_name": "",
+    "pref_name": "Chawai",
+    "dataset": "EA"
+  },
+  "Ab7": {
+    "group_id": "ea-Ab7",
+    "hraf_name": "",
+    "pref_name": "Nyaneka",
+    "dataset": "EA"
+  },
+  "Ah11": {
+    "group_id": "ea-Ah11",
+    "hraf_name": "",
+    "pref_name": "Basa",
+    "dataset": "EA"
+  },
+  "Ah12": {
+    "group_id": "ea-Ah12",
+    "hraf_name": "",
+    "pref_name": "Basakomo",
+    "dataset": "EA"
+  },
+  "Ah13": {
+    "group_id": "ea-Ah13",
+    "hraf_name": "",
+    "pref_name": "Dakakari",
+    "dataset": "EA"
+  },
+  "Ah14": {
+    "group_id": "ea-Ah14",
+    "hraf_name": "",
+    "pref_name": "Kamuku",
+    "dataset": "EA"
+  },
+  "Ah15": {
+    "group_id": "ea-Ah15",
+    "hraf_name": "",
+    "pref_name": "Reshe",
+    "dataset": "EA"
+  },
+  "Ah16": {
+    "group_id": "ea-Ah16",
+    "hraf_name": "",
+    "pref_name": "Angas",
+    "dataset": "EA"
+  },
+  "Ah17": {
+    "group_id": "ea-Ah17",
+    "hraf_name": "",
+    "pref_name": "Birom",
+    "dataset": "EA"
+  },
+  "Ah18": {
+    "group_id": "ea-Ah18",
+    "hraf_name": "",
+    "pref_name": "Burmawa",
+    "dataset": "EA"
+  },
+  "Ah19": {
+    "group_id": "ea-Ah19",
+    "hraf_name": "",
+    "pref_name": "Adara",
+    "dataset": "EA"
+  },
+  "Ah2": {
+    "group_id": "ea-Ah2",
+    "hraf_name": "",
+    "pref_name": "Jukun",
+    "dataset": "EA"
+  },
+  "Ab8": {
+    "group_id": "ea-Ab8",
+    "hraf_name": "",
+    "pref_name": "Sotho",
+    "dataset": "EA"
+  },
+  "Ah20": {
+    "group_id": "ea-Ah20",
+    "hraf_name": "",
+    "pref_name": "Kagoro",
+    "dataset": "EA"
+  },
+  "Ah21": {
+    "group_id": "ea-Ah21",
+    "hraf_name": "",
+    "pref_name": "Kurama",
+    "dataset": "EA"
+  },
+  "Ah22": {
+    "group_id": "ea-Ah22",
+    "hraf_name": "",
+    "pref_name": "Yergum",
+    "dataset": "EA"
+  },
+  "Ah23": {
+    "group_id": "ea-Ah23",
+    "hraf_name": "",
+    "pref_name": "Jibu",
+    "dataset": "EA"
+  },
+  "Ah24": {
+    "group_id": "ea-Ah24",
+    "hraf_name": "",
+    "pref_name": "Kentu",
+    "dataset": "EA"
+  },
+  "Ah25": {
+    "group_id": "ea-Ah25",
+    "hraf_name": "",
+    "pref_name": "Tigon",
+    "dataset": "EA"
+  },
+  "Ah26": {
+    "group_id": "ea-Ah26",
+    "hraf_name": "",
+    "pref_name": "Ndoro",
+    "dataset": "EA"
+  },
+  "Ah27": {
+    "group_id": "ea-Ah27",
+    "hraf_name": "",
+    "pref_name": "Zuande",
+    "dataset": "EA"
+  },
+  "Ah28": {
+    "group_id": "ea-Ah28",
+    "hraf_name": "",
+    "pref_name": "Chamba",
+    "dataset": "EA"
+  },
+  "Ah29": {
+    "group_id": "ea-Ah29",
+    "hraf_name": "",
+    "pref_name": "Daka",
+    "dataset": "EA"
+  },
+  "Ab9": {
+    "group_id": "ea-Ab9",
+    "hraf_name": "",
+    "pref_name": "Ndebele",
+    "dataset": "EA"
+  },
+  "Ah30": {
+    "group_id": "ea-Ah30",
+    "hraf_name": "",
+    "pref_name": "Longuda",
+    "dataset": "EA"
+  },
+  "Ah31": {
+    "group_id": "ea-Ah31",
+    "hraf_name": "",
+    "pref_name": "Mumuye",
+    "dataset": "EA"
+  },
+  "Ah32": {
+    "group_id": "ea-Ah32",
+    "hraf_name": "",
+    "pref_name": "Vere",
+    "dataset": "EA"
+  },
+  "Ah33": {
+    "group_id": "ea-Ah33",
+    "hraf_name": "",
+    "pref_name": "Yungur",
+    "dataset": "EA"
+  },
+  "Ah34": {
+    "group_id": "ea-Ah34",
+    "hraf_name": "",
+    "pref_name": "Bata",
+    "dataset": "EA"
+  },
+  "Ah35": {
+    "group_id": "ea-Ah35",
+    "hraf_name": "",
+    "pref_name": "Bura",
+    "dataset": "EA"
+  },
+  "Ah36": {
+    "group_id": "ea-Ah36",
+    "hraf_name": "",
+    "pref_name": "Gude",
+    "dataset": "EA"
+  },
+  "Ah37": {
+    "group_id": "ea-Ah37",
+    "hraf_name": "",
+    "pref_name": "Hwana",
+    "dataset": "EA"
+  },
+  "Ah38": {
+    "group_id": "ea-Ah38",
+    "hraf_name": "",
+    "pref_name": "Kapsiki",
+    "dataset": "EA"
+  },
+  "Ac1": {
+    "group_id": "ea-Ac1",
+    "hraf_name": "",
+    "pref_name": "Ila",
+    "dataset": "EA"
+  },
+  "Ah39": {
+    "group_id": "ea-Ah39",
+    "hraf_name": "",
+    "pref_name": "Podokwo",
+    "dataset": "EA"
+  },
+  "Ah4": {
+    "group_id": "ea-Ah4",
+    "hraf_name": "",
+    "pref_name": "Mambila",
+    "dataset": "EA"
+  },
+  "Ah5": {
+    "group_id": "ea-Ah5",
+    "hraf_name": "",
+    "pref_name": "Margi",
+    "dataset": "EA"
+  },
+  "Ah6": {
+    "group_id": "ea-Ah6",
+    "hraf_name": "",
+    "pref_name": "Gure",
+    "dataset": "EA"
+  },
+  "Ah7": {
+    "group_id": "ea-Ah7",
+    "hraf_name": "",
+    "pref_name": "Mafa",
+    "dataset": "EA"
+  },
+  "Ah8": {
+    "group_id": "ea-Ah8",
+    "hraf_name": "",
+    "pref_name": "Bafute",
+    "dataset": "EA"
+  },
+  "Ah9": {
+    "group_id": "ea-Ah9",
+    "hraf_name": "",
+    "pref_name": "Anaguta",
+    "dataset": "EA"
+  },
+  "Ai1": {
+    "group_id": "ea-Ai1",
+    "hraf_name": "",
+    "pref_name": "Banda",
+    "dataset": "EA"
+  },
+  "Ai10": {
+    "group_id": "ea-Ai10",
+    "hraf_name": "",
+    "pref_name": "Otoro",
+    "dataset": "EA"
+  },
+  "Ai11": {
+    "group_id": "ea-Ai11",
+    "hraf_name": "",
+    "pref_name": "Mangbetu",
+    "dataset": "EA"
+  },
+  "Ac10": {
+    "group_id": "ea-Ac10",
+    "hraf_name": "",
+    "pref_name": "Chewa",
+    "dataset": "EA"
+  },
+  "Ai12": {
+    "group_id": "ea-Ai12",
+    "hraf_name": "",
+    "pref_name": "Fali",
+    "dataset": "EA"
+  },
+  "Ai13": {
+    "group_id": "ea-Ai13",
+    "hraf_name": "",
+    "pref_name": "Laka",
+    "dataset": "EA"
+  },
+  "Ai14": {
+    "group_id": "ea-Ai14",
+    "hraf_name": "",
+    "pref_name": "Mbum",
+    "dataset": "EA"
+  },
+  "Ai15": {
+    "group_id": "ea-Ai15",
+    "hraf_name": "",
+    "pref_name": "Mundang",
+    "dataset": "EA"
+  },
+  "Ai16": {
+    "group_id": "ea-Ai16",
+    "hraf_name": "",
+    "pref_name": "Namshi",
+    "dataset": "EA"
+  },
+  "Ai17": {
+    "group_id": "ea-Ai17",
+    "hraf_name": "",
+    "pref_name": "Gisiga",
+    "dataset": "EA"
+  },
+  "Ai18": {
+    "group_id": "ea-Ai18",
+    "hraf_name": "",
+    "pref_name": "Kotoko",
+    "dataset": "EA"
+  },
+  "Ai19": {
+    "group_id": "ea-Ai19",
+    "hraf_name": "",
+    "pref_name": "Musgu",
+    "dataset": "EA"
+  },
+  "Ai2": {
+    "group_id": "ea-Ai2",
+    "hraf_name": "",
+    "pref_name": "Nyaro",
+    "dataset": "EA"
+  },
+  "Ai20": {
+    "group_id": "ea-Ai20",
+    "hraf_name": "",
+    "pref_name": "Tupuri",
+    "dataset": "EA"
+  },
+  "Ac11": {
+    "group_id": "ea-Ac11",
+    "hraf_name": "",
+    "pref_name": "Luvale",
+    "dataset": "EA"
+  },
+  "Ai21": {
+    "group_id": "ea-Ai21",
+    "hraf_name": "",
+    "pref_name": "Bagirmi",
+    "dataset": "EA"
+  },
+  "Ai22": {
+    "group_id": "ea-Ai22",
+    "hraf_name": "",
+    "pref_name": "Sara",
+    "dataset": "EA"
+  },
+  "Ai23": {
+    "group_id": "ea-Ai23",
+    "hraf_name": "",
+    "pref_name": "Bwaka",
+    "dataset": "EA"
+  },
+  "Ai24": {
+    "group_id": "ea-Ai24",
+    "hraf_name": "",
+    "pref_name": "Mandja",
+    "dataset": "EA"
+  },
+  "Ai25": {
+    "group_id": "ea-Ai25",
+    "hraf_name": "",
+    "pref_name": "Mbandja",
+    "dataset": "EA"
+  },
+  "Ai26": {
+    "group_id": "ea-Ai26",
+    "hraf_name": "",
+    "pref_name": "Ngbandi",
+    "dataset": "EA"
+  },
+  "Ai27": {
+    "group_id": "ea-Ai27",
+    "hraf_name": "",
+    "pref_name": "Abarambo",
+    "dataset": "EA"
+  },
+  "Ai28": {
+    "group_id": "ea-Ai28",
+    "hraf_name": "",
+    "pref_name": "Popoi",
+    "dataset": "EA"
+  },
+  "Ai29": {
+    "group_id": "ea-Ai29",
+    "hraf_name": "",
+    "pref_name": "Lendu",
+    "dataset": "EA"
+  },
+  "Ac12": {
+    "group_id": "ea-Ac12",
+    "hraf_name": "",
+    "pref_name": "Chokwe",
+    "dataset": "EA"
+  },
+  "Ai30": {
+    "group_id": "ea-Ai30",
+    "hraf_name": "",
+    "pref_name": "Lese",
+    "dataset": "EA"
+  },
+  "Ai31": {
+    "group_id": "ea-Ai31",
+    "hraf_name": "",
+    "pref_name": "Logo",
+    "dataset": "EA"
+  },
+  "Ai32": {
+    "group_id": "ea-Ai32",
+    "hraf_name": "",
+    "pref_name": "Lugbara",
+    "dataset": "EA"
+  },
+  "Ai33": {
+    "group_id": "ea-Ai33",
+    "hraf_name": "",
+    "pref_name": "Madi",
+    "dataset": "EA"
+  },
+  "Ai34": {
+    "group_id": "ea-Ai34",
+    "hraf_name": "",
+    "pref_name": "Moru",
+    "dataset": "EA"
+  },
+  "Ai35": {
+    "group_id": "ea-Ai35",
+    "hraf_name": "",
+    "pref_name": "Bongo",
+    "dataset": "EA"
+  },
+  "Ai36": {
+    "group_id": "ea-Ai36",
+    "hraf_name": "",
+    "pref_name": "Jur",
+    "dataset": "EA"
+  },
+  "Ai37": {
+    "group_id": "ea-Ai37",
+    "hraf_name": "",
+    "pref_name": "Koalib",
+    "dataset": "EA"
+  },
+  "Ai38": {
+    "group_id": "ea-Ai38",
+    "hraf_name": "",
+    "pref_name": "Korongo",
+    "dataset": "EA"
+  },
+  "Ai39": {
+    "group_id": "ea-Ai39",
+    "hraf_name": "",
+    "pref_name": "Mesakin",
+    "dataset": "EA"
+  },
+  "Ac13": {
+    "group_id": "ea-Ac13",
+    "hraf_name": "",
+    "pref_name": "Tonga",
+    "dataset": "EA"
+  },
+  "Ai4": {
+    "group_id": "ea-Ai4",
+    "hraf_name": "",
+    "pref_name": "Ingassana",
+    "dataset": "EA"
+  },
+  "Ai40": {
+    "group_id": "ea-Ai40",
+    "hraf_name": "",
+    "pref_name": "Moro",
+    "dataset": "EA"
+  },
+  "Ai41": {
+    "group_id": "ea-Ai41",
+    "hraf_name": "",
+    "pref_name": "Tira",
+    "dataset": "EA"
+  },
+  "Ai42": {
+    "group_id": "ea-Ai42",
+    "hraf_name": "",
+    "pref_name": "Tullishi",
+    "dataset": "EA"
+  },
+  "Ai43": {
+    "group_id": "ea-Ai43",
+    "hraf_name": "",
+    "pref_name": "Nyimang",
+    "dataset": "EA"
+  },
+  "Ai44": {
+    "group_id": "ea-Ai44",
+    "hraf_name": "",
+    "pref_name": "Anuak",
+    "dataset": "EA"
+  },
+  "Ai45": {
+    "group_id": "ea-Ai45",
+    "hraf_name": "",
+    "pref_name": "Meban",
+    "dataset": "EA"
+  },
+  "Ai46": {
+    "group_id": "ea-Ai46",
+    "hraf_name": "",
+    "pref_name": "Koma",
+    "dataset": "EA"
+  },
+  "Ai47": {
+    "group_id": "ea-Ai47",
+    "hraf_name": "",
+    "pref_name": "Mao",
+    "dataset": "EA"
+  },
+  "Ai5": {
+    "group_id": "ea-Ai5",
+    "hraf_name": "",
+    "pref_name": "Mamvu",
+    "dataset": "EA"
+  },
+  "Ac14": {
+    "group_id": "ea-Ac14",
+    "hraf_name": "",
+    "pref_name": "Bakongo",
+    "dataset": "EA"
+  },
+  "Ai7": {
+    "group_id": "ea-Ai7",
+    "hraf_name": "",
+    "pref_name": "Gbaya",
+    "dataset": "EA"
+  },
+  "Ai8": {
+    "group_id": "ea-Ai8",
+    "hraf_name": "",
+    "pref_name": "Dilling",
+    "dataset": "EA"
+  },
+  "Ai9": {
+    "group_id": "ea-Ai9",
+    "hraf_name": "",
+    "pref_name": "Masa",
+    "dataset": "EA"
+  },
+  "Aj1": {
+    "group_id": "ea-Aj1",
+    "hraf_name": "",
+    "pref_name": "Teso",
+    "dataset": "EA"
+  },
+  "Aj10": {
+    "group_id": "ea-Aj10",
+    "hraf_name": "",
+    "pref_name": "Acholi",
+    "dataset": "EA"
+  },
+  "Aj11": {
+    "group_id": "ea-Aj11",
+    "hraf_name": "",
+    "pref_name": "Dinka",
+    "dataset": "EA"
+  },
+  "Aj12": {
+    "group_id": "ea-Aj12",
+    "hraf_name": "",
+    "pref_name": "Lotuko",
+    "dataset": "EA"
+  },
+  "Aj13": {
+    "group_id": "ea-Aj13",
+    "hraf_name": "",
+    "pref_name": "Pojulu",
+    "dataset": "EA"
+  },
+  "Aj14": {
+    "group_id": "ea-Aj14",
+    "hraf_name": "",
+    "pref_name": "Kakwa",
+    "dataset": "EA"
+  },
+  "Ac15": {
+    "group_id": "ea-Ac15",
+    "hraf_name": "",
+    "pref_name": "Mbala",
+    "dataset": "EA"
+  },
+  "Aj15": {
+    "group_id": "ea-Aj15",
+    "hraf_name": "",
+    "pref_name": "Kuku",
+    "dataset": "EA"
+  },
+  "Aj16": {
+    "group_id": "ea-Aj16",
+    "hraf_name": "",
+    "pref_name": "Mondari",
+    "dataset": "EA"
+  },
+  "Aj17": {
+    "group_id": "ea-Aj17",
+    "hraf_name": "",
+    "pref_name": "Alur",
+    "dataset": "EA"
+  },
+  "Aj18": {
+    "group_id": "ea-Aj18",
+    "hraf_name": "",
+    "pref_name": "Bodi",
+    "dataset": "EA"
+  },
+  "Aj19": {
+    "group_id": "ea-Aj19",
+    "hraf_name": "",
+    "pref_name": "Didinga",
+    "dataset": "EA"
+  },
+  "Aj20": {
+    "group_id": "ea-Aj20",
+    "hraf_name": "",
+    "pref_name": "Suri",
+    "dataset": "EA"
+  },
+  "Aj21": {
+    "group_id": "ea-Aj21",
+    "hraf_name": "",
+    "pref_name": "Jie",
+    "dataset": "EA"
+  },
+  "Aj22": {
+    "group_id": "ea-Aj22",
+    "hraf_name": "",
+    "pref_name": "Labwor",
+    "dataset": "EA"
+  },
+  "Aj23": {
+    "group_id": "ea-Aj23",
+    "hraf_name": "",
+    "pref_name": "Plains Suk",
+    "dataset": "EA"
+  },
+  "Aa4": {
+    "group_id": "ea-Aa4",
+    "hraf_name": "",
+    "pref_name": "Bergdama",
+    "dataset": "EA"
+  },
+  "Ac16": {
+    "group_id": "ea-Ac16",
+    "hraf_name": "",
+    "pref_name": "Mitsogho",
+    "dataset": "EA"
+  },
+  "Aj24": {
+    "group_id": "ea-Aj24",
+    "hraf_name": "",
+    "pref_name": "Toposa",
+    "dataset": "EA"
+  },
+  "Aj25": {
+    "group_id": "ea-Aj25",
+    "hraf_name": "",
+    "pref_name": "Keyu",
+    "dataset": "EA"
+  },
+  "Aj26": {
+    "group_id": "ea-Aj26",
+    "hraf_name": "",
+    "pref_name": "Hill Suk",
+    "dataset": "EA"
+  },
+  "Aj27": {
+    "group_id": "ea-Aj27",
+    "hraf_name": "",
+    "pref_name": "Sapei",
+    "dataset": "EA"
+  },
+  "Aj28": {
+    "group_id": "ea-Aj28",
+    "hraf_name": "",
+    "pref_name": "Tatoga",
+    "dataset": "EA"
+  },
+  "Aj29": {
+    "group_id": "ea-Aj29",
+    "hraf_name": "",
+    "pref_name": "Samburu",
+    "dataset": "EA"
+  },
+  "Aj3": {
+    "group_id": "ea-Aj3",
+    "hraf_name": "",
+    "pref_name": "Nuer",
+    "dataset": "EA"
+  },
+  "Aj30": {
+    "group_id": "ea-Aj30",
+    "hraf_name": "",
+    "pref_name": "Karamojong",
+    "dataset": "EA"
+  },
+  "Aj31": {
+    "group_id": "ea-Aj31",
+    "hraf_name": "",
+    "pref_name": "Pari",
+    "dataset": "EA"
+  },
+  "Aj4": {
+    "group_id": "ea-Aj4",
+    "hraf_name": "",
+    "pref_name": "Lango",
+    "dataset": "EA"
+  },
+  "Aj5": {
+    "group_id": "ea-Aj5",
+    "hraf_name": "",
+    "pref_name": "Turkana",
+    "dataset": "EA"
+  },
+  "Aj6": {
+    "group_id": "ea-Aj6",
+    "hraf_name": "",
+    "pref_name": "Luo",
+    "dataset": "EA"
+  },
+  "Aj7": {
+    "group_id": "ea-Aj7",
+    "hraf_name": "",
+    "pref_name": "Nandi",
+    "dataset": "EA"
+  },
+  "Aj8": {
+    "group_id": "ea-Aj8",
+    "hraf_name": "",
+    "pref_name": "Bari",
+    "dataset": "EA"
+  },
+  "Aj9": {
+    "group_id": "ea-Aj9",
+    "hraf_name": "",
+    "pref_name": "Kipsigis",
+    "dataset": "EA"
+  },
+  "Ca11": {
+    "group_id": "ea-Ca11",
+    "hraf_name": "",
+    "pref_name": "Arusi",
+    "dataset": "EA"
+  },
+  "Ca12": {
+    "group_id": "ea-Ca12",
+    "hraf_name": "",
+    "pref_name": "Gibe",
+    "dataset": "EA"
+  },
+  "Ca13": {
+    "group_id": "ea-Ca13",
+    "hraf_name": "",
+    "pref_name": "Macha",
+    "dataset": "EA"
+  },
+  "Ac18": {
+    "group_id": "ea-Ac18",
+    "hraf_name": "",
+    "pref_name": "Sundi",
+    "dataset": "EA"
+  },
+  "Ca14": {
+    "group_id": "ea-Ca14",
+    "hraf_name": "",
+    "pref_name": "Burji",
+    "dataset": "EA"
+  },
+  "Ca15": {
+    "group_id": "ea-Ca15",
+    "hraf_name": "",
+    "pref_name": "Darasa",
+    "dataset": "EA"
+  },
+  "Ca16": {
+    "group_id": "ea-Ca16",
+    "hraf_name": "",
+    "pref_name": "Sidama",
+    "dataset": "EA"
+  },
+  "Ca17": {
+    "group_id": "ea-Ca17",
+    "hraf_name": "",
+    "pref_name": "Tsamai",
+    "dataset": "EA"
+  },
+  "Ca18": {
+    "group_id": "ea-Ca18",
+    "hraf_name": "",
+    "pref_name": "Arbore",
+    "dataset": "EA"
+  },
+  "Ca19": {
+    "group_id": "ea-Ca19",
+    "hraf_name": "",
+    "pref_name": "Banna",
+    "dataset": "EA"
+  },
+  "Ca20": {
+    "group_id": "ea-Ca20",
+    "hraf_name": "",
+    "pref_name": "Galab",
+    "dataset": "EA"
+  },
+  "Ca21": {
+    "group_id": "ea-Ca21",
+    "hraf_name": "",
+    "pref_name": "Hamar",
+    "dataset": "EA"
+  },
+  "Ca22": {
+    "group_id": "ea-Ca22",
+    "hraf_name": "",
+    "pref_name": "Male",
+    "dataset": "EA"
+  },
+  "Ac19": {
+    "group_id": "ea-Ac19",
+    "hraf_name": "",
+    "pref_name": "Teke",
+    "dataset": "EA"
+  },
+  "Ca23": {
+    "group_id": "ea-Ca23",
+    "hraf_name": "",
+    "pref_name": "Bako",
+    "dataset": "EA"
+  },
+  "Ca24": {
+    "group_id": "ea-Ca24",
+    "hraf_name": "",
+    "pref_name": "Dime",
+    "dataset": "EA"
+  },
+  "Ca25": {
+    "group_id": "ea-Ca25",
+    "hraf_name": "",
+    "pref_name": "Shangama",
+    "dataset": "EA"
+  },
+  "Ca26": {
+    "group_id": "ea-Ca26",
+    "hraf_name": "",
+    "pref_name": "Ubamer",
+    "dataset": "EA"
+  },
+  "Ca27": {
+    "group_id": "ea-Ca27",
+    "hraf_name": "",
+    "pref_name": "Anfillo",
+    "dataset": "EA"
+  },
+  "Ca28": {
+    "group_id": "ea-Ca28",
+    "hraf_name": "",
+    "pref_name": "Basketo",
+    "dataset": "EA"
+  },
+  "Ca29": {
+    "group_id": "ea-Ca29",
+    "hraf_name": "",
+    "pref_name": "Yem",
+    "dataset": "EA"
+  },
+  "Ca3": {
+    "group_id": "ea-Ca3",
+    "hraf_name": "",
+    "pref_name": "Tigrinya",
+    "dataset": "EA"
+  },
+  "Ca31": {
+    "group_id": "ea-Ca31",
+    "hraf_name": "",
+    "pref_name": "Beta Israel",
+    "dataset": "EA"
+  },
+  "Ac2": {
+    "group_id": "ea-Ac2",
+    "hraf_name": "",
+    "pref_name": "Pende",
+    "dataset": "EA"
+  },
+  "Ca32": {
+    "group_id": "ea-Ca32",
+    "hraf_name": "",
+    "pref_name": "Nara",
+    "dataset": "EA"
+  },
+  "Ca33": {
+    "group_id": "ea-Ca33",
+    "hraf_name": "",
+    "pref_name": "Kunama",
+    "dataset": "EA"
+  },
+  "Ca34": {
+    "group_id": "ea-Ca34",
+    "hraf_name": "",
+    "pref_name": "Ababda",
+    "dataset": "EA"
+  },
+  "Ca35": {
+    "group_id": "ea-Ca35",
+    "hraf_name": "",
+    "pref_name": "Amarar",
+    "dataset": "EA"
+  },
+  "Ca36": {
+    "group_id": "ea-Ca36",
+    "hraf_name": "",
+    "pref_name": "Beni-Amer",
+    "dataset": "EA"
+  },
+  "Ca37": {
+    "group_id": "ea-Ca37",
+    "hraf_name": "",
+    "pref_name": "Blin",
+    "dataset": "EA"
+  },
+  "Ca38": {
+    "group_id": "ea-Ca38",
+    "hraf_name": "",
+    "pref_name": "Tigre",
+    "dataset": "EA"
+  },
+  "Ca39": {
+    "group_id": "ea-Ca39",
+    "hraf_name": "",
+    "pref_name": "Jimma",
+    "dataset": "EA"
+  },
+  "Ca4": {
+    "group_id": "ea-Ca4",
+    "hraf_name": "",
+    "pref_name": "Iraqw",
+    "dataset": "EA"
+  },
+  "Ca40": {
+    "group_id": "ea-Ca40",
+    "hraf_name": "",
+    "pref_name": "Baditu",
+    "dataset": "EA"
+  },
+  "Ac20": {
+    "group_id": "ea-Ac20",
+    "hraf_name": "",
+    "pref_name": "Yaka",
+    "dataset": "EA"
+  },
+  "Ca41": {
+    "group_id": "ea-Ca41",
+    "hraf_name": "",
+    "pref_name": "Dorse",
+    "dataset": "EA"
+  },
+  "Ca42": {
+    "group_id": "ea-Ca42",
+    "hraf_name": "",
+    "pref_name": "Shako",
+    "dataset": "EA"
+  },
+  "Ca43": {
+    "group_id": "ea-Ca43",
+    "hraf_name": "",
+    "pref_name": "Hadendowa",
+    "dataset": "EA"
+  },
+  "Ca5": {
+    "group_id": "ea-Ca5",
+    "hraf_name": "",
+    "pref_name": "Bisharin",
+    "dataset": "EA"
+  },
+  "Ca6": {
+    "group_id": "ea-Ca6",
+    "hraf_name": "",
+    "pref_name": "Afar",
+    "dataset": "EA"
+  },
+  "Ca8": {
+    "group_id": "ea-Ca8",
+    "hraf_name": "",
+    "pref_name": "Gurage",
+    "dataset": "EA"
+  },
+  "Ca9": {
+    "group_id": "ea-Ca9",
+    "hraf_name": "",
+    "pref_name": "Goroa",
+    "dataset": "EA"
+  },
+  "Cb10": {
+    "group_id": "ea-Cb10",
+    "hraf_name": "",
+    "pref_name": "Karekare",
+    "dataset": "EA"
+  },
+  "Ac21": {
+    "group_id": "ea-Ac21",
+    "hraf_name": "",
+    "pref_name": "Bunda",
+    "dataset": "EA"
+  },
+  "Cb11": {
+    "group_id": "ea-Cb11",
+    "hraf_name": "",
+    "pref_name": "Midobi",
+    "dataset": "EA"
+  },
+  "Cb12": {
+    "group_id": "ea-Cb12",
+    "hraf_name": "",
+    "pref_name": "Gimma",
+    "dataset": "EA"
+  },
+  "Cb13": {
+    "group_id": "ea-Cb13",
+    "hraf_name": "",
+    "pref_name": "Habbaniya",
+    "dataset": "EA"
+  },
+  "Cb14": {
+    "group_id": "ea-Cb14",
+    "hraf_name": "",
+    "pref_name": "Hemat",
+    "dataset": "EA"
+  },
+  "Cb15": {
+    "group_id": "ea-Cb15",
+    "hraf_name": "",
+    "pref_name": "Messiria Humr",
+    "dataset": "EA"
+  },
+  "Cb16": {
+    "group_id": "ea-Cb16",
+    "hraf_name": "",
+    "pref_name": "Shuwa",
+    "dataset": "EA"
+  },
+  "Cb17": {
+    "group_id": "ea-Cb17",
+    "hraf_name": "",
+    "pref_name": "Fur",
+    "dataset": "EA"
+  },
+  "Cb18": {
+    "group_id": "ea-Cb18",
+    "hraf_name": "",
+    "pref_name": "Kanembu",
+    "dataset": "EA"
+  },
+  "Cb19": {
+    "group_id": "ea-Cb19",
+    "hraf_name": "",
+    "pref_name": "Kanuri",
+    "dataset": "EA"
+  },
+  "Ac22": {
+    "group_id": "ea-Ac22",
+    "hraf_name": "",
+    "pref_name": "Dzing",
+    "dataset": "EA"
+  },
+  "Cb20": {
+    "group_id": "ea-Cb20",
+    "hraf_name": "",
+    "pref_name": "Zerma",
+    "dataset": "EA"
+  },
+  "Cb21": {
+    "group_id": "ea-Cb21",
+    "hraf_name": "",
+    "pref_name": "Djafun",
+    "dataset": "EA"
+  },
+  "Cb22": {
+    "group_id": "ea-Cb22",
+    "hraf_name": "",
+    "pref_name": "Liptako",
+    "dataset": "EA"
+  },
+  "Cb23": {
+    "group_id": "ea-Cb23",
+    "hraf_name": "",
+    "pref_name": "Tukulor",
+    "dataset": "EA"
+  },
+  "Cb24": {
+    "group_id": "ea-Cb24",
+    "hraf_name": "",
+    "pref_name": "Wodaabe Fulani",
+    "dataset": "EA"
+  },
+  "Cb25": {
+    "group_id": "ea-Cb25",
+    "hraf_name": "",
+    "pref_name": "Tazarawa Hausa",
+    "dataset": "EA"
+  },
+  "Cb27": {
+    "group_id": "ea-Cb27",
+    "hraf_name": "",
+    "pref_name": "Bachama",
+    "dataset": "EA"
+  },
+  "Cb28": {
+    "group_id": "ea-Cb28",
+    "hraf_name": "",
+    "pref_name": "Dera",
+    "dataset": "EA"
+  },
+  "Cb29": {
+    "group_id": "ea-Cb29",
+    "hraf_name": "",
+    "pref_name": "Ngizim",
+    "dataset": "EA"
+  },
+  "Ac23": {
+    "group_id": "ea-Ac23",
+    "hraf_name": "",
+    "pref_name": "Lele",
+    "dataset": "EA"
+  },
+  "Cb4": {
+    "group_id": "ea-Cb4",
+    "hraf_name": "",
+    "pref_name": "Hasania",
+    "dataset": "EA"
+  },
+  "Cb5": {
+    "group_id": "ea-Cb5",
+    "hraf_name": "",
+    "pref_name": "Buduma",
+    "dataset": "EA"
+  },
+  "Cb6": {
+    "group_id": "ea-Cb6",
+    "hraf_name": "",
+    "pref_name": "Tera",
+    "dataset": "EA"
+  },
+  "Cb7": {
+    "group_id": "ea-Cb7",
+    "hraf_name": "",
+    "pref_name": "Bolewa",
+    "dataset": "EA"
+  },
+  "Cb8": {
+    "group_id": "ea-Cb8",
+    "hraf_name": "",
+    "pref_name": "Bororo Fulani",
+    "dataset": "EA"
+  },
+  "Cc1": {
+    "group_id": "ea-Cc1",
+    "hraf_name": "",
+    "pref_name": "Regeibat",
+    "dataset": "EA"
+  },
+  "Cc10": {
+    "group_id": "ea-Cc10",
+    "hraf_name": "",
+    "pref_name": "Asben",
+    "dataset": "EA"
+  },
+  "Cc11": {
+    "group_id": "ea-Cc11",
+    "hraf_name": "",
+    "pref_name": "Azjer",
+    "dataset": "EA"
+  },
+  "Ac24": {
+    "group_id": "ea-Ac24",
+    "hraf_name": "",
+    "pref_name": "Sakata",
+    "dataset": "EA"
+  },
+  "Cc12": {
+    "group_id": "ea-Cc12",
+    "hraf_name": "",
+    "pref_name": "Ifora",
+    "dataset": "EA"
+  },
+  "Cc13": {
+    "group_id": "ea-Cc13",
+    "hraf_name": "",
+    "pref_name": "Udalan Tuareg",
+    "dataset": "EA"
+  },
+  "Cc14": {
+    "group_id": "ea-Cc14",
+    "hraf_name": "",
+    "pref_name": "Daza",
+    "dataset": "EA"
+  },
+  "Cc15": {
+    "group_id": "ea-Cc15",
+    "hraf_name": "",
+    "pref_name": "Drawa",
+    "dataset": "EA"
+  },
+  "Cc16": {
+    "group_id": "ea-Cc16",
+    "hraf_name": "",
+    "pref_name": "Chaambra",
+    "dataset": "EA"
+  },
+  "Cc17": {
+    "group_id": "ea-Cc17",
+    "hraf_name": "",
+    "pref_name": "Delim",
+    "dataset": "EA"
+  },
+  "Cc18": {
+    "group_id": "ea-Cc18",
+    "hraf_name": "",
+    "pref_name": "Kunta",
+    "dataset": "EA"
+  },
+  "Cc19": {
+    "group_id": "ea-Cc19",
+    "hraf_name": "",
+    "pref_name": "Trarza",
+    "dataset": "EA"
+  },
+  "Cc20": {
+    "group_id": "ea-Cc20",
+    "hraf_name": "",
+    "pref_name": "Zenaga",
+    "dataset": "EA"
+  },
+  "Ac25": {
+    "group_id": "ea-Ac25",
+    "hraf_name": "",
+    "pref_name": "Songo",
+    "dataset": "EA"
+  },
+  "Cc3": {
+    "group_id": "ea-Cc3",
+    "hraf_name": "",
+    "pref_name": "Siwans",
+    "dataset": "EA"
+  },
+  "Cc4": {
+    "group_id": "ea-Cc4",
+    "hraf_name": "",
+    "pref_name": "Mzab",
+    "dataset": "EA"
+  },
+  "Cc5": {
+    "group_id": "ea-Cc5",
+    "hraf_name": "",
+    "pref_name": "Kel Antessar",
+    "dataset": "EA"
+  },
+  "Cc6": {
+    "group_id": "ea-Cc6",
+    "hraf_name": "",
+    "pref_name": "Kababish",
+    "dataset": "EA"
+  },
+  "Cc7": {
+    "group_id": "ea-Cc7",
+    "hraf_name": "",
+    "pref_name": "Barabish",
+    "dataset": "EA"
+  },
+  "Cc8": {
+    "group_id": "ea-Cc8",
+    "hraf_name": "",
+    "pref_name": "Aulliminden",
+    "dataset": "EA"
+  },
+  "Cd1": {
+    "group_id": "ea-Cd1",
+    "hraf_name": "",
+    "pref_name": "Barabra",
+    "dataset": "EA"
+  },
+  "Cd10": {
+    "group_id": "ea-Cd10",
+    "hraf_name": "",
+    "pref_name": "Zekara",
+    "dataset": "EA"
+  },
+  "Cd11": {
+    "group_id": "ea-Cd11",
+    "hraf_name": "",
+    "pref_name": "Guanche",
+    "dataset": "EA"
+  },
+  "Ac26": {
+    "group_id": "ea-Ac26",
+    "hraf_name": "",
+    "pref_name": "Yanzi",
+    "dataset": "EA"
+  },
+  "Cd12": {
+    "group_id": "ea-Cd12",
+    "hraf_name": "",
+    "pref_name": "Algerians",
+    "dataset": "EA"
+  },
+  "Cd13": {
+    "group_id": "ea-Cd13",
+    "hraf_name": "",
+    "pref_name": "Hamama",
+    "dataset": "EA"
+  },
+  "Cd14": {
+    "group_id": "ea-Cd14",
+    "hraf_name": "",
+    "pref_name": "Hamyan",
+    "dataset": "EA"
+  },
+  "Cd15": {
+    "group_id": "ea-Cd15",
+    "hraf_name": "",
+    "pref_name": "Jebala",
+    "dataset": "EA"
+  },
+  "Cd16": {
+    "group_id": "ea-Cd16",
+    "hraf_name": "",
+    "pref_name": "Moroccans",
+    "dataset": "EA"
+  },
+  "Cd17": {
+    "group_id": "ea-Cd17",
+    "hraf_name": "",
+    "pref_name": "Nail",
+    "dataset": "EA"
+  },
+  "Cd18": {
+    "group_id": "ea-Cd18",
+    "hraf_name": "",
+    "pref_name": "Saadi",
+    "dataset": "EA"
+  },
+  "Cd19": {
+    "group_id": "ea-Cd19",
+    "hraf_name": "",
+    "pref_name": "Sahel",
+    "dataset": "EA"
+  },
+  "Cd20": {
+    "group_id": "ea-Cd20",
+    "hraf_name": "",
+    "pref_name": "Sanusi",
+    "dataset": "EA"
+  },
+  "Ac27": {
+    "group_id": "ea-Ac27",
+    "hraf_name": "",
+    "pref_name": "Luchazi",
+    "dataset": "EA"
+  },
+  "Cd21": {
+    "group_id": "ea-Cd21",
+    "hraf_name": "",
+    "pref_name": "Tunisians",
+    "dataset": "EA"
+  },
+  "Cd4": {
+    "group_id": "ea-Cd4",
+    "hraf_name": "",
+    "pref_name": "Kabyle",
+    "dataset": "EA"
+  },
+  "Cd5": {
+    "group_id": "ea-Cd5",
+    "hraf_name": "",
+    "pref_name": "Shluh",
+    "dataset": "EA"
+  },
+  "Cd6": {
+    "group_id": "ea-Cd6",
+    "hraf_name": "",
+    "pref_name": "Ancient Egyptians",
+    "dataset": "EA"
+  },
+  "Cd7": {
+    "group_id": "ea-Cd7",
+    "hraf_name": "",
+    "pref_name": "Beraber",
+    "dataset": "EA"
+  },
+  "Cd8": {
+    "group_id": "ea-Cd8",
+    "hraf_name": "",
+    "pref_name": "Shawiya",
+    "dataset": "EA"
+  },
+  "Cd9": {
+    "group_id": "ea-Cd9",
+    "hraf_name": "",
+    "pref_name": "Tekna",
+    "dataset": "EA"
+  },
+  "Ce2": {
+    "group_id": "ea-Ce2",
+    "hraf_name": "",
+    "pref_name": "Portuguese",
+    "dataset": "EA"
+  },
+  "Ac28": {
+    "group_id": "ea-Ac28",
+    "hraf_name": "",
+    "pref_name": "Luimbe",
+    "dataset": "EA"
+  },
+  "Ce5": {
+    "group_id": "ea-Ce5",
+    "hraf_name": "",
+    "pref_name": "Neapolitans",
+    "dataset": "EA"
+  },
+  "Ce6": {
+    "group_id": "ea-Ce6",
+    "hraf_name": "",
+    "pref_name": "Spaniards",
+    "dataset": "EA"
+  },
+  "Ce7": {
+    "group_id": "ea-Ce7",
+    "hraf_name": "",
+    "pref_name": "Greeks",
+    "dataset": "EA"
+  },
+  "Cf1": {
+    "group_id": "ea-Cf1",
+    "hraf_name": "",
+    "pref_name": "New Englanders",
+    "dataset": "EA"
+  },
+  "Cf2": {
+    "group_id": "ea-Cf2",
+    "hraf_name": "",
+    "pref_name": "Boers",
+    "dataset": "EA"
+  },
+  "Cf3": {
+    "group_id": "ea-Cf3",
+    "hraf_name": "",
+    "pref_name": "Tristan da Cunha",
+    "dataset": "EA"
+  },
+  "Cf4": {
+    "group_id": "ea-Cf4",
+    "hraf_name": "",
+    "pref_name": "Brazilians",
+    "dataset": "EA"
+  },
+  "Ac29": {
+    "group_id": "ea-Ac29",
+    "hraf_name": "",
+    "pref_name": "Luwa",
+    "dataset": "EA"
+  },
+  "Cf5": {
+    "group_id": "ea-Cf5",
+    "hraf_name": "",
+    "pref_name": "French Canadians",
+    "dataset": "EA"
+  },
+  "Cg1": {
+    "group_id": "ea-Cg1",
+    "hraf_name": "",
+    "pref_name": "Dutch",
+    "dataset": "EA"
+  },
+  "Cg2": {
+    "group_id": "ea-Cg2",
+    "hraf_name": "",
+    "pref_name": "Icelanders",
+    "dataset": "EA"
+  },
+  "Cg5": {
+    "group_id": "ea-Cg5",
+    "hraf_name": "",
+    "pref_name": "Walloons",
+    "dataset": "EA"
+  },
+  "Ch1": {
+    "group_id": "ea-Ch1",
+    "hraf_name": "",
+    "pref_name": "Serbs",
+    "dataset": "EA"
+  },
+  "Ch10": {
+    "group_id": "ea-Ch10",
+    "hraf_name": "",
+    "pref_name": "Romanians",
+    "dataset": "EA"
+  },
+  "Ch11": {
+    "group_id": "ea-Ch11",
+    "hraf_name": "",
+    "pref_name": "Russians",
+    "dataset": "EA"
+  },
+  "ch12": {
+    "group_id": "ea-ch12",
+    "hraf_name": "",
+    "pref_name": "Bashkir",
+    "dataset": "EA"
+  },
+  "ch13": {
+    "group_id": "ea-ch13",
+    "hraf_name": "",
+    "pref_name": "Besermyan",
+    "dataset": "EA"
+  },
+  "ch14": {
+    "group_id": "ea-ch14",
+    "hraf_name": "",
+    "pref_name": "Chuvash",
+    "dataset": "EA"
+  },
+  "ch15": {
+    "group_id": "ea-ch15",
+    "hraf_name": "",
+    "pref_name": "Erzya Mordvins",
+    "dataset": "EA"
+  },
+  "ch16": {
+    "group_id": "ea-ch16",
+    "hraf_name": "",
+    "pref_name": "Estonians",
+    "dataset": "EA"
+  },
+  "ch17": {
+    "group_id": "ea-ch17",
+    "hraf_name": "",
+    "pref_name": "Gagauz",
+    "dataset": "EA"
+  },
+  "ch18": {
+    "group_id": "ea-ch18",
+    "hraf_name": "",
+    "pref_name": "Ingrians",
+    "dataset": "EA"
+  },
+  "ch19": {
+    "group_id": "ea-ch19",
+    "hraf_name": "",
+    "pref_name": "Karelians",
+    "dataset": "EA"
+  },
+  "Ch2": {
+    "group_id": "ea-Ch2",
+    "hraf_name": "",
+    "pref_name": "Hutsuls",
+    "dataset": "EA"
+  },
+  "ch20": {
+    "group_id": "ea-ch20",
+    "hraf_name": "",
+    "pref_name": "Kazan tatar",
+    "dataset": "EA"
+  },
+  "ch21": {
+    "group_id": "ea-ch21",
+    "hraf_name": "",
+    "pref_name": "Latvians",
+    "dataset": "EA"
+  },
+  "Ac30": {
+    "group_id": "ea-Ac30",
+    "hraf_name": "",
+    "pref_name": "Plateau Tonga",
+    "dataset": "EA"
+  },
+  "ch22": {
+    "group_id": "ea-ch22",
+    "hraf_name": "",
+    "pref_name": "Lithuanian Karaim",
+    "dataset": "EA"
+  },
+  "ch23": {
+    "group_id": "ea-ch23",
+    "hraf_name": "",
+    "pref_name": "Lithuanian Tatar",
+    "dataset": "EA"
+  },
+  "ch24": {
+    "group_id": "ea-ch24",
+    "hraf_name": "",
+    "pref_name": "Livs",
+    "dataset": "EA"
+  },
+  "ch25": {
+    "group_id": "ea-ch25",
+    "hraf_name": "",
+    "pref_name": "Moldovans",
+    "dataset": "EA"
+  },
+  "ch26": {
+    "group_id": "ea-ch26",
+    "hraf_name": "",
+    "pref_name": "Udmurt",
+    "dataset": "EA"
+  },
+  "ch27": {
+    "group_id": "ea-ch27",
+    "hraf_name": "",
+    "pref_name": "Veps",
+    "dataset": "EA"
+  },
+  "ch28": {
+    "group_id": "ea-ch28",
+    "hraf_name": "",
+    "pref_name": "Votes",
+    "dataset": "EA"
+  },
+  "Ch3": {
+    "group_id": "ea-Ch3",
+    "hraf_name": "",
+    "pref_name": "Czechs",
+    "dataset": "EA"
+  },
+  "Ch4": {
+    "group_id": "ea-Ch4",
+    "hraf_name": "",
+    "pref_name": "Mari",
+    "dataset": "EA"
+  },
+  "Ch5": {
+    "group_id": "ea-Ch5",
+    "hraf_name": "",
+    "pref_name": "Bulgarians",
+    "dataset": "EA"
+  },
+  "Ac31": {
+    "group_id": "ea-Ac31",
+    "hraf_name": "",
+    "pref_name": "Buye",
+    "dataset": "EA"
+  },
+  "Ch6": {
+    "group_id": "ea-Ch6",
+    "hraf_name": "",
+    "pref_name": "Byelorussians",
+    "dataset": "EA"
+  },
+  "Ch7": {
+    "group_id": "ea-Ch7",
+    "hraf_name": "",
+    "pref_name": "Ukrainians",
+    "dataset": "EA"
+  },
+  "Ch8": {
+    "group_id": "ea-Ch8",
+    "hraf_name": "",
+    "pref_name": "Magyar",
+    "dataset": "EA"
+  },
+  "Ch9": {
+    "group_id": "ea-Ch9",
+    "hraf_name": "",
+    "pref_name": "Lithuanians",
+    "dataset": "EA"
+  },
+  "Ci1": {
+    "group_id": "ea-Ci1",
+    "hraf_name": "",
+    "pref_name": "Kalmyk",
+    "dataset": "EA"
+  },
+  "Ci10": {
+    "group_id": "ea-Ci10",
+    "hraf_name": "",
+    "pref_name": "Armenians",
+    "dataset": "EA"
+  },
+  "Ci2": {
+    "group_id": "ea-Ci2",
+    "hraf_name": "",
+    "pref_name": "Khevsur",
+    "dataset": "EA"
+  },
+  "Ci3": {
+    "group_id": "ea-Ci3",
+    "hraf_name": "",
+    "pref_name": "Kumyk",
+    "dataset": "EA"
+  },
+  "Ac32": {
+    "group_id": "ea-Ac32",
+    "hraf_name": "",
+    "pref_name": "Kaonde",
+    "dataset": "EA"
+  },
+  "Ci4": {
+    "group_id": "ea-Ci4",
+    "hraf_name": "",
+    "pref_name": "Cherkess",
+    "dataset": "EA"
+  },
+  "Ci6": {
+    "group_id": "ea-Ci6",
+    "hraf_name": "",
+    "pref_name": "Ossetians",
+    "dataset": "EA"
+  },
+  "Ci7": {
+    "group_id": "ea-Ci7",
+    "hraf_name": "",
+    "pref_name": "Chechen",
+    "dataset": "EA"
+  },
+  "Ci8": {
+    "group_id": "ea-Ci8",
+    "hraf_name": "",
+    "pref_name": "Georgians",
+    "dataset": "EA"
+  },
+  "Ci9": {
+    "group_id": "ea-Ci9",
+    "hraf_name": "",
+    "pref_name": "Svan",
+    "dataset": "EA"
+  },
+  "Cj1": {
+    "group_id": "ea-Cj1",
+    "hraf_name": "",
+    "pref_name": "Syrians",
+    "dataset": "EA"
+  },
+  "Cj10": {
+    "group_id": "ea-Cj10",
+    "hraf_name": "",
+    "pref_name": "Madan",
+    "dataset": "EA"
+  },
+  "Cj3": {
+    "group_id": "ea-Cj3",
+    "hraf_name": "",
+    "pref_name": "Hebrews",
+    "dataset": "EA"
+  },
+  "Ac33": {
+    "group_id": "ea-Ac33",
+    "hraf_name": "",
+    "pref_name": "Lala",
+    "dataset": "EA"
+  },
+  "Cj4": {
+    "group_id": "ea-Cj4",
+    "hraf_name": "",
+    "pref_name": "Babylonians",
+    "dataset": "EA"
+  },
+  "Cj5": {
+    "group_id": "ea-Cj5",
+    "hraf_name": "",
+    "pref_name": "Mutair",
+    "dataset": "EA"
+  },
+  "Cj6": {
+    "group_id": "ea-Cj6",
+    "hraf_name": "",
+    "pref_name": "Jordanians",
+    "dataset": "EA"
+  },
+  "Cj7": {
+    "group_id": "ea-Cj7",
+    "hraf_name": "",
+    "pref_name": "Lebanese",
+    "dataset": "EA"
+  },
+  "Cj8": {
+    "group_id": "ea-Cj8",
+    "hraf_name": "",
+    "pref_name": "Druze",
+    "dataset": "EA"
+  },
+  "Cj9": {
+    "group_id": "ea-Cj9",
+    "hraf_name": "",
+    "pref_name": "Yemeni",
+    "dataset": "EA"
+  },
+  "Ea1": {
+    "group_id": "ea-Ea1",
+    "hraf_name": "",
+    "pref_name": "Sindhi",
+    "dataset": "EA"
+  },
+  "Ea10": {
+    "group_id": "ea-Ea10",
+    "hraf_name": "",
+    "pref_name": "Marri",
+    "dataset": "EA"
+  },
+  "Ea11": {
+    "group_id": "ea-Ea11",
+    "hraf_name": "",
+    "pref_name": "Ghilzai",
+    "dataset": "EA"
+  },
+  "Ea12": {
+    "group_id": "ea-Ea12",
+    "hraf_name": "",
+    "pref_name": "Qashqui",
+    "dataset": "EA"
+  },
+  "Aa6": {
+    "group_id": "ea-Aa6",
+    "hraf_name": "",
+    "pref_name": "Sandawe",
+    "dataset": "EA"
+  },
+  "Ac34": {
+    "group_id": "ea-Ac34",
+    "hraf_name": "",
+    "pref_name": "Luapula",
+    "dataset": "EA"
+  },
+  "Ea13": {
+    "group_id": "ea-Ea13",
+    "hraf_name": "",
+    "pref_name": "Punjabi",
+    "dataset": "EA"
+  },
+  "Ea2": {
+    "group_id": "ea-Ea2",
+    "hraf_name": "",
+    "pref_name": "Yusufzai",
+    "dataset": "EA"
+  },
+  "Ea3": {
+    "group_id": "ea-Ea3",
+    "hraf_name": "",
+    "pref_name": "Hazara",
+    "dataset": "EA"
+  },
+  "Ea4": {
+    "group_id": "ea-Ea4",
+    "hraf_name": "",
+    "pref_name": "Kohistani",
+    "dataset": "EA"
+  },
+  "Ea5": {
+    "group_id": "ea-Ea5",
+    "hraf_name": "",
+    "pref_name": "Nuristani",
+    "dataset": "EA"
+  },
+  "Ea7": {
+    "group_id": "ea-Ea7",
+    "hraf_name": "",
+    "pref_name": "Moghol",
+    "dataset": "EA"
+  },
+  "Ea8": {
+    "group_id": "ea-Ea8",
+    "hraf_name": "",
+    "pref_name": "Bakhtiari",
+    "dataset": "EA"
+  },
+  "Ea9": {
+    "group_id": "ea-Ea9",
+    "hraf_name": "",
+    "pref_name": "Iranians",
+    "dataset": "EA"
+  },
+  "Ac35": {
+    "group_id": "ea-Ac35",
+    "hraf_name": "",
+    "pref_name": "Shila",
+    "dataset": "EA"
+  },
+  "Eb2": {
+    "group_id": "ea-Eb2",
+    "hraf_name": "",
+    "pref_name": "Tu",
+    "dataset": "EA"
+  },
+  "Eb4": {
+    "group_id": "ea-Eb4",
+    "hraf_name": "",
+    "pref_name": "Dagur",
+    "dataset": "EA"
+  },
+  "Eb5": {
+    "group_id": "ea-Eb5",
+    "hraf_name": "",
+    "pref_name": "Turkmen",
+    "dataset": "EA"
+  },
+  "Eb6": {
+    "group_id": "ea-Eb6",
+    "hraf_name": "",
+    "pref_name": "Buryat",
+    "dataset": "EA"
+  },
+  "Eb7": {
+    "group_id": "ea-Eb7",
+    "hraf_name": "",
+    "pref_name": "Chahar",
+    "dataset": "EA"
+  },
+  "Eb8": {
+    "group_id": "ea-Eb8",
+    "hraf_name": "",
+    "pref_name": "Uzbek",
+    "dataset": "EA"
+  },
+  "Ec10": {
+    "group_id": "ea-Ec10",
+    "hraf_name": "",
+    "pref_name": "Ob Ostyak",
+    "dataset": "EA"
+  },
+  "Ec11": {
+    "group_id": "ea-Ec11",
+    "hraf_name": "",
+    "pref_name": "Selkup",
+    "dataset": "EA"
+  },
+  "Ac36": {
+    "group_id": "ea-Ac36",
+    "hraf_name": "",
+    "pref_name": "Tumbuka",
+    "dataset": "EA"
+  },
+  "ec13": {
+    "group_id": "ea-ec13",
+    "hraf_name": "",
+    "pref_name": "Itelmen",
+    "dataset": "EA"
+  },
+  "ec14": {
+    "group_id": "ea-ec14",
+    "hraf_name": "",
+    "pref_name": "Ungazikmit",
+    "dataset": "EA"
+  },
+  "ec15": {
+    "group_id": "ea-ec15",
+    "hraf_name": "",
+    "pref_name": "Mansi",
+    "dataset": "EA"
+  },
+  "ec16": {
+    "group_id": "ea-ec16",
+    "hraf_name": "",
+    "pref_name": "Evenk",
+    "dataset": "EA"
+  },
+  "ec17": {
+    "group_id": "ea-ec17",
+    "hraf_name": "",
+    "pref_name": "Negidal",
+    "dataset": "EA"
+  },
+  "ec18": {
+    "group_id": "ea-ec18",
+    "hraf_name": "",
+    "pref_name": "Ulch",
+    "dataset": "EA"
+  },
+  "ec19": {
+    "group_id": "ea-ec19",
+    "hraf_name": "",
+    "pref_name": "Orok",
+    "dataset": "EA"
+  },
+  "Ec2": {
+    "group_id": "ea-Ec2",
+    "hraf_name": "",
+    "pref_name": "Yakut",
+    "dataset": "EA"
+  },
+  "ec20": {
+    "group_id": "ea-ec20",
+    "hraf_name": "",
+    "pref_name": "Oroch",
+    "dataset": "EA"
+  },
+  "Ac37": {
+    "group_id": "ea-Ac37",
+    "hraf_name": "",
+    "pref_name": "Kunda",
+    "dataset": "EA"
+  },
+  "ec21": {
+    "group_id": "ea-ec21",
+    "hraf_name": "",
+    "pref_name": "Udihe",
+    "dataset": "EA"
+  },
+  "Ec5": {
+    "group_id": "ea-Ec5",
+    "hraf_name": "",
+    "pref_name": "Koryak",
+    "dataset": "EA"
+  },
+  "Ec6": {
+    "group_id": "ea-Ec6",
+    "hraf_name": "",
+    "pref_name": "Yukaghir",
+    "dataset": "EA"
+  },
+  "Ec8": {
+    "group_id": "ea-Ec8",
+    "hraf_name": "",
+    "pref_name": "Ket",
+    "dataset": "EA"
+  },
+  "Ec9": {
+    "group_id": "ea-Ec9",
+    "hraf_name": "",
+    "pref_name": "Nanai",
+    "dataset": "EA"
+  },
+  "Ed10": {
+    "group_id": "ea-Ed10",
+    "hraf_name": "",
+    "pref_name": "Shantung",
+    "dataset": "EA"
+  },
+  "Ac38": {
+    "group_id": "ea-Ac38",
+    "hraf_name": "",
+    "pref_name": "Nyanja",
+    "dataset": "EA"
+  },
+  "Ed13": {
+    "group_id": "ea-Ed13",
+    "hraf_name": "",
+    "pref_name": "Ishigakians",
+    "dataset": "EA"
+  },
+  "Ed14": {
+    "group_id": "ea-Ed14",
+    "hraf_name": "",
+    "pref_name": "Man",
+    "dataset": "EA"
+  },
+  "Ed15a": {
+    "group_id": "ea-Ed15a",
+    "hraf_name": "",
+    "pref_name": "Miyakans",
+    "dataset": "EA"
+  },
+  "Ed15b": {
+    "group_id": "ea-Ed15b",
+    "hraf_name": "",
+    "pref_name": "Chekiang",
+    "dataset": "EA"
+  },
+  "Ed16": {
+    "group_id": "ea-Ed16",
+    "hraf_name": "",
+    "pref_name": "Cantonese",
+    "dataset": "EA"
+  },
+  "Ed3": {
+    "group_id": "ea-Ed3",
+    "hraf_name": "",
+    "pref_name": "Manchu",
+    "dataset": "EA"
+  },
+  "Ed4": {
+    "group_id": "ea-Ed4",
+    "hraf_name": "",
+    "pref_name": "Miao",
+    "dataset": "EA"
+  },
+  "Ed6": {
+    "group_id": "ea-Ed6",
+    "hraf_name": "",
+    "pref_name": "Min Chinese",
+    "dataset": "EA"
+  },
+  "Ac39": {
+    "group_id": "ea-Ac39",
+    "hraf_name": "",
+    "pref_name": "Nyasa",
+    "dataset": "EA"
+  },
+  "Ed7": {
+    "group_id": "ea-Ed7",
+    "hraf_name": "",
+    "pref_name": "Okinawans",
+    "dataset": "EA"
+  },
+  "Ed8": {
+    "group_id": "ea-Ed8",
+    "hraf_name": "",
+    "pref_name": "Minchia",
+    "dataset": "EA"
+  },
+  "Ed9": {
+    "group_id": "ea-Ed9",
+    "hraf_name": "",
+    "pref_name": "Li",
+    "dataset": "EA"
+  },
+  "Ee1": {
+    "group_id": "ea-Ee1",
+    "hraf_name": "",
+    "pref_name": "Adi",
+    "dataset": "EA"
+  },
+  "Ee4": {
+    "group_id": "ea-Ee4",
+    "hraf_name": "",
+    "pref_name": "Central Tibetans",
+    "dataset": "EA"
+  },
+  "Ee5": {
+    "group_id": "ea-Ee5",
+    "hraf_name": "",
+    "pref_name": "Shina",
+    "dataset": "EA"
+  },
+  "Ee6": {
+    "group_id": "ea-Ee6",
+    "hraf_name": "",
+    "pref_name": "Sherpa",
+    "dataset": "EA"
+  },
+  "Ee7": {
+    "group_id": "ea-Ee7",
+    "hraf_name": "",
+    "pref_name": "Kachari",
+    "dataset": "EA"
+  },
+  "Ac4": {
+    "group_id": "ea-Ac4",
+    "hraf_name": "",
+    "pref_name": "Kuba",
+    "dataset": "EA"
+  },
+  "Ee8": {
+    "group_id": "ea-Ee8",
+    "hraf_name": "",
+    "pref_name": "Magar",
+    "dataset": "EA"
+  },
+  "Ef10": {
+    "group_id": "ea-Ef10",
+    "hraf_name": "",
+    "pref_name": "Bihari",
+    "dataset": "EA"
+  },
+  "Ef2": {
+    "group_id": "ea-Ef2",
+    "hraf_name": "",
+    "pref_name": "Bengali",
+    "dataset": "EA"
+  },
+  "Ef3": {
+    "group_id": "ea-Ef3",
+    "hraf_name": "",
+    "pref_name": "Indo-Iranian",
+    "dataset": "EA"
+  },
+  "Ef4": {
+    "group_id": "ea-Ef4",
+    "hraf_name": "",
+    "pref_name": "Ho",
+    "dataset": "EA"
+  },
+  "Ef5": {
+    "group_id": "ea-Ef5",
+    "hraf_name": "",
+    "pref_name": "Bhil",
+    "dataset": "EA"
+  },
+  "Ef6": {
+    "group_id": "ea-Ef6",
+    "hraf_name": "",
+    "pref_name": "Kurukh",
+    "dataset": "EA"
+  },
+  "Ef7": {
+    "group_id": "ea-Ef7",
+    "hraf_name": "",
+    "pref_name": "Pahari",
+    "dataset": "EA"
+  },
+  "Ac40": {
+    "group_id": "ea-Ac40",
+    "hraf_name": "",
+    "pref_name": "Sena",
+    "dataset": "EA"
+  },
+  "Ef8": {
+    "group_id": "ea-Ef8",
+    "hraf_name": "",
+    "pref_name": "Kashmiri",
+    "dataset": "EA"
+  },
+  "Ef9": {
+    "group_id": "ea-Ef9",
+    "hraf_name": "",
+    "pref_name": "Gujarati",
+    "dataset": "EA"
+  },
+  "Eg1": {
+    "group_id": "ea-Eg1",
+    "hraf_name": "",
+    "pref_name": "Chenchu",
+    "dataset": "EA"
+  },
+  "Eg10": {
+    "group_id": "ea-Eg10",
+    "hraf_name": "",
+    "pref_name": "Telugu",
+    "dataset": "EA"
+  },
+  "Eg11": {
+    "group_id": "ea-Eg11",
+    "hraf_name": "",
+    "pref_name": "Koya",
+    "dataset": "EA"
+  },
+  "Eg12": {
+    "group_id": "ea-Eg12",
+    "hraf_name": "",
+    "pref_name": "Khond",
+    "dataset": "EA"
+  },
+  "Eg14": {
+    "group_id": "ea-Eg14",
+    "hraf_name": "",
+    "pref_name": "Reddi",
+    "dataset": "EA"
+  },
+  "Eg2": {
+    "group_id": "ea-Eg2",
+    "hraf_name": "",
+    "pref_name": "Tamil",
+    "dataset": "EA"
+  },
+  "Ac41": {
+    "group_id": "ea-Ac41",
+    "hraf_name": "",
+    "pref_name": "Makonde",
+    "dataset": "EA"
+  },
+  "Eg5": {
+    "group_id": "ea-Eg5",
+    "hraf_name": "",
+    "pref_name": "Kodavas",
+    "dataset": "EA"
+  },
+  "Eg6": {
+    "group_id": "ea-Eg6",
+    "hraf_name": "",
+    "pref_name": "Kerala",
+    "dataset": "EA"
+  },
+  "Eg7": {
+    "group_id": "ea-Eg7",
+    "hraf_name": "",
+    "pref_name": "Hill Bhuiya",
+    "dataset": "EA"
+  },
+  "Eg8": {
+    "group_id": "ea-Eg8",
+    "hraf_name": "",
+    "pref_name": "Kol",
+    "dataset": "EA"
+  },
+  "Eg9": {
+    "group_id": "ea-Eg9",
+    "hraf_name": "",
+    "pref_name": "Baiga",
+    "dataset": "EA"
+  },
+  "Eh10": {
+    "group_id": "ea-Eh10",
+    "hraf_name": "",
+    "pref_name": "Betsileo",
+    "dataset": "EA"
+  },
+  "Eh2": {
+    "group_id": "ea-Eh2",
+    "hraf_name": "",
+    "pref_name": "Merina",
+    "dataset": "EA"
+  },
+  "Ac42": {
+    "group_id": "ea-Ac42",
+    "hraf_name": "",
+    "pref_name": "Makua",
+    "dataset": "EA"
+  },
+  "Eh6": {
+    "group_id": "ea-Eh6",
+    "hraf_name": "",
+    "pref_name": "Sinhalese",
+    "dataset": "EA"
+  },
+  "Eh7": {
+    "group_id": "ea-Eh7",
+    "hraf_name": "",
+    "pref_name": "Antandroy",
+    "dataset": "EA"
+  },
+  "Eh8": {
+    "group_id": "ea-Eh8",
+    "hraf_name": "",
+    "pref_name": "Sakalava",
+    "dataset": "EA"
+  },
+  "Eh9": {
+    "group_id": "ea-Eh9",
+    "hraf_name": "",
+    "pref_name": "Antaisaka",
+    "dataset": "EA"
+  },
+  "Ei10": {
+    "group_id": "ea-Ei10",
+    "hraf_name": "",
+    "pref_name": "Chakma",
+    "dataset": "EA"
+  },
+  "Ei11": {
+    "group_id": "ea-Ei11",
+    "hraf_name": "",
+    "pref_name": "Aimol",
+    "dataset": "EA"
+  },
+  "Ei12": {
+    "group_id": "ea-Ei12",
+    "hraf_name": "",
+    "pref_name": "Thado",
+    "dataset": "EA"
+  },
+  "Aa7": {
+    "group_id": "ea-Aa7",
+    "hraf_name": "",
+    "pref_name": "Naron",
+    "dataset": "EA"
+  },
+  "Ac43": {
+    "group_id": "ea-Ac43",
+    "hraf_name": "",
+    "pref_name": "Mambwe",
+    "dataset": "EA"
+  },
+  "Ei13": {
+    "group_id": "ea-Ei13",
+    "hraf_name": "",
+    "pref_name": "Angami",
+    "dataset": "EA"
+  },
+  "Ei14": {
+    "group_id": "ea-Ei14",
+    "hraf_name": "",
+    "pref_name": "Ao",
+    "dataset": "EA"
+  },
+  "Ei15": {
+    "group_id": "ea-Ei15",
+    "hraf_name": "",
+    "pref_name": "Rengma",
+    "dataset": "EA"
+  },
+  "Ei16": {
+    "group_id": "ea-Ei16",
+    "hraf_name": "",
+    "pref_name": "Sema",
+    "dataset": "EA"
+  },
+  "Ei17": {
+    "group_id": "ea-Ei17",
+    "hraf_name": "",
+    "pref_name": "Karbi",
+    "dataset": "EA"
+  },
+  "Ei18": {
+    "group_id": "ea-Ei18",
+    "hraf_name": "",
+    "pref_name": "Palaung",
+    "dataset": "EA"
+  },
+  "Ei19": {
+    "group_id": "ea-Ei19",
+    "hraf_name": "",
+    "pref_name": "Chin",
+    "dataset": "EA"
+  },
+  "Ei2": {
+    "group_id": "ea-Ei2",
+    "hraf_name": "",
+    "pref_name": "Lhota",
+    "dataset": "EA"
+  },
+  "Ei20": {
+    "group_id": "ea-Ei20",
+    "hraf_name": "",
+    "pref_name": "Kuki",
+    "dataset": "EA"
+  },
+  "Ac5": {
+    "group_id": "ea-Ac5",
+    "hraf_name": "",
+    "pref_name": "Lamba",
+    "dataset": "EA"
+  },
+  "Ei4": {
+    "group_id": "ea-Ei4",
+    "hraf_name": "",
+    "pref_name": "Maras",
+    "dataset": "EA"
+  },
+  "Ei5": {
+    "group_id": "ea-Ei5",
+    "hraf_name": "",
+    "pref_name": "Kachin",
+    "dataset": "EA"
+  },
+  "Ei6": {
+    "group_id": "ea-Ei6",
+    "hraf_name": "",
+    "pref_name": "Purum",
+    "dataset": "EA"
+  },
+  "Ei7": {
+    "group_id": "ea-Ei7",
+    "hraf_name": "",
+    "pref_name": "Karen",
+    "dataset": "EA"
+  },
+  "Ei8": {
+    "group_id": "ea-Ei8",
+    "hraf_name": "",
+    "pref_name": "Khasi",
+    "dataset": "EA"
+  },
+  "Ei9": {
+    "group_id": "ea-Ei9",
+    "hraf_name": "",
+    "pref_name": "Mogh",
+    "dataset": "EA"
+  },
+  "Ej1": {
+    "group_id": "ea-Ej1",
+    "hraf_name": "",
+    "pref_name": "Lamet",
+    "dataset": "EA"
+  },
+  "Ej10": {
+    "group_id": "ea-Ej10",
+    "hraf_name": "",
+    "pref_name": "Rade",
+    "dataset": "EA"
+  },
+  "Ej11": {
+    "group_id": "ea-Ej11",
+    "hraf_name": "",
+    "pref_name": "Cham",
+    "dataset": "EA"
+  },
+  "Ej12": {
+    "group_id": "ea-Ej12",
+    "hraf_name": "",
+    "pref_name": "Lawa",
+    "dataset": "EA"
+  },
+  "Ac6": {
+    "group_id": "ea-Ac6",
+    "hraf_name": "",
+    "pref_name": "Ndembu",
+    "dataset": "EA"
+  },
+  "Ej13": {
+    "group_id": "ea-Ej13",
+    "hraf_name": "",
+    "pref_name": "Muong",
+    "dataset": "EA"
+  },
+  "Ej14": {
+    "group_id": "ea-Ej14",
+    "hraf_name": "",
+    "pref_name": "Senoi",
+    "dataset": "EA"
+  },
+  "Ej15": {
+    "group_id": "ea-Ej15",
+    "hraf_name": "",
+    "pref_name": "Ancient Khmer",
+    "dataset": "EA"
+  },
+  "Ej16": {
+    "group_id": "ea-Ej16",
+    "hraf_name": "",
+    "pref_name": "Negri Sembilan",
+    "dataset": "EA"
+  },
+  "Ej2": {
+    "group_id": "ea-Ej2",
+    "hraf_name": "",
+    "pref_name": "Mnong Gar",
+    "dataset": "EA"
+  },
+  "Ej6": {
+    "group_id": "ea-Ej6",
+    "hraf_name": "",
+    "pref_name": "Moken",
+    "dataset": "EA"
+  },
+  "Ej7": {
+    "group_id": "ea-Ej7",
+    "hraf_name": "",
+    "pref_name": "Akha",
+    "dataset": "EA"
+  },
+  "Ac7": {
+    "group_id": "ea-Ac7",
+    "hraf_name": "",
+    "pref_name": "Yao",
+    "dataset": "EA"
+  },
+  "Ej9": {
+    "group_id": "ea-Ej9",
+    "hraf_name": "",
+    "pref_name": "Thai",
+    "dataset": "EA"
+  },
+  "Ia1": {
+    "group_id": "ea-Ia1",
+    "hraf_name": "",
+    "pref_name": "Atayal",
+    "dataset": "EA"
+  },
+  "Ia10": {
+    "group_id": "ea-Ia10",
+    "hraf_name": "",
+    "pref_name": "Bunun",
+    "dataset": "EA"
+  },
+  "Ia11": {
+    "group_id": "ea-Ia11",
+    "hraf_name": "",
+    "pref_name": "Puyuma",
+    "dataset": "EA"
+  },
+  "Ia12": {
+    "group_id": "ea-Ia12",
+    "hraf_name": "",
+    "pref_name": "Sugbuanon",
+    "dataset": "EA"
+  },
+  "Ia13": {
+    "group_id": "ea-Ia13",
+    "hraf_name": "",
+    "pref_name": "Badjau Tawi-Tawi",
+    "dataset": "EA"
+  },
+  "Ia14": {
+    "group_id": "ea-Ia14",
+    "hraf_name": "",
+    "pref_name": "Tao",
+    "dataset": "EA"
+  },
+  "Ia15": {
+    "group_id": "ea-Ia15",
+    "hraf_name": "",
+    "pref_name": "Manobo",
+    "dataset": "EA"
+  },
+  "Ia16": {
+    "group_id": "ea-Ia16",
+    "hraf_name": "",
+    "pref_name": "Kalinga",
+    "dataset": "EA"
+  },
+  "Ac8": {
+    "group_id": "ea-Ac8",
+    "hraf_name": "",
+    "pref_name": "Yombe",
+    "dataset": "EA"
+  },
+  "Ia17": {
+    "group_id": "ea-Ia17",
+    "hraf_name": "",
+    "pref_name": "Bilaan",
+    "dataset": "EA"
+  },
+  "Ia18": {
+    "group_id": "ea-Ia18",
+    "hraf_name": "",
+    "pref_name": "Bisayan",
+    "dataset": "EA"
+  },
+  "Ia2": {
+    "group_id": "ea-Ia2",
+    "hraf_name": "",
+    "pref_name": "Sagada",
+    "dataset": "EA"
+  },
+  "Ia4": {
+    "group_id": "ea-Ia4",
+    "hraf_name": "",
+    "pref_name": "Subanun",
+    "dataset": "EA"
+  },
+  "Ia5": {
+    "group_id": "ea-Ia5",
+    "hraf_name": "",
+    "pref_name": "Hanunoo",
+    "dataset": "EA"
+  },
+  "Ia6": {
+    "group_id": "ea-Ia6",
+    "hraf_name": "",
+    "pref_name": "Paiwan",
+    "dataset": "EA"
+  },
+  "Ia7": {
+    "group_id": "ea-Ia7",
+    "hraf_name": "",
+    "pref_name": "Tagbanua",
+    "dataset": "EA"
+  },
+  "Ia8": {
+    "group_id": "ea-Ia8",
+    "hraf_name": "",
+    "pref_name": "Bontok",
+    "dataset": "EA"
+  },
+  "Ia9": {
+    "group_id": "ea-Ia9",
+    "hraf_name": "",
+    "pref_name": "Ami",
+    "dataset": "EA"
+  },
+  "Ac9": {
+    "group_id": "ea-Ac9",
+    "hraf_name": "",
+    "pref_name": "Ngoni",
+    "dataset": "EA"
+  },
+  "Ib4": {
+    "group_id": "ea-Ib4",
+    "hraf_name": "",
+    "pref_name": "Toba Batak",
+    "dataset": "EA"
+  },
+  "Ib5": {
+    "group_id": "ea-Ib5",
+    "hraf_name": "",
+    "pref_name": "Kadazan-Dusun",
+    "dataset": "EA"
+  },
+  "Ib6": {
+    "group_id": "ea-Ib6",
+    "hraf_name": "",
+    "pref_name": "Minangkabau",
+    "dataset": "EA"
+  },
+  "Ib7": {
+    "group_id": "ea-Ib7",
+    "hraf_name": "",
+    "pref_name": "Mentaweians",
+    "dataset": "EA"
+  },
+  "Ib8": {
+    "group_id": "ea-Ib8",
+    "hraf_name": "",
+    "pref_name": "Anak Dalam",
+    "dataset": "EA"
+  },
+  "Ib9": {
+    "group_id": "ea-Ib9",
+    "hraf_name": "",
+    "pref_name": "Punan",
+    "dataset": "EA"
+  },
+  "Ic1": {
+    "group_id": "ea-Ic1",
+    "hraf_name": "",
+    "pref_name": "Macassarese",
+    "dataset": "EA"
+  },
+  "Ad1": {
+    "group_id": "ea-Ad1",
+    "hraf_name": "",
+    "pref_name": "Bajuni",
+    "dataset": "EA"
+  },
+  "Ic10": {
+    "group_id": "ea-Ic10",
+    "hraf_name": "",
+    "pref_name": "Tobelorese",
+    "dataset": "EA"
+  },
+  "Ic11": {
+    "group_id": "ea-Ic11",
+    "hraf_name": "",
+    "pref_name": "Ambonese",
+    "dataset": "EA"
+  },
+  "Ic12": {
+    "group_id": "ea-Ic12",
+    "hraf_name": "",
+    "pref_name": "Sumbawanese",
+    "dataset": "EA"
+  },
+  "Ic13": {
+    "group_id": "ea-Ic13",
+    "hraf_name": "",
+    "pref_name": "Kodi",
+    "dataset": "EA"
+  },
+  "Ic3": {
+    "group_id": "ea-Ic3",
+    "hraf_name": "",
+    "pref_name": "Belu",
+    "dataset": "EA"
+  },
+  "Ic4": {
+    "group_id": "ea-Ic4",
+    "hraf_name": "",
+    "pref_name": "Rotinese",
+    "dataset": "EA"
+  },
+  "Ic6": {
+    "group_id": "ea-Ic6",
+    "hraf_name": "",
+    "pref_name": "Tanimbarese",
+    "dataset": "EA"
+  },
+  "Ic7": {
+    "group_id": "ea-Ic7",
+    "hraf_name": "",
+    "pref_name": "Ili-Mandiri",
+    "dataset": "EA"
+  },
+  "Ad10": {
+    "group_id": "ea-Ad10",
+    "hraf_name": "",
+    "pref_name": "Shambaa",
+    "dataset": "EA"
+  },
+  "Ic8": {
+    "group_id": "ea-Ic8",
+    "hraf_name": "",
+    "pref_name": "Kei",
+    "dataset": "EA"
+  },
+  "Ic9": {
+    "group_id": "ea-Ic9",
+    "hraf_name": "",
+    "pref_name": "Sumbanese",
+    "dataset": "EA"
+  },
+  "Id10": {
+    "group_id": "ea-Id10",
+    "hraf_name": "",
+    "pref_name": "Walbiri",
+    "dataset": "EA"
+  },
+  "Id11": {
+    "group_id": "ea-Id11",
+    "hraf_name": "",
+    "pref_name": "Gidjingali",
+    "dataset": "EA"
+  },
+  "Id12": {
+    "group_id": "ea-Id12",
+    "hraf_name": "",
+    "pref_name": "Yir Yoront",
+    "dataset": "EA"
+  },
+  "Id13": {
+    "group_id": "ea-Id13",
+    "hraf_name": "",
+    "pref_name": "Anindilyagwa",
+    "dataset": "EA"
+  },
+  "Id2": {
+    "group_id": "ea-Id2",
+    "hraf_name": "",
+    "pref_name": "Yolngu, Dhuwal",
+    "dataset": "EA"
+  },
+  "Id4": {
+    "group_id": "ea-Id4",
+    "hraf_name": "",
+    "pref_name": "Diyari",
+    "dataset": "EA"
+  },
+  "Ad11": {
+    "group_id": "ea-Ad11",
+    "hraf_name": "",
+    "pref_name": "Bena",
+    "dataset": "EA"
+  },
+  "Id5": {
+    "group_id": "ea-Id5",
+    "hraf_name": "",
+    "pref_name": "Kariyarra",
+    "dataset": "EA"
+  },
+  "Id6": {
+    "group_id": "ea-Id6",
+    "hraf_name": "",
+    "pref_name": "Wikmunkan",
+    "dataset": "EA"
+  },
+  "Id7": {
+    "group_id": "ea-Id7",
+    "hraf_name": "",
+    "pref_name": "Murriny Patha",
+    "dataset": "EA"
+  },
+  "Id8": {
+    "group_id": "ea-Id8",
+    "hraf_name": "",
+    "pref_name": "Tasmanians (northwestern)",
+    "dataset": "EA"
+  },
+  "Id9": {
+    "group_id": "ea-Id9",
+    "hraf_name": "",
+    "pref_name": "Ngiyambaa",
+    "dataset": "EA"
+  },
+  "Ie10": {
+    "group_id": "ea-Ie10",
+    "hraf_name": "",
+    "pref_name": "Motu",
+    "dataset": "EA"
+  },
+  "Ie11": {
+    "group_id": "ea-Ie11",
+    "hraf_name": "",
+    "pref_name": "Kakoli",
+    "dataset": "EA"
+  },
+  "Ie13": {
+    "group_id": "ea-Ie13",
+    "hraf_name": "",
+    "pref_name": "Kiwai",
+    "dataset": "EA"
+  },
+  "Ad12": {
+    "group_id": "ea-Ad12",
+    "hraf_name": "",
+    "pref_name": "Gusii",
+    "dataset": "EA"
+  },
+  "Ie14": {
+    "group_id": "ea-Ie14",
+    "hraf_name": "",
+    "pref_name": "Miriam",
+    "dataset": "EA"
+  },
+  "Ie15": {
+    "group_id": "ea-Ie15",
+    "hraf_name": "",
+    "pref_name": "Abelam",
+    "dataset": "EA"
+  },
+  "Ie16": {
+    "group_id": "ea-Ie16",
+    "hraf_name": "",
+    "pref_name": "Kutubu",
+    "dataset": "EA"
+  },
+  "Ie17": {
+    "group_id": "ea-Ie17",
+    "hraf_name": "",
+    "pref_name": "Siane",
+    "dataset": "EA"
+  },
+  "Ie18": {
+    "group_id": "ea-Ie18",
+    "hraf_name": "",
+    "pref_name": "Kimam",
+    "dataset": "EA"
+  },
+  "Ie19": {
+    "group_id": "ea-Ie19",
+    "hraf_name": "",
+    "pref_name": "Marind-Amin",
+    "dataset": "EA"
+  },
+  "Ie2": {
+    "group_id": "ea-Ie2",
+    "hraf_name": "",
+    "pref_name": "Wantoat",
+    "dataset": "EA"
+  },
+  "Ie20": {
+    "group_id": "ea-Ie20",
+    "hraf_name": "",
+    "pref_name": "Koita",
+    "dataset": "EA"
+  },
+  "Ie21": {
+    "group_id": "ea-Ie21",
+    "hraf_name": "",
+    "pref_name": "Mailu",
+    "dataset": "EA"
+  },
+  "Ie22": {
+    "group_id": "ea-Ie22",
+    "hraf_name": "",
+    "pref_name": "Mekeo",
+    "dataset": "EA"
+  },
+  "Aa8": {
+    "group_id": "ea-Aa8",
+    "hraf_name": "",
+    "pref_name": "/Xam",
+    "dataset": "EA"
+  },
+  "Ad13": {
+    "group_id": "ea-Ad13",
+    "hraf_name": "",
+    "pref_name": "Kiga",
+    "dataset": "EA"
+  },
+  "Ie23": {
+    "group_id": "ea-Ie23",
+    "hraf_name": "",
+    "pref_name": "Muju",
+    "dataset": "EA"
+  },
+  "Ie24": {
+    "group_id": "ea-Ie24",
+    "hraf_name": "",
+    "pref_name": "Koiari",
+    "dataset": "EA"
+  },
+  "Ie25": {
+    "group_id": "ea-Ie25",
+    "hraf_name": "",
+    "pref_name": "Mafulu",
+    "dataset": "EA"
+  },
+  "Ie26": {
+    "group_id": "ea-Ie26",
+    "hraf_name": "",
+    "pref_name": "Ngarawapum",
+    "dataset": "EA"
+  },
+  "Ie27": {
+    "group_id": "ea-Ie27",
+    "hraf_name": "",
+    "pref_name": "Banaro",
+    "dataset": "EA"
+  },
+  "Ie28": {
+    "group_id": "ea-Ie28",
+    "hraf_name": "",
+    "pref_name": "Busama",
+    "dataset": "EA"
+  },
+  "Ie29": {
+    "group_id": "ea-Ie29",
+    "hraf_name": "",
+    "pref_name": "Manam",
+    "dataset": "EA"
+  },
+  "Ie3": {
+    "group_id": "ea-Ie3",
+    "hraf_name": "",
+    "pref_name": "Arapesh",
+    "dataset": "EA"
+  },
+  "Ie30": {
+    "group_id": "ea-Ie30",
+    "hraf_name": "",
+    "pref_name": "Mimika",
+    "dataset": "EA"
+  },
+  "Ie31": {
+    "group_id": "ea-Ie31",
+    "hraf_name": "",
+    "pref_name": "Fore",
+    "dataset": "EA"
+  },
+  "Ad14": {
+    "group_id": "ea-Ad14",
+    "hraf_name": "",
+    "pref_name": "Luguru",
+    "dataset": "EA"
+  },
+  "Ie32": {
+    "group_id": "ea-Ie32",
+    "hraf_name": "",
+    "pref_name": "Sio",
+    "dataset": "EA"
+  },
+  "Ie33": {
+    "group_id": "ea-Ie33",
+    "hraf_name": "",
+    "pref_name": "Soromadja",
+    "dataset": "EA"
+  },
+  "Ie34": {
+    "group_id": "ea-Ie34",
+    "hraf_name": "",
+    "pref_name": "Bgu",
+    "dataset": "EA"
+  },
+  "Ie35": {
+    "group_id": "ea-Ie35",
+    "hraf_name": "",
+    "pref_name": "Iatmul",
+    "dataset": "EA"
+  },
+  "Ie36": {
+    "group_id": "ea-Ie36",
+    "hraf_name": "",
+    "pref_name": "Samarokena",
+    "dataset": "EA"
+  },
+  "Ie37": {
+    "group_id": "ea-Ie37",
+    "hraf_name": "",
+    "pref_name": "Star Mountain",
+    "dataset": "EA"
+  },
+  "Ie38": {
+    "group_id": "ea-Ie38",
+    "hraf_name": "",
+    "pref_name": "Dani",
+    "dataset": "EA"
+  },
+  "Ie39": {
+    "group_id": "ea-Ie39",
+    "hraf_name": "",
+    "pref_name": "Elema",
+    "dataset": "EA"
+  },
+  "Ie4": {
+    "group_id": "ea-Ie4",
+    "hraf_name": "",
+    "pref_name": "Wogeo",
+    "dataset": "EA"
+  },
+  "Ie5": {
+    "group_id": "ea-Ie5",
+    "hraf_name": "",
+    "pref_name": "Keraki",
+    "dataset": "EA"
+  },
+  "Ad15": {
+    "group_id": "ea-Ad15",
+    "hraf_name": "",
+    "pref_name": "Iwa",
+    "dataset": "EA"
+  },
+  "Ie6": {
+    "group_id": "ea-Ie6",
+    "hraf_name": "",
+    "pref_name": "Waropen",
+    "dataset": "EA"
+  },
+  "Ie7": {
+    "group_id": "ea-Ie7",
+    "hraf_name": "",
+    "pref_name": "Enga",
+    "dataset": "EA"
+  },
+  "Ie8": {
+    "group_id": "ea-Ie8",
+    "hraf_name": "",
+    "pref_name": "Purari",
+    "dataset": "EA"
+  },
+  "If10": {
+    "group_id": "ea-If10",
+    "hraf_name": "",
+    "pref_name": "Nomoians",
+    "dataset": "EA"
+  },
+  "If11": {
+    "group_id": "ea-If11",
+    "hraf_name": "",
+    "pref_name": "Kosraeans",
+    "dataset": "EA"
+  },
+  "If13": {
+    "group_id": "ea-If13",
+    "hraf_name": "",
+    "pref_name": "Nauruans",
+    "dataset": "EA"
+  },
+  "If14": {
+    "group_id": "ea-If14",
+    "hraf_name": "",
+    "pref_name": "Makin",
+    "dataset": "EA"
+  },
+  "If15": {
+    "group_id": "ea-If15",
+    "hraf_name": "",
+    "pref_name": "Carolinians",
+    "dataset": "EA"
+  },
+  "If16": {
+    "group_id": "ea-If16",
+    "hraf_name": "",
+    "pref_name": "Lamotrek",
+    "dataset": "EA"
+  },
+  "If4": {
+    "group_id": "ea-If4",
+    "hraf_name": "",
+    "pref_name": "Ifaluk",
+    "dataset": "EA"
+  },
+  "If5": {
+    "group_id": "ea-If5",
+    "hraf_name": "",
+    "pref_name": "Ponapeans",
+    "dataset": "EA"
+  },
+  "If7": {
+    "group_id": "ea-If7",
+    "hraf_name": "",
+    "pref_name": "Gilbert Onotoa",
+    "dataset": "EA"
+  },
+  "If8": {
+    "group_id": "ea-If8",
+    "hraf_name": "",
+    "pref_name": "Chamorro",
+    "dataset": "EA"
+  },
+  "Ad17": {
+    "group_id": "ea-Ad17",
+    "hraf_name": "",
+    "pref_name": "Safwa",
+    "dataset": "EA"
+  },
+  "If9": {
+    "group_id": "ea-If9",
+    "hraf_name": "",
+    "pref_name": "Ulithians",
+    "dataset": "EA"
+  },
+  "Ig10": {
+    "group_id": "ea-Ig10",
+    "hraf_name": "",
+    "pref_name": "Usiai",
+    "dataset": "EA"
+  },
+  "Ig11": {
+    "group_id": "ea-Ig11",
+    "hraf_name": "",
+    "pref_name": "Rossel Islanders",
+    "dataset": "EA"
+  },
+  "Ig12": {
+    "group_id": "ea-Ig12",
+    "hraf_name": "",
+    "pref_name": "Choiseulese",
+    "dataset": "EA"
+  },
+  "Ig13": {
+    "group_id": "ea-Ig13",
+    "hraf_name": "",
+    "pref_name": "Aua",
+    "dataset": "EA"
+  },
+  "Ig14": {
+    "group_id": "ea-Ig14",
+    "hraf_name": "",
+    "pref_name": "Dahuni",
+    "dataset": "EA"
+  },
+  "Ig15": {
+    "group_id": "ea-Ig15",
+    "hraf_name": "",
+    "pref_name": "Bakovi",
+    "dataset": "EA"
+  },
+  "Ig16": {
+    "group_id": "ea-Ig16",
+    "hraf_name": "",
+    "pref_name": "Bwaidoga",
+    "dataset": "EA"
+  },
+  "Ig17": {
+    "group_id": "ea-Ig17",
+    "hraf_name": "",
+    "pref_name": "Kombe",
+    "dataset": "EA"
+  },
+  "Ad18": {
+    "group_id": "ea-Ad18",
+    "hraf_name": "",
+    "pref_name": "Bende",
+    "dataset": "EA"
+  },
+  "Ig18": {
+    "group_id": "ea-Ig18",
+    "hraf_name": "",
+    "pref_name": "Kwaio",
+    "dataset": "EA"
+  },
+  "Ig19": {
+    "group_id": "ea-Ig19",
+    "hraf_name": "",
+    "pref_name": "Molima",
+    "dataset": "EA"
+  },
+  "Ig20": {
+    "group_id": "ea-Ig20",
+    "hraf_name": "",
+    "pref_name": "Kaoka",
+    "dataset": "EA"
+  },
+  "Ig21": {
+    "group_id": "ea-Ig21",
+    "hraf_name": "",
+    "pref_name": "Tangu",
+    "dataset": "EA"
+  },
+  "Ig3": {
+    "group_id": "ea-Ig3",
+    "hraf_name": "",
+    "pref_name": "Kurtatchi",
+    "dataset": "EA"
+  },
+  "Ig5": {
+    "group_id": "ea-Ig5",
+    "hraf_name": "",
+    "pref_name": "Dobuans",
+    "dataset": "EA"
+  },
+  "Ig6": {
+    "group_id": "ea-Ig6",
+    "hraf_name": "",
+    "pref_name": "Ulawans",
+    "dataset": "EA"
+  },
+  "Ig7": {
+    "group_id": "ea-Ig7",
+    "hraf_name": "",
+    "pref_name": "Lakalai",
+    "dataset": "EA"
+  },
+  "Ad19": {
+    "group_id": "ea-Ad19",
+    "hraf_name": "",
+    "pref_name": "Fipa",
+    "dataset": "EA"
+  },
+  "Ig8": {
+    "group_id": "ea-Ig8",
+    "hraf_name": "",
+    "pref_name": "Simboese",
+    "dataset": "EA"
+  },
+  "Ih1": {
+    "group_id": "ea-Ih1",
+    "hraf_name": "",
+    "pref_name": "Mota",
+    "dataset": "EA"
+  },
+  "Ih10": {
+    "group_id": "ea-Ih10",
+    "hraf_name": "",
+    "pref_name": "Tannese",
+    "dataset": "EA"
+  },
+  "Ih11": {
+    "group_id": "ea-Ih11",
+    "hraf_name": "",
+    "pref_name": "Epi",
+    "dataset": "EA"
+  },
+  "Ih12": {
+    "group_id": "ea-Ih12",
+    "hraf_name": "",
+    "pref_name": "Eromangans",
+    "dataset": "EA"
+  },
+  "Ih13": {
+    "group_id": "ea-Ih13",
+    "hraf_name": "",
+    "pref_name": "Ranon",
+    "dataset": "EA"
+  },
+  "Ih14": {
+    "group_id": "ea-Ih14",
+    "hraf_name": "",
+    "pref_name": "Mbau Fijians",
+    "dataset": "EA"
+  },
+  "Ih2": {
+    "group_id": "ea-Ih2",
+    "hraf_name": "",
+    "pref_name": "Seniang",
+    "dataset": "EA"
+  },
+  "Ih3": {
+    "group_id": "ea-Ih3",
+    "hraf_name": "",
+    "pref_name": "Bunlap",
+    "dataset": "EA"
+  },
+  "Ad2": {
+    "group_id": "ea-Ad2",
+    "hraf_name": "",
+    "pref_name": "Nyoro",
+    "dataset": "EA"
+  },
+  "Ih4": {
+    "group_id": "ea-Ih4",
+    "hraf_name": "",
+    "pref_name": "Lau",
+    "dataset": "EA"
+  },
+  "Ih5": {
+    "group_id": "ea-Ih5",
+    "hraf_name": "",
+    "pref_name": "Ajie",
+    "dataset": "EA"
+  },
+  "Ih6": {
+    "group_id": "ea-Ih6",
+    "hraf_name": "",
+    "pref_name": "Rotumans",
+    "dataset": "EA"
+  },
+  "Ih7": {
+    "group_id": "ea-Ih7",
+    "hraf_name": "",
+    "pref_name": "Lifu",
+    "dataset": "EA"
+  },
+  "Ih8": {
+    "group_id": "ea-Ih8",
+    "hraf_name": "",
+    "pref_name": "Vanua Levu",
+    "dataset": "EA"
+  },
+  "Ih9": {
+    "group_id": "ea-Ih9",
+    "hraf_name": "",
+    "pref_name": "Santa Cruz Islanders",
+    "dataset": "EA"
+  },
+  "Ii1": {
+    "group_id": "ea-Ii1",
+    "hraf_name": "",
+    "pref_name": "American Samoans",
+    "dataset": "EA"
+  },
+  "Ii10": {
+    "group_id": "ea-Ii10",
+    "hraf_name": "",
+    "pref_name": "Rennell Islanders",
+    "dataset": "EA"
+  },
+  "Ii12": {
+    "group_id": "ea-Ii12",
+    "hraf_name": "",
+    "pref_name": "Tongans",
+    "dataset": "EA"
+  },
+  "Ii13": {
+    "group_id": "ea-Ii13",
+    "hraf_name": "",
+    "pref_name": "Uveans",
+    "dataset": "EA"
+  },
+  "Ad20": {
+    "group_id": "ea-Ad20",
+    "hraf_name": "",
+    "pref_name": "Nyamwezi",
+    "dataset": "EA"
+  },
+  "Ii3": {
+    "group_id": "ea-Ii3",
+    "hraf_name": "",
+    "pref_name": "Pukapukans",
+    "dataset": "EA"
+  },
+  "Ii4": {
+    "group_id": "ea-Ii4",
+    "hraf_name": "",
+    "pref_name": "Ellice",
+    "dataset": "EA"
+  },
+  "Ii5": {
+    "group_id": "ea-Ii5",
+    "hraf_name": "",
+    "pref_name": "Ontong Java",
+    "dataset": "EA"
+  },
+  "Ii6": {
+    "group_id": "ea-Ii6",
+    "hraf_name": "",
+    "pref_name": "Tokelau",
+    "dataset": "EA"
+  },
+  "Ii7": {
+    "group_id": "ea-Ii7",
+    "hraf_name": "",
+    "pref_name": "Kapingamarangi",
+    "dataset": "EA"
+  },
+  "Ii8": {
+    "group_id": "ea-Ii8",
+    "hraf_name": "",
+    "pref_name": "Futunans",
+    "dataset": "EA"
+  },
+  "Ii9": {
+    "group_id": "ea-Ii9",
+    "hraf_name": "",
+    "pref_name": "Niueans",
+    "dataset": "EA"
+  },
+  "Ij1": {
+    "group_id": "ea-Ij1",
+    "hraf_name": "",
+    "pref_name": "Mangaians",
+    "dataset": "EA"
+  },
+  "Ad21": {
+    "group_id": "ea-Ad21",
+    "hraf_name": "",
+    "pref_name": "Pimbwe",
+    "dataset": "EA"
+  },
+  "Ij10": {
+    "group_id": "ea-Ij10",
+    "hraf_name": "",
+    "pref_name": "Tongarevans",
+    "dataset": "EA"
+  },
+  "Ij4": {
+    "group_id": "ea-Ij4",
+    "hraf_name": "",
+    "pref_name": "Manihikians",
+    "dataset": "EA"
+  },
+  "Ij5": {
+    "group_id": "ea-Ij5",
+    "hraf_name": "",
+    "pref_name": "Raroians",
+    "dataset": "EA"
+  },
+  "Ij6": {
+    "group_id": "ea-Ij6",
+    "hraf_name": "",
+    "pref_name": "Hawaiians",
+    "dataset": "EA"
+  },
+  "Ij7": {
+    "group_id": "ea-Ij7",
+    "hraf_name": "",
+    "pref_name": "Mangarevans",
+    "dataset": "EA"
+  },
+  "Ij8": {
+    "group_id": "ea-Ij8",
+    "hraf_name": "",
+    "pref_name": "Tahitians",
+    "dataset": "EA"
+  },
+  "Ij9": {
+    "group_id": "ea-Ij9",
+    "hraf_name": "",
+    "pref_name": "Easter Islanders",
+    "dataset": "EA"
+  },
+  "Aa9": {
+    "group_id": "ea-Aa9",
+    "hraf_name": "",
+    "pref_name": "Hadza",
+    "dataset": "EA"
+  },
+  "Ad22": {
+    "group_id": "ea-Ad22",
+    "hraf_name": "",
+    "pref_name": "Sukuma",
+    "dataset": "EA"
+  },
+  "Ad23": {
+    "group_id": "ea-Ad23",
+    "hraf_name": "",
+    "pref_name": "Sangu",
+    "dataset": "EA"
+  },
+  "Ad24": {
+    "group_id": "ea-Ad24",
+    "hraf_name": "",
+    "pref_name": "Gogo",
+    "dataset": "EA"
+  },
+  "Ad25": {
+    "group_id": "ea-Ad25",
+    "hraf_name": "",
+    "pref_name": "Rangi",
+    "dataset": "EA"
+  },
+  "Ad26": {
+    "group_id": "ea-Ad26",
+    "hraf_name": "",
+    "pref_name": "Turu",
+    "dataset": "EA"
+  },
+  "Ad27": {
+    "group_id": "ea-Ad27",
+    "hraf_name": "",
+    "pref_name": "Kwere",
+    "dataset": "EA"
+  },
+  "Ad28": {
+    "group_id": "ea-Ad28",
+    "hraf_name": "",
+    "pref_name": "Zigula",
+    "dataset": "EA"
+  },
+  "Ad29": {
+    "group_id": "ea-Ad29",
+    "hraf_name": "",
+    "pref_name": "Hadimu",
+    "dataset": "EA"
+  },
+  "Ad3": {
+    "group_id": "ea-Ad3",
+    "hraf_name": "",
+    "pref_name": "Chagga",
+    "dataset": "EA"
+  },
+  "Ad30": {
+    "group_id": "ea-Ad30",
+    "hraf_name": "",
+    "pref_name": "Digo",
+    "dataset": "EA"
+  },
+  "Nd39": {
+    "group_id": "ea-Nd39",
+    "hraf_name": "",
+    "pref_name": "Spring Valley Shoshoni",
+    "dataset": "EA"
+  }
+}

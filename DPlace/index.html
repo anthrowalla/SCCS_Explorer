@@ -14,6 +14,24 @@
         </header>
 
         <main>
+            <section id="dataset-panel" class="panel">
+                <h2>Select Dataset</h2>
+                <div class="radio-group">
+                    <div class="radio-option">
+                        <input type="radio" id="dataset-sccs" name="dataset" value="sccs" checked>
+                        <label for="dataset-sccs">SCCS sample</label>
+                    </div>
+                    <div class="radio-option">
+                        <input type="radio" id="dataset-ea-vars" name="dataset" value="ea_vars">
+                        <label for="dataset-ea-vars">SCCS sample with EA variables</label>
+                    </div>
+                    <div class="radio-option">
+                        <input type="radio" id="dataset-ea" name="dataset" value="ea">
+                        <label for="dataset-ea">EA sample</label>
+                    </div>
+                </div>
+            </section>
+
             <section id="selection-panel" class="panel">
                 <h2>Select Variables to Crosstabulate</h2>
                 <form id="crosstab-form">
