@@ -20,10 +20,15 @@ DATA_DIR = os.path.join(SCRIPT_DIR, '..', 'dplace-data', 'datasets', 'EA')
 
 
 def load_hraf_societies():
-    """Load HRAF societies from existing owc_info.json."""
-    path = os.path.join(RES_DIR, 'owc_info.json')
+    """Load HRAF societies from hraf_owc_info.json (complete HRAF dataset)."""
+    # First try hraf_owc_info.json (complete dataset with 365 societies)
+    path = os.path.join(SCRIPT_DIR, 'hraf_owc_info.json')
     if not os.path.exists(path):
-        print(f"  Warning: {path} not found, no HRAF societies loaded")
+        # Fallback to resources/owc_info.json (186 SCCS-only societies)
+        path = os.path.join(RES_DIR, 'owc_info.json')
+
+    if not os.path.exists(path):
+        print(f"  Warning: No HRAF data file found")
         return {}
 
     with open(path, 'r', encoding='utf-8') as f:
@@ -42,10 +47,11 @@ def load_hraf_societies():
                 'subsistence_type': entry.get('subsistence_type', ''),
                 'docs': entry.get('docs', 0),
                 'hasSummary': entry.get('hasSummary', False),
+                'sccs_group': entry.get('sccs_group', ''),
                 'societies': []
             }
 
-    print(f"  Loaded {len(societies)} HRAF societies from owc_info.json")
+    print(f"  Loaded {len(societies)} HRAF societies from {os.path.basename(path)}")
     return societies
 
 
@@ -132,12 +138,14 @@ def load_ea_societies():
 
 def link_sccs_to_hraf(sccs_societies, hraf_societies):
     """
-    Link SCCS societies to HRAF societies based on:
-    1. Matching sccs_group from owc_info.json
-    2. Name similarity
+    Link SCCS societies to HRAF societies based on sccs_group.
+    Uses hraf_owc_info.json which has sccs_group for SCCS matches.
     """
-    # Load the original owc_info.json to get sccs_group mappings
-    path = os.path.join(RES_DIR, 'owc_info.json')
+    # Try hraf_owc_info.json first (complete dataset)
+    path = os.path.join(SCRIPT_DIR, 'hraf_owc_info.json')
+    if not os.path.exists(path):
+        path = os.path.join(RES_DIR, 'owc_info.json')
+
     if not os.path.exists(path):
         return {}
 
@@ -152,6 +160,7 @@ def link_sccs_to_hraf(sccs_societies, hraf_societies):
         if sccs_group and owc_id:
             sccs_to_hraf[sccs_group] = owc_id
 
+    print(f"  Found {len(sccs_to_hraf)} SCCS to HRAF mappings")
     return sccs_to_hraf
 
 
@@ -252,7 +261,7 @@ def build_unified_registry():
             # Add to existing HRAF group
             registry[owc_id]['societies'].append(society)
         elif owc_id:
-            # Create new HRAF group for this OWC (from EA data)
+            # Create new HRAF group for this OWC (from EA data, since not in hraf_owc_info.json)
             hraf_name = hraf_name_id.replace(r'\([A-Z]{2}\d+\)', '').strip() if hraf_name_id else ''
             registry[owc_id] = {
                 'hraf_name': hraf_name,
@@ -262,7 +271,7 @@ def build_unified_registry():
                 'subsistence_type': '',
                 'docs': 0,
                 'hasSummary': False,
-                'from_ea_only': True,  # Flag to indicate this HRAF entry came from EA data
+                'from_ea_only': True,  # Flag to indicate this HRAF entry came only from EA data (not in hraf_owc_info.json)
                 'societies': [society]
             }
         else:
@@ -286,10 +295,14 @@ def build_unified_registry():
     total_groups = len(registry)
     total_societies = sum(len(g['societies']) for g in registry.values())
     hraf_groups = sum(1 for g in registry.values() if g['hraf_name'])
+    full_hraf = sum(1 for g in registry.values() if g['hraf_summary'] and not g.get('from_ea_only'))
+    from_ea_only = sum(1 for g in registry.values() if g.get('from_ea_only'))
 
     print(f"  Total groups: {total_groups}")
     print(f"  Total societies: {total_societies}")
     print(f"  Groups with HRAF data: {hraf_groups}")
+    print(f"    - Full HRAF data (from hraf_owc_info.json): {full_hraf}")
+    print(f"    - From EA only (OWC not in hraf_owc_info.json): {from_ea_only}")
 
     # Count by dataset
     sccs_count = sum(
@@ -313,6 +326,8 @@ def build_unified_registry():
             'total_groups': total_groups,
             'total_societies': total_societies,
             'hraf_groups': hraf_groups,
+            'full_hraf_data': full_hraf,
+            'from_ea_only': from_ea_only,
             'sccs_societies': sccs_count,
             'ea_societies': ea_count
         },
