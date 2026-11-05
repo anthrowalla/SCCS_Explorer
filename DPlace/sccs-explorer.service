@@ -1,0 +1,12 @@
+[Unit]
+Description=SCCS Explorer demo (python http.server)
+After=network.target
+
+[Service]
+WorkingDirectory=/Library/WebServer/EthnoAtlas/SCCS_Explorer/DPlace
+ExecStart=/bin/bash /Library/WebServer/EthnoAtlas/SCCS_Explorer/DPlace/start-server.sh 8000
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=default.target
